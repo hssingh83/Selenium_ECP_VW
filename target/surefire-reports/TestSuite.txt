@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 39, Failures: 2, Errors: 0, Skipped: 9, Time elapsed: 2,794.125 s <<< FAILURE! - in TestSuite
+scriptTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin)  Time elapsed: 158.786 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="LAB-R"]/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'REM-L-SINGHH', ip: '192.168.118.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23424, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0f34921f-7dcb-4580-9b42-fabc28b093df
+*** Element info: {Using=xpath, value=//*[@id="LAB-R"]/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]}
+	at VW_TC.TC0002_login_With_Exmpirix_Admin.scriptTabValidation(TC0002_login_With_Exmpirix_Admin.java:160)
+
+applicationLaunch(VW_TC.TC0011_login_With_Client_OR_Partner_Client_User)  Time elapsed: 722.25 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'REM-L-SINGHH', ip: '192.168.118.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23812, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4f4e3ea7-9be7-4249-9277-fc5a12580270
+*** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
+	at VW_TC.TC0011_login_With_Client_OR_Partner_Client_User.applicationLaunch(TC0011_login_With_Client_OR_Partner_Client_User.java:31)
+
