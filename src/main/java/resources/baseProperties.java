@@ -50,7 +50,7 @@ String browserName=System.getProperty("browser");
 if(browserName.contains("chrome"))
 		
 {
-	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\chromedriver.exe\"");
+	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\chromedriver.exe");
 	ChromeOptions options=new ChromeOptions();
  //   driver=new ChromeDriver();
   
