@@ -25,7 +25,7 @@ public class dataDriven {
 
 //	FileInputStream fis=new FileInputStream("C:\\Users\\hsingh\\.jenkins\\${JENKIN_HOME}\\ECP_VW\\src\\main\\java\\resources\\testData\\TestData1.xlsx");
 	
-	FileInputStream fis=new FileInputStream("C:\\Users\\hsingh\\git_project\\ECP_VW\\src\\main\\java\\resources\\testData\\TestData.xlsx");
+	FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\testData\\TestData.xlsx");
 	
 	XSSFWorkbook workbook=new XSSFWorkbook(fis);
 
