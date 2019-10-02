@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2,794.125" tests="39" errors="0" skipped="9" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4,133.418" tests="39" errors="0" skipped="2" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\hsingh\AppData\Local\Temp\surefire981649733555046217\surefirebooter8723441478786936374.jar C:\Users\hsingh\AppData\Local\Temp\surefire981649733555046217 2019-09-30T15-52-09_328-jvmRun1 surefire7894165082249932062tmp surefire_0988403940005939758tmp"/>
+    <property name="sun.java.command" value="C:\Users\hsingh\AppData\Local\Temp\surefire2846029984887138717\surefirebooter1639422922583733746.jar C:\Users\hsingh\AppData\Local\Temp\surefire2846029984887138717 2019-10-01T14-41-29_968-jvmRun1 surefire5000695219271469428tmp surefire_02033957269112175327tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\test-classes;C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\classes;C:\Users\hsingh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\hsingh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hsingh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hsingh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hsingh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\hsingh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hsingh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hsingh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hsingh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hsingh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\hsingh\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\hsingh\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\hsingh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\hsingh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hsingh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\hsingh\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hsingh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\hsingh\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hsingh\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\hsingh\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\hsingh\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\hsingh\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hsingh\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-log\0.17.3\jcabi-log-0.17.3.jar;C:\Users\hsingh\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-aspects\0.22.5\jcabi-aspects-0.22.5.jar;C:\Users\hsingh\.m2\repository\org\aspectj\aspectjrt\1.8.7\aspectjrt-1.8.7.jar;C:\Users\hsingh\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\hsingh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\hsingh"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\hsingh\AppData\Local\Temp\surefire981649733555046217\surefirebooter8723441478786936374.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hsingh\AppData\Local\Temp\surefire2846029984887138717\surefirebooter1639422922583733746.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,288 +60,265 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="logInScreenVerification" classname="VW_TC.TC0001_login_Page_Verification" time="0.571"/>
-  <testcase name="logInWithExpirixAdmin" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="12.337"/>
-  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0.342"/>
-  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0.236"/>
-  <testcase name="TabAvailabilityValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="1.262"/>
-  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="2.489"/>
-  <testcase name="alertTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="1.787"/>
-  <testcase name="testTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="42.452"/>
-  <testcase name="tagTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="13.129"/>
-  <testcase name="scriptTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="158.786">
-    <failure message="Unable to locate element: //*[@id=&quot;LAB-R&quot;]/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23424, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 0f34921f-7dcb-4580-9b42-fabc28b093df&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;LAB-R&quot;]/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //*[@id="LAB-R"]/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '192.168.118.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23424, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0f34921f-7dcb-4580-9b42-fabc28b093df
-*** Element info: {Using=xpath, value=//*[@id="LAB-R"]/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]}
-	at VW_TC.TC0002_login_With_Exmpirix_Admin.scriptTabValidation(TC0002_login_With_Exmpirix_Admin.java:160)
-</failure>
-    <system-out><![CDATA[[DEBUG] 2019-09-30 15:54:19,453 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:19,465 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:19,481 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
-[DEBUG] 2019-09-30 15:54:19,511 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Script count' dispalyed left side under Script tab
-[DEBUG] 2019-09-30 15:54:19,523 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Script count' enabled left side under Script tab
-[DEBUG] 2019-09-30 15:54:19,553 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Filter by name' filed appeared on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:19,564 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Filter by name' filed enabled on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:19,570 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script ' label appeared on  under Go Script builder tab
-[DEBUG] 2019-09-30 15:54:19,570 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script ' label enabled under Go Script builder tab
-[DEBUG] 2019-09-30 15:54:19,571 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script or' Text validated under Go Script Builder
-[DEBUG] 2019-09-30 15:54:19,898 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that create a new script plus (+) icon appeared on top left side under Script tab
-[DEBUG] 2019-09-30 15:54:30,728 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Validated the element while click Script Creation using button (+)
-[DEBUG] 2019-09-30 15:54:30,755 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:30,767 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:30,782 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
-[DEBUG] 2019-09-30 15:54:30,809 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script count' dispalyed left side under Script tab
-[DEBUG] 2019-09-30 15:54:30,820 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script count' enabled left side under Script tab
-[DEBUG] 2019-09-30 15:54:30,845 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Filter by name' filed appeared on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:30,854 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Filter by name' filed enabled on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:30,884 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:30,895 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:30,926 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' filed appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:30,934 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' field enabled on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:30,962 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:30,975 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:31,003 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:31,013 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' field enabled on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:31,040 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save button' displayed under Go Script Upload tab
-[DEBUG] 2019-09-30 15:54:31,051 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save button' is disbaled under Go Script Upload tab
-[DEBUG] 2019-09-30 15:54:31,067 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save' Text appeared on save button under Go Script Upload tab
-[DEBUG] 2019-09-30 15:54:31,096 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script Builder' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:31,109 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script Builder' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:31,140 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Results' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:31,154 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Results' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:31,188 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Call Logs' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:31,199 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Call Logs' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:31,226 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Associted Test' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:31,238 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Associted Test' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:33,508 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that create a new script by link is appeared under Go Script Builder tab
-[DEBUG] 2019-09-30 15:54:44,173 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Validated the element while click create a new script by link
-[DEBUG] 2019-09-30 15:54:44,203 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:44,213 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:44,229 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
-[DEBUG] 2019-09-30 15:54:44,258 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script count' dispalyed left side under Script tab
-[DEBUG] 2019-09-30 15:54:44,268 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script count' enabled left side under Script tab
-[DEBUG] 2019-09-30 15:54:44,299 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Filter by name' filed appeared on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:44,310 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Filter by name' filed enabled on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:44,346 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,359 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,395 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' filed appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,407 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' field enabled on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,440 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,454 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,487 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,497 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' field enabled on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,531 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save button' displayed under Go Script Upload tab
-[DEBUG] 2019-09-30 15:54:44,541 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save button' is disbaled under Go Script Upload tab
-[DEBUG] 2019-09-30 15:54:44,559 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save' Text appeared on save button under Go Script Upload tab
-[DEBUG] 2019-09-30 15:54:44,587 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script Builder' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,598 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script Builder' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,628 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Results' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,639 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Results' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,674 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Call Logs' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,685 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Call Logs' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,711 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Associted Test' label appeared on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,723 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Associted Test' Text validated on under Go Script Builder
-[DEBUG] 2019-09-30 15:54:44,748 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,756 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,781 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,790 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,799 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,826 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,835 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,843 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,870 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,879 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,905 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,920 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,928 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,955 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,962 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,971 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:44,997 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:45,007 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:45,016 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:45,041 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:45,050 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:45,058 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:45,082 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:45,090 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:45,099 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version contain 26.0' appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:45,124 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' appeared on bottom left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:45,133 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' enabled on right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:45,142 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,403 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab
-[DEBUG] 2019-09-30 15:54:55,417 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab
-[DEBUG] 2019-09-30 15:54:55,435 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab
-[DEBUG] 2019-09-30 15:54:55,468 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab
-[DEBUG] 2019-09-30 15:54:55,480 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab
-[DEBUG] 2019-09-30 15:54:55,513 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Filter by name' filed appeared on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:55,524 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Filter by name' filed enabled on left side of under Script tab
-[DEBUG] 2019-09-30 15:54:55,531 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Please select a script ' label appeared on  under Script Upload tab
-[DEBUG] 2019-09-30 15:54:55,531 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Please select a script ' label enabled under Script Upload tab
-[DEBUG] 2019-09-30 15:54:55,531 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Please select a script or' Text validated under Script Upload tab
-[DEBUG] 2019-09-30 15:54:55,657 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that create a new script by link is appeared under under Script Upload
-[DEBUG] 2019-09-30 15:54:55,682 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,693 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,718 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,728 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,735 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,758 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,766 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,774 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,801 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,808 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,833 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,841 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,850 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,877 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,885 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,894 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,923 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,932 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,945 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,972 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,982 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:55,991 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:56,018 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:56,026 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:56,034 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version contain 26.0' appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:56,060 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' appeared on bottom left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:56,070 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' enabled on right corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:54:56,079 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard
-[DEBUG] 2019-09-30 15:55:07,200 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that create a new script by link is appeared under Script Upload tab
-[DEBUG] 2019-09-30 15:55:07,546 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Validated the element while click Script Creation using Link
-[DEBUG] 2019-09-30 15:55:07,577 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab
-[DEBUG] 2019-09-30 15:55:07,586 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab
-[DEBUG] 2019-09-30 15:55:07,597 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab
-[DEBUG] 2019-09-30 15:55:07,625 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab
-[DEBUG] 2019-09-30 15:55:07,634 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab
-[DEBUG] 2019-09-30 15:55:07,659 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Filter by name' filed appeared on left side of under Script tab
-[DEBUG] 2019-09-30 15:55:07,667 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Filter by name' filed enabled on left side of under Script tab
-[DEBUG] 2019-09-30 15:55:07,698 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' label appeared on under Script Upload
-[DEBUG] 2019-09-30 15:55:07,709 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' Text validated on under Script Upload
-[DEBUG] 2019-09-30 15:55:07,739 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' filed appeared on under Script Upload
-[DEBUG] 2019-09-30 15:55:07,748 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' field enabled on under Script Upload
-[DEBUG] 2019-09-30 15:55:07,776 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' label appeared on under Script Upload
-[DEBUG] 2019-09-30 15:55:07,787 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' Text validated on under Script Upload
-[DEBUG] 2019-09-30 15:55:07,814 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' label appeared on under Script Upload
-[DEBUG] 2019-09-30 15:55:07,825 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' field enabled on under Script Upload
-[DEBUG] 2019-09-30 15:55:07,853 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save button' displayed under Script Upload tab
-[DEBUG] 2019-09-30 15:55:07,863 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save button' is disbaled under Script Upload tab
-[DEBUG] 2019-09-30 15:55:07,878 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save' Text appeared on save button under Script Upload tab
-
-Test Case scriptTabValidation failed
-
-=========================================
-]]></system-out>
-  </testcase>
-  <testcase name="variableTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="25.689"/>
-  <testcase name="logInWithExpirixBusinessAnalyst" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="12.3"/>
-  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0.285"/>
-  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0.181"/>
-  <testcase name="TabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="1.169"/>
-  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="2.359"/>
-  <testcase name="alertTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="1.651"/>
-  <testcase name="testTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="3.016"/>
-  <testcase name="tagTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="10.786"/>
-  <testcase name="scriptTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="558.855"/>
-  <testcase name="variableTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="614.098"/>
-  <testcase name="logInWithPartnerUser" classname="VW_TC.TC0007_login_With_Partner_User" time="12.073"/>
-  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0007_login_With_Partner_User" time="0.269"/>
-  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0007_login_With_Partner_User" time="0.182"/>
-  <testcase name="TabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="500.855"/>
-  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="3.299"/>
-  <testcase name="alertTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="1.624"/>
-  <testcase name="testTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="3.1"/>
-  <testcase name="variableTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="612.736"/>
-  <testcase name="applicationLaunch" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="722.25">
-    <failure message="Unable to locate element: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23812, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 4f4e3ea7-9be7-4249-9277-fc5a12580270&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+  <testcase name="applicationLaunch" classname="VW_TC.TC0001_login_Page_Verification" time="112.483">
+    <failure message="Unable to locate element: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.46&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10652, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: bf5acd6c-b03f-49be-8d21-4016e1362739&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
 Unable to locate element: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '192.168.118.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '192.168.118.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23812, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4f4e3ea7-9be7-4249-9277-fc5a12580270
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10652, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf5acd6c-b03f-49be-8d21-4016e1362739
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
-	at VW_TC.TC0011_login_With_Client_OR_Partner_Client_User.applicationLaunch(TC0011_login_With_Client_OR_Partner_Client_User.java:31)
+	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
 </failure>
-    <system-out><![CDATA[[INFO ] 2019-09-30 16:36:55,517 TC0007_login_With_Partner_User.applicationClose() - Application closed successfully
-
- Test Case: 007 - Login with 'Partner Use' Credetials and verify TabAvailablity Completed
+    <system-out><![CDATA[
+ Test Case: 001- Login Page Verification  Started
 =========================================
-
- Test Case: 011 'Login with 'Client or Partner Client User'and verify TabAvailablity Started
-=========================================
-[INFO ] 2019-09-30 16:36:59,417 baseProperties.intializeDriver() - Firefox Driver intilized successfully
-[INFO ] 2019-09-30 16:36:59,418 baseProperties.intializeDriver() - Firefox Browser selected & Launch
-[DEBUG] 2019-09-30 16:37:03,917 baseProperties.intializeDriver() - URL provided
-[DEBUG] 2019-09-30 16:37:04,236 baseProperties.intializeDriver() - Screen maximized successfully
-[DEBUG] 2019-09-30 16:37:04,236 baseProperties.intializeDriver() - Waiting to access above URL
+[INFO ] 2019-10-01 14:41:38,005 baseProperties.intializeDriver() - Firefox Driver intilized successfully
+[INFO ] 2019-10-01 14:41:38,011 baseProperties.intializeDriver() - Firefox Browser selected & Launch
+[DEBUG] 2019-10-01 14:41:43,246 baseProperties.intializeDriver() - URL provided
+[DEBUG] 2019-10-01 14:41:43,539 baseProperties.intializeDriver() - Screen maximized successfully
+[DEBUG] 2019-10-01 14:41:43,540 baseProperties.intializeDriver() - Waiting to access above URL
 ]]></system-out>
-    <system-err><![CDATA[1569841614743	Marionette	INFO	Stopped listening on port 56990
-[Parent 23452, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 17204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 17204, Chrome_ChildThrea[Child 22288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 22288, Chrome_ChildThread] WARNING: pipe error[Parent 23452, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 22544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 22544, Chrome_ChildThread] WARNING: 
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-[GPU 
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1569841616077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hsingh\\AppData\\Local\\Temp\\rust_mozprofile.tIxhE8bKuun0"
-1569841616804	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1569841616805	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1569841616805	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1569841618937	Marionette	INFO	Listening on port 57137
-1569841619327	Marionette	WARN	TLS certificate errors will be ignored for this session
-Sep 30, 2019 4:36:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1569921093999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\hsingh\\AppData\\Local\\Temp\\rust_mozprofile.TNcjyDiUyf6B"
+1569921094842	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569921094843	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569921094843	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569921097571	Marionette	INFO	Listening on port 51311
+1569921097835	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 01, 2019 2:41:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript error: https://os-2k16-vm333.empirix.com/openam/XUI/libs/empirix.js, line 24: ReferenceError: $ is not defined
 JavaScript error: https://os-2k16-vm333.empirix.com/openam/XUI/libs/requirejs-2.1.14-min.js, line 8: Error: Module name "LoginView" has not been loaded yet for context: _. Use require([])
 http://requirejs.org/docs/errors.html#notloaded
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221569593309309%22 is not a valid URL..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
-
 ]]></system-err>
   </testcase>
-  <testcase name="logInWithPartnerClient_User" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="Unable to locate element: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23812, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 4f4e3ea7-9be7-4249-9277-fc5a12580270&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img}"/>
+  <testcase name="logInScreenVerification" classname="VW_TC.TC0001_login_Page_Verification" time="0">
+    <skipped message="Unable to locate element: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.46&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10652, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: bf5acd6c-b03f-49be-8d21-4016e1362739&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img}"/>
   </testcase>
-  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="Unable to locate element: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23812, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 4f4e3ea7-9be7-4249-9277-fc5a12580270&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img}"/>
-  </testcase>
-  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="Unable to locate element: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23812, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 4f4e3ea7-9be7-4249-9277-fc5a12580270&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img}"/>
-  </testcase>
-  <testcase name="TabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="Unable to locate element: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23812, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 4f4e3ea7-9be7-4249-9277-fc5a12580270&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img}"/>
-  </testcase>
-  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="Unable to locate element: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23812, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 4f4e3ea7-9be7-4249-9277-fc5a12580270&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img}"/>
-  </testcase>
-  <testcase name="alertTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="Unable to locate element: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23812, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 4f4e3ea7-9be7-4249-9277-fc5a12580270&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img}"/>
-  </testcase>
-  <testcase name="testTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="Unable to locate element: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23812, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 4f4e3ea7-9be7-4249-9277-fc5a12580270&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img}"/>
-  </testcase>
-  <testcase name="variableTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="Unable to locate element: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23812, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 4f4e3ea7-9be7-4249-9277-fc5a12580270&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img}"/>
-  </testcase>
-  <testcase name="applicationClose" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
+  <testcase name="applicationClose" classname="VW_TC.TC0001_login_Page_Verification" time="0">
     <skipped/>
   </testcase>
+  <testcase name="logInWithExpirixAdmin" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="13.096"/>
+  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0.317"/>
+  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0.216"/>
+  <testcase name="TabAvailabilityValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="1.207"/>
+  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="2.427"/>
+  <testcase name="alertTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="2.009"/>
+  <testcase name="testTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="42.708"/>
+  <testcase name="tagTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="14.378"/>
+  <testcase name="scriptTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="161.223">
+    <failure message="Unable to locate element: //*[@id=&quot;LAB-R&quot;]/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.46&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 4292, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 1006cefc-2cd0-4aa6-ab5c-458ecf042642&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;LAB-R&quot;]/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="LAB-R"]/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'REM-L-SINGHH', ip: '192.168.118.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190619235627, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 4292, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1006cefc-2cd0-4aa6-ab5c-458ecf042642
+*** Element info: {Using=xpath, value=//*[@id="LAB-R"]/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]}
+	at VW_TC.TC0002_login_With_Exmpirix_Admin.scriptTabValidation(TC0002_login_With_Exmpirix_Admin.java:160)
+</failure>
+    <system-out><![CDATA[
+Test Case tagTabValidation Passed
+
+=========================================
+[DEBUG] 2019-10-01 14:45:10,525 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:10,538 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:10,553 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
+[DEBUG] 2019-10-01 14:45:10,586 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Script count' dispalyed left side under Script tab
+[DEBUG] 2019-10-01 14:45:10,597 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Script count' enabled left side under Script tab
+[DEBUG] 2019-10-01 14:45:10,624 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Filter by name' filed appeared on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:10,635 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Filter by name' filed enabled on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:10,640 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script ' label appeared on  under Go Script builder tab
+[DEBUG] 2019-10-01 14:45:10,640 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script ' label enabled under Go Script builder tab
+[DEBUG] 2019-10-01 14:45:10,640 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script or' Text validated under Go Script Builder
+[DEBUG] 2019-10-01 14:45:11,416 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that create a new script plus (+) icon appeared on top left side under Script tab
+[DEBUG] 2019-10-01 14:45:22,134 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Validated the element while click Script Creation using button (+)
+[DEBUG] 2019-10-01 14:45:22,168 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:22,181 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:22,195 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
+[DEBUG] 2019-10-01 14:45:22,222 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script count' dispalyed left side under Script tab
+[DEBUG] 2019-10-01 14:45:22,232 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script count' enabled left side under Script tab
+[DEBUG] 2019-10-01 14:45:22,265 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Filter by name' filed appeared on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:22,276 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Filter by name' filed enabled on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:22,306 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,319 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,347 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' filed appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,358 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' field enabled on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,388 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,404 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,434 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,444 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' field enabled on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,480 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save button' displayed under Go Script Upload tab
+[DEBUG] 2019-10-01 14:45:22,489 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save button' is disbaled under Go Script Upload tab
+[DEBUG] 2019-10-01 14:45:22,505 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save' Text appeared on save button under Go Script Upload tab
+[DEBUG] 2019-10-01 14:45:22,538 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script Builder' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,551 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script Builder' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,580 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Results' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,592 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Results' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,620 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Call Logs' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,630 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Call Logs' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,660 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Associted Test' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:22,670 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Associted Test' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:25,217 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that create a new script by link is appeared under Go Script Builder tab
+[DEBUG] 2019-10-01 14:45:35,652 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Validated the element while click create a new script by link
+[DEBUG] 2019-10-01 14:45:35,692 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:35,710 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:35,722 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
+[DEBUG] 2019-10-01 14:45:35,751 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script count' dispalyed left side under Script tab
+[DEBUG] 2019-10-01 14:45:35,761 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script count' enabled left side under Script tab
+[DEBUG] 2019-10-01 14:45:35,787 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Filter by name' filed appeared on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:35,796 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Filter by name' filed enabled on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:35,822 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:35,833 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:35,862 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' filed appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:35,871 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' field enabled on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:35,901 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:35,911 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:35,938 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:35,948 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' field enabled on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:35,975 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save button' displayed under Go Script Upload tab
+[DEBUG] 2019-10-01 14:45:35,986 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save button' is disbaled under Go Script Upload tab
+[DEBUG] 2019-10-01 14:45:35,998 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save' Text appeared on save button under Go Script Upload tab
+[DEBUG] 2019-10-01 14:45:36,028 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script Builder' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:36,038 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script Builder' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:36,069 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Results' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:36,080 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Results' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:36,112 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Call Logs' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:36,123 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Call Logs' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:36,152 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Associted Test' label appeared on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:36,163 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Associted Test' Text validated on under Go Script Builder
+[DEBUG] 2019-10-01 14:45:36,190 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,198 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,225 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,234 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,243 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,273 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,283 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,292 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,319 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,328 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,356 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,370 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,380 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,410 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,418 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,426 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,452 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,461 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,468 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,494 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,502 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,509 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,535 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,544 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,555 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version contain 26.0' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,579 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,588 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:36,596 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,347 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-01 14:45:47,358 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-01 14:45:47,375 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab
+[DEBUG] 2019-10-01 14:45:47,405 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-01 14:45:47,417 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-01 14:45:47,449 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Filter by name' filed appeared on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:47,460 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Filter by name' filed enabled on left side of under Script tab
+[DEBUG] 2019-10-01 14:45:47,467 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Please select a script ' label appeared on  under Script Upload tab
+[DEBUG] 2019-10-01 14:45:47,467 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Please select a script ' label enabled under Script Upload tab
+[DEBUG] 2019-10-01 14:45:47,468 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that 'Please select a script or' Text validated under Script Upload tab
+[DEBUG] 2019-10-01 14:45:47,620 pom007_VoiceWatch_Script_Tabs.scriptUploadTabValidation() - Verified that create a new script by link is appeared under under Script Upload
+[DEBUG] 2019-10-01 14:45:47,648 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,657 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,682 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,691 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,699 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,725 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,734 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,742 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,767 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,776 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,802 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,810 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,818 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,847 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,858 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,869 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,905 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,915 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,926 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,958 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,968 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:47,977 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:48,010 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:48,019 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:48,029 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version contain 26.0' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:48,057 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:48,067 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:48,078 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-01 14:45:59,815 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that create a new script by link is appeared under Script Upload tab
+[DEBUG] 2019-10-01 14:46:00,616 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Validated the element while click Script Creation using Link
+[DEBUG] 2019-10-01 14:46:00,651 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-01 14:46:00,662 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-01 14:46:00,674 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab
+[DEBUG] 2019-10-01 14:46:00,705 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-01 14:46:00,715 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-01 14:46:00,745 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Filter by name' filed appeared on left side of under Script tab
+[DEBUG] 2019-10-01 14:46:00,756 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Filter by name' filed enabled on left side of under Script tab
+[DEBUG] 2019-10-01 14:46:00,795 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' label appeared on under Script Upload
+[DEBUG] 2019-10-01 14:46:00,808 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' Text validated on under Script Upload
+[DEBUG] 2019-10-01 14:46:00,839 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' filed appeared on under Script Upload
+[DEBUG] 2019-10-01 14:46:00,849 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' field enabled on under Script Upload
+[DEBUG] 2019-10-01 14:46:00,881 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' label appeared on under Script Upload
+[DEBUG] 2019-10-01 14:46:00,897 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' Text validated on under Script Upload
+[DEBUG] 2019-10-01 14:46:00,932 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' label appeared on under Script Upload
+[DEBUG] 2019-10-01 14:46:00,942 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' field enabled on under Script Upload
+[DEBUG] 2019-10-01 14:46:00,976 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save button' displayed under Script Upload tab
+[DEBUG] 2019-10-01 14:46:00,988 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save button' is disbaled under Script Upload tab
+[DEBUG] 2019-10-01 14:46:01,005 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save' Text appeared on save button under Script Upload tab
+]]></system-out>
+    <system-err><![CDATA[1569921311209	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1569921321932	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1569921323236	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1569921323980	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1569921337108	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1569921349238	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1569921360415	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+]]></system-err>
+  </testcase>
+  <testcase name="variableTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="26.692"/>
+  <testcase name="logInWithExpirixBusinessAnalyst" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="13.061"/>
+  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0.295"/>
+  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0.299"/>
+  <testcase name="TabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="1.152"/>
+  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="2.166"/>
+  <testcase name="alertTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="1.957"/>
+  <testcase name="testTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="3.047"/>
+  <testcase name="tagTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="10.982"/>
+  <testcase name="scriptTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="558.685"/>
+  <testcase name="variableTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="613.961"/>
+  <testcase name="logInWithPartnerUser" classname="VW_TC.TC0007_login_With_Partner_User" time="11.114"/>
+  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0007_login_With_Partner_User" time="0.308"/>
+  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0007_login_With_Partner_User" time="0.206"/>
+  <testcase name="TabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="500.918"/>
+  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="3.055"/>
+  <testcase name="alertTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="1.828"/>
+  <testcase name="testTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="2.998"/>
+  <testcase name="variableTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="613.086"/>
+  <testcase name="logInWithPartnerClient_User" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="11.504"/>
+  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0.54"/>
+  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0.227"/>
+  <testcase name="TabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="700.903"/>
+  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="2.085"/>
+  <testcase name="alertTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="2.621"/>
+  <testcase name="testTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="2.988"/>
+  <testcase name="variableTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="614.217"/>
 </testsuite>

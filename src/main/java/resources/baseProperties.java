@@ -14,6 +14,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
@@ -37,26 +38,43 @@ prop=new Properties();
 
 //FileInputStream fis=new FileInputStream("C:\\Users\\hsingh\\.jenkins\\${JENKIN_HOME}\\ECP_VW\\src\\main\\java\\resources\\data.properties");
 
-FileInputStream fis=new FileInputStream("C:\\Users\\hsingh\\Frameworks\\Selenium_ECP_VW\\src\\main\\java\\resources\\data.properties");
+FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
 
 
 
 prop.load(fis);
-String browserName=prop.getProperty("browser");
-if(browserName.equals("chrome"))
+
+String browserName=System.getProperty("browser");
+
+//String browserName=prop.getProperty("browser");
+if(browserName.contains("chrome"))
+		
 {
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\hsingh\\Frameworks\\Selenium_ECP_VW\\src\\main\\java\\resources\\drivers\\chromedriver.exe");
-    driver=new ChromeDriver();
-    log.debug("Chrome Driver intilized successfully");
+	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\chromedriver.exe\"");
+	ChromeOptions options=new ChromeOptions();
+ //   driver=new ChromeDriver();
+  
+	if(browserName.contains("headless"))	
+	{
+
+    options.addArguments("--headless");
+        
+//	 driver=new ChromeDriver();
+	}
+    
+	driver=new ChromeDriver(options);
+	log.debug("Chrome Driver intilized successfully");
     log.debug("Chrome Browser selected & Launching in few second");
 }		
+	
+	
 		
 //firefox
 
 else if (browserName.equals("firefox"))
 	
 {
-	System.setProperty("webdriver.gecko.driver","C:\\Users\\hsingh\\Frameworks\\Selenium_ECP_VW\\src\\main\\java\\resources\\drivers\\geckodriver.exe");
+	System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\geckodriver.exe");
 	driver = new FirefoxDriver();
 	
 	log.info("Firefox Driver intilized successfully");
@@ -66,7 +84,7 @@ else if (browserName.equals("firefox"))
 //IE
 else if (browserName.equals("ie"))
 {
-	System.setProperty("webdriver.ie.driver","C:\\Users\\hsingh\\Frameworks\\Selenium_ECP_VW\\src\\main\\java\\resources\\drivers\\IEDriverServer.exe");
+	System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\IEDriverServer.exe");
 	driver = new InternetExplorerDriver();
 	
 	log.info("IE Driver intilized successfully");
