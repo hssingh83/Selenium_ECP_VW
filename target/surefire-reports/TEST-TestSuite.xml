@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.825" tests="47" errors="0" skipped="42" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.236" tests="47" errors="0" skipped="42" failures="5">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\hsingh\AppData\Local\Temp\surefire3584025008096230698\surefirebooter6644882690163534495.jar C:\Users\hsingh\AppData\Local\Temp\surefire3584025008096230698 2019-10-03T01-30-33_589-jvmRun1 surefire9016437833282262067tmp surefire_05489559162206816515tmp"/>
+    <property name="sun.java.command" value="C:\Users\hsingh\AppData\Local\Temp\surefire5638779343233997913\surefirebooter7388468428843938595.jar C:\Users\hsingh\AppData\Local\Temp\surefire5638779343233997913 2019-10-03T18-00-00_971-jvmRun1 surefire7528394123549447066tmp surefire_01759595013652700141tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\test-classes;C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\classes;C:\Users\hsingh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\hsingh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hsingh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hsingh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hsingh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\hsingh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hsingh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hsingh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hsingh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hsingh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\hsingh\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\hsingh\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\hsingh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\hsingh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hsingh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\hsingh\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hsingh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\hsingh\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hsingh\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\hsingh\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\hsingh\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\hsingh\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hsingh\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-log\0.17.3\jcabi-log-0.17.3.jar;C:\Users\hsingh\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-aspects\0.22.5\jcabi-aspects-0.22.5.jar;C:\Users\hsingh\.m2\repository\org\aspectj\aspectjrt\1.8.7\aspectjrt-1.8.7.jar;C:\Users\hsingh\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\hsingh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.10\httpclient-4.5.10.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\hsingh"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\hsingh\AppData\Local\Temp\surefire3584025008096230698\surefirebooter6644882690163534495.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hsingh\AppData\Local\Temp\surefire5638779343233997913\surefirebooter7388468428843938595.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -42,7 +42,6 @@
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\hsingh\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -61,8 +60,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="applicationLaunch" classname="VW_TC.TC0001_login_Page_Verification" time="0.946">
-    <failure message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe"
+  <testcase name="applicationLaunch" classname="VW_TC.TC0001_login_Page_Verification" time="1.234">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
 </failure>
     <system-out><![CDATA[
@@ -71,13 +70,13 @@
 ]]></system-out>
   </testcase>
   <testcase name="logInScreenVerification" classname="VW_TC.TC0001_login_Page_Verification" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="applicationClose" classname="VW_TC.TC0001_login_Page_Verification" time="0">
     <skipped/>
   </testcase>
-  <testcase name="applicationLaunch" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0.993">
-    <failure message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe"
+  <testcase name="applicationLaunch" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="1.295">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at VW_TC.TC0002_login_With_Exmpirix_Admin.applicationLaunch(TC0002_login_With_Exmpirix_Admin.java:33)
 </failure>
     <system-out><![CDATA[
@@ -89,40 +88,40 @@
 ]]></system-out>
   </testcase>
   <testcase name="logInWithExpirixAdmin" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="headerMandatoryDetails" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="footerMandatoryDetails" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="TabAvailabilityValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="dashBoardTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="alertTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="testTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="tagTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="scriptTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="variableTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="applicationClose" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0">
     <skipped/>
   </testcase>
-  <testcase name="applicationLaunch" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="1.04">
-    <failure message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe"
+  <testcase name="applicationLaunch" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="1.33">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at VW_TC.TC0003_login_With_Empirix_Business_Analyst.applicationLaunch(TC0003_login_With_Empirix_Business_Analyst.java:33)
 </failure>
     <system-out><![CDATA[
@@ -134,40 +133,40 @@
 ]]></system-out>
   </testcase>
   <testcase name="logInWithExpirixBusinessAnalyst" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="headerMandatoryDetails" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="footerMandatoryDetails" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="TabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="dashBoardTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="alertTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="testTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="tagTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="scriptTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="variableTabValidation" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="applicationClose" classname="VW_TC.TC0003_login_With_Empirix_Business_Analyst" time="0">
     <skipped/>
   </testcase>
-  <testcase name="applicationLaunch" classname="VW_TC.TC0007_login_With_Partner_User" time="1.087">
-    <failure message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe"
+  <testcase name="applicationLaunch" classname="VW_TC.TC0007_login_With_Partner_User" time="1.359">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at VW_TC.TC0007_login_With_Partner_User.applicationLaunch(TC0007_login_With_Partner_User.java:30)
 </failure>
     <system-out><![CDATA[
@@ -179,34 +178,34 @@
 ]]></system-out>
   </testcase>
   <testcase name="logInWithPartnerUser" classname="VW_TC.TC0007_login_With_Partner_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="headerMandatoryDetails" classname="VW_TC.TC0007_login_With_Partner_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="footerMandatoryDetails" classname="VW_TC.TC0007_login_With_Partner_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="TabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="dashBoardTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="alertTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="testTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="variableTabValidation" classname="VW_TC.TC0007_login_With_Partner_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="applicationClose" classname="VW_TC.TC0007_login_With_Partner_User" time="0">
     <skipped/>
   </testcase>
-  <testcase name="applicationLaunch" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="1.118">
-    <failure message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe"
+  <testcase name="applicationLaunch" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="1.387">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at VW_TC.TC0011_login_With_Client_OR_Partner_Client_User.applicationLaunch(TC0011_login_With_Client_OR_Partner_Client_User.java:31)
 </failure>
     <system-out><![CDATA[
@@ -218,28 +217,28 @@
 ]]></system-out>
   </testcase>
   <testcase name="logInWithPartnerClient_User" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="headerMandatoryDetails" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="footerMandatoryDetails" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="TabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="dashBoardTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="alertTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="testTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="variableTabValidation" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
-    <skipped message="The driver executable does not exist: C:\Users\hsingh\Frameworks\Selenium_ECP_VW\src\main\java\resources\drivers\chromedriver.exe&quot;"/>
+    <skipped/>
   </testcase>
   <testcase name="applicationClose" classname="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User" time="0">
     <skipped/>

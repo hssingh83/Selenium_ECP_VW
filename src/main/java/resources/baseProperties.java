@@ -52,6 +52,7 @@ if(browserName.contains("chrome"))
 {
 	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\chromedriver.exe");
 	ChromeOptions options=new ChromeOptions();
+	options.addArguments("disable-infobars");
  //   driver=new ChromeDriver();
   
 	if(browserName.contains("headless"))	

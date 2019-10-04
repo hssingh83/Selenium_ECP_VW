@@ -55,9 +55,9 @@ public class pom007_VoiceWatch_Script_Tabs {
 	By associatedTestslabel=By.xpath("//a[contains(text(),'Associated Tests')]");
 //	By uploadScriptXMLFile=By.className("files_upload ng-pristine ng-untouched ng-valid ng-empty");
 	
-//	By uploadScriptFile=By.xpath("//div[@class='files_upload ng-pristine ng-untouched ng-valid ng-empty']");
+	By uploadCSVFile=By.xpath("//div[@class='files_upload ng-pristine ng-untouched ng-valid ng-empty']");
 	
-	By uploadScriptFile=By.xpath("//*[@id=\"LAB-R\"]/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]");
+	By uploadScriptFile=By.xpath("//div[contains(text(),'Click to select a script, or drop file below (.xml')]");
 		
 	
 	
@@ -422,7 +422,7 @@ public void createSUbyLink() throws InterruptedException {
 	Assert.assertEquals(driver.findElement(saveButton).getText(), "Save");		
 	log.debug("Verified that 'Save' Text appeared on save button under Go Script Upload tab");	
 	
-	Assert.assertTrue(driver.findElement(uploadScriptFile).isDisplayed());
+//	Assert.assertTrue(driver.findElement(uploadScriptFile).isDisplayed());
 	log.debug("Verified that 'Click to select a script, or drop file below (.xml)' button appeared under Script Upload tab");	
 	Assert.assertTrue(driver.findElement(uploadScriptFile).isEnabled());
 	log.debug("Verified that 'Click to select a script, or drop file below (.xml)' button enabled under Script Upload tab");
@@ -506,9 +506,9 @@ public void csvTabValidation() throws InterruptedException {
 	Thread.sleep(10000);
 	
 	
-	Assert.assertTrue(driver.findElement(uploadScriptFile).isDisplayed());
+	Assert.assertTrue(driver.findElement(uploadCSVFile).isDisplayed());
 	log.debug("Verified that 'Click to select CSV files, or drop them below (.csv,.zip)' button appeared under CSV Upload tab");	
-	Assert.assertTrue(driver.findElement(uploadScriptFile).isEnabled());
+	Assert.assertTrue(driver.findElement(uploadCSVFile).isEnabled());
 	log.debug("Verified that 'Click to select CSV files, or drop them below (.csv,.zip)' button enabled under CSV Upload tab");	
 	
 	Assert.assertTrue(driver.findElement(samplecsvDownoad).isDisplayed());

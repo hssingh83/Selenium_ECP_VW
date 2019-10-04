@@ -145,7 +145,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		d.footer();	
 	}*/
 	
-/*	@Test(priority=9)
+	@Test(priority=9)
 	public void scriptTabValidation () throws Exception {
 		
 		
@@ -165,9 +165,9 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		sc.createSUbybutton();
 		sc.createSUbyLink();
 		sc.csvTabValidation();
-	}*/
+	}
 
-	@Test(priority=10)
+/*	@Test(priority=10)
 	public void variableTabValidation () throws Exception {
 		
 		
@@ -180,7 +180,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 
 	}
-
+*/
 	
 	
 	
