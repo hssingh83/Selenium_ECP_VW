@@ -1,24 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 47, Failures: 5, Errors: 0, Skipped: 42, Time elapsed: 2.236 s <<< FAILURE! - in TestSuite
-applicationLaunch(VW_TC.TC0001_login_Page_Verification)  Time elapsed: 1.234 s  <<< FAILURE!
-java.lang.NullPointerException
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
-
-applicationLaunch(VW_TC.TC0002_login_With_Exmpirix_Admin)  Time elapsed: 1.295 s  <<< FAILURE!
-java.lang.NullPointerException
-	at VW_TC.TC0002_login_With_Exmpirix_Admin.applicationLaunch(TC0002_login_With_Exmpirix_Admin.java:33)
-
-applicationLaunch(VW_TC.TC0003_login_With_Empirix_Business_Analyst)  Time elapsed: 1.33 s  <<< FAILURE!
-java.lang.NullPointerException
-	at VW_TC.TC0003_login_With_Empirix_Business_Analyst.applicationLaunch(TC0003_login_With_Empirix_Business_Analyst.java:33)
-
-applicationLaunch(VW_TC.TC0007_login_With_Partner_User)  Time elapsed: 1.359 s  <<< FAILURE!
-java.lang.NullPointerException
-	at VW_TC.TC0007_login_With_Partner_User.applicationLaunch(TC0007_login_With_Partner_User.java:30)
-
-applicationLaunch(VW_TC.TC0011_login_With_Client_OR_Partner_Client_User)  Time elapsed: 1.387 s  <<< FAILURE!
-java.lang.NullPointerException
-	at VW_TC.TC0011_login_With_Client_OR_Partner_Client_User.applicationLaunch(TC0011_login_With_Client_OR_Partner_Client_User.java:31)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 71.198 s - in TestSuite

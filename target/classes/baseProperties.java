@@ -44,14 +44,15 @@ FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\m
 
 prop.load(fis);
 
-String browserName=System.getProperty("browser");
+//String browserName=System.getProperty("browser");
 
-//String browserName=prop.getProperty("browser");
+String browserName=prop.getProperty("browser");
 if(browserName.contains("chrome"))
 		
 {
 	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\chromedriver.exe");
 	ChromeOptions options=new ChromeOptions();
+	options.addArguments("disable-infobars");
  //   driver=new ChromeDriver();
   
 	if(browserName.contains("headless"))	
@@ -93,7 +94,7 @@ else if (browserName.equals("ie"))
 
 //Timeout
 
-driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS);
+driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);
 driver.get(prop.getProperty("url"));
 log.debug("URL provided");
 driver.manage().window().maximize();

@@ -18,6 +18,7 @@ import PageActions.pom005_VoiceWatch_Tests_Tab;
 import PageActions.pom006_VoiceWatch_Tags_Tab;
 import PageActions.pom007_VoiceWatch_Script_Tabs;
 import PageActions.pom008_VoiceWatch_Variable_Tab;
+import PageActions.pom009_VoiceWatch_Hammers_Tab;
 import resources.baseProperties;
 import resources.dataDriven;
 
@@ -42,8 +43,8 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	@Test(priority=1)
 	public void logInWithExpirixAdmin () throws IOException, InterruptedException {		
-		dataDriven d=new dataDriven();
-	    ArrayList<String> data=d.getData("login","Admin_login");
+		dataDriven d1=new dataDriven();
+		  ArrayList<String> data=d1.getData("login","Empirix/Empirix Admin");
 		
 		
 		pom001_VoiceWatch_logIn_Page l=new pom001_VoiceWatch_logIn_Page(driver);
@@ -145,7 +146,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		d.footer();	
 	}*/
 	
-	@Test(priority=9)
+	/*@Test(priority=9)
 	public void scriptTabValidation () throws Exception {
 		
 		
@@ -165,7 +166,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		sc.createSUbybutton();
 		sc.createSUbyLink();
 		sc.csvTabValidation();
-	}
+	}*/
 
 /*	@Test(priority=10)
 	public void variableTabValidation () throws Exception {
@@ -181,6 +182,17 @@ public void applicationLaunch() throws IOException, InterruptedException {
 
 	}
 */
+	@Test(priority=11)
+	public void hammerTabValidation () throws Exception {
+		
+		pom009_VoiceWatch_Hammers_Tab hm=new pom009_VoiceWatch_Hammers_Tab(driver);
+		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);
+		
+	    hm.hammerTabValidation();
+	    hm.createHammerByButton();
+	   hm.createHammerByLink();
+
+	}
 	
 	
 	

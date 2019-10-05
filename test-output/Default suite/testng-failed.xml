@@ -5,7 +5,7 @@
     <classes>
       <class name="VW_TC.TC0000_Debug_Testing">
         <methods>
-          <include name="scriptTabValidation"/>
+          <include name="hammerTabValidation"/>
           <include name="applicationLaunch"/>
           <include name="applicationClose"/>
         </methods>
