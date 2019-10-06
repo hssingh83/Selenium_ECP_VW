@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="VW_TC.TC0000_Debug_Testing">
+      <class name="VW_TC.TC0002_login_With_Exmpirix_Admin">
         <methods>
-          <include name="hammerTabValidation"/>
+          <include name="variableTabValidation"/>
           <include name="applicationLaunch"/>
           <include name="applicationClose"/>
+          <include name="testTabValidation"/>
+          <include name="tagTabValidation"/>
         </methods>
-      </class> <!-- VW_TC.TC0000_Debug_Testing -->
+      </class> <!-- VW_TC.TC0002_login_With_Exmpirix_Admin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

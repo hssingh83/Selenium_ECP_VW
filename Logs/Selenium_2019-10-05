@@ -1,59 +1,45 @@
-[INFO ] 2019-10-05 21:50:30,921 baseProperties.intializeDriver() - Firefox Driver intilized successfully
-[INFO ] 2019-10-05 21:50:30,925 baseProperties.intializeDriver() - Firefox Browser selected & Launch
-[DEBUG] 2019-10-05 21:50:37,074 baseProperties.intializeDriver() - URL provided
-[DEBUG] 2019-10-05 21:50:37,404 baseProperties.intializeDriver() - Screen maximized successfully
-[DEBUG] 2019-10-05 21:50:37,405 baseProperties.intializeDriver() - Waiting to access above URL
-[DEBUG] 2019-10-05 21:50:53,272 baseProperties.intializeDriver() -  Verified that VoiceWatch login screen appeared successfully
-[DEBUG] 2019-10-05 21:50:53,756 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
-[DEBUG] 2019-10-05 21:50:53,758 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
-[DEBUG] 2019-10-05 21:50:53,798 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
-[DEBUG] 2019-10-05 21:50:53,824 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
-[DEBUG] 2019-10-05 21:50:54,076 TC0000_Debug_Testing.logInWithExpirixAdmin() - Waiting for launch VoiceWatch application using above creadetails
-[DEBUG] 2019-10-05 21:51:24,028 TC0000_Debug_Testing.logInWithExpirixAdmin() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
-[DEBUG] 2019-10-05 21:51:24,028 TC0000_Debug_Testing.logInWithExpirixAdmin() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
-[DEBUG] 2019-10-05 21:51:34,428 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer groups' label appeared on left side of under Hammers tab
-[DEBUG] 2019-10-05 21:51:34,470 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer groups' label enabled on left side of under Hammer groups tab
-[DEBUG] 2019-10-05 21:51:34,515 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer groups' text appearedd on left side of under Hammer groups tab
-[DEBUG] 2019-10-05 21:51:34,595 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Filter by hammer group name' filed appeared on left side of under Hammer tab
-[DEBUG] 2019-10-05 21:51:34,611 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Filter by hammer group namee' filed enabled on left side of under Hammer tab
-[DEBUG] 2019-10-05 21:51:34,668 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer Group' label appeared under Hammer tab
-[DEBUG] 2019-10-05 21:51:34,684 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer group' label enabled on under Hammer tab
-[DEBUG] 2019-10-05 21:51:34,699 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer Group' text appeared on right top side of under Hammer tab
-[DEBUG] 2019-10-05 21:51:34,715 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Add hammer' button displayed under Hammer tab
-[DEBUG] 2019-10-05 21:51:34,715 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Add hammer' button enabled under Hammer tab
-[DEBUG] 2019-10-05 21:51:34,769 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Please select a Hammer group, or the following:' label appeared on under Hammer tab
-[DEBUG] 2019-10-05 21:51:34,773 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Please select a Hammer groupe, or the following:' label enabled on under Hammer tab
-[DEBUG] 2019-10-05 21:51:34,789 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Please select a Hammer group or' text appearedd under Hammer tab
-[DEBUG] 2019-10-05 21:51:34,804 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'create a new Hammer group' link appeared on under Hammer tab
-[DEBUG] 2019-10-05 21:51:34,804 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'create a new Hammer groupe' link enabled on under Hammer tab
-[DEBUG] 2019-10-05 21:51:35,127 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that add Hammer plus (+) icon appeared on top left side under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,457 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Validated the element while click Add Hammer using button (+)
-[DEBUG] 2019-10-05 21:51:45,554 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Name' label appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,597 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Name' label enabled while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,645 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Name' Text appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,723 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Name' filed appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,724 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Filter by name' filed enabled on left side of under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,778 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Description' label appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,794 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Description' label enabled while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,813 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Description' Text appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,857 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Description' filed appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,857 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Description' filed enabled on left side of under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,902 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Save button' displayed while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,922 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Save button' is disbaled while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:45,947 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Save' Text appeared on save button while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:56,888 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that add Hammer link appeared under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,189 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Validated the element while click Add Hammer using Link
-[DEBUG] 2019-10-05 21:51:57,284 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Name' label appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,328 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Name' label enabled while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,349 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Name' Text appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,460 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Name' filed appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,460 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Filter by name' filed enabled on left side of under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,511 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Description' label appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,522 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Description' label enabled while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,533 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Description' Text appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,585 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Description' filed appeared while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,586 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Description' filed enabled on left side of under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,613 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Save button' displayed while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,629 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Save button' is disbaled while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:57,644 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that 'Save' Text appeared on save button while add Hammer under Hammer tab
-[DEBUG] 2019-10-05 21:51:58,604 TC0000_Debug_Testing.applicationClose() - Application closed successfully
+[INFO ] 2019-10-05 21:52:37,265 baseProperties.intializeDriver() - Firefox Driver intilized successfully
+[INFO ] 2019-10-05 21:52:37,269 baseProperties.intializeDriver() - Firefox Browser selected & Launch
+[DEBUG] 2019-10-05 21:52:49,920 baseProperties.intializeDriver() - URL provided
+[DEBUG] 2019-10-05 21:52:50,194 baseProperties.intializeDriver() - Screen maximized successfully
+[DEBUG] 2019-10-05 21:52:50,194 baseProperties.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-10-05 21:52:58,400 baseProperties.intializeDriver() -  Verified that VoiceWatch login screen appeared successfully
+[DEBUG] 2019-10-05 21:52:58,900 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+[DEBUG] 2019-10-05 21:52:58,900 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+[DEBUG] 2019-10-05 21:52:58,960 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+[DEBUG] 2019-10-05 21:52:58,993 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+[DEBUG] 2019-10-05 21:52:59,248 TC0000_Debug_Testing.logInWithExpirixAdmin() - Waiting for launch VoiceWatch application using above creadetails
+[DEBUG] 2019-10-05 21:53:21,944 TC0000_Debug_Testing.logInWithExpirixAdmin() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
+[DEBUG] 2019-10-05 21:53:21,944 TC0000_Debug_Testing.logInWithExpirixAdmin() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
+[DEBUG] 2019-10-05 21:53:32,319 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer groups' label appeared on left side of under Hammers tab
+[DEBUG] 2019-10-05 21:53:32,343 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer groups' label enabled on left side of under Hammer groups tab
+[DEBUG] 2019-10-05 21:53:32,358 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer groups' text appearedd on left side of under Hammer groups tab
+[DEBUG] 2019-10-05 21:53:32,393 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Filter by hammer group name' filed appeared on left side of under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,408 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Filter by hammer group namee' filed enabled on left side of under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,445 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer Group' label appeared under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,458 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer group' label enabled on under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,470 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer Group' text appeared on right top side of under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,487 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Add hammer' button displayed under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,488 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Add hammer' button enabled under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,519 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Please select a Hammer group, or the following:' label appeared on under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,529 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Please select a Hammer groupe, or the following:' label enabled on under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,541 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Please select a Hammer group or' text appearedd under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,547 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'create a new Hammer group' link appeared on under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,548 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'create a new Hammer groupe' link enabled on under Hammer tab
+[DEBUG] 2019-10-05 21:53:32,828 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that add Hammer plus (+) icon appeared on top left side under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,097 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Validated the element while click Add Hammer using button (+)
+[DEBUG] 2019-10-05 21:53:43,182 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Name' label appeared while add Hammer under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,212 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Name' label enabled while add Hammer under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,241 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Name' Text appeared while add Hammer under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,325 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Name' filed appeared while add Hammer under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,326 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Filter by name' filed enabled on left side of under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,379 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Description' label appeared while add Hammer under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,400 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Description' label enabled while add Hammer under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,421 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Description' Text appeared while add Hammer under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,476 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Description' filed appeared while add Hammer under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,477 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Description' filed enabled on left side of under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,536 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Save button' displayed while add Hammer under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,556 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Save button' is disbaled while add Hammer under Hammer tab
+[DEBUG] 2019-10-05 21:53:43,584 pom009_VoiceWatch_Hammers_Tab.createHammerByButton() - Verified that 'Save' Text appeared on save button while add Hammer under Hammer tab
+[DEBUG] 2019-10-05 21:53:45,195 pom009_VoiceWatch_Hammers_Tab.createHammerByLink() - Verified that add Hammer link appeared under Hammer tab
+[DEBUG] 2019-10-05 21:54:26,677 TC0000_Debug_Testing.applicationClose() - Application closed successfully
