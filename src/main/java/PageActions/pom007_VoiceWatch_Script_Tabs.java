@@ -129,11 +129,12 @@ public class pom007_VoiceWatch_Script_Tabs {
 		driver.findElement(scriptUploadTab).click();
 		Thread.sleep(10000);
 		
-			
+		
+					
 		Assert.assertTrue(driver.findElement(callMasterScriptslabel).isDisplayed());
 		log.debug("Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab");	
-		Assert.assertTrue(driver.findElement(callMasterScriptslabel).isEnabled());
-		log.debug("Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab");	
+	//	Assert.assertTrue(driver.findElement(callMasterScriptslabel).isEnabled());
+	//	log.debug("Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab");	
 		Assert.assertEquals(driver.findElement(callMasterScriptslabel).getText().contains("Call Master Scripts"), true);	
 		log.debug("Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab");		
 		

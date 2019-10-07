@@ -113,12 +113,12 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		ts.testsValidations();
 		d.header();
 		d.footer();
-	//	ts.createTestbybutton();
-	//	d.header();
-	//	d.footer();
-	//	ts.createTestbyLink();
-	//	d.header();
-	//	d.footer();
+		ts.createTestbybutton();
+		d.header();
+		d.footer();
+		ts.createTestbyLink();
+		d.header();
+		d.footer();
 		
 	}
 	
@@ -133,12 +133,12 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		tg.tagsValidations();
 		d.header();
 		d.footer();
-	//	tg.createTagbybutton();
-	//	d.header();
-	//	d.footer();
-	//	tg.createNewTag();		
-	//	d.header();
-	//	d.footer();	
+		tg.createTagbybutton();
+		d.header();
+		d.footer();
+		tg.createNewTag();		
+		d.header();
+		d.footer();	
 	}
 	
 	@Test(priority=9)
@@ -173,12 +173,12 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		vr.variableTabValidation();
 		d.header();
 		d.footer();
-	//	vr.createVariableByButton();
-	//	d.header();
-	//	d.footer();
-	//	vr.createVariableByLink();
-	//	d.header();
-	//	d.footer();	
+		vr.createVariableByButton();
+		d.header();
+		d.footer();
+		vr.createVariableByLink();
+		d.header();
+		d.footer();	
 
 	}
 

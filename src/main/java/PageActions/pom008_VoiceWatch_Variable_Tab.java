@@ -95,7 +95,7 @@ public class pom008_VoiceWatch_Variable_Tab {
 	public void variableTabValidation() throws InterruptedException {	
 
 		driver.findElement(variablesTab).click();		
-	//	Thread.sleep(10000);
+		Thread.sleep(10000);
 		
 		Assert.assertTrue(driver.findElement(variableslabel).isDisplayed());
 		log.debug("Verified that 'Variables' label appeared on left side of under Variable tab");	
