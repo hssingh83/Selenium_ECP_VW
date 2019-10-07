@@ -156,18 +156,17 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 		
 		
-//		sc.goScriptBuilderTabValidation();
-//		sc.createGSBbybutton();
-//		sc.createGSBbyLink();
+	  sc.goScriptBuilderTabValidation();
+	  sc.createGSBbybutton();
+	  sc.createGSBbyLink();
 //		d.header();
 //		d.footer();
-//		sc.scriptUploadTabValidation();
+	//	sc.scriptUploadTabValidation();
 //		d.header();
 //		d.footer();
 		sc.createSUbybutton();
-		sc.createSUbyLink();
+	   sc.createSUbyLink();
 		sc.csvTabValidation();
-		
 	}
 
 /*	@Test(priority=10)

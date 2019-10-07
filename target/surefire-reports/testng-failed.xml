@@ -16,16 +16,4 @@
       </class> <!-- VW_TC.TC0000_Debug_Testing -->
     </classes>
   </test> <!-- Test Case: 000 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity(failed) -->
-  <test thread-count="5" verbose="0" name="Test Case: 000 - Login with &#039;Empirix User&#039; Credetials&#039;and verify TabAvailablity(failed)">
-    <classes>
-      <class name="VW_TC.TC0000_Debug_Testing1">
-        <methods>
-          <include name="scriptTabValidation"/>
-          <include name="applicationLaunch"/>
-          <include name="applicationClose"/>
-          <include name="logInWithExpirixAdmin"/>
-        </methods>
-      </class> <!-- VW_TC.TC0000_Debug_Testing1 -->
-    </classes>
-  </test> <!-- Test Case: 000 - Login with 'Empirix User' Credetials'and verify TabAvailablity(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,67 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="84353" started-at="2019-10-07T13:49:19Z" finished-at="2019-10-07T13:50:43Z">
+  <suite name="Default suite" duration-ms="85471" started-at="2019-10-07T18:47:17Z" finished-at="2019-10-07T18:48:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="84353" started-at="2019-10-07T13:49:19Z" finished-at="2019-10-07T13:50:43Z">
+    <test name="Default test" duration-ms="85471" started-at="2019-10-07T18:47:17Z" finished-at="2019-10-07T18:48:42Z">
       <class name="VW_TC.TC0000_Debug_Testing">
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0000_Debug_Testing@55141def]" name="applicationLaunch" is-config="true" duration-ms="36525" started-at="2019-10-07T13:49:19Z" finished-at="2019-10-07T13:49:55Z">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0000_Debug_Testing@55141def]" name="applicationLaunch" is-config="true" duration-ms="26229" started-at="2019-10-07T18:47:17Z" finished-at="2019-10-07T18:47:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="logInWithExpirixAdmin()[pri:1, instance:VW_TC.TC0000_Debug_Testing@55141def]" name="logInWithExpirixAdmin" duration-ms="36898" started-at="2019-10-07T13:49:55Z" finished-at="2019-10-07T13:50:32Z">
+        <test-method status="PASS" signature="logInWithExpirixAdmin()[pri:1, instance:VW_TC.TC0000_Debug_Testing@55141def]" name="logInWithExpirixAdmin" duration-ms="23224" started-at="2019-10-07T18:47:43Z" finished-at="2019-10-07T18:48:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInWithExpirixAdmin -->
-        <test-method status="FAIL" signature="scriptTabValidation()[pri:9, instance:VW_TC.TC0000_Debug_Testing@55141def]" name="scriptTabValidation" duration-ms="10665" started-at="2019-10-07T13:50:32Z" finished-at="2019-10-07T13:50:43Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at PageActions.pom007_VoiceWatch_Script_Tabs.createSUbybutton(pom007_VoiceWatch_Script_Tabs.java:525)
-at VW_TC.TC0000_Debug_Testing.scriptTabValidation(TC0000_Debug_Testing.java:167)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="scriptTabValidation()[pri:9, instance:VW_TC.TC0000_Debug_Testing@55141def]" name="scriptTabValidation" duration-ms="35863" started-at="2019-10-07T18:48:06Z" finished-at="2019-10-07T18:48:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scriptTabValidation -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0000_Debug_Testing@55141def]" name="applicationClose" is-config="true" duration-ms="241" started-at="2019-10-07T13:50:43Z" finished-at="2019-10-07T13:50:43Z">
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0000_Debug_Testing@55141def]" name="applicationClose" is-config="true" duration-ms="128" started-at="2019-10-07T18:48:42Z" finished-at="2019-10-07T18:48:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
