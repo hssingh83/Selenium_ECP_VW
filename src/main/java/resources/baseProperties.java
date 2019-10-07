@@ -97,7 +97,7 @@ else if (browserName.equals("ie"))
 
 //Timeout
 
-driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);
 driver.get(prop.getProperty("url"));
 log.debug("URL provided");
 driver.manage().window().maximize();

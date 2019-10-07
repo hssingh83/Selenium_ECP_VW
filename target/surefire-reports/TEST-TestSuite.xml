@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="67.309" tests="8" errors="0" skipped="6" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.065" tests="8" errors="0" skipped="6" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\hsingh\AppData\Local\Temp\surefire7189639371199383515\surefirebooter4018019337137388618.jar C:\Users\hsingh\AppData\Local\Temp\surefire7189639371199383515 2019-10-07T18-43-19_129-jvmRun1 surefire2042113231402423531tmp surefire_04960470029938085490tmp"/>
+    <property name="sun.java.command" value="C:\Users\hsingh\AppData\Local\Temp\surefire4604495178103226919\surefirebooter6213742948947689790.jar C:\Users\hsingh\AppData\Local\Temp\surefire4604495178103226919 2019-10-07T18-57-46_490-jvmRun1 surefire7947316737124125621tmp surefire_01386231224295281929tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\test-classes;C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\classes;C:\Users\hsingh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\hsingh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hsingh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hsingh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hsingh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\hsingh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hsingh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hsingh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hsingh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hsingh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\hsingh\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\hsingh\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\hsingh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\hsingh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hsingh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\hsingh\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hsingh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\hsingh\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hsingh\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\hsingh\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\hsingh\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\hsingh\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hsingh\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-log\0.17.3\jcabi-log-0.17.3.jar;C:\Users\hsingh\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-aspects\0.22.5\jcabi-aspects-0.22.5.jar;C:\Users\hsingh\.m2\repository\org\aspectj\aspectjrt\1.8.7\aspectjrt-1.8.7.jar;C:\Users\hsingh\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\hsingh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.10\httpclient-4.5.10.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\hsingh"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\hsingh\AppData\Local\Temp\surefire7189639371199383515\surefirebooter4018019337137388618.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hsingh\AppData\Local\Temp\surefire4604495178103226919\surefirebooter6213742948947689790.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,52 +60,26 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="applicationLaunch" classname="VW_TC.TC0000_Debug_Testing" time="34.361">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img (tried for 30 second(s) with 500 milliseconds interval)
-	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: unknown
+  <testcase name="applicationLaunch" classname="VW_TC.TC0000_Debug_Testing" time="1.296">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 </failure>
     <system-out><![CDATA[
  Test Case: 000 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity Started
 =========================================
-[INFO ] 2019-10-07 18:43:24,378 baseProperties.intializeDriver() - IE Driver intilized successfully
-[INFO ] 2019-10-07 18:43:24,382 baseProperties.intializeDriver() - IE Browser selected & Launch
-[DEBUG] 2019-10-07 18:43:24,524 baseProperties.intializeDriver() - URL provided
-[DEBUG] 2019-10-07 18:43:24,540 baseProperties.intializeDriver() - Screen maximized successfully
-[DEBUG] 2019-10-07 18:43:24,540 baseProperties.intializeDriver() - Waiting to access above URL
 ]]></system-out>
-    <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
-3.14.0.0
-Listening on port 40276
-Only local connections are allowed
-Oct 07, 2019 6:43:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
   <testcase name="logInWithExpirixAdmin" classname="VW_TC.TC0000_Debug_Testing" time="0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img (tried for 30 second(s) with 500 milliseconds interval)"/>
+    <skipped/>
   </testcase>
   <testcase name="scriptTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img (tried for 30 second(s) with 500 milliseconds interval)"/>
+    <skipped/>
   </testcase>
   <testcase name="applicationClose" classname="VW_TC.TC0000_Debug_Testing" time="0">
     <skipped/>
   </testcase>
-  <testcase name="applicationLaunch" classname="VW_TC.TC0000_Debug_Testing1" time="66.674">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img (tried for 30 second(s) with 500 milliseconds interval)
-	at VW_TC.TC0000_Debug_Testing1.applicationLaunch(TC0000_Debug_Testing1.java:38)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: unknown
+  <testcase name="applicationLaunch" classname="VW_TC.TC0000_Debug_Testing1" time="1.355">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at VW_TC.TC0000_Debug_Testing1.applicationLaunch(TC0000_Debug_Testing1.java:38)
 </failure>
     <system-out><![CDATA[
@@ -114,25 +88,13 @@ Driver info: driver.version: unknown
 
  Test Case: 000 - Login with 'Empirix User' Credetials'and verify TabAvailablity Started
 =========================================
-[INFO ] 2019-10-07 18:43:56,771 baseProperties.intializeDriver() - IE Driver intilized successfully
-[INFO ] 2019-10-07 18:43:56,771 baseProperties.intializeDriver() - IE Browser selected & Launch
-[DEBUG] 2019-10-07 18:43:56,903 baseProperties.intializeDriver() - URL provided
-[DEBUG] 2019-10-07 18:43:56,920 baseProperties.intializeDriver() - Screen maximized successfully
-[DEBUG] 2019-10-07 18:43:56,921 baseProperties.intializeDriver() - Waiting to access above URL
 ]]></system-out>
-    <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
-3.14.0.0
-Listening on port 4149
-Only local connections are allowed
-Oct 07, 2019 6:43:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
   <testcase name="logInWithExpirixAdmin" classname="VW_TC.TC0000_Debug_Testing1" time="0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img (tried for 30 second(s) with 500 milliseconds interval)"/>
+    <skipped/>
   </testcase>
   <testcase name="scriptTabValidation" classname="VW_TC.TC0000_Debug_Testing1" time="0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;wrapper&quot;]/div[1]/nav/div[1]/a/img (tried for 30 second(s) with 500 milliseconds interval)"/>
+    <skipped/>
   </testcase>
   <testcase name="applicationClose" classname="VW_TC.TC0000_Debug_Testing1" time="0">
     <skipped/>

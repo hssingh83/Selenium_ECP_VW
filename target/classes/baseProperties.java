@@ -47,9 +47,9 @@ FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\m
 
 prop.load(fis);
 
-//String browserName=System.getProperty("browser");
+String browserName=System.getProperty("browser");
 
-String browserName=prop.getProperty("browser");
+//String browserName=prop.getProperty("browser");
 if(browserName.contains("chrome"))
 		
 {
@@ -110,7 +110,7 @@ log.debug("Waiting to access above URL");
 
 //System.out.println("Hello");
 
-WebDriverWait wait=new WebDriverWait(driver, 100);
+WebDriverWait wait=new WebDriverWait(driver, 30);
 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"wrapper\"]/div[1]/nav/div[1]/a/img")));
 
 
