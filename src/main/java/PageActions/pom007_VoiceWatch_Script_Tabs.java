@@ -98,9 +98,9 @@ public class pom007_VoiceWatch_Script_Tabs {
 		
          if (driver.findElements(pleaseSelectlabelGSB).isEmpty()) {
 			
-        	 log.debug("Verified that 'Please select a Call Master Script from the left. ' label appeared on  under Go Script builder tab");
- 			log.debug("Verified that 'Please select a Call Master Script from the left. ' label enabled under Go Script builder tab");	
- 			log.debug("Verified that 'Please select a Call Master Script from the left.' Text validated under Go Script Builder");
+        	 log.debug("Verified that 'Please select a Call Master Script from the left. ' is not label appeared on  under Go Script builder tab");
+ 			log.debug("Verified that 'Please select a Call Master Script from the left. ' is not label enabled under Go Script builder tab");	
+ 			log.debug("Verified that 'Please select a Call Master Script from the left.' is not Text validated under Go Script Builder");
 			
 						
 		}else
@@ -182,7 +182,24 @@ public class pom007_VoiceWatch_Script_Tabs {
 		
           if (driver.findElements(createNewScriptByButton).isEmpty()) {
 			
-			log.debug("Verified that create a new script plus (+) icon not appeared on top left side under Script tab");	
+			log.debug("Verified that create a new script plus (+) icon not appeared on top left side under Script tab");
+			
+			Assert.assertTrue(driver.findElement(callMasterScriptslabel).isDisplayed());
+			log.debug("Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab");	
+			Assert.assertTrue(driver.findElement(callMasterScriptslabel).isEnabled());
+			log.debug("Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab");	
+			Assert.assertEquals(driver.findElement(callMasterScriptslabel).getText().contains("Call Master Scripts"), false);	
+			log.debug("Verified that 'Call Master Scripts' Text validated not appered on left side under Script Upload Tab");		
+			
+			Assert.assertTrue(driver.findElement(callMasterScriptscount).isDisplayed());
+			log.debug("Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab");	
+			Assert.assertTrue(driver.findElement(callMasterScriptscount).isEnabled());		
+			log.debug("Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab");	
+			
+			Assert.assertTrue(driver.findElement(filterByNameSU).isDisplayed());
+			log.debug("Verified that 'Filter by name' filed appeared on left side of under Script tab");	
+			Assert.assertTrue(driver.findElement(filterByNameSU).isEnabled());
+			log.debug("Verified that 'Filter by name' filed enabled on left side of under Script tab");	
 			
 						
 		}else
@@ -278,6 +295,22 @@ public void createGSBbyLink() throws InterruptedException {
           if (driver.findElements(createNewScriptBylink).isEmpty()) {
 			
 			log.debug("Verified that create a new script by link is not appeared under Go Script Builder tab");	
+			Assert.assertTrue(driver.findElement(callMasterScriptslabel).isDisplayed());
+			log.debug("Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab");	
+			Assert.assertTrue(driver.findElement(callMasterScriptslabel).isEnabled());
+			log.debug("Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab");	
+			Assert.assertEquals(driver.findElement(callMasterScriptslabel).getText().contains("Call Master Scripts"), false);	
+			log.debug("Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab");		
+			
+			Assert.assertTrue(driver.findElement(callMasterScriptscount).isDisplayed());
+			log.debug("Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab");	
+			Assert.assertTrue(driver.findElement(callMasterScriptscount).isEnabled());		
+			log.debug("Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab");	
+			
+			Assert.assertTrue(driver.findElement(filterByNameSU).isDisplayed());
+			log.debug("Verified that 'Filter by name' filed appeared on left side of under Script tab");	
+			Assert.assertTrue(driver.findElement(filterByNameSU).isEnabled());
+			log.debug("Verified that 'Filter by name' filed enabled on left side of under Script tab");	
 			
 						
 		}else
@@ -371,13 +404,29 @@ public void createSUbyLink() throws InterruptedException {
 		
       if (driver.findElements(createNewScriptBylink).isEmpty()) {
 		
-		log.debug("Verified that create a new script plus (+) icon not appeared on top left side under Script Upload tab");	
+		log.debug("Verified that create a by link is not appeared on top left side under Script Upload tab");	
+		Assert.assertTrue(driver.findElement(callMasterScriptslabel).isDisplayed());
+		log.debug("Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab");	
+		Assert.assertTrue(driver.findElement(callMasterScriptslabel).isEnabled());
+		log.debug("Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab");	
+		Assert.assertEquals(driver.findElement(callMasterScriptslabel).getText().contains("Call Master Scripts"), true);	
+		log.debug("Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab");		
+		
+		Assert.assertTrue(driver.findElement(callMasterScriptscount).isDisplayed());
+		log.debug("Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab");	
+		Assert.assertTrue(driver.findElement(callMasterScriptscount).isEnabled());		
+		log.debug("Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab");	
+		
+		Assert.assertTrue(driver.findElement(filterByNameSU).isDisplayed());
+		log.debug("Verified that 'Filter by name' filed appeared on left side of under Script tab");	
+		Assert.assertTrue(driver.findElement(filterByNameSU).isEnabled());
+		log.debug("Verified that 'Filter by name' filed enabled on left side of under Script tab");	
 		
 					
 	}else
 	
 	{
-		log.debug("Verified that create a new script plus (+) icon appeared on top left side under Script Upload tab");	
+		log.debug("Verified that create a by link is appeared on top left side under Script Upload tab");	
 		
 		driver.findElement(createNewScriptByButton).click();
 	log.debug("Validated the element while click Script Creation using button (+)");
@@ -442,6 +491,22 @@ public void createSUbybutton() throws InterruptedException {
       if (driver.findElements(createNewScriptBylink).isEmpty()) {
 		
     	  log.debug("Verified that create a new script by link is not appeared under Script Upload tab");	
+    	  Assert.assertTrue(driver.findElement(callMasterScriptslabel).isDisplayed());
+  		log.debug("Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab");	
+  		Assert.assertTrue(driver.findElement(callMasterScriptslabel).isEnabled());
+  		log.debug("Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab");	
+  		Assert.assertEquals(driver.findElement(callMasterScriptslabel).getText().contains("Call Master Scripts"), true);	
+  		log.debug("Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab");		
+  		
+  		Assert.assertTrue(driver.findElement(callMasterScriptscount).isDisplayed());
+  		log.debug("Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab");	
+  		Assert.assertTrue(driver.findElement(callMasterScriptscount).isEnabled());		
+  		log.debug("Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab");	
+  		
+  		Assert.assertTrue(driver.findElement(filterByNameSU).isDisplayed());
+  		log.debug("Verified that 'Filter by name' filed appeared on left side of under Script tab");	
+  		Assert.assertTrue(driver.findElement(filterByNameSU).isEnabled());
+  		log.debug("Verified that 'Filter by name' filed enabled on left side of under Script tab");	
 		
 					
 	}else

@@ -13,11 +13,14 @@ import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 
@@ -94,14 +97,27 @@ else if (browserName.equals("ie"))
 
 //Timeout
 
-driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);
+driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 driver.get(prop.getProperty("url"));
 log.debug("URL provided");
 driver.manage().window().maximize();
 log.debug("Screen maximized successfully");
 log.debug("Waiting to access above URL");
+//Thread.sleep(10000);
+
+//WebDriverWait wait = new WebDriverWait(driver,30);
+//wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("callback_2")));
+
+//System.out.println("Hello");
+
+WebDriverWait wait=new WebDriverWait(driver, 30);
+wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"wrapper\"]/div[1]/nav/div[1]/a/img")));
+
+
 Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div[1]/nav/div[1]/a/img")).isDisplayed());
-Thread.sleep(1000);
+
+
+
 log.debug(" Verified that VoiceWatch login screen appeared successfully");
 
 return driver;

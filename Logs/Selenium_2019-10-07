@@ -1,0 +1,10 @@
+[INFO ] 2019-10-07 18:43:24,378 baseProperties.intializeDriver() - IE Driver intilized successfully
+[INFO ] 2019-10-07 18:43:24,382 baseProperties.intializeDriver() - IE Browser selected & Launch
+[DEBUG] 2019-10-07 18:43:24,524 baseProperties.intializeDriver() - URL provided
+[DEBUG] 2019-10-07 18:43:24,540 baseProperties.intializeDriver() - Screen maximized successfully
+[DEBUG] 2019-10-07 18:43:24,540 baseProperties.intializeDriver() - Waiting to access above URL
+[INFO ] 2019-10-07 18:43:56,771 baseProperties.intializeDriver() - IE Driver intilized successfully
+[INFO ] 2019-10-07 18:43:56,771 baseProperties.intializeDriver() - IE Browser selected & Launch
+[DEBUG] 2019-10-07 18:43:56,903 baseProperties.intializeDriver() - URL provided
+[DEBUG] 2019-10-07 18:43:56,920 baseProperties.intializeDriver() - Screen maximized successfully
+[DEBUG] 2019-10-07 18:43:56,921 baseProperties.intializeDriver() - Waiting to access above URL

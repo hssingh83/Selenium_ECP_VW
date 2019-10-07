@@ -12,6 +12,7 @@ public class pom008_VoiceWatch_Variable_Tab {
 	public WebDriver driver;
 	
 	By tagTab=By.linkText("Tags");
+	By taglabel=By.xpath("//h4[contains(text(),'Tag')]");
 	By variablesTab=By.linkText("Variables");
 	By variableslabel=By.xpath("//div[@class='panel-heading']");
 	By filterByVariableName=By.xpath("//input[@placeholder='Filter by variable name']");
@@ -94,7 +95,7 @@ public class pom008_VoiceWatch_Variable_Tab {
 	public void variableTabValidation() throws InterruptedException {	
 
 		driver.findElement(variablesTab).click();		
-		Thread.sleep(10000);
+	//	Thread.sleep(10000);
 		
 		Assert.assertTrue(driver.findElement(variableslabel).isDisplayed());
 		log.debug("Verified that 'Variables' label appeared on left side of under Variable tab");	
@@ -139,6 +140,7 @@ public class pom008_VoiceWatch_Variable_Tab {
 			
 			log.debug("Verified that 'Add Variable' button is not displaying under Variable tab");
 			log.debug("Verified that 'Add Variable' button is enabled under Variable tab");
+			
 			
 						
 		}else
@@ -212,20 +214,49 @@ public class pom008_VoiceWatch_Variable_Tab {
 	
 	public void createVariableByButton() throws InterruptedException {
 		
-		driver.findElement(variablesTab).click();			
+		driver.findElement(variablesTab).click();
+		log.info("Clicked Variable Tab");
 		
 		
           if (driver.findElements(createVariableByButton).isEmpty()) {
+        	  
+        	 
 			
 			log.debug("Verified that add Variable plus (+) icon not appeared on top left side under Variable tab");	
+			
+			Assert.assertTrue(driver.findElement(pleaseSelectlabel).isDisplayed());
+			log.debug("Verified that 'Please select a variable, or the following:' label appeared on under Variable tab");	
+			Assert.assertTrue(driver.findElement(pleaseSelectlabel).isEnabled());
+			log.debug("Verified that 'Please select a variable, or the following:' label enabled on under Variable tab");	
+			Assert.assertEquals(driver.findElement(pleaseSelectlabel).getText(), "Please select a variable, or the following:");
+			log.debug("Verified that 'Please select a variable, or the following:' text appearedd on left side of under Variable tab");
+			Assert.assertTrue(driver.findElement(variableslabel).isDisplayed());
+			log.debug("Verified that 'Variables' label appeared on left side of under Variable tab");	
+			Assert.assertTrue(driver.findElement(variableslabel).isEnabled());
+			log.debug("Verified that 'Variables' label enabled on left side of under Variable tab");
+			Assert.assertEquals(driver.findElement(variableslabel).getText(), "Variables");
+			log.debug("Verified that 'Variables' text appearedd on left side of under Variable tab");
+			Assert.assertTrue(driver.findElement(variablelabel).isDisplayed());
+			log.debug("Verified that 'Variable' label appeared under Variable tab");	
+			Assert.assertTrue(driver.findElement(variablelabel).isEnabled());
+			log.debug("Verified that 'Variable' label enabled on under Variable tab");
+			Assert.assertEquals(driver.findElement(variablelabel).getText(), "Variable");
+			log.debug("Verified that 'Variables' text appearedd on left side of under Variable tab");
+			Assert.assertTrue(driver.findElement(filterByVariableName).isDisplayed());
+			log.debug("Verified that 'Filter by variable name' filed appeared on left side of under Variable tab");	
+			Assert.assertTrue(driver.findElement(filterByVariableName).isEnabled());
+			log.debug("Verified that 'Filter by variable name' filed enabled on left side of under Variable tab");
+						
 			
 						
 		}else
 		
 		{
-			log.debug("Verified that add Variable plus (+) icon not appeared on top left side under Variable tab");	
+			log.debug("Verified that add Variable plus (+) icon appeared on top left side under Variable tab");	
+			
+			
 		
-		Thread.sleep(10000);
+	//	Thread.sleep(10000);
 			
 			driver.findElement(createVariableByButton).click();
 		log.debug("Validated the element while click Add Variable using button (+)");
@@ -282,13 +313,37 @@ public void createVariableByLink() throws InterruptedException {
 	
     if (driver.findElements(createaNewVariableLink).isEmpty()) {
 		
-		log.debug("Verified that add Variable plus (+) icon not appeared on top left side under Variable tab");	
+		log.debug("Verified that add Variable Link is not appeared on top left side under Variable tab");	
 		
+		
+		Assert.assertTrue(driver.findElement(pleaseSelectlabel).isDisplayed());
+		log.debug("Verified that 'Please select a variable, or the following:' label appeared on under Variable tab");	
+		Assert.assertTrue(driver.findElement(pleaseSelectlabel).isEnabled());
+		log.debug("Verified that 'Please select a variable, or the following:' label enabled on under Variable tab");	
+		Assert.assertEquals(driver.findElement(pleaseSelectlabel).getText(), "Please select a variable, or the following:");
+		log.debug("Verified that 'Please select a variable, or the following:' text appearedd on left side of under Variable tab");
+		Assert.assertTrue(driver.findElement(variableslabel).isDisplayed());
+		log.debug("Verified that 'Variables' label appeared on left side of under Variable tab");	
+		Assert.assertTrue(driver.findElement(variableslabel).isEnabled());
+		log.debug("Verified that 'Variables' label enabled on left side of under Variable tab");
+		Assert.assertEquals(driver.findElement(variableslabel).getText(), "Variables");
+		log.debug("Verified that 'Variables' text appearedd on left side of under Variable tab");
+		Assert.assertTrue(driver.findElement(variablelabel).isDisplayed());
+		log.debug("Verified that 'Variable' label appeared under Variable tab");	
+		Assert.assertTrue(driver.findElement(variablelabel).isEnabled());
+		log.debug("Verified that 'Variable' label enabled on under Variable tab");
+		Assert.assertEquals(driver.findElement(variablelabel).getText(), "Variable");
+		log.debug("Verified that 'Variables' text appearedd on left side of under Variable tab");
+		Assert.assertTrue(driver.findElement(filterByVariableName).isDisplayed());
+		log.debug("Verified that 'Filter by variable name' filed appeared on left side of under Variable tab");	
+		Assert.assertTrue(driver.findElement(filterByVariableName).isEnabled());
+		log.debug("Verified that 'Filter by variable name' filed enabled on left side of under Variable tab");
+
 					
 	}else
 	
 	{
-		log.debug("Verified that add Variable plus (+) icon not appeared on top left side under Variable tab");	
+		log.debug("Verified that add link appeared on top left side under Variable tab");	
 	
 //		Thread.sleep(10000);
 		
@@ -340,201 +395,5 @@ public void createVariableByLink() throws InterruptedException {
 
 //==============================================================================
 
-public void createSUbyLink() throws InterruptedException {
-	
-	driver.findElement(tagTab).click();
-//	driver.findElement(scriptsTab).click();
-	Thread.sleep(10000);
-	driver.findElement(scriptUploadTab).click();
-		
-      if (driver.findElements(createNewScriptBylink).isEmpty()) {
-		
-		log.debug("Verified that create a new script plus (+) icon not appeared on top left side under Script Upload tab");	
-		
-					
-	}else
-	
-	{
-		log.debug("Verified that create a new script plus (+) icon appeared on top left side under Script Upload tab");	
-		
-		driver.findElement(createNewScriptByButton).click();
-	log.debug("Validated the element while click Script Creation using button (+)");
-	
-			
-	Assert.assertTrue(driver.findElement(callMasterScriptslabel).isDisplayed());
-	log.debug("Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab");	
-	Assert.assertTrue(driver.findElement(callMasterScriptslabel).isEnabled());
-	log.debug("Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab");	
-	Assert.assertEquals(driver.findElement(callMasterScriptslabel).getText().contains("Call Master Scripts"), true);	
-	log.debug("Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab");		
-	
-	Assert.assertTrue(driver.findElement(callMasterScriptscount).isDisplayed());
-	log.debug("Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab");	
-	Assert.assertTrue(driver.findElement(callMasterScriptscount).isEnabled());		
-	log.debug("Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab");	
-	
-	Assert.assertTrue(driver.findElement(filterByNameSU).isDisplayed());
-	log.debug("Verified that 'Filter by name' filed appeared on left side of under Script tab");	
-	Assert.assertTrue(driver.findElement(filterByNameSU).isEnabled());
-	log.debug("Verified that 'Filter by name' filed enabled on left side of under Script tab");		
-	Assert.assertTrue(driver.findElement(scriptNamelabel).isDisplayed());
-	log.debug("Verified that 'Script name' label appeared on under Script Upload");		
-	Assert.assertEquals(driver.findElement(scriptNamelabel).getText(), "Script name");		
-	log.debug("Verified that 'Script name' Text validated on under Script Upload");		
-	Assert.assertTrue(driver.findElement(scriptNamefield).isDisplayed());
-	log.debug("Verified that 'Script name' filed appeared on under Script Upload");		
-	Assert.assertTrue(driver.findElement(scriptNamefield).isEnabled());		
-	log.debug("Verified that 'Script name' field enabled on under Script Upload");		
-	Assert.assertTrue(driver.findElement(scriptDescSUlabel).isDisplayed());
-	log.debug("Verified that 'Description' label appeared on under Script Upload");		
-	Assert.assertEquals(driver.findElement(scriptDescSUlabel).getText(), "Description");		
-	log.debug("Verified that 'Description' Text validated on under Script Upload");		
-	Assert.assertTrue(driver.findElement(scriptDescSUfield).isDisplayed());
-	log.debug("Verified that 'Description' label appeared on under Script Upload");		
-	Assert.assertTrue(driver.findElement(scriptDescSUfield).isEnabled());		
-	log.debug("Verified that 'Description' field enabled on under Script Upload");				
-	Assert.assertTrue(driver.findElement(saveButton).isDisplayed());
-	log.debug("Verified that 'Save button' displayed under Go Script Upload tab");	
-	Assert.assertFalse(driver.findElement(saveButton).isEnabled());
-	log.debug("Verified that 'Save button' is disbaled under Go Script Upload tab");	
-	Assert.assertEquals(driver.findElement(saveButton).getText(), "Save");		
-	log.debug("Verified that 'Save' Text appeared on save button under Go Script Upload tab");	
-	
-	Assert.assertTrue(driver.findElement(uploadScriptFile).isDisplayed());
-	log.debug("Verified that 'Click to select a script, or drop file below (.xml)' button appeared under Script Upload tab");	
-	Assert.assertTrue(driver.findElement(uploadScriptFile).isEnabled());
-	log.debug("Verified that 'Click to select a script, or drop file below (.xml)' button enabled under Script Upload tab");
-	
-	
 
-	}
-}
-//========================================================================================================================
-public void createSUbybutton() throws InterruptedException {
-	
-	driver.findElement(tagTab).click();
-//	driver.findElement(scriptsTab).click();
-	Thread.sleep(10000);
-	driver.findElement(scriptUploadTab).click();
-		
-      if (driver.findElements(createNewScriptBylink).isEmpty()) {
-		
-    	  log.debug("Verified that create a new script by link is not appeared under Script Upload tab");	
-		
-					
-	}else
-	
-	{
-		log.debug("Verified that create a new script by link is appeared under Script Upload tab");	
-		
-		driver.findElement(createNewScriptBylink).click();
-	log.debug("Validated the element while click Script Creation using Link");
-	
-			
-	Assert.assertTrue(driver.findElement(callMasterScriptslabel).isDisplayed());
-	log.debug("Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab");	
-	Assert.assertTrue(driver.findElement(callMasterScriptslabel).isEnabled());
-	log.debug("Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab");	
-	Assert.assertEquals(driver.findElement(callMasterScriptslabel).getText().contains("Call Master Scripts"), true);	
-	log.debug("Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab");		
-	
-	Assert.assertTrue(driver.findElement(callMasterScriptscount).isDisplayed());
-	log.debug("Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab");	
-	Assert.assertTrue(driver.findElement(callMasterScriptscount).isEnabled());		
-	log.debug("Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab");	
-	
-	Assert.assertTrue(driver.findElement(filterByNameSU).isDisplayed());
-	log.debug("Verified that 'Filter by name' filed appeared on left side of under Script tab");	
-	Assert.assertTrue(driver.findElement(filterByNameSU).isEnabled());
-	log.debug("Verified that 'Filter by name' filed enabled on left side of under Script tab");		
-	Assert.assertTrue(driver.findElement(scriptNamelabel).isDisplayed());
-	log.debug("Verified that 'Script name' label appeared on under Script Upload");		
-	Assert.assertEquals(driver.findElement(scriptNamelabel).getText(), "Script name");		
-	log.debug("Verified that 'Script name' Text validated on under Script Upload");		
-	Assert.assertTrue(driver.findElement(scriptNamefield).isDisplayed());
-	log.debug("Verified that 'Script name' filed appeared on under Script Upload");		
-	Assert.assertTrue(driver.findElement(scriptNamefield).isEnabled());		
-	log.debug("Verified that 'Script name' field enabled on under Script Upload");		
-	Assert.assertTrue(driver.findElement(scriptDescSUlabel).isDisplayed());
-	log.debug("Verified that 'Description' label appeared on under Script Upload");		
-	Assert.assertEquals(driver.findElement(scriptDescSUlabel).getText(), "Description");		
-	log.debug("Verified that 'Description' Text validated on under Script Upload");		
-	Assert.assertTrue(driver.findElement(scriptDescSUfield).isDisplayed());
-	log.debug("Verified that 'Description' label appeared on under Script Upload");		
-	Assert.assertTrue(driver.findElement(scriptDescSUfield).isEnabled());		
-	log.debug("Verified that 'Description' field enabled on under Script Upload");				
-	Assert.assertTrue(driver.findElement(saveButton).isDisplayed());
-	log.debug("Verified that 'Save button' displayed under Script Upload tab");	
-	Assert.assertFalse(driver.findElement(saveButton).isEnabled());
-	log.debug("Verified that 'Save button' is disbaled under Script Upload tab");	
-	Assert.assertEquals(driver.findElement(saveButton).getText(), "Save");		
-	log.debug("Verified that 'Save' Text appeared on save button under Script Upload tab");		
-	
-	Assert.assertTrue(driver.findElement(uploadScriptFile).isDisplayed());
-	log.debug("Verified that 'Click to select a script, or drop file below (.xml)' button appeared under Script Upload tab");	
-	Assert.assertTrue(driver.findElement(uploadScriptFile).isEnabled());
-	log.debug("Verified that 'Click to select a script, or drop file below (.xml)' button enabled under Script Upload tab");	
-	
-	}
-}
-//===================================================================================================
-public void csvTabValidation() throws InterruptedException {	
-
-	driver.findElement(csvTranformerTab).click();
-	Thread.sleep(10000);
-	
-	
-	Assert.assertTrue(driver.findElement(uploadScriptFile).isDisplayed());
-	log.debug("Verified that 'Click to select CSV files, or drop them below (.csv,.zip)' button appeared under CSV Upload tab");	
-	Assert.assertTrue(driver.findElement(uploadScriptFile).isEnabled());
-	log.debug("Verified that 'Click to select CSV files, or drop them below (.csv,.zip)' button enabled under CSV Upload tab");	
-	
-	Assert.assertTrue(driver.findElement(samplecsvDownoad).isDisplayed());
-	log.debug("Verified that 'Sample CSV download' label appeared on left side of under CSV Upload tab");	
-	Assert.assertTrue(driver.findElement(transformedCSVlabel).isEnabled());
-	log.debug("Verified that 'Sample CSV download' label enabled on left side of under CSV Upload tab");	
-	
-	
-	
-    if (driver.findElements(transformedCSVlabel).isEmpty()) {
-		
-    	log.debug("Verified that 'Transformed CSV(s)' label is not appearing on left side of under CSV Upload tab");	
-    	log.debug("Verified that 'Transformed CSV(s)' label not enabled on left side of under CSV Upload tab");	
-		
-					
-	}else
-	
-	{
-		log.debug("Verified that 'Transformed CSV(s)' label appeared on left side of under CSV Upload tab");	
-    	log.debug("Verified that 'Transformed CSV(s)' label enabled on left side of under CSV Upload tab");	
-	
-	}
-    
-    
-   if (driver.findElements(filterByCSV).isEmpty()) {
-		
-	   log.debug("Verified that 'Filter by csv file name' filed is not appearing under CSV Upload tab");	
-		log.debug("Verified that 'Filter by csv file name' filed is not enabled under CSV Upload tab");
-		
-					
-	}else
-	
-	{
-		log.debug("Verified that 'Filter by csv file name' filed appeared under CSV Upload tab");	
-		log.debug("Verified that 'Filter by csv file name' filed enabled under CSV Upload tab");
-	
-	}
-    
-	/*Assert.assertTrue(driver.findElement(transformedCSVlabel).isDisplayed());
-	log.debug("Verified that 'Transformed CSV(s)' label appeared on left side of under CSV Upload tab");	
-	Assert.assertTrue(driver.findElement(transformedCSVlabel).isEnabled());
-	log.debug("Verified that 'Transformed CSV(s)' label enabled on left side of under CSV Upload tab");	*/
-	
-/*	Assert.assertTrue(driver.findElement(filterByCSV).isDisplayed());
-	log.debug("Verified that 'Filter by csv file name' filed appeared under CSV Upload tab");	
-	Assert.assertTrue(driver.findElement(filterByCSV).isEnabled());
-	log.debug("Verified that 'Filter by csv file name' filed enabled under CSV Upload tab");*/		
-	
-	
-}
 }

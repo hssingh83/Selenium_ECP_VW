@@ -11,13 +11,23 @@
      
 
      
-     <test  name="Test Case: 002 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity">
+     <test  name="Test Case: 000 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity">
     <classes>
      
       <class name="VW_TC.TC0000_Debug_Testing"/>
       
      </classes> 
      </test>
+     
+     <test  name="Test Case: 000 - Login with 'Empirix User' Credetials'and verify TabAvailablity">
+    <classes>
+     
+      <class name="VW_TC.TC0000_Debug_Testing1"/>
+      
+     </classes> 
+     </test>
+     
+     
      
   
      

@@ -44,7 +44,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	@Test(priority=1)
 	public void logInWithExpirixAdmin () throws IOException, InterruptedException {		
 		dataDriven d1=new dataDriven();
-		  ArrayList<String> data=d1.getData("login","Empirix/Empirix Admin");
+		ArrayList<String> data=d1.getData("login","Admin_login");
 		
 		
 		pom001_VoiceWatch_logIn_Page l=new pom001_VoiceWatch_logIn_Page(driver);
@@ -52,9 +52,10 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		l.getUsername().sendKeys(data.get(1));
         l.getPassword().sendKeys(data.get(2));
 	    l.getSignButton().click();
-	    Thread.sleep(10);
+	 //   Thread.sleep(10);
 	    log.debug("Waiting for launch VoiceWatch application using above creadetails");
 	    Assert.assertTrue(driver.findElement(By.linkText("Back to top")).isDisplayed());
+	    log.info("Verified that back on top link appeared on the page");
 	    log.debug("Verified that VoiceWatch Application login successfully with Empirix Admin creadetial");
 	    log.debug("Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin");
 	}   
@@ -146,7 +147,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		d.footer();	
 	}*/
 	
-	/*@Test(priority=9)
+	@Test(priority=9)
 	public void scriptTabValidation () throws Exception {
 		
 		
@@ -155,18 +156,19 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 		
 		
-		sc.goScriptBuilderTabValidation();
-		sc.createGSBbybutton();
-		sc.createGSBbyLink();
+//		sc.goScriptBuilderTabValidation();
+//		sc.createGSBbybutton();
+//		sc.createGSBbyLink();
 //		d.header();
 //		d.footer();
-		sc.scriptUploadTabValidation();
+//		sc.scriptUploadTabValidation();
 //		d.header();
 //		d.footer();
 		sc.createSUbybutton();
 		sc.createSUbyLink();
 		sc.csvTabValidation();
-	}*/
+		
+	}
 
 /*	@Test(priority=10)
 	public void variableTabValidation () throws Exception {
@@ -176,13 +178,16 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);
 		
 		vr.variableTabValidation();
+        log.info("variableTabValidation TestCase Done");		
 		vr.createVariableByButton();
+		log.info("createVariableByButton TestCase Done");
 		vr.createVariableByLink();
+		log.info("createVariableByLink TestCase Done");
 	
 
 	}
 */
-	@Test(priority=11)
+/*	@Test(priority=11)
 	public void hammerTabValidation () throws Exception {
 		
 		pom009_VoiceWatch_Hammers_Tab hm=new pom009_VoiceWatch_Hammers_Tab(driver);
@@ -192,7 +197,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	    hm.createHammerByButton();
 	   hm.createHammerByLink();
 
-	}
+	}*/
 	
 	
 	

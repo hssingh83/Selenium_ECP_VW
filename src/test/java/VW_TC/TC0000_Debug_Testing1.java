@@ -38,49 +38,53 @@ public class TC0000_Debug_Testing1 extends baseProperties{
 		driver=intializeDriver();
 	}
 
+
 	@Test(priority=1)
-	public void logInWithExpirixBusinessAnalyst () throws IOException, InterruptedException {
-		
-		pom001_VoiceWatch_logIn_Page l=new pom001_VoiceWatch_logIn_Page(driver);
+	public void logInWithExpirixAdmin () throws IOException, InterruptedException {		
 		dataDriven d1=new dataDriven();
 		  ArrayList<String> data=d1.getData("login","Empirix/Empirix Admin");
-			
+		
+		
+		pom001_VoiceWatch_logIn_Page l=new pom001_VoiceWatch_logIn_Page(driver);
+					
 		l.getUsername().sendKeys(data.get(1));
-	    l.getPassword().sendKeys(data.get(2));
+        l.getPassword().sendKeys(data.get(2));
 	    l.getSignButton().click();
 	    Thread.sleep(10);
 	    log.debug("Waiting for launch VoiceWatch application using above creadetails");
 	    Assert.assertTrue(driver.findElement(By.linkText("Back to top")).isDisplayed());
-	    log.info("Verified that VoiceWatch Application login successfully with Empirix Business Analyst creadetial");
-	    log.debug("Validate the requiment as Aceess Level= Empirix & Role=Business Analyst");
-
-	}	
+	    log.debug("Verified that VoiceWatch Application login successfully with Empirix Admin creadetial");
+	    log.debug("Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin");
+	}   
+      
 	
-
+	
 	/*@Test(priority=2)
 	public void headerMandatoryDetails () throws IOException, InterruptedException {
 		
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-	    d.header();	
+	    d.header();
+	
 	}
 	
 	@Test(priority=3)
 	public void footerMandatoryDetails () throws IOException, InterruptedException {
 		
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-	    d.footer();
-	
+	    d.footer();	
 	}
-	
-	
-	@Test(priority=4)
-	public void TabValidation() {
-		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);
-		 d.home_screen();
-	
-	}
-	
+*/
+		
+	/*@Test(priority=4)
+	public void TabAvailabilityValidation () throws IOException, InterruptedException {
+		
+		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
+	    d.home_screen();
 
+	
+	}*/
+
+	/*
 	@Test(priority=5)
 	public void dashBoardTabValidation () throws IOException, InterruptedException {
 		
@@ -90,7 +94,7 @@ public class TC0000_Debug_Testing1 extends baseProperties{
 		db.OverallPerfomance_section_dashboard();
 		db.activetest_section_dashboard();
 		d.header();
-		d.footer();
+		d.footer();	
 	}
 	
 	@Test(priority=6)
@@ -102,33 +106,45 @@ public class TC0000_Debug_Testing1 extends baseProperties{
 		d.header();
 		d.footer();
 		
-	}
-	@Test(priority=7)
+	}*/
+	
+	/*@Test(priority=7)
 	public void testTabValidation () throws IOException, InterruptedException {
 		
 		pom005_VoiceWatch_Tests_Tab ts=new pom005_VoiceWatch_Tests_Tab(driver);
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-	
+		ts.testsValidations();
 		d.header();
 		d.footer();
-		ts.testsValidations();
-				
-	}
+		ts.createTestbybutton();
+		d.header();
+		d.footer();
+		ts.createTestbyLink();
+		d.header();
+		d.footer();
+		
+	}*/
 	
 	
-	@Test(priority=8)
+	/*@Test(priority=8)
 	public void tagTabValidation () throws IOException, InterruptedException {
 		
 		pom006_VoiceWatch_Tags_Tab tg=new pom006_VoiceWatch_Tags_Tab(driver);
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
 	
+	
+		tg.tagsValidations();
 		d.header();
 		d.footer();
-		tg.tagsValidations();		
+		tg.createTagbybutton();
+		d.header();
+		d.footer();
+		tg.createNewTag();		
+		d.header();
+		d.footer();	
+	}*/
 	
-	}
-	*/
-/*	@Test(priority=9)
+	@Test(priority=9)
 	public void scriptTabValidation () throws Exception {
 		
 		
@@ -137,24 +153,20 @@ public class TC0000_Debug_Testing1 extends baseProperties{
 	
 		
 		
-		sc.goScriptBuilderTabValidation();
-		sc.createGSBbybutton();
+	sc.goScriptBuilderTabValidation();
+	sc.createGSBbybutton();
 		sc.createGSBbyLink();
-		d.header();
-		d.footer();
-		sc.scriptUploadTabValidation();
-		d.header();
-		d.footer();
+//		d.header();
+//		d.footer();
+//		sc.scriptUploadTabValidation();
+//		d.header();
+//		d.footer();
 		sc.createSUbybutton();
-		d.header();
-		d.footer();
-		sc.createSUbyLink();
-		d.header();
-		d.footer();
+	sc.createSUbyLink();
 		sc.csvTabValidation();
-	}*/
-	
-	@Test(priority=10)
+	}
+
+/*	@Test(priority=10)
 	public void variableTabValidation () throws Exception {
 		
 		
@@ -162,19 +174,36 @@ public class TC0000_Debug_Testing1 extends baseProperties{
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);
 		
 		vr.variableTabValidation();
+        log.info("variableTabValidation TestCase Done");		
 		vr.createVariableByButton();
+		log.info("createVariableByButton TestCase Done");
 		vr.createVariableByLink();
+		log.info("createVariableByLink TestCase Done");
 	
 
 	}
-
-	
+*/
+/*	@Test(priority=11)
+	public void hammerTabValidation () throws Exception {
 		
-	@AfterTest
+		pom009_VoiceWatch_Hammers_Tab hm=new pom009_VoiceWatch_Hammers_Tab(driver);
+		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);
+		
+	    hm.hammerTabValidation();
+	    hm.createHammerByButton();
+	   hm.createHammerByLink();
+
+	}*/
+	
+	
+	
+    @AfterTest
 	public void applicationClose() {
 	
 		driver.close();
-		log.info("Application closed successfully");
+		log.debug("Application closed successfully");
 		
+	
+	
 	}
-	}
+}

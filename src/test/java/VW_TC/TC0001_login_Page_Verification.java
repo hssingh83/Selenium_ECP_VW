@@ -30,6 +30,8 @@ public class TC0001_login_Page_Verification extends baseProperties{
 		l.logPageLabelVerification();
 		l.getCopyRightLink().click();
 		log.info("Verified that 'Additional Copy Right' Link clickable");
+		
+		
 		Assert.assertEquals(driver.findElement(By.id("additional-copyright-info")).getText(),"Copyright © 2010-14 ForgeRock AS, all rights reserved.");
 		log.info("Verified that additinal infomation'Copyright © 2010-14 ForgeRock AS, all rights reserved.' appered after click link");
 		

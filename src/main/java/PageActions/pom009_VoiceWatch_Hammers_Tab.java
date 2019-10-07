@@ -42,6 +42,8 @@ public class pom009_VoiceWatch_Hammers_Tab {
 	By speechcheckbox=By.xpath("//input[@class='ng-pristine ng-untouched ng-valid ng-empty']");
 	
 	By saveButton=By.xpath("//span[@class='pull-right']//button[contains(@class,'btn btn-primary btn-sm')]");
+	
+	By taglabel=By.xpath("//h4[contains(text(),'Tag')]");
  
 
     
@@ -58,7 +60,7 @@ public class pom009_VoiceWatch_Hammers_Tab {
 	public void hammerTabValidation() throws InterruptedException {	
 
 		driver.findElement(hammersTab).click();		
-		Thread.sleep(10000);
+	//	Thread.sleep(10000);
 		
 		Assert.assertTrue(driver.findElement(hammergroupslabel).isDisplayed());
 		log.debug("Verified that 'Hammer groups' label appeared on left side of under Hammers tab");	
@@ -137,7 +139,7 @@ public class pom009_VoiceWatch_Hammers_Tab {
 		{
 			log.debug("Verified that add Hammer plus (+) icon appeared on top left side under Hammer tab");	
 		
-		Thread.sleep(10000);
+	//	Thread.sleep(10000);
 			
 			driver.findElement(createHammerByButton).click();
 		log.debug("Validated the element while click Add Hammer using button (+)");
@@ -185,7 +187,8 @@ public class pom009_VoiceWatch_Hammers_Tab {
 public void createHammerByLink() throws InterruptedException {
 		
 	driver.findElement(tagTab).click();
-	Thread.sleep(10000);
+//	Thread.sleep(10000);
+	Assert.assertTrue(driver.findElement(taglabel).isDisplayed());
 	
 	driver.findElement(hammersTab).click();			
 //	Thread.sleep(100);
