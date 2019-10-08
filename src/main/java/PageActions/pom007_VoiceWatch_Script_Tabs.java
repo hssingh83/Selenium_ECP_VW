@@ -522,6 +522,7 @@ public void createSUbybutton() throws InterruptedException {
 	{
 		log.debug("Verified that create a new script by link is appeared under Script Upload tab");	
 		
+		Thread.sleep(10000);
 		driver.findElement(createNewScriptBylink).click();
 	log.debug("Validated the element while click Script Creation using Link");
 	

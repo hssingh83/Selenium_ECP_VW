@@ -97,7 +97,7 @@ else if (browserName.equals("ie"))
 
 //Timeout
 
-driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);
 driver.get(prop.getProperty("url"));
 log.debug("URL provided");
 driver.manage().window().maximize();
@@ -110,7 +110,7 @@ log.debug("Waiting to access above URL");
 
 //System.out.println("Hello");
 
-WebDriverWait wait=new WebDriverWait(driver, 30);
+WebDriverWait wait=new WebDriverWait(driver, 50);
 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"wrapper\"]/div[1]/nav/div[1]/a/img")));
 
 
