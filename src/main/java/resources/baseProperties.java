@@ -13,15 +13,16 @@ import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class baseProperties {
@@ -47,13 +48,15 @@ FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\m
 
 prop.load(fis);
 
-String browserName=System.getProperty("browser");
+//String browserName=System.getProperty("browser");
 
-//String browserName=prop.getProperty("browser");
+String browserName=prop.getProperty("browser");
 if(browserName.contains("chrome"))
 		
 {
-	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\chromedriver.exe");
+ 	WebDriverManager.chromedriver().setup();
+
+//	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\chromedriver.exe");
 	ChromeOptions options=new ChromeOptions();
 	options.addArguments("disable-infobars");
  //   driver=new ChromeDriver();
@@ -78,7 +81,8 @@ if(browserName.contains("chrome"))
 else if (browserName.equals("firefox"))
 	
 {
-	System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\geckodriver.exe");
+//	System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\geckodriver.exe");
+	WebDriverManager.firefoxdriver().setup();
 	driver = new FirefoxDriver();
 	
 	log.info("Firefox Driver intilized successfully");
@@ -88,7 +92,9 @@ else if (browserName.equals("firefox"))
 //IE
 else if (browserName.equals("ie"))
 {
-	System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\IEDriverServer.exe");
+//	System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\IEDriverServer.exe");
+	
+	WebDriverManager.iedriver().setup();
 	driver = new InternetExplorerDriver();
 	
 	log.info("IE Driver intilized successfully");
