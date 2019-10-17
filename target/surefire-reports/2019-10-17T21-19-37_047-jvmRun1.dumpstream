@@ -1,0 +1,235 @@
+# Created at 2019-10-17T21:34:33.127
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-10-17T21:34:38.251
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,247 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that create a new script plus (+) icon not appeared on top left side under Script Upload tab
+
+
+# Created at 2019-10-17T21:34:38.295
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,295 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab
+
+
+# Created at 2019-10-17T21:34:38.319
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,319 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab
+
+
+# Created at 2019-10-17T21:34:38.355
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,355 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab
+
+
+# Created at 2019-10-17T21:34:38.396
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,396 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab
+
+
+# Created at 2019-10-17T21:34:38.416
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,416 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab
+
+
+# Created at 2019-10-17T21:34:38.448
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,444 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Filter by name' filed appeared on left side of under Script tab
+
+
+# Created at 2019-10-17T21:34:38.468
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,468 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Filter by name' filed enabled on left side of under Script tab
+
+
+# Created at 2019-10-17T21:34:38.504
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,500 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.524
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,524 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.564
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,560 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.600
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,600 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.620
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,620 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.648
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,648 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.676
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,672 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.704
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,700 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.732
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,732 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.756
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,756 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.788
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,788 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.808
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,808 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.836
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,832 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.864
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,864 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.888
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,888 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.912
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,912 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.944
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,944 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.968
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,968 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:38.996
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:38,996 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:39.032
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:39,028 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:39.052
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:39,052 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:39.076
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:39,076 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:39.116
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:39,112 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:39.136
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:39,136 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:39.177
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:39,177 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version contain 26.0' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:39.217
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:39,217 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:39.245
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:39,245 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:39.273
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:39,269 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-17T21:34:49.439
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:49,435 pom007_VoiceWatch_Script_Tabs.csvTabValidation() - Verified that 'Click to select CSV files, or drop them below (.csv,.zip)' button appeared under CSV Upload tab
+
+
+# Created at 2019-10-17T21:34:49.503
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:49,499 pom007_VoiceWatch_Script_Tabs.csvTabValidation() - Verified that 'Click to select CSV files, or drop them below (.csv,.zip)' button enabled under CSV Upload tab
+
+
+# Created at 2019-10-17T21:34:49.607
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:49,603 pom007_VoiceWatch_Script_Tabs.csvTabValidation() - Verified that 'Sample CSV download' label appeared on left side of under CSV Upload tab
+
+
+# Created at 2019-10-17T21:34:49.671
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:49,671 pom007_VoiceWatch_Script_Tabs.csvTabValidation() - Verified that 'Sample CSV download' label enabled on left side of under CSV Upload tab
+
+
+# Created at 2019-10-17T21:34:49.687
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:49,687 pom007_VoiceWatch_Script_Tabs.csvTabValidation() - Verified that 'Transformed CSV(s)' label appeared on left side of under CSV Upload tab
+
+
+# Created at 2019-10-17T21:34:49.687
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:49,687 pom007_VoiceWatch_Script_Tabs.csvTabValidation() - Verified that 'Transformed CSV(s)' label enabled on left side of under CSV Upload tab
+
+
+# Created at 2019-10-17T21:34:49.703
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:49,703 pom007_VoiceWatch_Script_Tabs.csvTabValidation() - Verified that 'Filter by csv file name' filed appeared under CSV Upload tab
+
+
+# Created at 2019-10-17T21:34:49.703
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:49,703 pom007_VoiceWatch_Script_Tabs.csvTabValidation() - Verified that 'Filter by csv file name' filed enabled under CSV Upload tab
+
+
+# Created at 2019-10-17T21:34:49.707
+Unexpected IOException: 6,1,VW_TC.TC0003_login_With_Empirix_Business_Analyst,scriptTabValidation(VW_TC.TC0003_login_With_Empirix_Business_Analyst),null,null,null
+
+
+# Created at 2019-10-17T21:34:49.707
+Unexpected IOException with stream: 
+Test Case scriptTabValidation Passed
+
+
+
+# Created at 2019-10-17T21:34:49.707
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-17T21:34:49.707
+Unexpected IOException: 5,1,VW_TC.TC0003_login_With_Empirix_Business_Analyst,variableTabValidation(VW_TC.TC0003_login_With_Empirix_Business_Analyst),VW_TC.TC0003_login_With_Empirix_Business_Analyst,null,null
+
+
+# Created at 2019-10-17T21:34:59.906
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:59,902 pom008_VoiceWatch_Variable_Tab.variableTabValidation() - Verified that 'Variables' label appeared on left side of under Variable tab
+
+
+# Created at 2019-10-17T21:34:59.966
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:34:59,962 pom008_VoiceWatch_Variable_Tab.variableTabValidation() - Verified that 'Variables' label enabled on left side of under Variable tab
+
+
+# Created at 2019-10-17T21:35:00.038
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:35:00,038 pom008_VoiceWatch_Variable_Tab.variableTabValidation() - Verified that 'Variables' text appearedd on left side of under Variable tab
+
+
+# Created at 2019-10-17T21:35:00.126
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:35:00,122 pom008_VoiceWatch_Variable_Tab.variableTabValidation() - Verified that 'Filter by variable name' filed appeared on left side of under Variable tab
+
+
+# Created at 2019-10-17T21:35:00.171
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:35:00,167 pom008_VoiceWatch_Variable_Tab.variableTabValidation() - Verified that 'Filter by variable name' filed enabled on left side of under Variable tab
+
+
+# Created at 2019-10-17T21:35:00.235
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:35:00,235 pom008_VoiceWatch_Variable_Tab.variableTabValidation() - Verified that 'Variable' label appeared under Variable tab
+
+
+# Created at 2019-10-17T21:35:00.275
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:35:00,275 pom008_VoiceWatch_Variable_Tab.variableTabValidation() - Verified that 'Variable' label enabled on under Variable tab
+
+
+# Created at 2019-10-17T21:35:00.359
+Unexpected IOException with stream: [DEBUG] 2019-10-17 21:35:00,359 pom008_VoiceWatch_Variable_Tab.variableTabValidation() - Verified that 'Variables' text appearedd on left side of under Variable tab
+
+
