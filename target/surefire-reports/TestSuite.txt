@@ -1,42 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 190.955 s <<< FAILURE! - in TestSuite
-footerMandatoryDetails(VW_TC.TC0002_login_With_Exmpirix_Admin)  Time elapsed: 0.308 s  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 111.718 s <<< FAILURE! - in TestSuite
+scriptTabValidation(VW_TC.TC0000_Debug_Testing)  Time elapsed: 67.989 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at VW_TC.TC0002_login_With_Exmpirix_Admin.footerMandatoryDetails(TC0002_login_With_Exmpirix_Admin.java:71)
-
-dashBoardTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin)  Time elapsed: 4.299 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at VW_TC.TC0002_login_With_Exmpirix_Admin.dashBoardTabValidation(TC0002_login_With_Exmpirix_Admin.java:94)
-
-alertTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin)  Time elapsed: 2.823 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at VW_TC.TC0002_login_With_Exmpirix_Admin.alertTabValidation(TC0002_login_With_Exmpirix_Admin.java:104)
-
-testTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin)  Time elapsed: 4.51 s  <<< FAILURE!
-java.lang.AssertionError: 
-expected [Tests] but found [Tests
-26]
-	at VW_TC.TC0002_login_With_Exmpirix_Admin.testTabValidation(TC0002_login_With_Exmpirix_Admin.java:113)
-
-tagTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin)  Time elapsed: 10.236 s  <<< FAILURE!
-java.lang.AssertionError: 
-expected [Tags] but found [Tags
-67]
-	at VW_TC.TC0002_login_With_Exmpirix_Admin.tagTabValidation(TC0002_login_With_Exmpirix_Admin.java:133)
-
-scriptTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin)  Time elapsed: 36.313 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at VW_TC.TC0002_login_With_Exmpirix_Admin.scriptTabValidation(TC0002_login_With_Exmpirix_Admin.java:157)
-
-variableTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin)  Time elapsed: 20.383 s  <<< FAILURE!
-java.lang.AssertionError: 
-expected [Variables] but found [Variables
-23]
-	at VW_TC.TC0002_login_With_Exmpirix_Admin.variableTabValidation(TC0002_login_With_Exmpirix_Admin.java:173)
-
-hammerTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin)  Time elapsed: 0.172 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at VW_TC.TC0002_login_With_Exmpirix_Admin.hammerTabValidation(TC0002_login_With_Exmpirix_Admin.java:193)
+	at VW_TC.TC0000_Debug_Testing.scriptTabValidation(TC0000_Debug_Testing.java:169)
 

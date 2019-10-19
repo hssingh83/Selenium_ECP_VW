@@ -46,7 +46,9 @@ public class pom006_VoiceWatch_Tags_Tab {
 		
 		Assert.assertTrue(driver.findElement(tagslabel).isDisplayed());
 		log.debug("Verified that 'Tags' label appeared on left side under Tag tab");		
-		Assert.assertEquals(driver.findElement(tagslabel).getText(), "Tags");		
+	//	Assert.assertEquals(driver.findElement(tagslabel).getText(), "Tags");	
+		Assert.assertEquals(driver.findElement(tagslabel).getText().contains("Tags"),true);	
+		
 		log.debug("Verified that 'Tags' Text validated on left side under Tag Tab");		
 		
 		Assert.assertTrue(driver.findElement(tagfilterBox).isDisplayed());

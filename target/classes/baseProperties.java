@@ -48,9 +48,9 @@ FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\m
 
 prop.load(fis);
 
-String browserName=System.getProperty("browser");
+//String browserName=System.getProperty("browser");
 
-//String browserName=prop.getProperty("browser");
+String browserName=prop.getProperty("browser");
 if(browserName.contains("chrome"))
 		
 {
@@ -105,7 +105,7 @@ else if (browserName.equals("ie"))
 
 driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS);
 
-String URL=System.getProperty("url");
+/*String URL=System.getProperty("url");
 
 if (URL.contains("VoiceWatch-26.0")) {	
 	driver.get(prop.getProperty("url1"));
@@ -117,9 +117,9 @@ if (URL.contains("VoiceWatch-26.0")) {
 } if (URL.contains("VoiceWatch-26.2")) {
 	
 	driver.get(prop.getProperty("url3"));	
-}
+}*/
 
-//driver.get(prop.getProperty("url"));
+driver.get(prop.getProperty("url3"));
 log.debug("URL provided");
 driver.manage().window().maximize();
 log.debug("Screen maximized successfully");

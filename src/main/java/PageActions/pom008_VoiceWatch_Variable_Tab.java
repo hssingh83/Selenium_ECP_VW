@@ -101,7 +101,7 @@ public class pom008_VoiceWatch_Variable_Tab {
 		log.debug("Verified that 'Variables' label appeared on left side of under Variable tab");	
 		Assert.assertTrue(driver.findElement(variableslabel).isEnabled());
 		log.debug("Verified that 'Variables' label enabled on left side of under Variable tab");
-		Assert.assertEquals(driver.findElement(variableslabel).getText(), "Variables");
+		Assert.assertEquals(driver.findElement(variableslabel).getText().contains("Variables"),true);
 		log.debug("Verified that 'Variables' text appearedd on left side of under Variable tab");
 		
 		Assert.assertTrue(driver.findElement(filterByVariableName).isDisplayed());

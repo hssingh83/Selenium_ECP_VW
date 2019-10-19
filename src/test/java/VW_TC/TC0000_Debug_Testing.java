@@ -62,7 +62,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
       
 	
 	
-	/*@Test(priority=2)
+	@Test(priority=2)
 	public void headerMandatoryDetails () throws IOException, InterruptedException {
 		
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
@@ -76,18 +76,18 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
 	    d.footer();	
 	}
-*/
+
 		
-	/*@Test(priority=4)
+	@Test(priority=4)
 	public void TabAvailabilityValidation () throws IOException, InterruptedException {
 		
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
 	    d.home_screen();
 
 	
-	}*/
+	}
 
-	/*
+	
 	@Test(priority=5)
 	public void dashBoardTabValidation () throws IOException, InterruptedException {
 		
@@ -109,9 +109,9 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		d.header();
 		d.footer();
 		
-	}*/
+	}
 	
-	/*@Test(priority=7)
+	@Test(priority=7)
 	public void testTabValidation () throws IOException, InterruptedException {
 		
 		pom005_VoiceWatch_Tests_Tab ts=new pom005_VoiceWatch_Tests_Tab(driver);
@@ -126,10 +126,10 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		d.header();
 		d.footer();
 		
-	}*/
+	}
 	
 	
-	/*@Test(priority=8)
+	@Test(priority=8)
 	public void tagTabValidation () throws IOException, InterruptedException {
 		
 		pom006_VoiceWatch_Tags_Tab tg=new pom006_VoiceWatch_Tags_Tab(driver);
@@ -145,9 +145,9 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		tg.createNewTag();		
 		d.header();
 		d.footer();	
-	}*/
+	}
 	
-	/*@Test(priority=9)
+	@Test(priority=9)
 	public void scriptTabValidation () throws Exception {
 		
 		
@@ -155,21 +155,20 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
 	
 		
-		
-	  sc.goScriptBuilderTabValidation();
+		  sc.goScriptBuilderTabValidation();
 	  sc.createGSBbybutton();
-	  sc.createGSBbyLink();
-//		d.header();
-//		d.footer();
-	//	sc.scriptUploadTabValidation();
-//		d.header();
-//		d.footer();
+	 sc.createGSBbyLink();
+		d.header();
+		d.footer();
+	sc.scriptUploadTabValidation();
+		d.header();
+		d.footer();
 		sc.createSUbybutton();
 	   sc.createSUbyLink();
 		sc.csvTabValidation();
-	}*/
+	}
 
-/*	@Test(priority=10)
+	@Test(priority=10)
 	public void variableTabValidation () throws Exception {
 		
 		
@@ -185,8 +184,8 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 
 	}
-*/
-/*	@Test(priority=11)
+
+	@Test(priority=11)
 	public void hammerTabValidation () throws Exception {
 		
 		pom009_VoiceWatch_Hammers_Tab hm=new pom009_VoiceWatch_Hammers_Tab(driver);
@@ -196,7 +195,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	    hm.createHammerByButton();
 	   hm.createHammerByLink();
 
-	}*/
+	}
 	
 	
 	

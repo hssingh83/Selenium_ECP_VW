@@ -1,91 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="128033" started-at="2019-10-17T18:01:22Z" finished-at="2019-10-17T18:03:30Z">
+  <suite name="Default suite" duration-ms="99849" started-at="2019-10-19T21:18:55Z" finished-at="2019-10-19T21:20:35Z">
     <groups>
     </groups>
-    <test name="Test Case: 000 - Login with &#039;Empirix Admin&#039; Credetials&#039;and verify TabAvailablity" duration-ms="128033" started-at="2019-10-17T18:01:22Z" finished-at="2019-10-17T18:03:30Z">
+    <test name="Default test" duration-ms="99849" started-at="2019-10-19T21:18:55Z" finished-at="2019-10-19T21:20:35Z">
       <class name="VW_TC.TC0000_Debug_Testing">
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0000_Debug_Testing@59474f18]" name="applicationLaunch" is-config="true" duration-ms="27268" started-at="2019-10-17T18:01:22Z" finished-at="2019-10-17T18:01:49Z">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0000_Debug_Testing@4802796d]" name="applicationLaunch" is-config="true" duration-ms="21954" started-at="2019-10-19T21:18:55Z" finished-at="2019-10-19T21:19:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="FAIL" signature="logInWithExpirixAdmin()[pri:1, instance:VW_TC.TC0000_Debug_Testing@59474f18]" name="logInWithExpirixAdmin" duration-ms="100563" started-at="2019-10-17T18:01:49Z" finished-at="2019-10-17T18:03:30Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='callback_0Ramu']"}
-  (Session info: chrome=77.0.3865.120)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:17016}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b40269b9711284c9fc3ead3fe3ce9f63
-*** Element info: {Using=name, value=callback_0Ramu}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='callback_0Ramu']"}
-  (Session info: chrome=77.0.3865.120)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:17016}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b40269b9711284c9fc3ead3fe3ce9f63
-*** Element info: {Using=name, value=callback_0Ramu}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:121)
-at VW_TC.TC0000_Debug_Testing.logInWithExpirixAdmin(TC0000_Debug_Testing.java:52)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="logInWithExpirixAdmin()[pri:1, instance:VW_TC.TC0000_Debug_Testing@4802796d]" name="logInWithExpirixAdmin" duration-ms="24045" started-at="2019-10-19T21:19:17Z" finished-at="2019-10-19T21:19:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInWithExpirixAdmin -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0000_Debug_Testing@59474f18]" name="applicationClose" is-config="true" duration-ms="168" started-at="2019-10-17T18:03:30Z" finished-at="2019-10-17T18:03:30Z">
+        <test-method status="PASS" signature="scriptTabValidation()[pri:9, instance:VW_TC.TC0000_Debug_Testing@4802796d]" name="scriptTabValidation" duration-ms="53648" started-at="2019-10-19T21:19:41Z" finished-at="2019-10-19T21:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scriptTabValidation -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0000_Debug_Testing@4802796d]" name="applicationClose" is-config="true" duration-ms="186" started-at="2019-10-19T21:20:35Z" finished-at="2019-10-19T21:20:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
       </class> <!-- VW_TC.TC0000_Debug_Testing -->
-    </test> <!-- Test Case: 000 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

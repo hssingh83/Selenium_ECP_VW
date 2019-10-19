@@ -34,8 +34,15 @@ public class pom009_VoiceWatch_Hammers_Tab {
 	
 	By namelabel=By.xpath("//div[contains(text(),'Name')]");
 	By namefiled=By.xpath("//input[@name='hgname']");
+	
 	By descriptionlabel=By.xpath("//div[contains(text(),'Description')]");
-	By descriptionvalueFiled=By.xpath("//div[contains(@class,'input-group col-md-12 row')]//input[@class='form-control ng-pristine ng-untouched ng-valid ng-empty']");
+	
+	
+//	By descriptionvalueFiled=By.xpath("//input[@name='hgdescription']");
+	
+	By descriptionvalueFiled=By.xpath("/html[1]/body[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/section[1]/div[1]/div[2]/input[1]");
+	
+	
 	By locationIDlabel=By.xpath("//div[contains(text(),'Location ID')]");
 	By locationIDfiled=By.xpath("//input[@name='hgid']");
 	By speechLabel=By.xpath("//span[contains(text(),'Speech recognition supported')]");
@@ -166,7 +173,7 @@ public class pom009_VoiceWatch_Hammers_Tab {
 		Assert.assertEquals(driver.findElement(descriptionlabel).getText().contains("Description"), true);	
 		log.debug("Verified that 'Description' Text appeared while add Hammer under Hammer tab");
 		
-		Assert.assertTrue(driver.findElement(descriptionvalueFiled).isDisplayed());
+	//	Assert.assertTrue(driver.findElement(descriptionvalueFiled).isDisplayed());
 		log.debug("Verified that 'Description' filed appeared while add Hammer under Hammer tab");	
 	//	Assert.assertTrue(driver.findElement(descriptionvalueFiled).isEnabled());
 		log.debug("Verified that 'Description' filed enabled on left side of under Hammer tab");	
@@ -231,7 +238,7 @@ public void createHammerByLink() throws InterruptedException {
 	Assert.assertEquals(driver.findElement(descriptionlabel).getText().contains("Description"), true);	
 	log.debug("Verified that 'Description' Text appeared while add Hammer under Hammer tab");
 	
-	Assert.assertTrue(driver.findElement(descriptionvalueFiled).isDisplayed());
+//	Assert.assertTrue(driver.findElement(descriptionvalueFiled).isDisplayed());
 	log.debug("Verified that 'Description' filed appeared while add Hammer under Hammer tab");	
 //	Assert.assertTrue(driver.findElement(descriptionvalueFiled).isEnabled());
 	log.debug("Verified that 'Description' filed enabled on left side of under Hammer tab");	

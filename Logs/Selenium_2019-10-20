@@ -1,0 +1,60 @@
+[DEBUG] 2019-10-20 02:44:34,618 baseProperties.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-10-20 02:44:34,624 baseProperties.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-10-20 02:44:46,031 baseProperties.intializeDriver() - URL provided
+[DEBUG] 2019-10-20 02:44:47,159 baseProperties.intializeDriver() - Screen maximized successfully
+[DEBUG] 2019-10-20 02:44:47,159 baseProperties.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-10-20 02:44:52,231 baseProperties.intializeDriver() -  Verified that VoiceWatch login screen appeared successfully
+[DEBUG] 2019-10-20 02:44:52,729 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+[DEBUG] 2019-10-20 02:44:52,729 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+[DEBUG] 2019-10-20 02:44:52,793 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+[DEBUG] 2019-10-20 02:44:52,870 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+[DEBUG] 2019-10-20 02:44:52,946 TC0000_Debug_Testing.logInWithExpirixAdmin() - Waiting for launch VoiceWatch application using above creadetails
+[INFO ] 2019-10-20 02:45:11,806 TC0000_Debug_Testing.logInWithExpirixAdmin() - Verified that back on top link appeared on the page
+[DEBUG] 2019-10-20 02:45:11,812 TC0000_Debug_Testing.logInWithExpirixAdmin() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
+[DEBUG] 2019-10-20 02:45:11,812 TC0000_Debug_Testing.logInWithExpirixAdmin() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
+[DEBUG] 2019-10-20 02:45:37,101 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that create a new script by link is appeared under Script Upload tab
+[DEBUG] 2019-10-20 02:45:52,371 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Validated the element while click Script Creation using Link
+[DEBUG] 2019-10-20 02:45:52,471 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-20 02:45:52,495 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-20 02:45:52,529 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab
+[DEBUG] 2019-10-20 02:45:52,581 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-20 02:45:52,617 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-20 02:45:52,664 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Filter by name' filed appeared on left side of under Script tab
+[DEBUG] 2019-10-20 02:45:52,693 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Filter by name' filed enabled on left side of under Script tab
+[DEBUG] 2019-10-20 02:45:52,749 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' label appeared on under Script Upload
+[DEBUG] 2019-10-20 02:45:52,789 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' Text validated on under Script Upload
+[DEBUG] 2019-10-20 02:45:52,833 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' filed appeared on under Script Upload
+[DEBUG] 2019-10-20 02:45:52,864 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' field enabled on under Script Upload
+[DEBUG] 2019-10-20 02:45:52,964 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' label appeared on under Script Upload
+[DEBUG] 2019-10-20 02:45:53,072 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' Text validated on under Script Upload
+[DEBUG] 2019-10-20 02:45:53,129 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' label appeared on under Script Upload
+[DEBUG] 2019-10-20 02:45:53,168 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' field enabled on under Script Upload
+[DEBUG] 2019-10-20 02:45:53,229 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save button' displayed under Script Upload tab
+[DEBUG] 2019-10-20 02:45:53,273 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save button' is disbaled under Script Upload tab
+[DEBUG] 2019-10-20 02:45:53,348 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save' Text appeared on save button under Script Upload tab
+[DEBUG] 2019-10-20 02:45:53,428 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Click to select a script, or drop file below (.xml)' button appeared under Script Upload tab
+[DEBUG] 2019-10-20 02:45:53,490 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Click to select a script, or drop file below (.xml)' button enabled under Script Upload tab
+[DEBUG] 2019-10-20 02:46:19,256 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that create a new script plus (+) icon appeared on top left side under Script Upload tab
+[DEBUG] 2019-10-20 02:46:24,370 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Validated the element while click Script Creation using button (+)
+[DEBUG] 2019-10-20 02:46:24,426 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-20 02:46:24,478 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-20 02:46:24,510 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab
+[DEBUG] 2019-10-20 02:46:24,546 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-20 02:46:24,595 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab
+[DEBUG] 2019-10-20 02:46:24,631 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Filter by name' filed appeared on left side of under Script tab
+[DEBUG] 2019-10-20 02:46:24,655 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Filter by name' filed enabled on left side of under Script tab
+[DEBUG] 2019-10-20 02:46:24,695 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Script name' label appeared on under Script Upload
+[DEBUG] 2019-10-20 02:46:24,723 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Script name' Text validated on under Script Upload
+[DEBUG] 2019-10-20 02:46:24,767 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Script name' filed appeared on under Script Upload
+[DEBUG] 2019-10-20 02:46:24,791 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Script name' field enabled on under Script Upload
+[DEBUG] 2019-10-20 02:46:24,827 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Description' label appeared on under Script Upload
+[DEBUG] 2019-10-20 02:46:24,856 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Description' Text validated on under Script Upload
+[DEBUG] 2019-10-20 02:46:24,896 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Description' label appeared on under Script Upload
+[DEBUG] 2019-10-20 02:46:24,907 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Description' field enabled on under Script Upload
+[DEBUG] 2019-10-20 02:46:24,955 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Save button' displayed under Go Script Upload tab
+[DEBUG] 2019-10-20 02:46:24,971 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Save button' is disbaled under Go Script Upload tab
+[DEBUG] 2019-10-20 02:46:25,011 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Save' Text appeared on save button under Go Script Upload tab
+[DEBUG] 2019-10-20 02:46:25,011 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Click to select a script, or drop file below (.xml)' button appeared under Script Upload tab
+[DEBUG] 2019-10-20 02:46:25,035 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Click to select a script, or drop file below (.xml)' button enabled under Script Upload tab
+[DEBUG] 2019-10-20 02:48:15,428 pom007_VoiceWatch_Script_Tabs.csvTabValidation() - Verified that CSV Tranformer tab not appeared under Script tab
+[DEBUG] 2019-10-20 02:48:15,599 TC0000_Debug_Testing.applicationClose() - Application closed successfully

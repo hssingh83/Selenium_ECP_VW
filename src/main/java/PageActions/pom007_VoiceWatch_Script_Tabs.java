@@ -39,7 +39,12 @@ public class pom007_VoiceWatch_Script_Tabs {
 	By filterByNameSU=By.xpath("//input[@placeholder='Filter by name']");
 	By pleaseSelectlabelSU=By.xpath("//span[contains(text(),'Please select a script or')]");
 	By createNewScriptlinkSU=By.xpath("//u[contains(text(),'create a new script')]");
-	By csvTranformerTab=By.xpath("//span[contains(text(),'CSV Transformer')]");
+		
+//	By csvTranformerTab=By.xpath("//span[contains(text(),'CSV Transformer')]");
+	
+	By csvTranformerTab=By.linkText("CSV Transformer");
+	
+	
 	By csvUploadLabel=By.xpath("By csvTranformerTab=By.xpath(\"//span[contains(text(),'CSV Transformer')]\");");
 	By transformedCSVlabel=By.xpath("//span[contains(text(),'Transformed CSV(s)')]");
 	By filterByCSV=By.xpath("//div[@class='row margin-left-right-0px']//h4//i//input[@placeholder='Filter by csv file name']");
@@ -579,9 +584,27 @@ public void createSUbybutton() throws InterruptedException {
 //===================================================================================================
 public void csvTabValidation() throws InterruptedException {	
 
-	driver.findElement(csvTranformerTab).click();
+	driver.findElement(tagTab).click();
+	driver.findElement(scriptsTab).click();
 	Thread.sleep(10000);
 	
+	if (driver.findElements(csvTranformerTab).isEmpty()) {
+		
+		log.debug("Verified that CSV Tranformer tab not appeared under Script tab");	
+		
+					
+	}else
+	
+	{
+		log.debug("Verified that CSV Tranformer tab appeared under Script tab");	
+		
+	
+  
+	
+	
+	driver.findElement(csvTranformerTab).click();
+	
+	Thread.sleep(10000);
 	
 	Assert.assertTrue(driver.findElement(uploadCSVFile).isDisplayed());
 	log.debug("Verified that 'Click to select CSV files, or drop them below (.csv,.zip)' button appeared under CSV Upload tab");	
@@ -623,17 +646,6 @@ public void csvTabValidation() throws InterruptedException {
 		log.debug("Verified that 'Filter by csv file name' filed enabled under CSV Upload tab");
 	
 	}
-    
-	/*Assert.assertTrue(driver.findElement(transformedCSVlabel).isDisplayed());
-	log.debug("Verified that 'Transformed CSV(s)' label appeared on left side of under CSV Upload tab");	
-	Assert.assertTrue(driver.findElement(transformedCSVlabel).isEnabled());
-	log.debug("Verified that 'Transformed CSV(s)' label enabled on left side of under CSV Upload tab");	*/
+	}}}
+
 	
-/*	Assert.assertTrue(driver.findElement(filterByCSV).isDisplayed());
-	log.debug("Verified that 'Filter by csv file name' filed appeared under CSV Upload tab");	
-	Assert.assertTrue(driver.findElement(filterByCSV).isEnabled());
-	log.debug("Verified that 'Filter by csv file name' filed enabled under CSV Upload tab");*/		
-	
-	
-}
-}
