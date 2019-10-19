@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="190.955" tests="12" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\test-classes;C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\classes;C:\Users\hsingh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\hsingh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hsingh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hsingh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hsingh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\hsingh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hsingh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hsingh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hsingh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hsingh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hsingh\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\hsingh\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\hsingh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\hsingh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hsingh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\hsingh\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hsingh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\hsingh\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hsingh\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\hsingh\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\hsingh\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\hsingh\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hsingh\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-log\0.17.3\jcabi-log-0.17.3.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-aspects\0.22.5\jcabi-aspects-0.22.5.jar;C:\Users\hsingh\.m2\repository\org\aspectj\aspectjrt\1.8.7\aspectjrt-1.8.7.jar;C:\Users\hsingh\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\hsingh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hsingh\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\hsingh\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\hsingh\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\hsingh\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\hsingh\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\hsingh\AppData\Local\Temp\surefire1084816656184020495\surefirebooter2674937279816156147.jar C:\Users\hsingh\AppData\Local\Temp\surefire1084816656184020495 2019-10-19T19-55-26_740-jvmRun1 surefire3482595050748068849tmp surefire_06295697841891129114tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\test-classes;C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\classes;C:\Users\hsingh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\hsingh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hsingh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hsingh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hsingh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\hsingh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hsingh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hsingh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hsingh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hsingh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hsingh\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\hsingh\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\hsingh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\hsingh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hsingh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\hsingh\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hsingh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\hsingh\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hsingh\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\hsingh\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\hsingh\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\hsingh\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hsingh\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-log\0.17.3\jcabi-log-0.17.3.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-aspects\0.22.5\jcabi-aspects-0.22.5.jar;C:\Users\hsingh\.m2\repository\org\aspectj\aspectjrt\1.8.7\aspectjrt-1.8.7.jar;C:\Users\hsingh\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\hsingh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hsingh\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\hsingh\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\hsingh\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\hsingh\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\hsingh\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hsingh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="basedir" value="C:\Users\hsingh\Frameworks\Selenium_ECP_VW"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\hsingh\AppData\Local\Temp\surefire1084816656184020495\surefirebooter2674937279816156147.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="user.name" value="hsingh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hsingh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\hsingh\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="user.dir" value="C:\Users\hsingh\Frameworks\Selenium_ECP_VW"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="url" value="os-2k16-vm332.empirix.com"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Hammer\Tcl\bin;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\work\software\apache-maven-3.5.4\bin;C:\Program Files\Perforce\;C:\Program Files\PuTTY\;C:\Gradle\gradle-5.1.1\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files (x86)\Empirix\Hammer CallMaster\bin;C:\Users\hsingh\AppData\Local\Microsoft\WindowsApps;C:\Users\hsingh\AppData\Roaming\Dashlane\4.6.8.25848\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\hsingh\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="logInWithExpirixAdmin" classname="VW_TC.TC0000_Debug_Testing" time="25.969"/>
+  <testcase name="logInWithExpirixAdmin" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="26.616"/>
+  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0.55"/>
+  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0.308">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at VW_TC.TC0002_login_With_Exmpirix_Admin.footerMandatoryDetails(TC0002_login_With_Exmpirix_Admin.java:71)
+</failure>
+    <system-out><![CDATA[
+Test Case headerMandatoryDetails Passed
+
+=========================================
+[DEBUG] 2019-10-19 19:57:18,816 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:18,840 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:18,872 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:18,912 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:18,936 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:18,968 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:19,025 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:19,049 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+]]></system-out>
+  </testcase>
+  <testcase name="TabAvailabilityValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0.624"/>
+  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="4.299">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at VW_TC.TC0002_login_With_Exmpirix_Admin.dashBoardTabValidation(TC0002_login_With_Exmpirix_Admin.java:94)
+</failure>
+    <system-out><![CDATA[
+Test Case TabAvailabilityValidation Passed
+
+=========================================
+[DEBUG] 2019-10-19 19:57:21,137 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Overall Performance' displayed under dashoboard tab
+[DEBUG] 2019-10-19 19:57:21,169 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Overall Performance' Text appeared under dashboard Tab
+[DEBUG] 2019-10-19 19:57:21,209 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Failed Calls' dislayed under Overall Performance section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:21,238 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Failed Calls' comtain under Overall Performance section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:21,274 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Passed Calls' dislayed under Overall Performance section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:21,298 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Passed Calls' comtain under Overall Performance section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:21,334 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Alerts' dislayed under Overall Performance section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:21,358 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Alerts' comtain under Overall Performance section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:21,394 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Download CSV' button dislayed under Overall Performance section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:21,418 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Download CSV' button enabled under Overall Performance section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:21,446 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Download CSV' test appeared on the button under Overall Performance section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:21,450 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that count of the dropdown values are: 5
+[DEBUG] 2019-10-19 19:57:21,502 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that following values available in the dropdown
+[DEBUG] 2019-10-19 19:57:21,530 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Last 4 hours
+[DEBUG] 2019-10-19 19:57:21,642 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Last 6 hours
+[DEBUG] 2019-10-19 19:57:21,730 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Last 12 hours
+[DEBUG] 2019-10-19 19:57:21,818 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Last 24 hours
+[DEBUG] 2019-10-19 19:57:21,978 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Day
+[DEBUG] 2019-10-19 19:57:22,031 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Overall Performance' displayed under dashoboard tab
+[DEBUG] 2019-10-19 19:57:22,059 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Tests' Text appeared under activetest section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,095 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'filter' appeared under activetest section section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,131 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Passed Calls' dislayed under activetest section section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,162 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Last Call' coloumn under Tests table in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,224 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Name' dislayed under activetest section section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,254 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Name' coloumn under Tests table in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,313 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Failed' dislayed under activetest section section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,333 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Failed' coloumn under Tests table in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,401 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Passed ' dislayed under activetest section section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,477 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Passed' coloumn under Tests table in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,537 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Alerts' dislayed under activetest section section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,566 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Alerts' coloumn under Tests table in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,638 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Graph Results' dislayed under activetest section section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,721 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Graph Results' coloumn under Tests table in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,777 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Notification Present' dislayed under activetest section section in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,812 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Notification Present' coloumn under Tests table in dashboard Tab
+[DEBUG] 2019-10-19 19:57:22,844 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:22,875 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:22,950 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,008 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,028 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,059 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,090 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,121 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,218 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,519 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,586 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,609 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,641 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,672 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,703 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,734 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,766 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,797 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,828 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,860 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,891 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,922 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:23,970 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:24,001 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+]]></system-out>
+  </testcase>
+  <testcase name="alertTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="2.823">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at VW_TC.TC0002_login_With_Exmpirix_Admin.alertTabValidation(TC0002_login_With_Exmpirix_Admin.java:104)
+</failure>
+    <system-out><![CDATA[
+Test Case dashBoardTabValidation failed
+
+=========================================
+[DEBUG] 2019-10-19 19:57:25,000 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Show All Errors' checkbox appeared under Alert tab
+[DEBUG] 2019-10-19 19:57:25,024 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Show All Errors' checkbox enabled under Alert tab
+[DEBUG] 2019-10-19 19:57:25,052 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Show All Errors' checkbox selectable under Alert tab
+[DEBUG] 2019-10-19 19:57:25,092 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Filter by test name or tag filter'appeared under Alert tab
+[DEBUG] 2019-10-19 19:57:25,112 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Filter by test name or tag filter'enabled under Alert tab
+[DEBUG] 2019-10-19 19:57:25,140 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Filter by test name' is blank while select Alert tab
+[DEBUG] 2019-10-19 19:57:25,176 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Test Time' dislayed under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,204 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Test Time' coloumn under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,244 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Test' dislayed under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,273 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Test' coloumn under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,309 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Error Step' dislayed under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,337 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Error Step' coloumn under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,373 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Error Message' dislayed under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,401 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Error Message' coloumn under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,437 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Threshold' dislayed under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,465 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Threshold' coloumn under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,501 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Severity' dislayed under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,529 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Severity' coloumn under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,569 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Alert Status' dislayed under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,597 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Alert Status' coloumn under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,633 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that count of total alert dislayed under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,661 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Toal' text contain under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,701 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that count of critical alert dislayed under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,729 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'critical' text contain under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,765 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that count of Warning alerts dislayed under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,793 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Warning' text contain under Alerts Tab
+[DEBUG] 2019-10-19 19:57:25,793 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that count of the dropdown values are: 5
+[DEBUG] 2019-10-19 19:57:25,845 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that following values available in the dropdown
+[DEBUG] 2019-10-19 19:57:25,869 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Last 4 hours
+[DEBUG] 2019-10-19 19:57:25,961 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Last 6 hours
+[DEBUG] 2019-10-19 19:57:26,050 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Last 12 hours
+[DEBUG] 2019-10-19 19:57:26,138 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Last 24 hours
+[DEBUG] 2019-10-19 19:57:26,226 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Day
+[DEBUG] 2019-10-19 19:57:26,274 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,294 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,326 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,350 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,370 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,406 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,426 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,450 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,478 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,502 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,530 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,550 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,570 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,602 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,626 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,650 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,678 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,702 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,722 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,755 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,775 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,795 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,827 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:57:26,847 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+]]></system-out>
+  </testcase>
+  <testcase name="testTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="4.51">
+    <failure message="expected [Tests] but found [Tests&#10;26]" type="java.lang.AssertionError">java.lang.AssertionError: 
+expected [Tests] but found [Tests
+26]
+	at VW_TC.TC0002_login_With_Exmpirix_Admin.testTabValidation(TC0002_login_With_Exmpirix_Admin.java:113)
+</failure>
+    <system-out><![CDATA[
+Test Case alertTabValidation failed
+
+=========================================
+[DEBUG] 2019-10-19 19:57:31,361 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Tests' label appeared on left side under Tests tab
+]]></system-out>
+  </testcase>
+  <testcase name="tagTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="10.236">
+    <failure message="expected [Tags] but found [Tags&#10;67]" type="java.lang.AssertionError">java.lang.AssertionError: 
+expected [Tags] but found [Tags
+67]
+	at VW_TC.TC0002_login_With_Exmpirix_Admin.tagTabValidation(TC0002_login_With_Exmpirix_Admin.java:133)
+</failure>
+    <system-out><![CDATA[
+Test Case testTabValidation failed
+
+=========================================
+[DEBUG] 2019-10-19 19:57:41,573 pom006_VoiceWatch_Tags_Tab.tagsValidations() - Verified that 'Tags' label appeared on left side under Tag tab
+]]></system-out>
+  </testcase>
+  <testcase name="scriptTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="36.313">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at VW_TC.TC0002_login_With_Exmpirix_Admin.scriptTabValidation(TC0002_login_With_Exmpirix_Admin.java:157)
+</failure>
+    <system-out><![CDATA[
+Test Case tagTabValidation failed
+
+=========================================
+[DEBUG] 2019-10-19 19:57:51,846 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
+[DEBUG] 2019-10-19 19:57:51,877 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
+[DEBUG] 2019-10-19 19:57:51,908 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
+[DEBUG] 2019-10-19 19:57:51,955 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Script count' dispalyed left side under Script tab
+[DEBUG] 2019-10-19 19:57:51,987 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Script count' enabled left side under Script tab
+[DEBUG] 2019-10-19 19:57:52,033 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Filter by name' filed appeared on left side of under Script tab
+[DEBUG] 2019-10-19 19:57:52,065 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Filter by name' filed enabled on left side of under Script tab
+[DEBUG] 2019-10-19 19:57:52,080 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script ' label appeared on  under Go Script builder tab
+[DEBUG] 2019-10-19 19:57:52,080 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script ' label enabled under Go Script builder tab
+[DEBUG] 2019-10-19 19:57:52,080 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script or' Text validated under Go Script Builder
+[DEBUG] 2019-10-19 19:57:52,205 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that create a new script plus (+) icon appeared on top left side under Script tab
+[DEBUG] 2019-10-19 19:58:02,622 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Validated the element while click Script Creation using button (+)
+[DEBUG] 2019-10-19 19:58:02,662 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
+[DEBUG] 2019-10-19 19:58:02,686 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
+[DEBUG] 2019-10-19 19:58:02,710 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
+[DEBUG] 2019-10-19 19:58:02,742 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script count' dispalyed left side under Script tab
+[DEBUG] 2019-10-19 19:58:02,778 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script count' enabled left side under Script tab
+[DEBUG] 2019-10-19 19:58:02,834 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Filter by name' filed appeared on left side of under Script tab
+[DEBUG] 2019-10-19 19:58:02,854 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Filter by name' filed enabled on left side of under Script tab
+[DEBUG] 2019-10-19 19:58:02,890 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:02,918 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:02,958 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' filed appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:02,990 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' field enabled on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,026 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,046 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,094 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,124 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' field enabled on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,177 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save button' displayed under Go Script Upload tab
+[DEBUG] 2019-10-19 19:58:03,224 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save button' is disbaled under Go Script Upload tab
+[DEBUG] 2019-10-19 19:58:03,267 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save' Text appeared on save button under Go Script Upload tab
+[DEBUG] 2019-10-19 19:58:03,319 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script Builder' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,350 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script Builder' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,401 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Results' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,429 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Results' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,461 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Call Logs' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,492 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Call Logs' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,553 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Associted Test' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:03,570 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Associted Test' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:05,723 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that create a new script by link is appeared under Go Script Builder tab
+[DEBUG] 2019-10-19 19:58:16,096 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Validated the element while click create a new script by link
+[DEBUG] 2019-10-19 19:58:16,140 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
+[DEBUG] 2019-10-19 19:58:16,160 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
+[DEBUG] 2019-10-19 19:58:16,193 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
+[DEBUG] 2019-10-19 19:58:16,234 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script count' dispalyed left side under Script tab
+[DEBUG] 2019-10-19 19:58:16,254 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script count' enabled left side under Script tab
+[DEBUG] 2019-10-19 19:58:16,318 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Filter by name' filed appeared on left side of under Script tab
+[DEBUG] 2019-10-19 19:58:16,335 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Filter by name' filed enabled on left side of under Script tab
+[DEBUG] 2019-10-19 19:58:16,376 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,404 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,436 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' filed appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,460 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' field enabled on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,493 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,521 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,557 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,573 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' field enabled on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,604 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save button' displayed under Go Script Upload tab
+[DEBUG] 2019-10-19 19:58:16,635 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save button' is disbaled under Go Script Upload tab
+[DEBUG] 2019-10-19 19:58:16,667 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save' Text appeared on save button under Go Script Upload tab
+[DEBUG] 2019-10-19 19:58:16,698 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script Builder' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,729 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script Builder' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,760 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Results' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,792 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Results' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,823 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Call Logs' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,854 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Call Logs' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,894 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Associted Test' label appeared on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,925 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Associted Test' Text validated on under Go Script Builder
+[DEBUG] 2019-10-19 19:58:16,972 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:16,999 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,056 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,084 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,116 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,163 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,206 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,227 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,274 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,355 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,422 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,438 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,469 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,532 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,563 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,643 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,690 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,715 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,743 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,772 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,803 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,847 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,882 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:17,917 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+]]></system-out>
+  </testcase>
+  <testcase name="variableTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="20.383">
+    <failure message="expected [Variables] but found [Variables&#10;23]" type="java.lang.AssertionError">java.lang.AssertionError: 
+expected [Variables] but found [Variables
+23]
+	at VW_TC.TC0002_login_With_Exmpirix_Admin.variableTabValidation(TC0002_login_With_Exmpirix_Admin.java:173)
+</failure>
+    <system-out><![CDATA[
+Test Case scriptTabValidation failed
+
+=========================================
+[DEBUG] 2019-10-19 19:58:28,091 pom008_VoiceWatch_Variable_Tab.variableTabValidation() - Verified that 'Variables' label appeared on left side of under Variable tab
+[DEBUG] 2019-10-19 19:58:28,123 pom008_VoiceWatch_Variable_Tab.variableTabValidation() - Verified that 'Variables' label enabled on left side of under Variable tab
+]]></system-out>
+  </testcase>
+  <testcase name="hammerTabValidation" classname="VW_TC.TC0002_login_With_Exmpirix_Admin" time="0.172">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at VW_TC.TC0002_login_With_Exmpirix_Admin.hammerTabValidation(TC0002_login_With_Exmpirix_Admin.java:193)
+</failure>
+    <system-out><![CDATA[
+Test Case variableTabValidation failed
+
+=========================================
+[DEBUG] 2019-10-19 19:58:28,874 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer groups' label appeared on left side of under Hammers tab
+[DEBUG] 2019-10-19 19:58:28,908 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer groups' label enabled on left side of under Hammer groups tab
+[DEBUG] 2019-10-19 19:58:28,934 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer groups' text appearedd on left side of under Hammer groups tab
+[DEBUG] 2019-10-19 19:58:28,994 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Filter by hammer group name' filed appeared on left side of under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,016 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Filter by hammer group namee' filed enabled on left side of under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,075 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer Group' label appeared under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,091 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer group' label enabled on under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,122 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Hammer Group' text appeared on right top side of under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,137 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Add hammer' button displayed under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,137 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Add hammer' button enabled under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,194 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Please select a Hammer group, or the following:' label appeared on under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,214 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Please select a Hammer groupe, or the following:' label enabled on under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,246 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'Please select a Hammer group or' text appearedd under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,261 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'create a new Hammer group' link appeared on under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,261 pom009_VoiceWatch_Hammers_Tab.hammerTabValidation() - Verified that 'create a new Hammer groupe' link enabled on under Hammer tab
+[DEBUG] 2019-10-19 19:58:29,297 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,328 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,376 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,407 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,439 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,470 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,501 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,532 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,571 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,602 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,661 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,679 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,710 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,770 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,812 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,843 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,899 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,918 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,953 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:29,997 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:30,028 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:30,062 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:30,090 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-19 19:58:30,121 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+]]></system-out>
+  </testcase>
+</testsuite>

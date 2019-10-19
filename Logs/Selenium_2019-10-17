@@ -1,35 +1,9 @@
-[DEBUG] 2019-10-17 21:41:25,218 baseProperties.intializeDriver() - Chrome Driver intilized successfully
-[DEBUG] 2019-10-17 21:41:25,222 baseProperties.intializeDriver() - Chrome Browser selected & Launching in few second
-[DEBUG] 2019-10-17 21:41:43,730 baseProperties.intializeDriver() - URL provided
-[DEBUG] 2019-10-17 21:41:45,845 baseProperties.intializeDriver() - Screen maximized successfully
-[DEBUG] 2019-10-17 21:41:45,853 baseProperties.intializeDriver() - Waiting to access above URL
-[DEBUG] 2019-10-17 21:41:54,220 baseProperties.intializeDriver() -  Verified that VoiceWatch login screen appeared successfully
-[DEBUG] 2019-10-17 21:41:54,252 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - LogIn Page Label verification Started
-[DEBUG] 2019-10-17 21:41:54,308 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Present on login Page
-[DEBUG] 2019-10-17 21:41:54,344 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Enabled on login Page
-[DEBUG] 2019-10-17 21:41:54,404 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Sign in to continue label' appeared on Login page
-[DEBUG] 2019-10-17 21:41:54,456 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'User Name' label' appeared on Login page
-[DEBUG] 2019-10-17 21:41:54,508 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Password: label' appeared on Login page
-[DEBUG] 2019-10-17 21:41:54,556 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' appeared on Login page
-[DEBUG] 2019-10-17 21:41:54,597 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is clickable on Login page
-[DEBUG] 2019-10-17 21:41:54,629 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is not selected on Login page
-[DEBUG] 2019-10-17 21:41:54,669 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Sign In button is displayed
-[DEBUG] 2019-10-17 21:41:54,701 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Save button is enabled
-[DEBUG] 2019-10-17 21:41:54,741 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Remember my User Name' appeared on login page
-[DEBUG] 2019-10-17 21:41:54,769 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Copyright' label is appearing on the page
-[DEBUG] 2019-10-17 21:41:54,809 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Additional CopyRight Info present on the page
-[DEBUG] 2019-10-17 21:41:54,809 pom001_VoiceWatch_logIn_Page.getCopyRightLink() - Verified that additional copy right link clickable
-[INFO ] 2019-10-17 21:41:54,925 TC0001_login_Page_Verification.logInScreenVerification() - Verified that 'Additional Copy Right' Link clickable
-[INFO ] 2019-10-17 21:41:55,017 TC0001_login_Page_Verification.logInScreenVerification() - Verified that additinal infomation'Copyright © 2010-14 ForgeRock AS, all rights reserved.' appered after click link
-[INFO ] 2019-10-17 21:41:55,330 TC0001_login_Page_Verification.applicationClose() - Application closed successfully
-[DEBUG] 2019-10-17 21:41:57,587 baseProperties.intializeDriver() - Chrome Driver intilized successfully
-[DEBUG] 2019-10-17 21:41:57,591 baseProperties.intializeDriver() - Chrome Browser selected & Launching in few second
-[DEBUG] 2019-10-17 21:42:11,501 baseProperties.intializeDriver() - URL provided
-[DEBUG] 2019-10-17 21:42:12,651 baseProperties.intializeDriver() - Screen maximized successfully
-[DEBUG] 2019-10-17 21:42:12,651 baseProperties.intializeDriver() - Waiting to access above URL
-[DEBUG] 2019-10-17 21:42:18,086 baseProperties.intializeDriver() -  Verified that VoiceWatch login screen appeared successfully
-[DEBUG] 2019-10-17 21:42:18,667 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
-[DEBUG] 2019-10-17 21:42:18,671 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
-[DEBUG] 2019-10-17 21:42:18,743 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
-[DEBUG] 2019-10-17 21:42:18,851 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
-[DEBUG] 2019-10-17 21:42:18,963 TC0002_login_With_Exmpirix_Admin.logInWithExpirixAdmin() - Waiting for launch VoiceWatch application using above creadetails
+[DEBUG] 2019-10-17 23:42:49,102 baseProperties.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-10-17 23:42:49,105 baseProperties.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-10-17 23:43:04,927 baseProperties.intializeDriver() - URL provided
+[DEBUG] 2019-10-17 23:43:06,286 baseProperties.intializeDriver() - Screen maximized successfully
+[DEBUG] 2019-10-17 23:43:06,286 baseProperties.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-10-17 23:43:12,364 baseProperties.intializeDriver() -  Verified that VoiceWatch login screen appeared successfully
+[DEBUG] 2019-10-17 23:43:12,890 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+[DEBUG] 2019-10-17 23:43:12,892 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+[DEBUG] 2019-10-17 23:44:53,155 TC0000_Debug_Testing.applicationClose() - Application closed successfully

@@ -1,4 +1,4 @@
-# Created at 2019-10-17T21:47:33.781
+# Created at 2019-10-19T20:10:44.850
 TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
 java.io.EOFException
 	at java.io.DataInputStream.readInt(DataInputStream.java:392)
@@ -7,29 +7,17 @@ java.io.EOFException
 	at java.lang.Thread.run(Thread.java:748)
 
 
-# Created at 2019-10-17T21:47:36.500
-Unexpected IOException with stream: [DEBUG] 2019-10-17 21:47:36,500 baseProperties.intializeDriver() - URL provided
-
-
-# Created at 2019-10-17T21:47:37.746
-Unexpected IOException with stream: [DEBUG] 2019-10-17 21:47:37,742 baseProperties.intializeDriver() - Screen maximized successfully
-
-
-# Created at 2019-10-17T21:47:37.750
-Unexpected IOException with stream: [DEBUG] 2019-10-17 21:47:37,750 baseProperties.intializeDriver() - Waiting to access above URL
-
-
-# Created at 2019-10-17T21:47:39.444
-Unexpected IOException with stream: Oct 17, 2019 9:47:39 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:20.403
+Unexpected IOException with stream: Oct 19, 2019 8:11:20 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -50,8 +38,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,17 +71,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:39.953
-Unexpected IOException with stream: Oct 17, 2019 9:47:39 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:20.920
+Unexpected IOException with stream: Oct 19, 2019 8:11:20 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -114,8 +102,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -147,17 +135,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:40.470
-Unexpected IOException with stream: Oct 17, 2019 9:47:40 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:21.446
+Unexpected IOException with stream: Oct 19, 2019 8:11:21 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -178,8 +166,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -211,17 +199,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:40.994
-Unexpected IOException with stream: Oct 17, 2019 9:47:40 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:21.967
+Unexpected IOException with stream: Oct 19, 2019 8:11:21 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -242,8 +230,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -275,17 +263,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:41.507
-Unexpected IOException with stream: Oct 17, 2019 9:47:41 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:22.481
+Unexpected IOException with stream: Oct 19, 2019 8:11:22 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -306,8 +294,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -339,17 +327,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:42.012
-Unexpected IOException with stream: Oct 17, 2019 9:47:42 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:23.003
+Unexpected IOException with stream: Oct 19, 2019 8:11:22 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -370,8 +358,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -403,17 +391,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:42.532
-Unexpected IOException with stream: Oct 17, 2019 9:47:42 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:23.534
+Unexpected IOException with stream: Oct 19, 2019 8:11:23 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -434,8 +422,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -467,17 +455,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:43.053
-Unexpected IOException with stream: Oct 17, 2019 9:47:43 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:24.055
+Unexpected IOException with stream: Oct 19, 2019 8:11:24 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -498,8 +486,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -531,17 +519,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:43.574
-Unexpected IOException with stream: Oct 17, 2019 9:47:43 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:24.575
+Unexpected IOException with stream: Oct 19, 2019 8:11:24 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -562,8 +550,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -595,17 +583,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:44.090
-Unexpected IOException with stream: Oct 17, 2019 9:47:44 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:25.095
+Unexpected IOException with stream: Oct 19, 2019 8:11:25 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -626,8 +614,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -659,17 +647,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:44.615
-Unexpected IOException with stream: Oct 17, 2019 9:47:44 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:25.616
+Unexpected IOException with stream: Oct 19, 2019 8:11:25 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -690,8 +678,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -723,17 +711,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:45.128
-Unexpected IOException with stream: Oct 17, 2019 9:47:45 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:26.127
+Unexpected IOException with stream: Oct 19, 2019 8:11:26 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -754,8 +742,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -787,17 +775,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:45.648
-Unexpected IOException with stream: Oct 17, 2019 9:47:45 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:26.657
+Unexpected IOException with stream: Oct 19, 2019 8:11:26 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -818,8 +806,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -851,17 +839,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:46.161
-Unexpected IOException with stream: Oct 17, 2019 9:47:46 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:27.168
+Unexpected IOException with stream: Oct 19, 2019 8:11:27 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -882,8 +870,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -915,17 +903,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:46.678
-Unexpected IOException with stream: Oct 17, 2019 9:47:46 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:27.699
+Unexpected IOException with stream: Oct 19, 2019 8:11:27 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -946,8 +934,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -979,17 +967,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:47.199
-Unexpected IOException with stream: Oct 17, 2019 9:47:47 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:28.220
+Unexpected IOException with stream: Oct 19, 2019 8:11:28 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -1010,8 +998,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1043,17 +1031,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:47.703
-Unexpected IOException with stream: Oct 17, 2019 9:47:47 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:28.730
+Unexpected IOException with stream: Oct 19, 2019 8:11:28 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1073,8 +1061,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1106,17 +1094,17 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 
 
 
-# Created at 2019-10-17T21:47:48.216
-Unexpected IOException with stream: Oct 17, 2019 9:47:48 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+# Created at 2019-10-19T20:11:29.241
+Unexpected IOException with stream: Oct 19, 2019 8:11:29 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
 WARNING: WebDriverException thrown by findElement(By.xpath: //*[@id="wrapper"]/div[1]/nav/div[1]/a/img)
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'REM-L-SINGHH', ip: '10.12.60.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'REM-L-SINGHH', ip: '10.12.60.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32fbb86c359079a0aa4e5392dcd130bc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c19a5a3e7a161a755fc64c359cd3c2f8
 *** Element info: {Using=xpath, value=//*[@id="wrapper"]/div[1]/nav/div[1]/a/img}
 	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1136,8 +1124,8 @@ Session ID: 32fbb86c359079a0aa4e5392dcd130bc
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at resources.baseProperties.intializeDriver(baseProperties.java:123)
-	at VW_TC.TC0001_login_Page_Verification.applicationLaunch(TC0001_login_Page_Verification.java:23)
+	at resources.baseProperties.intializeDriver(baseProperties.java:135)
+	at VW_TC.TC0000_Debug_Testing.applicationLaunch(TC0000_Debug_Testing.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

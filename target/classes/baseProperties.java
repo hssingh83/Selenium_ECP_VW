@@ -105,9 +105,21 @@ else if (browserName.equals("ie"))
 
 driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS);
 
-//String URL=System.getProperty("url");
+String URL=System.getProperty("url");
 
-driver.get(prop.getProperty("url"));
+if (URL.contains("VoiceWatch-26.0")) {	
+	driver.get(prop.getProperty("url1"));
+}	
+	if (URL.contains("VoiceWatch-26.1")) {
+		
+		driver.get(prop.getProperty("url2"));
+	
+} if (URL.contains("VoiceWatch-26.2")) {
+	
+	driver.get(prop.getProperty("url3"));	
+}
+
+//driver.get(prop.getProperty("url"));
 log.debug("URL provided");
 driver.manage().window().maximize();
 log.debug("Screen maximized successfully");
@@ -132,6 +144,7 @@ log.debug(" Verified that VoiceWatch login screen appeared successfully");
 return driver;
 	}
 	
+	 
 	
 
 		
@@ -139,15 +152,15 @@ return driver;
 //	public void getScreenshot() throws IOException
 	
 	{
+		File src=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		
-	File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	FileUtils.copyFile(src, new File("C:\\Users\\hsingh\\git_project\\ECP_VW\\src\\main\\java\\resources\\screenshot"+result+"screenshot.png"));
 //	FileUtils.copyFile(src, new File("C:\\Users\\hsingh\\git_project\\ECP_VW\\src\\main\\java\\resources\\screenshot\\screenshot.png"));
 	
 	}
 
-
-	
-	
 }
+	
+	
+
 	
