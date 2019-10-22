@@ -9,8 +9,8 @@
     <classes>
       <class name="VW_TC.TC0000_Debug_Testing">
         <methods>
-          <include name="scriptTabValidation"/>
           <include name="applicationLaunch"/>
+          <include name="testTabValidation"/>
           <include name="applicationClose"/>
         </methods>
       </class> <!-- VW_TC.TC0000_Debug_Testing -->

@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 111.718 s <<< FAILURE! - in TestSuite
-scriptTabValidation(VW_TC.TC0000_Debug_Testing)  Time elapsed: 67.989 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at VW_TC.TC0000_Debug_Testing.scriptTabValidation(TC0000_Debug_Testing.java:169)
-
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 244.819 s - in TestSuite

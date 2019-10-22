@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+    <listener class-name="resources.listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test Case: 000 - Login with &#039;Empirix Admin&#039; Credetials&#039;and verify TabAvailablity(failed)">
     <classes>
       <class name="VW_TC.TC0000_Debug_Testing">
         <methods>
+          <include name="footerMandatoryDetails"/>
+          <include name="logInWithExpirixAdmin"/>
+          <include name="alertTabValidation"/>
+          <include name="TabAvailabilityValidation"/>
           <include name="scriptTabValidation"/>
+          <include name="tagTabValidation"/>
+          <include name="variableTabValidation"/>
+          <include name="hammerTabValidation"/>
           <include name="applicationLaunch"/>
+          <include name="headerMandatoryDetails"/>
+          <include name="dashBoardTabValidation"/>
+          <include name="testTabValidation"/>
           <include name="applicationClose"/>
         </methods>
       </class> <!-- VW_TC.TC0000_Debug_Testing -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test Case: 000 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="111.718" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="244.819" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\hsingh\AppData\Local\Temp\surefire1205133744708579103\surefirebooter497570392876788497.jar C:\Users\hsingh\AppData\Local\Temp\surefire1205133744708579103 2019-10-20T01-42-39_044-jvmRun1 surefire3611822909100510985tmp surefire_01113076001226582586tmp"/>
+    <property name="sun.java.command" value="C:\Users\hsingh\AppData\Local\Temp\surefire7449627742283833673\surefirebooter5759375118458871063.jar C:\Users\hsingh\AppData\Local\Temp\surefire7449627742283833673 2019-10-22T22-47-38_356-jvmRun1 surefire5875081245876112839tmp surefire_01020784047300183445tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\test-classes;C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\classes;C:\Users\hsingh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\hsingh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hsingh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hsingh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hsingh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\hsingh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hsingh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hsingh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hsingh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hsingh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hsingh\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\hsingh\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\hsingh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\hsingh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hsingh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\hsingh\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hsingh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\hsingh\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hsingh\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\hsingh\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\hsingh\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\hsingh\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hsingh\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-log\0.17.3\jcabi-log-0.17.3.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-aspects\0.22.5\jcabi-aspects-0.22.5.jar;C:\Users\hsingh\.m2\repository\org\aspectj\aspectjrt\1.8.7\aspectjrt-1.8.7.jar;C:\Users\hsingh\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\hsingh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hsingh\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\hsingh\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\hsingh\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\hsingh\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\hsingh\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\hsingh"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\hsingh\AppData\Local\Temp\surefire1205133744708579103\surefirebooter497570392876788497.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hsingh\AppData\Local\Temp\surefire7449627742283833673\surefirebooter5759375118458871063.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -54,7 +54,7 @@
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="url" value="VoiceWatch-26.2"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Hammer\Tcl\bin;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\work\software\apache-maven-3.5.4\bin;C:\Program Files\Perforce\;C:\Program Files\PuTTY\;C:\Gradle\gradle-5.1.1\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files (x86)\Empirix\Hammer CallMaster\bin;C:\Users\hsingh\AppData\Local\Microsoft\WindowsApps;C:\Users\hsingh\AppData\Roaming\Dashlane\4.6.8.25848\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\hsingh\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Hammer\Tcl\bin;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\work\software\apache-maven-3.5.4\bin;C:\Program Files\Perforce\;C:\Program Files\PuTTY\;C:\Gradle\gradle-5.1.1\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files (x86)\Empirix\Hammer CallMaster\bin;C:\Program Files\nodejs\;C:\Users\hsingh\AppData\Roaming\npm\node_modules\newman\bin;C:\Users\hsingh\AppData\Local\Microsoft\WindowsApps;C:\Users\hsingh\AppData\Roaming\Dashlane\4.6.8.25848\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\hsingh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hsingh\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.171-b11"/>
@@ -62,125 +62,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="logInWithExpirixAdmin" classname="VW_TC.TC0000_Debug_Testing" time="19.094"/>
-  <testcase name="scriptTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="67.989">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at VW_TC.TC0000_Debug_Testing.scriptTabValidation(TC0000_Debug_Testing.java:169)
-</failure>
-    <system-out><![CDATA[
-Test Case logInWithExpirixAdmin Passed
-
-=========================================
-[DEBUG] 2019-10-20 01:43:33,250 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:33,281 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:33,325 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
-[DEBUG] 2019-10-20 01:43:33,384 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Script count' dispalyed left side under Script tab
-[DEBUG] 2019-10-20 01:43:33,405 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Script count' enabled left side under Script tab
-[DEBUG] 2019-10-20 01:43:33,453 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Filter by name' filed appeared on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:33,465 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Filter by name' filed enabled on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:33,481 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script ' label appeared on  under Go Script builder tab
-[DEBUG] 2019-10-20 01:43:33,481 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script ' label enabled under Go Script builder tab
-[DEBUG] 2019-10-20 01:43:33,481 pom007_VoiceWatch_Script_Tabs.goScriptBuilderTabValidation() - Verified that 'Please select a script or' Text validated under Go Script Builder
-[DEBUG] 2019-10-20 01:43:33,614 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that create a new script plus (+) icon appeared on top left side under Script tab
-[DEBUG] 2019-10-20 01:43:44,073 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Validated the element while click Script Creation using button (+)
-[DEBUG] 2019-10-20 01:43:44,121 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:44,145 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:44,169 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
-[DEBUG] 2019-10-20 01:43:44,201 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script count' dispalyed left side under Script tab
-[DEBUG] 2019-10-20 01:43:44,225 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script count' enabled left side under Script tab
-[DEBUG] 2019-10-20 01:43:44,261 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Filter by name' filed appeared on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:44,302 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Filter by name' filed enabled on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:44,370 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,402 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,438 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' filed appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,473 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script name' field enabled on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,505 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,545 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,569 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,600 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Description' field enabled on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,648 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save button' displayed under Go Script Upload tab
-[DEBUG] 2019-10-20 01:43:44,692 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save button' is disbaled under Go Script Upload tab
-[DEBUG] 2019-10-20 01:43:44,724 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Save' Text appeared on save button under Go Script Upload tab
-[DEBUG] 2019-10-20 01:43:44,771 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script Builder' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,801 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Script Builder' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,853 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Results' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,881 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Results' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,913 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Call Logs' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,945 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Call Logs' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:44,992 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Associted Test' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:45,008 pom007_VoiceWatch_Script_Tabs.createGSBbybutton() - Verified that 'Associted Test' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:47,466 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that create a new script by link is appeared under Go Script Builder tab
-[DEBUG] 2019-10-20 01:43:57,765 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Validated the element while click create a new script by link
-[DEBUG] 2019-10-20 01:43:57,809 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' label appeared on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:57,833 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' label enabled on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:57,857 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Go Script Builder Scripts' Text validated on left side under Script Tab
-[DEBUG] 2019-10-20 01:43:57,901 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script count' dispalyed left side under Script tab
-[DEBUG] 2019-10-20 01:43:57,921 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script count' enabled left side under Script tab
-[DEBUG] 2019-10-20 01:43:57,965 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Filter by name' filed appeared on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:57,984 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Filter by name' filed enabled on left side of under Script tab
-[DEBUG] 2019-10-20 01:43:58,029 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,061 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,093 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' filed appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,117 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script name' field enabled on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,153 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,185 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,221 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,241 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Description' field enabled on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,285 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save button' displayed under Go Script Upload tab
-[DEBUG] 2019-10-20 01:43:58,305 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save button' is disbaled under Go Script Upload tab
-[DEBUG] 2019-10-20 01:43:58,349 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Save' Text appeared on save button under Go Script Upload tab
-[DEBUG] 2019-10-20 01:43:58,369 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script Builder' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,400 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Script Builder' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,444 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Results' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,464 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Results' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,507 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Call Logs' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,527 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Call Logs' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,579 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Associted Test' label appeared on under Go Script Builder
-[DEBUG] 2019-10-20 01:43:58,607 pom007_VoiceWatch_Script_Tabs.createGSBbyLink() - Verified that 'Associted Test' Text validated on under Go Script Builder
-[DEBUG] 2019-10-20 01:44:09,020 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that create a new script by link is appeared under Script Upload tab
-[DEBUG] 2019-10-20 01:44:19,132 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Validated the element while click Script Creation using Link
-[DEBUG] 2019-10-20 01:44:19,188 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab
-[DEBUG] 2019-10-20 01:44:19,216 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab
-[DEBUG] 2019-10-20 01:44:19,244 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab
-[DEBUG] 2019-10-20 01:44:19,309 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab
-[DEBUG] 2019-10-20 01:44:19,333 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab
-[DEBUG] 2019-10-20 01:44:19,376 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Filter by name' filed appeared on left side of under Script tab
-[DEBUG] 2019-10-20 01:44:19,408 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Filter by name' filed enabled on left side of under Script tab
-[DEBUG] 2019-10-20 01:44:19,468 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' label appeared on under Script Upload
-[DEBUG] 2019-10-20 01:44:19,496 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' Text validated on under Script Upload
-[DEBUG] 2019-10-20 01:44:19,540 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' filed appeared on under Script Upload
-[DEBUG] 2019-10-20 01:44:19,564 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Script name' field enabled on under Script Upload
-[DEBUG] 2019-10-20 01:44:19,600 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' label appeared on under Script Upload
-[DEBUG] 2019-10-20 01:44:19,628 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' Text validated on under Script Upload
-[DEBUG] 2019-10-20 01:44:19,664 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' label appeared on under Script Upload
-[DEBUG] 2019-10-20 01:44:19,676 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Description' field enabled on under Script Upload
-[DEBUG] 2019-10-20 01:44:19,724 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save button' displayed under Script Upload tab
-[DEBUG] 2019-10-20 01:44:19,748 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save button' is disbaled under Script Upload tab
-[DEBUG] 2019-10-20 01:44:19,792 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Save' Text appeared on save button under Script Upload tab
-[DEBUG] 2019-10-20 01:44:19,844 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Click to select a script, or drop file below (.xml)' button appeared under Script Upload tab
-[DEBUG] 2019-10-20 01:44:19,879 pom007_VoiceWatch_Script_Tabs.createSUbybutton() - Verified that 'Click to select a script, or drop file below (.xml)' button enabled under Script Upload tab
-[DEBUG] 2019-10-20 01:44:30,324 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that create a new script plus (+) icon appeared on top left side under Script Upload tab
-[DEBUG] 2019-10-20 01:44:30,403 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Validated the element while click Script Creation using button (+)
-[DEBUG] 2019-10-20 01:44:30,439 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call Master Scripts' label appeared on left side of Script Upload tab under Script tab
-[DEBUG] 2019-10-20 01:44:30,459 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call Master Scripts' label enabled on left side of Script Upload tab under Script tab
-[DEBUG] 2019-10-20 01:44:30,483 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call Master Scripts' Text validated on left side under Script Upload Tab
-[DEBUG] 2019-10-20 01:44:30,522 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call master Script count' dispalyed on left side of Script Upload tab under Script tab
-[DEBUG] 2019-10-20 01:44:30,546 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Call master Script count' enabled on left side of Script Upload tab under Script tab
-[DEBUG] 2019-10-20 01:44:30,590 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Filter by name' filed appeared on left side of under Script tab
-[DEBUG] 2019-10-20 01:44:30,610 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Filter by name' filed enabled on left side of under Script tab
-[DEBUG] 2019-10-20 01:44:30,659 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Script name' label appeared on under Script Upload
-[DEBUG] 2019-10-20 01:44:30,687 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Script name' Text validated on under Script Upload
-[DEBUG] 2019-10-20 01:44:30,723 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Script name' filed appeared on under Script Upload
-[DEBUG] 2019-10-20 01:44:30,747 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Script name' field enabled on under Script Upload
-[DEBUG] 2019-10-20 01:44:30,783 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Description' label appeared on under Script Upload
-[DEBUG] 2019-10-20 01:44:30,815 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Description' Text validated on under Script Upload
-[DEBUG] 2019-10-20 01:44:30,847 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Description' label appeared on under Script Upload
-[DEBUG] 2019-10-20 01:44:30,871 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Description' field enabled on under Script Upload
-[DEBUG] 2019-10-20 01:44:30,903 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Save button' displayed under Go Script Upload tab
-[DEBUG] 2019-10-20 01:44:30,915 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Save button' is disbaled under Go Script Upload tab
-[DEBUG] 2019-10-20 01:44:30,946 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Save' Text appeared on save button under Go Script Upload tab
-[DEBUG] 2019-10-20 01:44:30,946 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Click to select a script, or drop file below (.xml)' button appeared under Script Upload tab
-[DEBUG] 2019-10-20 01:44:30,978 pom007_VoiceWatch_Script_Tabs.createSUbyLink() - Verified that 'Click to select a script, or drop file below (.xml)' button enabled under Script Upload tab
-]]></system-out>
-  </testcase>
+  <testcase name="logInWithExpirixAdmin" classname="VW_TC.TC0000_Debug_Testing" time="20.511"/>
+  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0000_Debug_Testing" time="0.541"/>
+  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0000_Debug_Testing" time="0.372"/>
+  <testcase name="TabAvailabilityValidation" classname="VW_TC.TC0000_Debug_Testing" time="0.713"/>
+  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="3.32"/>
+  <testcase name="alertTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="3.342"/>
+  <testcase name="testTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="53.021"/>
+  <testcase name="tagTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="13.728"/>
+  <testcase name="scriptTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="101.151"/>
+  <testcase name="variableTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="12.561"/>
+  <testcase name="hammerTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="4.544"/>
 </testsuite>

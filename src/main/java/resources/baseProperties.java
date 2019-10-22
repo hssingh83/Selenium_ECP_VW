@@ -48,13 +48,17 @@ FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\m
 
 prop.load(fis);
 
-//String browserName=System.getProperty("browser");
+String browserName=System.getProperty("browser");
 
-String browserName=prop.getProperty("browser");
+//String browserName=prop.getProperty("browser");
 if(browserName.contains("chrome"))
 		
 {
  	WebDriverManager.chromedriver().setup();
+ 	
+// 	System.setProperty("webdriver.chrome.logfile",System.getProperty("user.dir")+"\\src\\main\\java\\Browser_Log");
+ 	
+ 	System.setProperty("webdriver.chrome.logfile","./Chromelog.txt");
 
 //	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\chromedriver.exe");
 	ChromeOptions options=new ChromeOptions();
@@ -83,6 +87,8 @@ else if (browserName.equals("firefox"))
 {
 //	System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\geckodriver.exe");
 	WebDriverManager.firefoxdriver().setup();
+	System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"./FFLogs.txt");
+	
 	driver = new FirefoxDriver();
 	
 	log.info("Firefox Driver intilized successfully");
@@ -95,6 +101,8 @@ else if (browserName.equals("ie"))
 //	System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\IEDriverServer.exe");
 	
 	WebDriverManager.iedriver().setup();
+	
+	
 	driver = new InternetExplorerDriver();
 	
 	log.info("IE Driver intilized successfully");

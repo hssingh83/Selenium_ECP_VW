@@ -795,7 +795,7 @@ public void createTestbyLink() {
 		
 		
 		
-		 int count = 0;
+	//	 int count = 0;
 		 String[] exp = {"(GMT -12:00) Eniwetok, Kwajalein","(GMT -11:00) Midway Island, Samoa","(GMT -10:00) Hawaii","(GMT -9:00) Alaska","(GMT -8:00) Pacific Time (US & Canada)","(GMT -7:00) Mountain Time (US & Canada)","(GMT -7:00) Arizona Time (US & Canada)","(GMT -6:00) Central Time (US & Canada), Mexico City","(GMT -5:00) Eastern Time (US & Canada)","(GMT -5:00) Bogota, Lima","(GMT -4:30) Caracas","(GMT -4:00) Atlantic Time (Canada)","(GMT -4:00) Santiago","(GMT -4:00) Georgetown, La Paz","(GMT -3:30) Newfoundland","(GMT -3:00) Buenos Aires","(GMT -3:00) Sao Paulo", "(GMT -2:00) Mid-Atlantic","(GMT -1:00 hour) Azores, Cape Verde Islands","(GMT) Western Europe Time, London, Lisbon, Casablanca, Greenwich","(GMT +1:00 hour) Brussels, Copenhagen, Madrid, Paris","(GMT +2:00) Kaliningrad, South Africa, Cairo","(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg","(GMT +3:30) Tehran","(GMT +4:00) Abu Dhabi, Muscat, Yerevan, Baku, Tbilisi","(GMT +4:30) Kabul","(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent","(GMT +5:30) Mumbai, Kolkata, Chennai, New Delhi, Colombo","(GMT +5:45) Kathmandu","(GMT +6:00) Almaty, Dhaka","(GMT +6:30) Yangon, Cocos Islands","(GMT +7:00) Bangkok, Hanoi, Jakarta","(GMT +8:00) Beijing, Perth, Singapore, Hong Kong","(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk","(GMT +9:30) Adelaide, Darwin","(GMT +10:00) Eastern Australia, Guam, Vladivostok, Magadan","(GMT +11:00) Solomon Islands, New Caledonia","(GMT +12:00) Auckland, Wellington"};
 		// System.out.println(exp.length);
 		 log.debug("Verified that count of the dropdown values are: "  +exp.length); 
@@ -811,9 +811,9 @@ public void createTestbyLink() {
       
        log.debug("Verified that following values available in the dropdown"); 
       
-        for(WebElement item:options) 
+        for(WebElement item:options1) 
         { 
-        	for (int i = 0; i <options.size(); i++) {
+        	for (int i = 0; i <options1.size(); i++) {
         		        		
         		if (item.getText().equals(exp[i])) {
         			
