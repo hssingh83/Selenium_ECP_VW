@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 244.819 s - in TestSuite
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 234.853 s <<< FAILURE! - in TestSuite
+testTabValidation(VW_TC.TC0000_Debug_Testing)  Time elapsed: 25.107 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <span class="label label-pretty ng-binding ng-isolate-scope labelsuccess"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'REM-L-SINGHH', ip: '192.168.118.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190917135527, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 3492, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 132a92ee-4b39-4ff5-aeeb-737daf0abd8c
+	at VW_TC.TC0000_Debug_Testing.testTabValidation(TC0000_Debug_Testing.java:125)
+

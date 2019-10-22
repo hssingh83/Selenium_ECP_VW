@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="244.819" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="234.853" tests="11" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\hsingh\AppData\Local\Temp\surefire7449627742283833673\surefirebooter5759375118458871063.jar C:\Users\hsingh\AppData\Local\Temp\surefire7449627742283833673 2019-10-22T22-47-38_356-jvmRun1 surefire5875081245876112839tmp surefire_01020784047300183445tmp"/>
+    <property name="sun.java.command" value="C:\Users\hsingh\AppData\Local\Temp\surefire4908380482956477808\surefirebooter2038945702705270314.jar C:\Users\hsingh\AppData\Local\Temp\surefire4908380482956477808 2019-10-22T23-25-55_625-jvmRun1 surefire5290618394798604635tmp surefire_07022117429489522425tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\test-classes;C:\Users\hsingh\Frameworks\Selenium_ECP_VW\target\classes;C:\Users\hsingh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\hsingh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\hsingh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hsingh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hsingh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hsingh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\hsingh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hsingh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hsingh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hsingh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hsingh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hsingh\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\hsingh\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\hsingh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\hsingh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hsingh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\hsingh\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hsingh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\hsingh\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hsingh\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\hsingh\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\hsingh\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\hsingh\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hsingh\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\hsingh\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-log\0.17.3\jcabi-log-0.17.3.jar;C:\Users\hsingh\.m2\repository\com\jcabi\jcabi-aspects\0.22.5\jcabi-aspects-0.22.5.jar;C:\Users\hsingh\.m2\repository\org\aspectj\aspectjrt\1.8.7\aspectjrt-1.8.7.jar;C:\Users\hsingh\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\hsingh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hsingh\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\hsingh\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\hsingh\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\hsingh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\hsingh\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\hsingh\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\hsingh\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\hsingh\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\hsingh"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\hsingh\AppData\Local\Temp\surefire7449627742283833673\surefirebooter5759375118458871063.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hsingh\AppData\Local\Temp\surefire4908380482956477808\surefirebooter2038945702705270314.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -42,7 +42,7 @@
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="browser" value="chrome"/>
+    <property name="browser" value="firefox"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\hsingh\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -62,15 +62,592 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="logInWithExpirixAdmin" classname="VW_TC.TC0000_Debug_Testing" time="20.511"/>
-  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0000_Debug_Testing" time="0.541"/>
-  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0000_Debug_Testing" time="0.372"/>
-  <testcase name="TabAvailabilityValidation" classname="VW_TC.TC0000_Debug_Testing" time="0.713"/>
-  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="3.32"/>
-  <testcase name="alertTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="3.342"/>
-  <testcase name="testTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="53.021"/>
-  <testcase name="tagTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="13.728"/>
-  <testcase name="scriptTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="101.151"/>
-  <testcase name="variableTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="12.561"/>
-  <testcase name="hammerTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="4.544"/>
+  <testcase name="logInWithExpirixAdmin" classname="VW_TC.TC0000_Debug_Testing" time="21.177"/>
+  <testcase name="headerMandatoryDetails" classname="VW_TC.TC0000_Debug_Testing" time="0.416"/>
+  <testcase name="footerMandatoryDetails" classname="VW_TC.TC0000_Debug_Testing" time="0.261"/>
+  <testcase name="TabAvailabilityValidation" classname="VW_TC.TC0000_Debug_Testing" time="1.273"/>
+  <testcase name="dashBoardTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="2.912"/>
+  <testcase name="alertTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="3.1"/>
+  <testcase name="testTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="25.107">
+    <failure message="The element reference of &lt;span class=&quot;label label-pretty ng-binding ng-isolate-scope labelsuccess&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;192.168.118.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190917135527, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 3492, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 132a92ee-4b39-4ff5-aeeb-737daf0abd8c" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <span class="label label-pretty ng-binding ng-isolate-scope labelsuccess"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'REM-L-SINGHH', ip: '192.168.118.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190917135527, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 3492, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 132a92ee-4b39-4ff5-aeeb-737daf0abd8c
+	at VW_TC.TC0000_Debug_Testing.testTabValidation(TC0000_Debug_Testing.java:125)
+]]></failure>
+    <system-out><![CDATA[
+Test Case alertTabValidation Passed
+
+=========================================
+[DEBUG] 2019-10-22 23:27:03,347 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Tests' label appeared on left side under Tests tab
+[DEBUG] 2019-10-22 23:27:03,367 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Tests' Text validated on left side under Test Tab
+[DEBUG] 2019-10-22 23:27:03,399 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Filter by test name' box appeared on n left side under Tests tab
+[DEBUG] 2019-10-22 23:27:03,415 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Filter by test name or tag filter'enabled under Alert tab
+[DEBUG] 2019-10-22 23:27:03,427 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Filter by test name' is blank while access test tab
+[DEBUG] 2019-10-22 23:27:03,847 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Test' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:03,875 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Test' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:03,959 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Please select a test' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:03,991 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Please select a test ' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:04,095 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,116 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,144 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,156 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,168 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,200 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,212 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,220 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,256 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,264 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,300 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,312 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,324 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,352 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,364 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,380 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,412 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,424 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,436 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,464 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,480 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,492 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,520 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,536 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,548 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version contain 26' release version appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,576 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,584 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,600 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:04,933 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that new test creation plus (+) icon appeared on top left side under Tests tab
+[DEBUG] 2019-10-22 23:27:04,937 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Validated the different elements while click Test Creation using button (+)
+[DEBUG] 2019-10-22 23:27:06,743 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Save button' displayed under Tests tab
+[DEBUG] 2019-10-22 23:27:06,751 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Save button' is disbaled under Tests tab
+[DEBUG] 2019-10-22 23:27:06,771 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Save' Text appeared on save button under Test Tab
+[DEBUG] 2019-10-22 23:27:06,799 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Discard button' displayed under Tests tab
+[DEBUG] 2019-10-22 23:27:06,811 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Discard button' is disbaled under Tests tab
+[DEBUG] 2019-10-22 23:27:06,831 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Discard' Text appeared on save button under Test Tab
+[DEBUG] 2019-10-22 23:27:06,839 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Delete button' displayed under Tests tab
+[DEBUG] 2019-10-22 23:27:07,356 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Test Name' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:07,372 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Test Name' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:07,432 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Description' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:07,448 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Description' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:07,484 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Hammer Group Name' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:07,500 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Hammer Group' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:07,532 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that following values available in the dropdown
+[DEBUG] 2019-10-22 23:27:07,540 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:07,544 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:07,552 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:07,580 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:07,584 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:07,592 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:07,596 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:07,604 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:07,612 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:07,612 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'us_hammers' default value as Hammer Group under Test Tab
+[DEBUG] 2019-10-22 23:27:07,612 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that count of the dropdown values are: 38
+[DEBUG] 2019-10-22 23:27:08,009 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that following values available in the dropdown
+[DEBUG] 2019-10-22 23:27:08,157 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Schedules' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:08,169 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Schedules' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:08,209 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Start Date' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:08,221 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Time-Zone' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:08,253 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Start Date' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:08,265 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Start Date' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:08,301 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Start Date' displayed on under Tests tab
+[DEBUG] 2019-10-22 23:27:08,309 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Start Date' enabled on under Tests tab
+[DEBUG] 2019-10-22 23:27:08,341 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'End Date' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:08,357 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'End Date' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:08,389 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Start Date' displayed on under Tests tab
+[DEBUG] 2019-10-22 23:27:08,397 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Start Date' enabled on under Tests tab
+[DEBUG] 2019-10-22 23:27:08,433 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Tie To Scbscription' CheckBox appeared in Test tab
+[DEBUG] 2019-10-22 23:27:08,445 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Tie To Scbscription' CheckBox enabled in Test tab
+[DEBUG] 2019-10-22 23:27:08,453 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Tie To Scbscription' CheckBox selected in Test tab
+[DEBUG] 2019-10-22 23:27:08,489 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Enabled' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:08,501 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Enabled' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:08,533 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Description' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:08,545 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Description' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:08,573 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Period' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:08,593 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Period' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:08,625 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Day' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:08,637 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Days' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:08,669 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Start Time' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:08,686 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Start Time' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:08,718 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'End Time' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:08,730 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'End Time' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:08,762 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that '(-)' button appeared to remove configured sechedule
+[DEBUG] 2019-10-22 23:27:08,774 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that '(-)' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:08,806 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that '(+)' button appeared to add new configured sechedule
+[DEBUG] 2019-10-22 23:27:08,814 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that '(+)' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:08,850 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Description' field appered under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:08,862 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Description' field is enabled under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:08,898 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'period' field appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:08,910 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'period' value field is enabled under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:08,942 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Minute' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:08,958 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Mins' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:08,994 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Sunday' button appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:09,006 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'sun' Text appeared on the button under Test Tab
+[DEBUG] 2019-10-22 23:27:09,018 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Sun' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:09,050 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Monday' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:09,062 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'mon' Text appeared on the button under Test Tab
+[DEBUG] 2019-10-22 23:27:09,078 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Mon' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:09,106 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Tuesday' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:09,122 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Tue' Text appeared on the button under Test Tab
+[DEBUG] 2019-10-22 23:27:09,130 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Tue' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:09,166 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Wednessday' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:09,178 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Wed' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:09,190 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Wed' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:09,222 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Thrusday' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:09,234 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Thu' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:09,250 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Thu' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:09,282 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Friday' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:09,294 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Fri' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:09,302 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Fri' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:09,350 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Satarday' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:09,362 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Sat' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:09,374 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Sat' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:09,406 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Start Time' filled appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:09,414 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Start Time' filled enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:09,451 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'End Time Value' filled appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:09,459 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'End Time Value filled enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:09,487 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Script' label appeared under test tab
+[DEBUG] 2019-10-22 23:27:09,503 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Script' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:09,535 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Script name' label appeared under script section in test tab
+[DEBUG] 2019-10-22 23:27:09,547 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Script Name' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:09,547 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that script dropdown
+[DEBUG] 2019-10-22 23:27:09,591 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that following values available in the dropdown
+[DEBUG] 2019-10-22 23:27:09,595 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,603 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,607 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,615 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,619 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,627 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,631 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,639 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,643 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,651 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,659 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,663 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,675 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,679 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,687 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,691 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,699 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,703 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,711 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,715 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,723 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,727 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,735 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,743 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,755 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,759 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,763 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,771 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,779 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,783 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,791 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,799 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - us_hammers
+[DEBUG] 2019-10-22 23:27:09,803 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,811 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,815 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,823 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,831 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,835 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,843 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,847 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,855 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,859 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,867 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,875 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,879 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,887 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,891 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,899 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,903 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,911 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,915 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,923 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,931 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,935 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,943 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,947 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,955 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,963 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,975 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,979 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,991 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:09,995 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:10,003 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:10,011 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Test
+[DEBUG] 2019-10-22 23:27:10,015 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,023 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,027 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,035 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,043 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,047 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,055 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,059 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,067 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,075 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,079 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,087 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,095 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,099 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,107 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,115 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,119 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,127 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,135 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,143 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,147 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,155 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,159 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,167 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,175 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,184 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,191 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,195 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,208 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,220 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,224 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,232 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - ABCD
+[DEBUG] 2019-10-22 23:27:10,268 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Input Parameters' label appeared under script section in test tab
+[DEBUG] 2019-10-22 23:27:10,280 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Input Parameters' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:10,312 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Name' label appeared under script section in test tab
+[DEBUG] 2019-10-22 23:27:10,324 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Name' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:10,360 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Value' label appeared under script section in test tab
+[DEBUG] 2019-10-22 23:27:10,372 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Value' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:10,404 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Masked' label appeared under script section in test tab
+[DEBUG] 2019-10-22 23:27:10,416 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Masked' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:10,448 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notifications' label appeared under script section in test tab
+[DEBUG] 2019-10-22 23:27:10,460 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notifications' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:10,496 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Enabled' label appeared under Notification checkbox in test tab
+[DEBUG] 2019-10-22 23:27:10,508 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Enabled' Text validated under Notification checkbox in test tab
+[DEBUG] 2019-10-22 23:27:10,552 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notifi Enabled Checkbox' appeared under Notification in test tab
+[DEBUG] 2019-10-22 23:27:10,560 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notification Enabled' checkbox appeared notification in Test tab
+[DEBUG] 2019-10-22 23:27:10,596 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Enabled' label appeared under Notification checkbox in test tab
+[DEBUG] 2019-10-22 23:27:10,608 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Enabled' Text validated under Notification checkbox in test tab
+[DEBUG] 2019-10-22 23:27:10,640 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notification' label appeared in notification dropdown in test tab
+[DEBUG] 2019-10-22 23:27:10,652 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notifications Enabled' Text validated in notification dropdown in test tab
+[DEBUG] 2019-10-22 23:27:10,720 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Pattern' label appeared under Notification in test tab
+[DEBUG] 2019-10-22 23:27:10,748 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Pattern' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:10,844 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Severity' label appeared under Notification in test tab
+[DEBUG] 2019-10-22 23:27:10,872 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Severity' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:10,908 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notify on return to good' label appeared under Notification in test tab
+[DEBUG] 2019-10-22 23:27:10,920 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notify on return to good' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:10,953 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that '(-) reduce notification button appeared under notification in Test tab
+[DEBUG] 2019-10-22 23:27:10,960 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that '(-) reduce notification button enabled under notification in Test tab
+[DEBUG] 2019-10-22 23:27:10,993 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that '(+) add notification button appeared under notification in Test tab
+[DEBUG] 2019-10-22 23:27:11,005 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that '(+) add notification button enabled under notification in Test tab
+[DEBUG] 2019-10-22 23:27:11,037 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notifi Enabled Checkbox' appeared under Notification in test tab
+[DEBUG] 2019-10-22 23:27:11,045 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notification Enabled' checkbox appeared notification in Test tab
+[DEBUG] 2019-10-22 23:27:11,049 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that Notification dropdown
+[DEBUG] 2019-10-22 23:27:11,085 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that following values available in the dropdown
+[DEBUG] 2019-10-22 23:27:11,089 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - --Select Notification--
+[DEBUG] 2019-10-22 23:27:11,101 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - --Select Notification--
+[DEBUG] 2019-10-22 23:27:11,109 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - --Select Notification--
+[DEBUG] 2019-10-22 23:27:11,113 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - --Select Notification--
+[DEBUG] 2019-10-22 23:27:11,121 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - --Select Notification--
+[DEBUG] 2019-10-22 23:27:11,125 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - --Select Notification--
+[DEBUG] 2019-10-22 23:27:11,133 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - --Select Notification--
+[DEBUG] 2019-10-22 23:27:11,141 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - --Select Notification--
+[DEBUG] 2019-10-22 23:27:11,145 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - --Select Notification--
+[DEBUG] 2019-10-22 23:27:11,153 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - --Select Notification--
+[DEBUG] 2019-10-22 23:27:11,157 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - --Select Notification--
+[DEBUG] 2019-10-22 23:27:11,165 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - <doing nothing>
+[DEBUG] 2019-10-22 23:27:11,169 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - <doing nothing>
+[DEBUG] 2019-10-22 23:27:11,177 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - <doing nothing>
+[DEBUG] 2019-10-22 23:27:11,185 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - <doing nothing>
+[DEBUG] 2019-10-22 23:27:11,193 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - <doing nothing>
+[DEBUG] 2019-10-22 23:27:11,197 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - <doing nothing>
+[DEBUG] 2019-10-22 23:27:11,205 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - <doing nothing>
+[DEBUG] 2019-10-22 23:27:11,209 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - <doing nothing>
+[DEBUG] 2019-10-22 23:27:11,221 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - <doing nothing>
+[DEBUG] 2019-10-22 23:27:11,225 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - <doing nothing>
+[DEBUG] 2019-10-22 23:27:11,233 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - <doing nothing>
+[DEBUG] 2019-10-22 23:27:11,237 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing
+[DEBUG] 2019-10-22 23:27:11,245 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing
+[DEBUG] 2019-10-22 23:27:11,249 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing
+[DEBUG] 2019-10-22 23:27:11,257 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing
+[DEBUG] 2019-10-22 23:27:11,265 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing
+[DEBUG] 2019-10-22 23:27:11,273 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing
+[DEBUG] 2019-10-22 23:27:11,277 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing
+[DEBUG] 2019-10-22 23:27:11,285 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing
+[DEBUG] 2019-10-22 23:27:11,293 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing
+[DEBUG] 2019-10-22 23:27:11,301 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing
+[DEBUG] 2019-10-22 23:27:11,309 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing
+[DEBUG] 2019-10-22 23:27:11,313 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing1
+[DEBUG] 2019-10-22 23:27:11,321 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing1
+[DEBUG] 2019-10-22 23:27:11,329 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing1
+[DEBUG] 2019-10-22 23:27:11,337 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing1
+[DEBUG] 2019-10-22 23:27:11,345 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing1
+[DEBUG] 2019-10-22 23:27:11,353 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing1
+[DEBUG] 2019-10-22 23:27:11,357 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing1
+[DEBUG] 2019-10-22 23:27:11,365 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing1
+[DEBUG] 2019-10-22 23:27:11,369 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing1
+[DEBUG] 2019-10-22 23:27:11,377 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing1
+[DEBUG] 2019-10-22 23:27:11,381 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Testing1
+[DEBUG] 2019-10-22 23:27:11,389 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome2
+[DEBUG] 2019-10-22 23:27:11,393 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome2
+[DEBUG] 2019-10-22 23:27:11,401 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome2
+[DEBUG] 2019-10-22 23:27:11,409 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome2
+[DEBUG] 2019-10-22 23:27:11,413 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome2
+[DEBUG] 2019-10-22 23:27:11,425 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome2
+[DEBUG] 2019-10-22 23:27:11,429 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome2
+[DEBUG] 2019-10-22 23:27:11,437 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome2
+[DEBUG] 2019-10-22 23:27:11,441 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome2
+[DEBUG] 2019-10-22 23:27:11,453 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome2
+[DEBUG] 2019-10-22 23:27:11,461 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome2
+[DEBUG] 2019-10-22 23:27:11,465 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome3
+[DEBUG] 2019-10-22 23:27:11,473 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome3
+[DEBUG] 2019-10-22 23:27:11,481 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome3
+[DEBUG] 2019-10-22 23:27:11,489 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome3
+[DEBUG] 2019-10-22 23:27:11,497 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome3
+[DEBUG] 2019-10-22 23:27:11,505 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome3
+[DEBUG] 2019-10-22 23:27:11,509 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome3
+[DEBUG] 2019-10-22 23:27:11,517 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome3
+[DEBUG] 2019-10-22 23:27:11,525 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome3
+[DEBUG] 2019-10-22 23:27:11,529 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome3
+[DEBUG] 2019-10-22 23:27:11,537 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome3
+[DEBUG] 2019-10-22 23:27:11,545 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome4
+[DEBUG] 2019-10-22 23:27:11,557 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome4
+[DEBUG] 2019-10-22 23:27:11,565 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome4
+[DEBUG] 2019-10-22 23:27:11,573 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome4
+[DEBUG] 2019-10-22 23:27:11,585 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome4
+[DEBUG] 2019-10-22 23:27:11,593 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome4
+[DEBUG] 2019-10-22 23:27:11,597 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome4
+[DEBUG] 2019-10-22 23:27:11,605 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome4
+[DEBUG] 2019-10-22 23:27:11,609 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome4
+[DEBUG] 2019-10-22 23:27:11,621 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome4
+[DEBUG] 2019-10-22 23:27:11,625 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome4
+[DEBUG] 2019-10-22 23:27:11,633 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome5
+[DEBUG] 2019-10-22 23:27:11,641 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome5
+[DEBUG] 2019-10-22 23:27:11,645 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome5
+[DEBUG] 2019-10-22 23:27:11,653 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome5
+[DEBUG] 2019-10-22 23:27:11,661 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome5
+[DEBUG] 2019-10-22 23:27:11,665 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome5
+[DEBUG] 2019-10-22 23:27:11,673 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome5
+[DEBUG] 2019-10-22 23:27:11,677 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome5
+[DEBUG] 2019-10-22 23:27:11,685 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome5
+[DEBUG] 2019-10-22 23:27:11,689 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome5
+[DEBUG] 2019-10-22 23:27:11,697 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome5
+[DEBUG] 2019-10-22 23:27:11,705 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome6
+[DEBUG] 2019-10-22 23:27:11,713 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome6
+[DEBUG] 2019-10-22 23:27:11,721 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome6
+[DEBUG] 2019-10-22 23:27:11,725 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome6
+[DEBUG] 2019-10-22 23:27:11,734 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome6
+[DEBUG] 2019-10-22 23:27:11,738 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome6
+[DEBUG] 2019-10-22 23:27:11,746 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome6
+[DEBUG] 2019-10-22 23:27:11,754 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome6
+[DEBUG] 2019-10-22 23:27:11,758 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome6
+[DEBUG] 2019-10-22 23:27:11,766 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome6
+[DEBUG] 2019-10-22 23:27:11,774 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome6
+[DEBUG] 2019-10-22 23:27:11,778 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome7
+[DEBUG] 2019-10-22 23:27:11,786 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome7
+[DEBUG] 2019-10-22 23:27:11,790 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome7
+[DEBUG] 2019-10-22 23:27:11,798 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome7
+[DEBUG] 2019-10-22 23:27:11,806 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome7
+[DEBUG] 2019-10-22 23:27:11,814 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome7
+[DEBUG] 2019-10-22 23:27:11,826 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome7
+[DEBUG] 2019-10-22 23:27:11,834 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome7
+[DEBUG] 2019-10-22 23:27:11,838 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome7
+[DEBUG] 2019-10-22 23:27:11,846 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome7
+[DEBUG] 2019-10-22 23:27:11,854 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome7
+[DEBUG] 2019-10-22 23:27:11,858 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome8
+[DEBUG] 2019-10-22 23:27:11,870 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome8
+[DEBUG] 2019-10-22 23:27:11,874 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome8
+[DEBUG] 2019-10-22 23:27:11,882 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome8
+[DEBUG] 2019-10-22 23:27:11,886 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome8
+[DEBUG] 2019-10-22 23:27:11,894 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome8
+[DEBUG] 2019-10-22 23:27:11,898 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome8
+[DEBUG] 2019-10-22 23:27:11,906 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome8
+[DEBUG] 2019-10-22 23:27:11,914 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome8
+[DEBUG] 2019-10-22 23:27:11,918 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome8
+[DEBUG] 2019-10-22 23:27:11,926 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Welcome8
+[DEBUG] 2019-10-22 23:27:11,926 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that Notification dropdown
+[DEBUG] 2019-10-22 23:27:11,958 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that following values available in the dropdown
+[DEBUG] 2019-10-22 23:27:11,962 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - notify repeatedly
+[DEBUG] 2019-10-22 23:27:11,970 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - notify repeatedly
+[DEBUG] 2019-10-22 23:27:11,974 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - notify times...
+[DEBUG] 2019-10-22 23:27:11,982 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - notify times...
+[DEBUG] 2019-10-22 23:27:12,014 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Pattern' filled appeared under Notification in test tab
+[DEBUG] 2019-10-22 23:27:12,030 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Pattern' filled enabled under Notification in test tab
+[DEBUG] 2019-10-22 23:27:12,030 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that Severity dropdown
+[DEBUG] 2019-10-22 23:27:12,062 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that following values available in the dropdown
+[DEBUG] 2019-10-22 23:27:12,070 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Critical
+[DEBUG] 2019-10-22 23:27:12,074 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Critical
+[DEBUG] 2019-10-22 23:27:12,082 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Warning
+[DEBUG] 2019-10-22 23:27:12,090 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Warning
+[DEBUG] 2019-10-22 23:27:12,122 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notify on return to good' Checkbox appeared under Notification in test tab
+[DEBUG] 2019-10-22 23:27:12,130 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Notify on return to good' checkbox enabled under notification in Test tab
+[DEBUG] 2019-10-22 23:27:12,170 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Failure Thresholds' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:12,186 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Failure Thresholds' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:12,218 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Primary Metrics' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:12,230 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Primary Metrics' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:12,262 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Additional Metrics' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:12,274 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Additional Metrics' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:12,310 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Enabled' label appeared under Failure Thresholds in Tests tab
+[DEBUG] 2019-10-22 23:27:12,322 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Enabled' text validated in Tests tab
+[DEBUG] 2019-10-22 23:27:12,354 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Metric' label appeared under Failure Thresholds in Tests tab
+[DEBUG] 2019-10-22 23:27:12,366 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Metric' text validated in Tests tab
+[DEBUG] 2019-10-22 23:27:12,402 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Criteria' label appeared under Failure Thresholds in Tests tab
+[DEBUG] 2019-10-22 23:27:12,418 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Criteria' text validated in Tests tab
+[DEBUG] 2019-10-22 23:27:12,450 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Warning' label appeared under Failure Thresholds in Tests tab
+[DEBUG] 2019-10-22 23:27:12,462 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Warning' text validated in Tests tab
+[DEBUG] 2019-10-22 23:27:12,499 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Critical' label appeared under Failure Thresholds in Tests tab
+[DEBUG] 2019-10-22 23:27:12,511 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Critical' text validated in Tests tab
+[DEBUG] 2019-10-22 23:27:12,543 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Save' button displayed under Tests tab
+[DEBUG] 2019-10-22 23:27:12,555 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Save' button' is enabled under Tests tab
+[DEBUG] 2019-10-22 23:27:12,571 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Save' Text appeared on save button under Test Tab
+[DEBUG] 2019-10-22 23:27:12,603 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Discard' button displayed under Tests tab
+[DEBUG] 2019-10-22 23:27:12,611 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Discard' button' is enabled under Tests tab
+[DEBUG] 2019-10-22 23:27:12,631 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Discard' Text appeared on save button under Test Tab
+[DEBUG] 2019-10-22 23:27:12,639 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that 'Delete button' displayed under Tests tab
+[DEBUG] 2019-10-22 23:27:12,671 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,679 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,707 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,719 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,727 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,763 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,775 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,787 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,819 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,827 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,855 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,863 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,875 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,907 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,927 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,939 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,967 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,983 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:12,995 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:13,023 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:13,035 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:13,051 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:13,079 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:13,087 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:13,103 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version contain 26' release version appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:13,135 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' appeared on bottom left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:13,143 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' enabled on right corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:13,155 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard
+[DEBUG] 2019-10-22 23:27:13,155 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Navigate to Alerts Tab
+[DEBUG] 2019-10-22 23:27:13,504 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Again Navigate Back to Test Tab
+[DEBUG] 2019-10-22 23:27:13,708 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that new test created link appeared under Tests tab
+[DEBUG] 2019-10-22 23:27:13,708 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Validated the element pleaset while click Test Creation using button (+)
+[DEBUG] 2019-10-22 23:27:16,083 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Save button' displayed under Tests tab
+[DEBUG] 2019-10-22 23:27:16,095 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Save button' is disbaled under Tests tab
+[DEBUG] 2019-10-22 23:27:16,111 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Save' Text appeared on save button under Test Tab
+[DEBUG] 2019-10-22 23:27:16,143 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Discard button' displayed under Tests tab
+[DEBUG] 2019-10-22 23:27:16,155 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Discard button' is disbaled under Tests tab
+[DEBUG] 2019-10-22 23:27:16,171 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Discard' Text appeared on save button under Test Tab
+[DEBUG] 2019-10-22 23:27:16,183 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Delete button' displayed under Tests tab
+[DEBUG] 2019-10-22 23:27:16,219 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Test Name' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:16,231 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Test Name' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:16,263 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Description' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:16,280 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Description' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:16,316 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Hammer Group Name' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:16,332 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Hammer Group' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:16,360 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that following values available in the dropdown
+[DEBUG] 2019-10-22 23:27:16,368 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - us_hammers
+[DEBUG] 2019-10-22 23:27:16,376 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - us_hammers
+[DEBUG] 2019-10-22 23:27:16,388 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - us_hammers
+[DEBUG] 2019-10-22 23:27:16,396 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Test
+[DEBUG] 2019-10-22 23:27:16,404 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Test
+[DEBUG] 2019-10-22 23:27:16,408 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Test
+[DEBUG] 2019-10-22 23:27:16,416 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - ABCD
+[DEBUG] 2019-10-22 23:27:16,420 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - ABCD
+[DEBUG] 2019-10-22 23:27:16,428 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - ABCD
+[DEBUG] 2019-10-22 23:27:16,428 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that count of the dropdown values are: 38
+[DEBUG] 2019-10-22 23:27:16,472 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that following values available in the dropdown
+[DEBUG] 2019-10-22 23:27:16,480 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -12:00) Eniwetok, Kwajalein
+[DEBUG] 2019-10-22 23:27:16,716 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -11:00) Midway Island, Samoa
+[DEBUG] 2019-10-22 23:27:16,944 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -10:00) Hawaii
+[DEBUG] 2019-10-22 23:27:17,173 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -9:00) Alaska
+[DEBUG] 2019-10-22 23:27:17,409 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -8:00) Pacific Time (US & Canada)
+[DEBUG] 2019-10-22 23:27:17,689 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -7:00) Mountain Time (US & Canada)
+[DEBUG] 2019-10-22 23:27:17,918 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -7:00) Arizona Time (US & Canada)
+[DEBUG] 2019-10-22 23:27:18,146 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -6:00) Central Time (US & Canada), Mexico City
+[DEBUG] 2019-10-22 23:27:18,438 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -5:00) Eastern Time (US & Canada)
+[DEBUG] 2019-10-22 23:27:18,679 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -5:00) Bogota, Lima
+[DEBUG] 2019-10-22 23:27:18,923 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -4:30) Caracas
+[DEBUG] 2019-10-22 23:27:19,380 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -4:00) Atlantic Time (Canada)
+[DEBUG] 2019-10-22 23:27:19,629 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -4:00) Santiago
+[DEBUG] 2019-10-22 23:27:19,877 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -4:00) Georgetown, La Paz
+[DEBUG] 2019-10-22 23:27:20,125 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -3:30) Newfoundland
+[DEBUG] 2019-10-22 23:27:20,362 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -3:00) Buenos Aires
+[DEBUG] 2019-10-22 23:27:20,606 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -3:00) Sao Paulo
+[DEBUG] 2019-10-22 23:27:20,838 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -2:00) Mid-Atlantic
+[DEBUG] 2019-10-22 23:27:21,071 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT -1:00 hour) Azores, Cape Verde Islands
+[DEBUG] 2019-10-22 23:27:21,303 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT) Western Europe Time, London, Lisbon, Casablanca, Greenwich
+[DEBUG] 2019-10-22 23:27:21,547 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +1:00 hour) Brussels, Copenhagen, Madrid, Paris
+[DEBUG] 2019-10-22 23:27:21,780 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +2:00) Kaliningrad, South Africa, Cairo
+[DEBUG] 2019-10-22 23:27:22,008 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg
+[DEBUG] 2019-10-22 23:27:22,240 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +3:30) Tehran
+[DEBUG] 2019-10-22 23:27:22,501 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +4:00) Abu Dhabi, Muscat, Yerevan, Baku, Tbilisi
+[DEBUG] 2019-10-22 23:27:22,753 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +4:30) Kabul
+[DEBUG] 2019-10-22 23:27:22,993 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent
+[DEBUG] 2019-10-22 23:27:23,234 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +5:30) Mumbai, Kolkata, Chennai, New Delhi, Colombo
+[DEBUG] 2019-10-22 23:27:23,542 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +5:45) Kathmandu
+[DEBUG] 2019-10-22 23:27:23,782 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +6:00) Almaty, Dhaka
+[DEBUG] 2019-10-22 23:27:24,007 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +6:30) Yangon, Cocos Islands
+[DEBUG] 2019-10-22 23:27:24,252 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +7:00) Bangkok, Hanoi, Jakarta
+[DEBUG] 2019-10-22 23:27:24,476 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +8:00) Beijing, Perth, Singapore, Hong Kong
+[DEBUG] 2019-10-22 23:27:24,704 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk
+[DEBUG] 2019-10-22 23:27:24,929 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +9:30) Adelaide, Darwin
+[DEBUG] 2019-10-22 23:27:25,157 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +10:00) Eastern Australia, Guam, Vladivostok, Magadan
+[DEBUG] 2019-10-22 23:27:25,413 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +11:00) Solomon Islands, New Caledonia
+[DEBUG] 2019-10-22 23:27:25,670 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - (GMT +12:00) Auckland, Wellington
+[DEBUG] 2019-10-22 23:27:25,714 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Schedules' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:25,726 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Schedules' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:25,758 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Start Date' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:25,770 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Time-Zone' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:25,802 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Start Date' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:25,814 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Start Date' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:25,854 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Start Date' displayed on under Tests tab
+[DEBUG] 2019-10-22 23:27:25,866 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Start Date' enabled on under Tests tab
+[DEBUG] 2019-10-22 23:27:25,898 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'End Date' label appeared on under Tests tab
+[DEBUG] 2019-10-22 23:27:25,910 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'End Date' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:25,946 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Start Date' displayed on under Tests tab
+[DEBUG] 2019-10-22 23:27:25,958 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Start Date' enabled on under Tests tab
+[DEBUG] 2019-10-22 23:27:25,994 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Tie To Scbscription' CheckBox appeared in Test tab
+[DEBUG] 2019-10-22 23:27:26,006 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Tie To Scbscription' CheckBox enabled in Test tab
+[DEBUG] 2019-10-22 23:27:26,014 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Tie To Scbscription' CheckBox selected in Test tab
+[DEBUG] 2019-10-22 23:27:26,050 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Enabled' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,062 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Enabled' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:26,094 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Description' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,106 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Description' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:26,142 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Period' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,154 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Period' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:26,190 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Day' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,202 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Days' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:26,234 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Start Time' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,246 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Start Time' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:26,278 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'End Time' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,290 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'End Time' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:26,322 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that '(-)' button appeared to remove configured sechedule
+[DEBUG] 2019-10-22 23:27:26,334 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that '(-)' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:26,371 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that '(+)' button appeared to add new configured sechedule
+[DEBUG] 2019-10-22 23:27:26,382 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that '(+)' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:26,415 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Description' field appered under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,427 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Description' field is enabled under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,459 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'period' field appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,467 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'period' value field is enabled under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,499 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Minute' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,515 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Mins' Text validated under Test Tab
+[DEBUG] 2019-10-22 23:27:26,547 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Sunday' button appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,571 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'sun' Text appeared on the button under Test Tab
+[DEBUG] 2019-10-22 23:27:26,611 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Sun' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:26,643 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Monday' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,663 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'mon' Text appeared on the button under Test Tab
+[DEBUG] 2019-10-22 23:27:26,683 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Mon' button enabled under sechedule section
+[DEBUG] 2019-10-22 23:27:26,719 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Tuesday' label appeared under Sechedule section in test tab
+[DEBUG] 2019-10-22 23:27:26,731 pom005_VoiceWatch_Tests_Tab.createTestbyLink() - Verified that 'Tue' Text appeared on the button under Test Tab
+]]></system-out>
+  </testcase>
+  <testcase name="tagTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="17.857"/>
+  <testcase name="scriptTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="101.856"/>
+  <testcase name="variableTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="15.067"/>
+  <testcase name="hammerTabValidation" classname="VW_TC.TC0000_Debug_Testing" time="8.294"/>
 </testsuite>

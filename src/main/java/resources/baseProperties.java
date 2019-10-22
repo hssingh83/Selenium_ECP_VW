@@ -58,7 +58,8 @@ if(browserName.contains("chrome"))
  	
 // 	System.setProperty("webdriver.chrome.logfile",System.getProperty("user.dir")+"\\src\\main\\java\\Browser_Log");
  	
- 	System.setProperty("webdriver.chrome.logfile","./Chromelog.txt");
+ //	System.setProperty("webdriver.chrome.logfile","./Chromelog.txt");
+ 	System.setProperty("webdriver.chrome.silentOutput","true");
 
 //	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\chromedriver.exe");
 	ChromeOptions options=new ChromeOptions();
@@ -87,7 +88,8 @@ else if (browserName.equals("firefox"))
 {
 //	System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\geckodriver.exe");
 	WebDriverManager.firefoxdriver().setup();
-	System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"./FFLogs.txt");
+//	System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"./FFLogs.txt");
+	System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"null");
 	
 	driver = new FirefoxDriver();
 	

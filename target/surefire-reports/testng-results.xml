@@ -1,61 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="243473" started-at="2019-10-22T17:17:40Z" finished-at="2019-10-22T17:21:43Z">
+  <suite name="Suite" duration-ms="233267" started-at="2019-10-22T17:55:57Z" finished-at="2019-10-22T17:59:50Z">
     <groups>
     </groups>
-    <test name="Test Case: 000 - Login with &#039;Empirix Admin&#039; Credetials&#039;and verify TabAvailablity" duration-ms="243473" started-at="2019-10-22T17:17:40Z" finished-at="2019-10-22T17:21:43Z">
+    <test name="Test Case: 000 - Login with &#039;Empirix Admin&#039; Credetials&#039;and verify TabAvailablity" duration-ms="233267" started-at="2019-10-22T17:55:57Z" finished-at="2019-10-22T17:59:50Z">
       <class name="VW_TC.TC0000_Debug_Testing">
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="applicationLaunch" is-config="true" duration-ms="29457" started-at="2019-10-22T17:17:40Z" finished-at="2019-10-22T17:18:09Z">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="applicationLaunch" is-config="true" duration-ms="34933" started-at="2019-10-22T17:55:57Z" finished-at="2019-10-22T17:56:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="logInWithExpirixAdmin()[pri:1, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="logInWithExpirixAdmin" duration-ms="20495" started-at="2019-10-22T17:18:09Z" finished-at="2019-10-22T17:18:30Z">
+        <test-method status="PASS" signature="logInWithExpirixAdmin()[pri:1, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="logInWithExpirixAdmin" duration-ms="21157" started-at="2019-10-22T17:56:32Z" finished-at="2019-10-22T17:56:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInWithExpirixAdmin -->
-        <test-method status="PASS" signature="headerMandatoryDetails()[pri:2, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="headerMandatoryDetails" duration-ms="556" started-at="2019-10-22T17:18:30Z" finished-at="2019-10-22T17:18:30Z">
+        <test-method status="PASS" signature="headerMandatoryDetails()[pri:2, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="headerMandatoryDetails" duration-ms="432" started-at="2019-10-22T17:56:53Z" finished-at="2019-10-22T17:56:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerMandatoryDetails -->
-        <test-method status="PASS" signature="footerMandatoryDetails()[pri:3, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="footerMandatoryDetails" duration-ms="381" started-at="2019-10-22T17:18:30Z" finished-at="2019-10-22T17:18:31Z">
+        <test-method status="PASS" signature="footerMandatoryDetails()[pri:3, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="footerMandatoryDetails" duration-ms="257" started-at="2019-10-22T17:56:54Z" finished-at="2019-10-22T17:56:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerMandatoryDetails -->
-        <test-method status="PASS" signature="TabAvailabilityValidation()[pri:4, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="TabAvailabilityValidation" duration-ms="725" started-at="2019-10-22T17:18:31Z" finished-at="2019-10-22T17:18:31Z">
+        <test-method status="PASS" signature="TabAvailabilityValidation()[pri:4, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="TabAvailabilityValidation" duration-ms="1273" started-at="2019-10-22T17:56:54Z" finished-at="2019-10-22T17:56:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TabAvailabilityValidation -->
-        <test-method status="PASS" signature="dashBoardTabValidation()[pri:5, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="dashBoardTabValidation" duration-ms="3324" started-at="2019-10-22T17:18:31Z" finished-at="2019-10-22T17:18:35Z">
+        <test-method status="PASS" signature="dashBoardTabValidation()[pri:5, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="dashBoardTabValidation" duration-ms="2916" started-at="2019-10-22T17:56:55Z" finished-at="2019-10-22T17:56:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashBoardTabValidation -->
-        <test-method status="PASS" signature="alertTabValidation()[pri:6, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="alertTabValidation" duration-ms="3354" started-at="2019-10-22T17:18:35Z" finished-at="2019-10-22T17:18:38Z">
+        <test-method status="PASS" signature="alertTabValidation()[pri:6, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="alertTabValidation" duration-ms="3100" started-at="2019-10-22T17:56:58Z" finished-at="2019-10-22T17:57:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertTabValidation -->
-        <test-method status="PASS" signature="testTabValidation()[pri:7, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="testTabValidation" duration-ms="53029" started-at="2019-10-22T17:18:38Z" finished-at="2019-10-22T17:19:31Z">
+        <test-method status="FAIL" signature="testTabValidation()[pri:7, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="testTabValidation" duration-ms="25099" started-at="2019-10-22T17:57:01Z" finished-at="2019-10-22T17:57:26Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element reference of <span class="label label-pretty ng-binding ng-isolate-scope labelsuccess"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'REM-L-SINGHH', ip: '192.168.118.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190917135527, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 3492, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 132a92ee-4b39-4ff5-aeeb-737daf0abd8c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element reference of <span class="label label-pretty ng-binding ng-isolate-scope labelsuccess"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'REM-L-SINGHH', ip: '192.168.118.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190917135527, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 3492, moz:profile: C:\Users\hsingh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 132a92ee-4b39-4ff5-aeeb-737daf0abd8c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:150)
+at PageActions.pom005_VoiceWatch_Tests_Tab.createTestbyLink(pom005_VoiceWatch_Tests_Tab.java:945)
+at VW_TC.TC0000_Debug_Testing.testTabValidation(TC0000_Debug_Testing.java:125)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTabValidation -->
-        <test-method status="PASS" signature="tagTabValidation()[pri:8, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="tagTabValidation" duration-ms="13736" started-at="2019-10-22T17:19:31Z" finished-at="2019-10-22T17:19:45Z">
+        <test-method status="PASS" signature="tagTabValidation()[pri:8, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="tagTabValidation" duration-ms="17861" started-at="2019-10-22T17:57:26Z" finished-at="2019-10-22T17:57:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tagTabValidation -->
-        <test-method status="PASS" signature="scriptTabValidation()[pri:9, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="scriptTabValidation" duration-ms="101143" started-at="2019-10-22T17:19:45Z" finished-at="2019-10-22T17:21:26Z">
+        <test-method status="PASS" signature="scriptTabValidation()[pri:9, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="scriptTabValidation" duration-ms="101848" started-at="2019-10-22T17:57:44Z" finished-at="2019-10-22T17:59:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scriptTabValidation -->
-        <test-method status="PASS" signature="variableTabValidation()[pri:10, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="variableTabValidation" duration-ms="12573" started-at="2019-10-22T17:21:26Z" finished-at="2019-10-22T17:21:39Z">
+        <test-method status="PASS" signature="variableTabValidation()[pri:10, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="variableTabValidation" duration-ms="15071" started-at="2019-10-22T17:59:26Z" finished-at="2019-10-22T17:59:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- variableTabValidation -->
-        <test-method status="PASS" signature="hammerTabValidation()[pri:11, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="hammerTabValidation" duration-ms="4564" started-at="2019-10-22T17:21:39Z" finished-at="2019-10-22T17:21:43Z">
+        <test-method status="PASS" signature="hammerTabValidation()[pri:11, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="hammerTabValidation" duration-ms="8306" started-at="2019-10-22T17:59:41Z" finished-at="2019-10-22T17:59:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hammerTabValidation -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0000_Debug_Testing@4466af20]" name="applicationClose" is-config="true" duration-ms="108" started-at="2019-10-22T17:21:43Z" finished-at="2019-10-22T17:21:43Z">
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0000_Debug_Testing@12468a38]" name="applicationClose" is-config="true" duration-ms="978" started-at="2019-10-22T17:59:49Z" finished-at="2019-10-22T17:59:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
