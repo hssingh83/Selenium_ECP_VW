@@ -1,2 +1,2 @@
 cd C:\Users\hsingh\Frameworks\Selenium_ECP_VW
--PRegression test
+mvn -PRegression test -Dbrowser=chrome -Durl=VoiceWatch-26.2

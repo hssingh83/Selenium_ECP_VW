@@ -16,6 +16,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -50,12 +51,12 @@ prop.load(fis);
 
 String browserName=System.getProperty("browser");
 
+
 //String browserName=prop.getProperty("browser");
 if(browserName.contains("chrome"))
 		
 {
- 	WebDriverManager.chromedriver().setup();
- 	
+ 	WebDriverManager.chromedriver().setup(); 	
 // 	System.setProperty("webdriver.chrome.logfile",System.getProperty("user.dir")+"\\src\\main\\java\\Browser_Log");
  	
  //	System.setProperty("webdriver.chrome.logfile","./Chromelog.txt");
@@ -83,15 +84,27 @@ if(browserName.contains("chrome"))
 		
 //firefox
 
-else if (browserName.equals("firefox"))
+//else if (browserName.equals("firefox"))
 	
+else if (browserName.contains("firefox"))
+
 {
 //	System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\geckodriver.exe");
 	WebDriverManager.firefoxdriver().setup();
 //	System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"./FFLogs.txt");
 	System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"null");
 	
-	driver = new FirefoxDriver();
+	FirefoxOptions options=new FirefoxOptions();
+	options.addArguments("disable-infobars");
+	
+	if(browserName.contains("headless"))	
+	{
+
+    options.addArguments("--headless");
+//	driver = new FirefoxDriver();
+	}
+	
+	driver=new FirefoxDriver(options);
 	
 	log.info("Firefox Driver intilized successfully");
     log.info("Firefox Browser selected & Launch");

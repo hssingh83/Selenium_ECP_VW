@@ -11,16 +11,8 @@
         <methods>
           <include name="footerMandatoryDetails"/>
           <include name="logInWithExpirixAdmin"/>
-          <include name="alertTabValidation"/>
-          <include name="TabAvailabilityValidation"/>
-          <include name="scriptTabValidation"/>
-          <include name="tagTabValidation"/>
-          <include name="variableTabValidation"/>
-          <include name="hammerTabValidation"/>
           <include name="applicationLaunch"/>
           <include name="headerMandatoryDetails"/>
-          <include name="dashBoardTabValidation"/>
-          <include name="testTabValidation"/>
           <include name="applicationClose"/>
         </methods>
       </class> <!-- VW_TC.TC0000_Debug_Testing -->

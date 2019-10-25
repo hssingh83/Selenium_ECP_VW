@@ -5,8 +5,10 @@
     <classes>
       <class name="VW_TC.TC0000_Debug_Testing">
         <methods>
-          <include name="scriptTabValidation"/>
+          <include name="footerMandatoryDetails"/>
+          <include name="logInWithExpirixAdmin"/>
           <include name="applicationLaunch"/>
+          <include name="headerMandatoryDetails"/>
           <include name="applicationClose"/>
         </methods>
       </class> <!-- VW_TC.TC0000_Debug_Testing -->

@@ -32,7 +32,10 @@ public class pom002_VoiceWatch_Home_Page {
     By headerApplicationName=By.xpath("//*[@id=\"logo\"]/span[2]");
     By footerBackToTop=By.xpath("//*[@id=\"wrapper\"]/footer/div/a");
     By footerVersion=By.xpath("//*[@id=\"wrapper\"]/footer/div/span[2]/span");
-    By footerVersionNumber=By.xpath("//*[@id=\"wrapper\"]/footer/div/span[2]/a");
+ // By footerVersionNumber=By.xpath("//*[@id=\"wrapper\"]/footer/div/span[2]/a");
+    
+    By footerVersionNumber=By.partialLinkText("26.2.0");
+    
     By footerEmpirixLebel=By.xpath("//*[@id=\"wrapper\"]/footer/div/span[1]");
     
     

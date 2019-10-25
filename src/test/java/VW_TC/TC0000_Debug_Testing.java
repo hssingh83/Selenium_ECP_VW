@@ -78,7 +78,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	}
 
 		
-	@Test(priority=4)
+	/*@Test(priority=4)
 	public void TabAvailabilityValidation () throws IOException, InterruptedException {
 		
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
@@ -195,7 +195,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	    hm.createHammerByButton();
 	   hm.createHammerByLink();
 
-	}
+	}*/
 	
 	
 	

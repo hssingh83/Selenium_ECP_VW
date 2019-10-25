@@ -1,2 +1,2 @@
 cd C:\Users\hsingh\Frameworks\Selenium_ECP_VW
--PSanity test
+mvn -PSanity test -Dbrowser=chrome -Durl=VoiceWatch-26.2
