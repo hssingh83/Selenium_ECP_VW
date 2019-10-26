@@ -39,7 +39,7 @@ public class TC0003_login_With_Empirix_Business_Analyst extends baseProperties{
 		
 		pom001_VoiceWatch_logIn_Page l=new pom001_VoiceWatch_logIn_Page(driver);
 		dataDriven d1=new dataDriven();
-		  ArrayList<String> data=d1.getData("login","Empirix/Empirix Admin");
+		  ArrayList<String> data=d1.getData("login","Empirix/BusnessAnalyst");
 			
 		l.getUsername().sendKeys(data.get(1));
 	    l.getPassword().sendKeys(data.get(2));
@@ -130,21 +130,11 @@ public class TC0003_login_With_Empirix_Business_Analyst extends baseProperties{
 		
 		pom007_VoiceWatch_Script_Tabs sc=new pom007_VoiceWatch_Script_Tabs(driver);
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-	
-		
-		
+			
 		sc.goScriptBuilderTabValidation();
-		sc.createGSBbybutton();
-		sc.createGSBbyLink();
 		d.header();
 		d.footer();
 		sc.scriptUploadTabValidation();
-		d.header();
-		d.footer();
-		sc.createSUbybutton();
-		d.header();
-		d.footer();
-		sc.createSUbyLink();
 		d.header();
 		d.footer();
 		sc.csvTabValidation();
@@ -160,14 +150,7 @@ public class TC0003_login_With_Empirix_Business_Analyst extends baseProperties{
 		vr.variableTabValidation();
 		d.header();
 		d.footer();
-		vr.createVariableByButton();
-		d.header();
-		d.footer();
-		vr.createVariableByLink();
-		d.header();
-		d.footer();	
-
-	}
+			}
 	@Test(priority=11)
 	public void hammerTabValidation () throws Exception {
 		
@@ -181,9 +164,7 @@ public class TC0003_login_With_Empirix_Business_Analyst extends baseProperties{
 	   hm.createHammerByLink();
 
 	}
-	
-	
-		
+			
 	@AfterTest
 	public void applicationClose() {
 	

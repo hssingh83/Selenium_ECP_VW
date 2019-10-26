@@ -136,11 +136,8 @@ public class TC0006_login_With_Partner_Enhanced_User extends baseProperties{
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
 	
 		sc.goScriptBuilderTabValidation();
-		sc.createGSBbybutton();
-		sc.createGSBbyLink();
 		d.header();
 		d.footer();
-//		sc.scriptUploadTabValidation();
 		sc.csvTabValidation();
 		d.header();
 		d.footer();
@@ -157,13 +154,7 @@ public class TC0006_login_With_Partner_Enhanced_User extends baseProperties{
 		vr.variableTabValidation();
 		d.header();
 		d.footer();
-		vr.createVariableByButton();
-		d.header();
-		d.footer();
-		vr.createVariableByLink();
-		d.header();
-		d.footer();	
-
+		
 	}
 		
 	@AfterTest

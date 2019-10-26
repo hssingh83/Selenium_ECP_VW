@@ -21,7 +21,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -49,10 +49,10 @@ FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\m
 
 prop.load(fis);
 
-String browserName=System.getProperty("browser");
+//String browserName=System.getProperty("browser");
 
 
-//String browserName=prop.getProperty("browser");
+String browserName=prop.getProperty("browser");
 if(browserName.contains("chrome"))
 		
 {
@@ -62,7 +62,6 @@ if(browserName.contains("chrome"))
  //	System.setProperty("webdriver.chrome.logfile","./Chromelog.txt");
  	System.setProperty("webdriver.chrome.silentOutput","true");
 
-//	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\main\\java\\resources\\drivers\\chromedriver.exe");
 	ChromeOptions options=new ChromeOptions();
 	options.addArguments("disable-infobars");
  //   driver=new ChromeDriver();
@@ -128,21 +127,33 @@ else if (browserName.equals("ie"))
 
 driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS);
 
-String URL=System.getProperty("url");
+/*String URL=System.getProperty("url");
+
 
 if (URL.contains("VoiceWatch-26.0")) {	
 	driver.get(prop.getProperty("url1"));
+	log.debug("Current version is 26.0");
+
 }	
 	if (URL.contains("VoiceWatch-26.1")) {
 		
 		driver.get(prop.getProperty("url2"));
+		log.debug("Current version is 26.1");
+		
 	
 } if (URL.contains("VoiceWatch-26.2")) {
 	
-	driver.get(prop.getProperty("url3"));	
+	driver.get(prop.getProperty("url3"));
+	log.debug("Current version is 26.2");
+	
+} else {
+	log.debug("Verson Not Matched");
 }
+*/
 
-//driver.get(prop.getProperty("url3"));
+
+
+driver.get(prop.getProperty("url3"));
 log.debug("URL provided");
 driver.manage().window().maximize();
 log.debug("Screen maximized successfully");
@@ -163,14 +174,15 @@ Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div[1]/nav/d
 
 
 log.debug(" Verified that VoiceWatch login screen appeared successfully");
-
 return driver;
-	}
-	
-	 
-	
 
-		
+
+	}
+
+
+
+
+
 	public void getScreenshot(String result) throws IOException
 //	public void getScreenshot() throws IOException
 	

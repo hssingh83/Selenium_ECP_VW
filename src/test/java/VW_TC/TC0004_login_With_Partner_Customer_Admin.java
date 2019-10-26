@@ -38,7 +38,7 @@ public class TC0004_login_With_Partner_Customer_Admin extends baseProperties{
 		
 		pom001_VoiceWatch_logIn_Page l=new pom001_VoiceWatch_logIn_Page(driver);
 		dataDriven d=new dataDriven();
-		  ArrayList<String> data=d.getData("login","PARTNER/CUSTOMER_ADMIN");
+		  ArrayList<String> data=d.getData("login","PARTNER/Customer_Admin");
 			
 		l.getUsername().sendKeys(data.get(1));
 	    l.getPassword().sendKeys(data.get(2));

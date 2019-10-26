@@ -6,7 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class pom002_VoiceWatch_Home_Page {
+import resources.baseProperties;
+
+public class pom002_VoiceWatch_Home_Page extends baseProperties{
 	private static Logger log =LogManager.getLogger(pom002_VoiceWatch_Home_Page.class.getName());
 
 	public WebDriver driver;
@@ -378,6 +380,8 @@ public void footer() {
 		
 		Assert.assertEquals(driver.findElement(footerEmpirixLebel).getText(), "Empirix");		
 		log.debug("Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard");	
+		
+		
 			
 	}
 	

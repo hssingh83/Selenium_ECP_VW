@@ -10,16 +10,13 @@
     
      
 
-     
-     <test  name="Test Case: 000 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity">
+        <test  name="Test Case: 005 - Login with 'Partner Developer' Credetials and verify TabAvailablity">
     <classes>
      
-      <class name="VW_TC.TC0000_Debug_Testing"/>
+      <class name="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User"/>
       
      </classes> 
      </test>
-     
-  
      
      
      

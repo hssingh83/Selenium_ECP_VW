@@ -1,0 +1,127 @@
+# Created at 2019-10-26T00:21:16.564
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-10-26T00:21:18.411
+Unexpected IOException with stream: [DEBUG] 2019-10-26 00:21:18,411 baseProperties.intializeDriver() - Current version is 26.2
+
+
+# Created at 2019-10-26T00:21:18.411
+Unexpected IOException with stream: [DEBUG] 2019-10-26 00:21:18,411 baseProperties.intializeDriver() - URL provided
+
+
+# Created at 2019-10-26T00:21:19.547
+Unexpected IOException with stream: [DEBUG] 2019-10-26 00:21:19,547 baseProperties.intializeDriver() - Screen maximized successfully
+
+
+# Created at 2019-10-26T00:21:19.547
+Unexpected IOException with stream: [DEBUG] 2019-10-26 00:21:19,547 baseProperties.intializeDriver() - Waiting to access above URL
+
+
+# Created at 2019-10-26T00:21:26.485
+Unexpected IOException with stream: [DEBUG] 2019-10-26 00:21:26,485 baseProperties.intializeDriver() -  Verified that VoiceWatch login screen appeared successfully
+
+
+# Created at 2019-10-26T00:21:26.501
+Unexpected IOException: 5,1,VW_TC.TC0000_Debug_Testing,logInWithExpirixAdmin(VW_TC.TC0000_Debug_Testing),VW_TC.TC0000_Debug_Testing,null,null
+
+
+# Created at 2019-10-26T00:21:26.938
+Unexpected IOException with stream: 0
+
+# Created at 2019-10-26T00:21:26.938
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-26T00:21:26.942
+Unexpected IOException with stream: [DEBUG] 2019-10-26 00:21:26,942 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+
+
+# Created at 2019-10-26T00:21:26.942
+Unexpected IOException with stream: [DEBUG] 2019-10-26 00:21:26,942 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+
+
+# Created at 2019-10-26T00:21:27.006
+Unexpected IOException with stream: [DEBUG] 2019-10-26 00:21:27,006 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+
+
+# Created at 2019-10-26T00:21:27.086
+Unexpected IOException with stream: [DEBUG] 2019-10-26 00:21:27,082 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+
+
+# Created at 2019-10-26T00:21:27.154
+Unexpected IOException with stream: [DEBUG] 2019-10-26 00:21:27,154 TC0000_Debug_Testing.logInWithExpirixAdmin() - Waiting for launch VoiceWatch application using above creadetails
+
+
+# Created at 2019-10-26T00:21:34.929
+Unexpected IOException: 8,1,VW_TC.TC0000_Debug_Testing,logInWithExpirixAdmin(VW_TC.TC0000_Debug_Testing),null,null,null,null,TC0000_Debug_Testing.logInWithExpirixAdmin:57 NullPointer,java.lang.NullPointerException\000A\0009at VW_TC.TC0000_Debug_Testing.logInWithExpirixAdmin(TC0000_Debug_Testing.java:57)\000A
+
+
+# Created at 2019-10-26T00:21:34.933
+Unexpected IOException with stream: 
+Test Case logInWithExpirixAdmin failed
+
+
+
+# Created at 2019-10-26T00:21:34.933
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-26T00:21:34.937
+Unexpected IOException: 5,1,VW_TC.TC0000_Debug_Testing,headerMandatoryDetails(VW_TC.TC0000_Debug_Testing),VW_TC.TC0000_Debug_Testing,null,null
+
+
+# Created at 2019-10-26T00:21:34.965
+Unexpected IOException: 8,1,VW_TC.TC0000_Debug_Testing,headerMandatoryDetails(VW_TC.TC0000_Debug_Testing),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:57004}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 270023066120333924f186919f3557c6\000A*** Element info: {Using=xpath\002C value=//*[@id="logo"]/img},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:57004}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 270023066120333924f186919f3557c6\000A*** Element info: {Using=xpath\002C value=//*[@id="logo"]/img},TC0000_Debug_Testing.headerMandatoryDetails:69 \00BB NoSuchWindow no such window: ...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:57004}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 270023066120333924f186919f3557c6\000A*** Element info: {Using=xpath\002C value=//*[@id="logo"]/img}\000A\0009at VW_TC.TC0000_Debug_Testing.headerMandatoryDetails(TC0000_Debug_Testing.java:69)\000A
+
+
+# Created at 2019-10-26T00:21:34.965
+Unexpected IOException with stream: 
+Test Case headerMandatoryDetails failed
+
+
+
+# Created at 2019-10-26T00:21:34.965
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-26T00:21:34.969
+Unexpected IOException: 5,1,VW_TC.TC0000_Debug_Testing,footerMandatoryDetails(VW_TC.TC0000_Debug_Testing),VW_TC.TC0000_Debug_Testing,null,null
+
+
+# Created at 2019-10-26T00:21:34.973
+Unexpected IOException: 8,1,VW_TC.TC0000_Debug_Testing,footerMandatoryDetails(VW_TC.TC0000_Debug_Testing),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:57004}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 270023066120333924f186919f3557c6\000A*** Element info: {Using=xpath\002C value=//*[@id="wrapper"]/footer/div/a},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:57004}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 270023066120333924f186919f3557c6\000A*** Element info: {Using=xpath\002C value=//*[@id="wrapper"]/footer/div/a},TC0000_Debug_Testing.footerMandatoryDetails:77 \00BB NoSuchWindow no such window: ...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:57004}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 270023066120333924f186919f3557c6\000A*** Element info: {Using=xpath\002C value=//*[@id="wrapper"]/footer/div/a}\000A\0009at VW_TC.TC0000_Debug_Testing.footerMandatoryDetails(TC0000_Debug_Testing.java:77)\000A
+
+
+# Created at 2019-10-26T00:21:34.977
+Unexpected IOException with stream: 
+Test Case footerMandatoryDetails failed
+
+
+
+# Created at 2019-10-26T00:21:34.977
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-26T00:21:37.003
+Unexpected IOException: 8,1,VW_TC.TC0000_Debug_Testing,applicationClose(VW_TC.TC0000_Debug_Testing),null,chrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:57004}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 270023066120333924f186919f3557c6,null,chrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:57004}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 270023066120333924f186919f3557c6,TC0000_Debug_Testing.applicationClose:205 \00BB WebDriver chrome not reachable\000A  (...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:57004}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 270023066120333924f186919f3557c6\000A\0009at VW_TC.TC0000_Debug_Testing.applicationClose(TC0000_Debug_Testing.java:205)\000A
+
+
+# Created at 2019-10-26T00:21:37.051
+Unexpected IOException with stream: 
+ Test Case: 000 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity Completed
+
+
+# Created at 2019-10-26T00:21:37.051
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-26T00:21:37.620
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

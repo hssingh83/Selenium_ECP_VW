@@ -115,13 +115,6 @@ public class TC0007_login_With_Partner_User extends baseProperties{
 		vr.variableTabValidation();
 		d.header();
 		d.footer();
-		vr.createVariableByButton();
-		d.header();
-		d.footer();
-		vr.createVariableByLink();
-		d.header();
-		d.footer();	
-
 	}	
 
 		

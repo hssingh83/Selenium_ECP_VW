@@ -33,13 +33,12 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		
 		driver=intializeDriver();
 	}
-	
-	
+		
 	
 	@Test(priority=1)
 	public void logInWithExpirixAdmin () throws IOException, InterruptedException {		
 		dataDriven d=new dataDriven();
-		 ArrayList<String> data=d.getData("login","Admin_login");
+		 ArrayList<String> data=d.getData("login","Empirix/Admin");
 		
 		
 		pom001_VoiceWatch_logIn_Page l=new pom001_VoiceWatch_logIn_Page(driver);
