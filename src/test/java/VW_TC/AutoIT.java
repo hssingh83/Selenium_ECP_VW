@@ -19,11 +19,11 @@ import PageActions.pom006_VoiceWatch_Tags_Tab;
 import PageActions.pom007_VoiceWatch_Script_Tabs;
 import PageActions.pom008_VoiceWatch_Variable_Tab;
 import PageActions.pom009_VoiceWatch_Hammers_Tab;
-import resources.baseProperties;
+import resources.basePropertiesSeln;
 import resources.dataDriven;
 
 
-public class AutoIT extends baseProperties{
+public class AutoIT extends basePropertiesSeln{
 	
 	private static Logger log =LogManager.getLogger(AutoIT.class.getName());
 	

@@ -18,11 +18,11 @@ import PageActions.pom005_VoiceWatch_Tests_Tab;
 import PageActions.pom006_VoiceWatch_Tags_Tab;
 import PageActions.pom007_VoiceWatch_Script_Tabs;
 import PageActions.pom008_VoiceWatch_Variable_Tab;
-import resources.baseProperties;
+import resources.basePropertiesSeln;
 import resources.dataDriven;
 
 
-public class TC0000_Debug_Testing1 extends baseProperties{
+public class TC0000_Debug_Testing1 extends basePropertiesSeln{
 
 	
 	

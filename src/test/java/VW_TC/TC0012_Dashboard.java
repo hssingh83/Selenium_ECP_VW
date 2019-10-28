@@ -10,10 +10,10 @@ import org.testng.annotations.Test;
 
 import PageActions.pom001_VoiceWatch_logIn_Page;
 import PageActions.pom002_VoiceWatch_Home_Page;
-import resources.baseProperties;
+import resources.basePropertiesSeln;
 import resources.dataDriven;
 
-public class TC0012_Dashboard extends baseProperties{
+public class TC0012_Dashboard extends basePropertiesSeln{
 	
 	private static Logger log =LogManager.getLogger(TC0012_Dashboard.class.getName());
 	

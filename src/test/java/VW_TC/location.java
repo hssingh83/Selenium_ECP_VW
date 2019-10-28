@@ -14,10 +14,10 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import PageActions.pom001_VoiceWatch_logIn_Page;
-import resources.baseProperties;
+import resources.basePropertiesSeln;
 import resources.dataDriven;
 
-public class location extends baseProperties {
+public class location extends basePropertiesSeln {
 	
 	private static Logger log =LogManager.getLogger(linktest.class.getName());
 		

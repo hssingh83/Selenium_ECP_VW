@@ -19,10 +19,10 @@ import PageActions.pom005_VoiceWatch_Tests_Tab;
 import PageActions.pom006_VoiceWatch_Tags_Tab;
 import PageActions.pom007_VoiceWatch_Script_Tabs;
 import PageActions.pom008_VoiceWatch_Variable_Tab;
-import resources.baseProperties;
+import resources.basePropertiesSeln;
 import resources.dataDriven;
 
-public class TC0004_login_With_Partner_Customer_Admin extends baseProperties{
+public class TC0004_login_With_Partner_Customer_Admin extends basePropertiesSeln{
 	
 	private static Logger log =LogManager.getLogger(TC0004_login_With_Partner_Customer_Admin.class.getName());
 	

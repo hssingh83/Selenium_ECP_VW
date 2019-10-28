@@ -10,9 +10,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import PageActions.pom001_VoiceWatch_logIn_Page;
-import resources.baseProperties;
+import resources.basePropertiesSeln;
 
-public class TC0001_login_Page_Verification extends baseProperties{
+public class TC0001_login_Page_Verification extends basePropertiesSeln{
 	
 	private static Logger log =LogManager.getLogger(TC0001_login_Page_Verification.class.getName());
 	

@@ -1,9 +1,9 @@
 PageActions\unused_Home_Page_location.class
 resources\dataDriven.class
-resources\baseProperties.class
 PageActions\pom007_VoiceWatch_Script_Tabs.class
 resources\ExtentReporterNG.class
 PageActions\pom005_VoiceWatch_Tests_Tab.class
+resources\basePropertiesSeln.class
 resources\listeners.class
 PageActions\pom003_VoiceWatch_Dashboard_Tab.class
 PageActions\unused_Hidden.class

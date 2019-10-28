@@ -10,10 +10,10 @@
     
      
 
-        <test  name="Test Case: 005 - Login with 'Partner Developer' Credetials and verify TabAvailablity">
+        <test  name="Test Case: 001 - Login Verification">
     <classes>
      
-      <class name="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User"/>
+      <class name="VW_TC.TC0001_login_Page_Verification"/>
       
      </classes> 
      </test>

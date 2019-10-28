@@ -17,10 +17,10 @@ import PageActions.pom003_VoiceWatch_Dashboard_Tab;
 import PageActions.pom004_VoiceWatch_Alerts_Tab;
 import PageActions.pom005_VoiceWatch_Tests_Tab;
 import PageActions.pom008_VoiceWatch_Variable_Tab;
-import resources.baseProperties;
+import resources.basePropertiesSeln;
 import resources.dataDriven;
 
-public class TC0011_login_With_Client_OR_Partner_Client_User extends baseProperties{
+public class TC0011_login_With_Client_OR_Partner_Client_User extends basePropertiesSeln{
 
 	private static Logger log =LogManager.getLogger(TC0011_login_With_Client_OR_Partner_Client_User.class.getName());
 	

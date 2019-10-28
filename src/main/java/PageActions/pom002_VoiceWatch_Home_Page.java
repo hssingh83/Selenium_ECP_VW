@@ -6,9 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import resources.baseProperties;
+import resources.basePropertiesSeln;
 
-public class pom002_VoiceWatch_Home_Page extends baseProperties{
+public class pom002_VoiceWatch_Home_Page extends basePropertiesSeln{
 	private static Logger log =LogManager.getLogger(pom002_VoiceWatch_Home_Page.class.getName());
 
 	public WebDriver driver;

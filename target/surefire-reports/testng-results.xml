@@ -1,65 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="660027" started-at="2019-10-26T17:08:45Z" finished-at="2019-10-26T17:19:45Z">
+  <suite name="Suite" duration-ms="269469" started-at="2019-10-28T10:40:31Z" finished-at="2019-10-28T10:45:01Z">
     <groups>
     </groups>
-    <test name="Test Case: 005 - Login with &#039;Partner Developer&#039; Credetials and verify TabAvailablity" duration-ms="660027" started-at="2019-10-26T17:08:45Z" finished-at="2019-10-26T17:19:45Z">
-      <class name="VW_TC.TC0003_login_With_Empirix_Business_Analyst">
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="applicationLaunch" is-config="true" duration-ms="20836" started-at="2019-10-26T17:08:45Z" finished-at="2019-10-26T17:09:06Z">
+    <test name="Test Case: 001- Login Page Verification " duration-ms="24815" started-at="2019-10-28T10:40:31Z" finished-at="2019-10-28T10:40:56Z">
+      <class name="VW_TC.TC0001_login_Page_Verification">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0001_login_Page_Verification@5b239d7d]" name="applicationLaunch" is-config="true" duration-ms="18538" started-at="2019-10-28T10:40:31Z" finished-at="2019-10-28T10:40:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="logInWithExpirixBusinessAnalyst()[pri:1, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="logInWithExpirixBusinessAnalyst" duration-ms="17416" started-at="2019-10-26T17:09:06Z" finished-at="2019-10-26T17:09:23Z">
+        <test-method status="PASS" signature="logInScreenVerification()[pri:1, instance:VW_TC.TC0001_login_Page_Verification@5b239d7d]" name="logInScreenVerification" duration-ms="6099" started-at="2019-10-28T10:40:50Z" finished-at="2019-10-28T10:40:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logInWithExpirixBusinessAnalyst -->
-        <test-method status="PASS" signature="headerMandatoryDetails()[pri:2, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="headerMandatoryDetails" duration-ms="582" started-at="2019-10-26T17:09:23Z" finished-at="2019-10-26T17:09:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headerMandatoryDetails -->
-        <test-method status="PASS" signature="footerMandatoryDetails()[pri:3, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="footerMandatoryDetails" duration-ms="420" started-at="2019-10-26T17:09:24Z" finished-at="2019-10-26T17:09:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- footerMandatoryDetails -->
-        <test-method status="PASS" signature="TabValidation()[pri:4, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="TabValidation" duration-ms="725" started-at="2019-10-26T17:09:24Z" finished-at="2019-10-26T17:09:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TabValidation -->
-        <test-method status="PASS" signature="dashBoardTabValidation()[pri:5, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="dashBoardTabValidation" duration-ms="3831" started-at="2019-10-26T17:09:25Z" finished-at="2019-10-26T17:09:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dashBoardTabValidation -->
-        <test-method status="PASS" signature="alertTabValidation()[pri:6, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="alertTabValidation" duration-ms="4104" started-at="2019-10-26T17:09:29Z" finished-at="2019-10-26T17:09:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- alertTabValidation -->
-        <test-method status="PASS" signature="testTabValidation()[pri:7, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="testTabValidation" duration-ms="4123" started-at="2019-10-26T17:09:33Z" finished-at="2019-10-26T17:09:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTabValidation -->
-        <test-method status="PASS" signature="tagTabValidation()[pri:8, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="tagTabValidation" duration-ms="11233" started-at="2019-10-26T17:09:37Z" finished-at="2019-10-26T17:09:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tagTabValidation -->
-        <test-method status="PASS" signature="scriptTabValidation()[pri:9, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="scriptTabValidation" duration-ms="143324" started-at="2019-10-26T17:09:49Z" finished-at="2019-10-26T17:12:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scriptTabValidation -->
-        <test-method status="PASS" signature="variableTabValidation()[pri:10, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="variableTabValidation" duration-ms="416533" started-at="2019-10-26T17:12:12Z" finished-at="2019-10-26T17:19:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- variableTabValidation -->
-        <test-method status="PASS" signature="hammerTabValidation()[pri:11, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="hammerTabValidation" duration-ms="36208" started-at="2019-10-26T17:19:08Z" finished-at="2019-10-26T17:19:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hammerTabValidation -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0003_login_With_Empirix_Business_Analyst@5b239d7d]" name="applicationClose" is-config="true" duration-ms="672" started-at="2019-10-26T17:19:45Z" finished-at="2019-10-26T17:19:45Z">
+        </test-method> <!-- logInScreenVerification -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0001_login_Page_Verification@5b239d7d]" name="applicationClose" is-config="true" duration-ms="125" started-at="2019-10-28T10:40:56Z" finished-at="2019-10-28T10:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
-      </class> <!-- VW_TC.TC0003_login_With_Empirix_Business_Analyst -->
-    </test> <!-- Test Case: 005 - Login with 'Partner Developer' Credetials and verify TabAvailablity -->
+      </class> <!-- VW_TC.TC0001_login_Page_Verification -->
+    </test> <!-- Test Case: 001- Login Page Verification  -->
+    <test name="Test Case: 002 - Login with &#039;Empirix Admin&#039; Credetials&#039;and verify TabAvailablity" duration-ms="244633" started-at="2019-10-28T10:40:56Z" finished-at="2019-10-28T10:45:01Z">
+      <class name="VW_TC.TC0002_login_With_Exmpirix_Admin">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="applicationLaunch" is-config="true" duration-ms="19456" started-at="2019-10-28T10:40:56Z" finished-at="2019-10-28T10:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="logInWithExpirixAdmin()[pri:1, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="logInWithExpirixAdmin" duration-ms="34761" started-at="2019-10-28T10:41:16Z" finished-at="2019-10-28T10:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithExpirixAdmin -->
+        <test-method status="PASS" signature="headerMandatoryDetails()[pri:2, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="headerMandatoryDetails" duration-ms="496" started-at="2019-10-28T10:41:50Z" finished-at="2019-10-28T10:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerMandatoryDetails -->
+        <test-method status="PASS" signature="footerMandatoryDetails()[pri:3, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="footerMandatoryDetails" duration-ms="381" started-at="2019-10-28T10:41:51Z" finished-at="2019-10-28T10:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerMandatoryDetails -->
+        <test-method status="PASS" signature="TabAvailabilityValidation()[pri:4, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="TabAvailabilityValidation" duration-ms="567" started-at="2019-10-28T10:41:51Z" finished-at="2019-10-28T10:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TabAvailabilityValidation -->
+        <test-method status="PASS" signature="dashBoardTabValidation()[pri:5, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="dashBoardTabValidation" duration-ms="3164" started-at="2019-10-28T10:41:52Z" finished-at="2019-10-28T10:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashBoardTabValidation -->
+        <test-method status="PASS" signature="alertTabValidation()[pri:6, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="alertTabValidation" duration-ms="2502" started-at="2019-10-28T10:41:55Z" finished-at="2019-10-28T10:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertTabValidation -->
+        <test-method status="PASS" signature="testTabValidation()[pri:7, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="testTabValidation" duration-ms="51095" started-at="2019-10-28T10:41:57Z" finished-at="2019-10-28T10:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTabValidation -->
+        <test-method status="PASS" signature="tagTabValidation()[pri:8, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="tagTabValidation" duration-ms="13511" started-at="2019-10-28T10:42:49Z" finished-at="2019-10-28T10:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tagTabValidation -->
+        <test-method status="PASS" signature="scriptTabValidation()[pri:9, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="scriptTabValidation" duration-ms="99272" started-at="2019-10-28T10:43:02Z" finished-at="2019-10-28T10:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scriptTabValidation -->
+        <test-method status="PASS" signature="variableTabValidation()[pri:10, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="variableTabValidation" duration-ms="14219" started-at="2019-10-28T10:44:41Z" finished-at="2019-10-28T10:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- variableTabValidation -->
+        <test-method status="PASS" signature="hammerTabValidation()[pri:11, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="hammerTabValidation" duration-ms="5114" started-at="2019-10-28T10:44:56Z" finished-at="2019-10-28T10:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hammerTabValidation -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0002_login_With_Exmpirix_Admin@131774fe]" name="applicationClose" is-config="true" duration-ms="84" started-at="2019-10-28T10:45:01Z" finished-at="2019-10-28T10:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+      </class> <!-- VW_TC.TC0002_login_With_Exmpirix_Admin -->
+    </test> <!-- Test Case: 002 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity -->
   </suite> <!-- Suite -->
 </testng-results>

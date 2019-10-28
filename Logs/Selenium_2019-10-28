@@ -1,0 +1,20 @@
+[DEBUG] 2019-10-28 19:04:09,246 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-10-28 19:04:09,254 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-10-28 19:04:09,262 basePropertiesSeln.intializeDriver() - implicit Wait Applied
+[DEBUG] 2019-10-28 19:04:09,274 basePropertiesSeln.intializeDriver() - Clean Cookies
+[DEBUG] 2019-10-28 19:04:23,708 basePropertiesSeln.intializeDriver() - URL provided
+[INFO ] 2019-10-28 19:04:27,631 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+[INFO ] 2019-10-28 19:04:27,635 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-10-28 19:04:27,712 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - LogIn Page Label verification Started
+[DEBUG] 2019-10-28 19:04:36,345 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Present on login Page
+[DEBUG] 2019-10-28 19:04:36,376 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Enabled on login Page
+[DEBUG] 2019-10-28 19:04:36,412 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Sign in to continue label' appeared on Login page
+[DEBUG] 2019-10-28 19:04:36,448 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'User Name' label' appeared on Login page
+[DEBUG] 2019-10-28 19:04:36,484 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Password: label' appeared on Login page
+[DEBUG] 2019-10-28 19:04:36,528 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' appeared on Login page
+[DEBUG] 2019-10-28 19:04:36,556 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is clickable on Login page
+[DEBUG] 2019-10-28 19:04:36,580 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is not selected on Login page
+[DEBUG] 2019-10-28 19:04:36,616 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Sign In button is displayed
+[DEBUG] 2019-10-28 19:04:36,641 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Save button is enabled
+[DEBUG] 2019-10-28 19:04:36,677 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Remember my User Name' appeared on login page
+[INFO ] 2019-10-28 19:04:36,785 TC0001_login_Page_Verification.applicationClose() - Application closed successfully

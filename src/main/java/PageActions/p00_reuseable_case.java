@@ -4,9 +4,9 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import resources.baseProperties;
+import resources.basePropertiesSeln;
 
-public class p00_reuseable_case extends baseProperties{ 
+public class p00_reuseable_case extends basePropertiesSeln{ 
 
 //	private static Logger log =LogManager.getLogger(p00_reuseable_case.class.getName());
 	

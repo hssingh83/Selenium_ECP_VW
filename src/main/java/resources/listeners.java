@@ -16,7 +16,7 @@ import org.testng.ITestResult;
 
 public class listeners implements ITestListener{ 
 	
-	baseProperties bs=new baseProperties();
+	basePropertiesSeln bs=new basePropertiesSeln();
 
 	WebDriver driver=null;
 	String filePath = "D:\\SCREENSHOTS";
