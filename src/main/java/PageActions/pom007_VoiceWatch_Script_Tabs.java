@@ -29,7 +29,13 @@ public class pom007_VoiceWatch_Script_Tabs {
 	
 	By filterByNameGSB=By.xpath("//input[@placeholder='Filter by name']");
 	
-	By createNewScriptByButton=By.xpath("//div[@class='panel-body']//span[@class='glyphicon glyphicon-plus-sign pull-right']");
+//	By createNewScriptByButton=By.xpath("//div[@class='panel-body']//span[@class='glyphicon glyphicon-plus-sign pull-right']");
+	
+	
+	By createNewScriptByButton=By.xpath("//*[@title='Upload a CallMaster script' and @class='glyphicon glyphicon-plus-sign pull-right']");
+	
+	
+	
 	
 	By pleaseSelectlabelGSB=By.xpath("//span[contains(text(),'Please select a script or')]");
 	By createNewScriptBylink=By.linkText("create a new script"); 
@@ -38,6 +44,8 @@ public class pom007_VoiceWatch_Script_Tabs {
 	By callMasterScriptscount=By.xpath("//span[@class='badge pull-right ng-binding']");
 	By filterByNameSU=By.xpath("//input[@placeholder='Filter by name']");
 	By pleaseSelectlabelSU=By.xpath("//span[contains(text(),'Please select a script or')]");
+	
+	By createNewScriptByButtonSU=By.xpath("//*[@title='Upload a CallMaster script' and @class='glyphicon glyphicon-plus-sign pull-right']");
 	By createNewScriptlinkSU=By.xpath("//u[contains(text(),'create a new script')]");
 		
 //	By csvTranformerTab=By.xpath("//span[contains(text(),'CSV Transformer')]");
@@ -501,7 +509,7 @@ public void createSUbybutton() throws InterruptedException {
 	Thread.sleep(10000);
 	driver.findElement(scriptUploadTab).click();
 		
-      if (driver.findElements(createNewScriptBylink).isEmpty()) {
+      if (driver.findElements(createNewScriptByButtonSU).isEmpty()) {
 		
     	  log.debug("Verified that create a new script by link is not appeared under Script Upload tab");	
     	  Assert.assertTrue(driver.findElement(callMasterScriptslabel).isDisplayed());
@@ -528,8 +536,8 @@ public void createSUbybutton() throws InterruptedException {
 		log.debug("Verified that create a new script by link is appeared under Script Upload tab");	
 		
 		Thread.sleep(10000);
-		driver.findElement(createNewScriptBylink).click();
-	log.debug("Validated the element while click Script Creation using Link");
+		driver.findElement(createNewScriptByButtonSU).click();
+	log.debug("Validated the element while click Script Creation using button");
 	
 			
 	Assert.assertTrue(driver.findElement(callMasterScriptslabel).isDisplayed());
