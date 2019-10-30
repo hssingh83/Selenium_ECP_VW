@@ -50,7 +50,7 @@ public class basePropertiesSeln {
 
 		prop.load(fis);
 
-		//String browserName=System.getProperty("browser");
+//	String browserName=System.getProperty("browser");
 		String browserName=prop.getProperty("browser");
 
 			
@@ -66,6 +66,7 @@ public class basePropertiesSeln {
 //			System.setProperty("webdriver.chrome.logfile","./Chromelog.txt");
 		 	System.setProperty("webdriver.chrome.silentOutput","true");
 		 	ChromeOptions options=new ChromeOptions();
+	//	 	driver.manage().deleteAllCookies();
 			options.addArguments("disable-infobars");
 		 //   driver=new ChromeDriver();
 		  
@@ -94,6 +95,7 @@ public class basePropertiesSeln {
 			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"null");
 			
 			FirefoxOptions options=new FirefoxOptions();
+		//	driver.manage().deleteAllCookies();
 			options.addArguments("disable-infobars");
 			
 			if(browserName.contains("headless"))	
@@ -124,6 +126,8 @@ public class basePropertiesSeln {
 		//Timeout
 
 		driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS);
+		log.debug("implicit Wait Applied");
+	//	log.debug("Clean Cookies");
 		driver.get(prop.getProperty("url3"));
 
 		//Comment for eclipse runner
@@ -148,8 +152,8 @@ public class basePropertiesSeln {
 		} else {
 			log.debug("Verson Not Matched");
 
-			}	*/
-
+			}	
+*/
 
 
 		log.debug("URL provided");

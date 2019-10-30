@@ -13,9 +13,9 @@ import PageActions.pom002_VoiceWatch_Home_Page;
 import resources.basePropertiesSeln;
 import resources.dataDriven;
 
-public class TC0012_Dashboard extends basePropertiesSeln{
+public class TC0016_Dashboard extends basePropertiesSeln{
 	
-	private static Logger log =LogManager.getLogger(TC0012_Dashboard.class.getName());
+	private static Logger log =LogManager.getLogger(TC0016_Dashboard.class.getName());
 	
 	
 	@BeforeTest

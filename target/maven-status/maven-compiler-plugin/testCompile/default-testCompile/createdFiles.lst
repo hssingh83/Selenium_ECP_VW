@@ -5,7 +5,6 @@ VW_TC\TC0008_login_With_Client_OR_Partner_Client_Custmer_Admin.class
 VW_TC\TC0000_Debug_Testing1.class
 VW_TC\linktest.class
 VW_TC\AutoIT.class
-VW_TC\TC0012_Dashboard.class
 VW_TC\TC0005_login_With_Partner_Developer.class
 VW_TC\TC0001_login_Page_Verification.class
 VW_TC\TC0007_login_With_Partner_User.class

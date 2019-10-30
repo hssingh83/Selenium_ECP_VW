@@ -1,0 +1,1028 @@
+# Created at 2019-10-30T19:51:29.904
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-10-30T19:51:31.089
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:51:31,088 basePropertiesSeln.intializeDriver() - URL provided
+
+
+# Created at 2019-10-30T19:51:32.228
+Unexpected IOException with stream: [INFO ] 2019-10-30 19:51:32,227 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+
+
+# Created at 2019-10-30T19:51:32.232
+Unexpected IOException with stream: [INFO ] 2019-10-30 19:51:32,231 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+
+
+# Created at 2019-10-30T19:51:32.236
+Unexpected IOException: 5,1,VW_TC.TC0002_login_With_Exmpirix_Admin,logInWithExpirixAdmin(VW_TC.TC0002_login_With_Exmpirix_Admin),VW_TC.TC0002_login_With_Exmpirix_Admin,null,null
+
+
+# Created at 2019-10-30T19:51:33.032
+Unexpected IOException with stream: 0
+
+# Created at 2019-10-30T19:51:33.034
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-30T19:51:33.038
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:51:33,037 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+
+
+# Created at 2019-10-30T19:51:33.039
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:51:33,039 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+
+
+# Created at 2019-10-30T19:51:37.224
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:51:37,222 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+
+
+# Created at 2019-10-30T19:51:37.327
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:51:37,326 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+
+
+# Created at 2019-10-30T19:51:37.515
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:51:37,514 TC0002_login_With_Exmpirix_Admin.logInWithExpirixAdmin() - Waiting for launch VoiceWatch application using above creadetails
+
+
+# Created at 2019-10-30T19:52:02.142
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,141 TC0002_login_With_Exmpirix_Admin.logInWithExpirixAdmin() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
+
+
+# Created at 2019-10-30T19:52:02.144
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,143 TC0002_login_With_Exmpirix_Admin.logInWithExpirixAdmin() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
+
+
+# Created at 2019-10-30T19:52:02.146
+Unexpected IOException: 6,1,VW_TC.TC0002_login_With_Exmpirix_Admin,logInWithExpirixAdmin(VW_TC.TC0002_login_With_Exmpirix_Admin),null,null,null
+
+
+# Created at 2019-10-30T19:52:02.147
+Unexpected IOException with stream: 
+Test Case logInWithExpirixAdmin Passed
+
+
+
+# Created at 2019-10-30T19:52:02.148
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-30T19:52:02.150
+Unexpected IOException: 5,1,VW_TC.TC0002_login_With_Exmpirix_Admin,headerMandatoryDetails(VW_TC.TC0002_login_With_Exmpirix_Admin),VW_TC.TC0002_login_With_Exmpirix_Admin,null,null
+
+
+# Created at 2019-10-30T19:52:02.203
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,202 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.233
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,231 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.289
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,288 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.327
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,326 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.352
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,351 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.402
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,401 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.428
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,427 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.465
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,464 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.502
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,501 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.523
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,523 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.559
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,558 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.590
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,589 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.625
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,624 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.659
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,658 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.685
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,684 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.713
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,712 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.714
+Unexpected IOException: 6,1,VW_TC.TC0002_login_With_Exmpirix_Admin,headerMandatoryDetails(VW_TC.TC0002_login_With_Exmpirix_Admin),null,null,null
+
+
+# Created at 2019-10-30T19:52:02.715
+Unexpected IOException with stream: 
+Test Case headerMandatoryDetails Passed
+
+
+
+# Created at 2019-10-30T19:52:02.716
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-30T19:52:02.717
+Unexpected IOException: 5,1,VW_TC.TC0002_login_With_Exmpirix_Admin,footerMandatoryDetails(VW_TC.TC0002_login_With_Exmpirix_Admin),VW_TC.TC0002_login_With_Exmpirix_Admin,null,null
+
+
+# Created at 2019-10-30T19:52:02.750
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,750 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.773
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,772 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.799
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,798 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.834
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,833 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.858
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,857 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.885
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,884 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.951
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,950 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:02.983
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:02,982 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.021
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,020 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version contain 26' release version appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.056
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,055 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.080
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,079 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.107
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,106 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.108
+Unexpected IOException: 6,1,VW_TC.TC0002_login_With_Exmpirix_Admin,footerMandatoryDetails(VW_TC.TC0002_login_With_Exmpirix_Admin),null,null,null
+
+
+# Created at 2019-10-30T19:52:03.108
+Unexpected IOException with stream: 
+Test Case footerMandatoryDetails Passed
+
+
+
+# Created at 2019-10-30T19:52:03.109
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-30T19:52:03.110
+Unexpected IOException: 5,1,VW_TC.TC0002_login_With_Exmpirix_Admin,TabAvailabilityValidation(VW_TC.TC0002_login_With_Exmpirix_Admin),VW_TC.TC0002_login_With_Exmpirix_Admin,null,null
+
+
+# Created at 2019-10-30T19:52:03.111
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,111 pom002_VoiceWatch_Home_Page.home_screen() - VoiceWatch Dashboard Page verification Started
+
+
+# Created at 2019-10-30T19:52:03.147
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,146 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Dashboard Tab' appeared on the VoiceWatch dashoboard
+
+
+# Created at 2019-10-30T19:52:03.179
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,179 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Dashboard Tab' enabled on the VoiceWatch dashoboard
+
+
+# Created at 2019-10-30T19:52:03.221
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,220 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Alerts Tab' appeared on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.251
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,251 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Alerts Tab' enabled on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.260
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,259 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Alerts Tab' not selected on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.311
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,310 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Tests Tab' appeared on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.340
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,340 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Tests Tab' enabled on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.347
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,346 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Tests Tab' not selected on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.380
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,379 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Tags Tab' appeared on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.407
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,406 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Scripts Tab' appeared on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.461
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,460 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Variables Tab' appeared on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.494
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,493 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Variables Tab' enabled on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.501
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,500 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Variable Tab' not selected on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.530
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,529 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Hammers Tab' appeared on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.536
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,535 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Admin Tab' selected on the VoiceWatch application
+
+
+# Created at 2019-10-30T19:52:03.586
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,585 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Notifications Tab' appeared on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.617
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,616 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Notifications Tab' enabled on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.624
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,623 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Notifications Tab' not selected on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.660
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,659 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Users Tab' appeared on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.686
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,685 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Clients Tab' appeared on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.711
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,710 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Audit Tab' appeared on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.736
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,735 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Admin Tab' appeared on the VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:03.742
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:03,742 pom002_VoiceWatch_Home_Page.home_screen() - Verified that 'Admin Tab' selected on the VoiceWatch application
+
+
+# Created at 2019-10-30T19:52:03.743
+Unexpected IOException: 6,1,VW_TC.TC0002_login_With_Exmpirix_Admin,TabAvailabilityValidation(VW_TC.TC0002_login_With_Exmpirix_Admin),null,null,null
+
+
+# Created at 2019-10-30T19:52:03.744
+Unexpected IOException with stream: 
+Test Case TabAvailabilityValidation Passed
+
+
+
+# Created at 2019-10-30T19:52:03.744
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-30T19:52:03.745
+Unexpected IOException: 5,1,VW_TC.TC0002_login_With_Exmpirix_Admin,dashBoardTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin),VW_TC.TC0002_login_With_Exmpirix_Admin,null,null
+
+
+# Created at 2019-10-30T19:52:05.031
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,030 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Overall Performance' displayed under dashoboard tab
+
+
+# Created at 2019-10-30T19:52:05.069
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,068 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Overall Performance' Text appeared under dashboard Tab
+
+
+# Created at 2019-10-30T19:52:05.110
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,109 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Failed Calls' dislayed under Overall Performance section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:05.142
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,141 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Failed Calls' comtain under Overall Performance section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:05.182
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,181 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Passed Calls' dislayed under Overall Performance section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:05.208
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,207 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Passed Calls' comtain under Overall Performance section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:05.248
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,247 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Alerts' dislayed under Overall Performance section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:05.277
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,276 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Alerts' comtain under Overall Performance section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:05.346
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,345 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Download CSV' button dislayed under Overall Performance section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:05.376
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,374 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Download CSV' button enabled under Overall Performance section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:05.407
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,406 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that 'Download CSV' test appeared on the button under Overall Performance section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:05.408
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,407 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that count of the dropdown values are: 5
+
+
+# Created at 2019-10-30T19:52:05.461
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,460 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Verified that following values available in the dropdown
+
+
+# Created at 2019-10-30T19:52:05.492
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,492 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Last 4 hours
+
+
+# Created at 2019-10-30T19:52:05.580
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,579 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Last 6 hours
+
+
+# Created at 2019-10-30T19:52:05.667
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,666 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Last 12 hours
+
+
+# Created at 2019-10-30T19:52:05.759
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,758 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Last 24 hours
+
+
+# Created at 2019-10-30T19:52:05.843
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,843 pom003_VoiceWatch_Dashboard_Tab.OverallPerfomance_section_dashboard() - Day
+
+
+# Created at 2019-10-30T19:52:05.893
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,892 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Overall Performance' displayed under dashoboard tab
+
+
+# Created at 2019-10-30T19:52:05.925
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,924 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Tests' Text appeared under activetest section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:05.975
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:05,974 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'filter' appeared under activetest section section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.043
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,042 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Passed Calls' dislayed under activetest section section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.081
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,080 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Last Call' coloumn under Tests table in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.128
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,127 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Name' dislayed under activetest section section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.165
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,163 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Name' coloumn under Tests table in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.212
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,210 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Failed' dislayed under activetest section section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.243
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,243 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Failed' coloumn under Tests table in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.288
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,287 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Passed ' dislayed under activetest section section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.324
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,323 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Passed' coloumn under Tests table in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.366
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,364 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Alerts' dislayed under activetest section section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.399
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,399 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Alerts' coloumn under Tests table in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.440
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,439 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Graph Results' dislayed under activetest section section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.469
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,468 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Graph Results' coloumn under Tests table in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.512
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,511 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Notification Present' dislayed under activetest section section in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.554
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,553 pom003_VoiceWatch_Dashboard_Tab.activetest_section_dashboard() - Verified that 'Notification Present' coloumn under Tests table in dashboard Tab
+
+
+# Created at 2019-10-30T19:52:06.685
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,684 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.708
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,707 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.736
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,735 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.765
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,764 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.786
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,785 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.815
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,814 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.835
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,834 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.857
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,857 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.888
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,887 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.907
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,906 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.934
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,933 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.954
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,954 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:06.975
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:06,974 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.003
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,003 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.024
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,024 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.045
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,044 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.072
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,071 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.091
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,091 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.113
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,112 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.148
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,147 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.169
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,168 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.191
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,190 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.228
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,227 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.260
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,260 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.292
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,291 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version contain 26' release version appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.319
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,318 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.339
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,338 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.361
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:07,360 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:07.362
+Unexpected IOException: 6,1,VW_TC.TC0002_login_With_Exmpirix_Admin,dashBoardTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin),null,null,null
+
+
+# Created at 2019-10-30T19:52:07.363
+Unexpected IOException with stream: 
+Test Case dashBoardTabValidation Passed
+
+
+
+# Created at 2019-10-30T19:52:07.364
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-30T19:52:07.366
+Unexpected IOException: 5,1,VW_TC.TC0002_login_With_Exmpirix_Admin,alertTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin),VW_TC.TC0002_login_With_Exmpirix_Admin,null,null
+
+
+# Created at 2019-10-30T19:52:08.217
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,216 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Show All Errors' checkbox appeared under Alert tab
+
+
+# Created at 2019-10-30T19:52:08.240
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,239 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Show All Errors' checkbox enabled under Alert tab
+
+
+# Created at 2019-10-30T19:52:08.264
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,264 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Show All Errors' checkbox selectable under Alert tab
+
+
+# Created at 2019-10-30T19:52:08.296
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,296 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Filter by test name or tag filter'appeared under Alert tab
+
+
+# Created at 2019-10-30T19:52:08.320
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,319 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Filter by test name or tag filter'enabled under Alert tab
+
+
+# Created at 2019-10-30T19:52:08.343
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,343 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Filter by test name' is blank while select Alert tab
+
+
+# Created at 2019-10-30T19:52:08.383
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,382 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Test Time' dislayed under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.411
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,410 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Test Time' coloumn under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.443
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,442 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Test' dislayed under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.472
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,471 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Test' coloumn under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.507
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,507 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Error Step' dislayed under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.537
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,536 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Error Step' coloumn under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.574
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,573 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Error Message' dislayed under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.613
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,612 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Error Message' coloumn under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.660
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,659 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Threshold' dislayed under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.698
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,697 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Threshold' coloumn under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.742
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,741 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Severity' dislayed under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.779
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,778 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Severity' coloumn under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.818
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,816 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Alert Status' dislayed under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.849
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,849 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Alert Status' coloumn under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.887
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,886 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that count of total alert dislayed under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.915
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,914 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Toal' text contain under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.949
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,948 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that count of critical alert dislayed under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:08.978
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:08,977 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'critical' text contain under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:09.019
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,019 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that count of Warning alerts dislayed under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:09.049
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,048 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that 'Warning' text contain under Alerts Tab
+
+
+# Created at 2019-10-30T19:52:09.051
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,050 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that count of the dropdown values are: 5
+
+
+# Created at 2019-10-30T19:52:09.098
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,098 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Verified that following values available in the dropdown
+
+
+# Created at 2019-10-30T19:52:09.126
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,125 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Last 4 hours
+
+
+# Created at 2019-10-30T19:52:09.217
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,216 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Last 6 hours
+
+
+# Created at 2019-10-30T19:52:09.306
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,305 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Last 12 hours
+
+
+# Created at 2019-10-30T19:52:09.397
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,397 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Last 24 hours
+
+
+# Created at 2019-10-30T19:52:09.501
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,500 pom004_VoiceWatch_Alerts_Tab.alertsValidations() - Day
+
+
+# Created at 2019-10-30T19:52:09.552
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,551 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.576
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,575 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.613
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,612 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.638
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,637 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.662
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,661 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.693
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,692 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.713
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,713 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.734
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,733 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.761
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,760 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.783
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,783 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.811
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,810 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.831
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,830 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.858
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,857 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.888
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,888 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.909
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,908 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.936
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,935 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.966
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,965 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:09.986
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:09,986 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:10.009
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:10,008 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:10.039
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:10,038 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:10.058
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:10,057 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:10.079
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:10,079 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:10.120
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:10,119 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:10.151
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:10,150 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:10.186
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:10,185 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version contain 26' release version appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:10.211
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:10,210 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:10.231
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:10,230 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:10.255
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:10,253 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:10.255
+Unexpected IOException: 6,1,VW_TC.TC0002_login_With_Exmpirix_Admin,alertTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin),null,null,null
+
+
+# Created at 2019-10-30T19:52:10.255
+Unexpected IOException with stream: 
+Test Case alertTabValidation Passed
+
+
+
+# Created at 2019-10-30T19:52:10.256
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-30T19:52:10.257
+Unexpected IOException: 5,1,VW_TC.TC0002_login_With_Exmpirix_Admin,testTabValidation(VW_TC.TC0002_login_With_Exmpirix_Admin),VW_TC.TC0002_login_With_Exmpirix_Admin,null,null
+
+
+# Created at 2019-10-30T19:52:13.106
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,105 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Tests' label appeared on left side under Tests tab
+
+
+# Created at 2019-10-30T19:52:13.134
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,133 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Tests' Text validated on left side under Test Tab
+
+
+# Created at 2019-10-30T19:52:13.168
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,167 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Filter by test name' box appeared on n left side under Tests tab
+
+
+# Created at 2019-10-30T19:52:13.190
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,189 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Filter by test name or tag filter'enabled under Alert tab
+
+
+# Created at 2019-10-30T19:52:13.214
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,213 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Filter by test name' is blank while access test tab
+
+
+# Created at 2019-10-30T19:52:13.420
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,419 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Test' label appeared on under Tests tab
+
+
+# Created at 2019-10-30T19:52:13.447
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,446 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Test' Text validated under Test Tab
+
+
+# Created at 2019-10-30T19:52:13.487
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,486 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Please select a test' label appeared on under Tests tab
+
+
+# Created at 2019-10-30T19:52:13.515
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,514 pom005_VoiceWatch_Tests_Tab.testsValidations() - Verified that 'Please select a test ' Text validated under Test Tab
+
+
+# Created at 2019-10-30T19:52:13.544
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,543 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.564
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,563 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Logo' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.592
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,591 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix Lebel' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.612
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,611 pom002_VoiceWatch_Home_Page.header() - Verified that 'EMPIRIX' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.630
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,629 pom002_VoiceWatch_Home_Page.header() - Verified that 'Empirix label' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.657
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,656 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.677
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,676 pom002_VoiceWatch_Home_Page.header() - Verified that 'Application Name' enabled on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.719
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,718 pom002_VoiceWatch_Home_Page.header() - Verified that 'VoiceWatch' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.743
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,742 pom002_VoiceWatch_Home_Page.header() - Verified that dropdown appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.762
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,761 pom002_VoiceWatch_Home_Page.header() - Verified that dropdwon enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.786
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,785 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.804
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,803 pom002_VoiceWatch_Home_Page.header() - Verified that 'ContacUs' enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.822
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,822 pom002_VoiceWatch_Home_Page.header() - Verified that 'Contact Us' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.849
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,848 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' appeared on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.868
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,867 pom002_VoiceWatch_Home_Page.header() - Verified that 'help' enabled on top right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.889
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,888 pom002_VoiceWatch_Home_Page.header() - Verified that 'Help' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.914
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,913 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' appeared on bottom right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.931
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,930 pom002_VoiceWatch_Home_Page.footer() - Verified that 'BackToTop link' enabled on bottom right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.950
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,949 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Back to top' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.974
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,974 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:13.993
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:13,992 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' test enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:14.011
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:14,010 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:14.047
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:14,046 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:14.075
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:14,074 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version Number' enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:14.107
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:14,106 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Version contain 26' release version appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:14.134
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:14,134 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' appeared on bottom left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:14.154
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:14,153 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix Label' enabled on right corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:14.177
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:14,176 pom002_VoiceWatch_Home_Page.footer() - Verified that 'Empirix' Text appeared on top left corner VoiceWatch dashboard
+
+
+# Created at 2019-10-30T19:52:14.254
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:14,253 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Verified that new test creation plus (+) icon appeared on top left side under Tests tab
+
+
+# Created at 2019-10-30T19:52:14.255
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:52:14,254 pom005_VoiceWatch_Tests_Tab.createTestbybutton() - Validated the different elements while click Test Creation using button (+)
+
+

@@ -1,0 +1,238 @@
+# Created at 2019-10-30T19:49:43.727
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-10-30T19:49:47.150
+Unexpected IOException with stream: Oct 30, 2019 7:49:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-10-30T19:49:47.174
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:49:47,172 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+
+
+# Created at 2019-10-30T19:49:47.176
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:49:47,176 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+
+
+# Created at 2019-10-30T19:49:47.184
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:49:47,183 basePropertiesSeln.intializeDriver() - implicit Wait Applied
+
+
+# Created at 2019-10-30T19:49:58.315
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:49:58,312 basePropertiesSeln.intializeDriver() - URL provided
+
+
+# Created at 2019-10-30T19:49:59.446
+Unexpected IOException with stream: [INFO ] 2019-10-30 19:49:59,445 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+
+
+# Created at 2019-10-30T19:49:59.448
+Unexpected IOException with stream: [INFO ] 2019-10-30 19:49:59,447 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+
+
+# Created at 2019-10-30T19:49:59.463
+Unexpected IOException: 5,1,VW_TC.TC0001_login_Page_Verification,logInScreenVerification(VW_TC.TC0001_login_Page_Verification),VW_TC.TC0001_login_Page_Verification,null,null
+
+
+# Created at 2019-10-30T19:49:59.468
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:49:59,467 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - LogIn Page Label verification Started
+
+
+# Created at 2019-10-30T19:50:04.268
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,268 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Present on login Page
+
+
+# Created at 2019-10-30T19:50:04.303
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,302 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Enabled on login Page
+
+
+# Created at 2019-10-30T19:50:04.361
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,360 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Sign in to continue label' appeared on Login page
+
+
+# Created at 2019-10-30T19:50:04.408
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,407 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'User Name' label' appeared on Login page
+
+
+# Created at 2019-10-30T19:50:04.455
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,454 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Password: label' appeared on Login page
+
+
+# Created at 2019-10-30T19:50:04.528
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,527 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' appeared on Login page
+
+
+# Created at 2019-10-30T19:50:04.554
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,553 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is clickable on Login page
+
+
+# Created at 2019-10-30T19:50:04.581
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,580 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is not selected on Login page
+
+
+# Created at 2019-10-30T19:50:04.621
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,620 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Sign In button is displayed
+
+
+# Created at 2019-10-30T19:50:04.650
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,649 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Save button is enabled
+
+
+# Created at 2019-10-30T19:50:04.692
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,691 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Remember my User Name' appeared on login page
+
+
+# Created at 2019-10-30T19:50:04.717
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,716 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Copyright' label is appearing on the page
+
+
+# Created at 2019-10-30T19:50:04.759
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,758 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Additional CopyRight Info present on the page
+
+
+# Created at 2019-10-30T19:50:04.760
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:04,759 pom001_VoiceWatch_logIn_Page.getCopyRightLink() - Verified that additional copy right link clickable
+
+
+# Created at 2019-10-30T19:50:04.826
+Unexpected IOException with stream: [INFO ] 2019-10-30 19:50:04,825 TC0001_login_Page_Verification.logInScreenVerification() - Verified that 'Additional Copy Right' Link clickable
+
+
+# Created at 2019-10-30T19:50:04.860
+Unexpected IOException with stream: [INFO ] 2019-10-30 19:50:04,859 TC0001_login_Page_Verification.logInScreenVerification() - Verified that additinal infomation'Copyright © 2010-14 ForgeRock AS, all rights reserved.' appered after click link
+
+
+# Created at 2019-10-30T19:50:04.862
+Unexpected IOException: 6,1,VW_TC.TC0001_login_Page_Verification,logInScreenVerification(VW_TC.TC0001_login_Page_Verification),null,null,null
+
+
+# Created at 2019-10-30T19:50:04.862
+Unexpected IOException with stream: 
+Test Case logInScreenVerification Passed
+
+
+
+# Created at 2019-10-30T19:50:04.863
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-30T19:50:05.028
+Unexpected IOException with stream: [INFO ] 2019-10-30 19:50:05,027 TC0001_login_Page_Verification.applicationClose() - Application closed successfully
+
+
+# Created at 2019-10-30T19:50:05.056
+Unexpected IOException with stream: 
+ Test Case: 001- Login Page Verification  Completed
+
+
+# Created at 2019-10-30T19:50:05.057
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-30T19:50:05.059
+Unexpected IOException with stream: 
+ Test Case: 002 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity Started
+
+
+# Created at 2019-10-30T19:50:05.060
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-30T19:50:07.312
+Unexpected IOException with stream: Oct 30, 2019 7:50:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-10-30T19:50:07.315
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:07,314 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+
+
+# Created at 2019-10-30T19:50:07.317
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:07,315 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+
+
+# Created at 2019-10-30T19:50:07.323
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:07,322 basePropertiesSeln.intializeDriver() - implicit Wait Applied
+
+
+# Created at 2019-10-30T19:50:18.251
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:18,251 basePropertiesSeln.intializeDriver() - URL provided
+
+
+# Created at 2019-10-30T19:50:19.381
+Unexpected IOException with stream: [INFO ] 2019-10-30 19:50:19,380 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+
+
+# Created at 2019-10-30T19:50:19.382
+Unexpected IOException with stream: [INFO ] 2019-10-30 19:50:19,381 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+
+
+# Created at 2019-10-30T19:50:19.385
+Unexpected IOException: 5,1,VW_TC.TC0002_login_With_Exmpirix_Admin,logInWithExpirixAdmin(VW_TC.TC0002_login_With_Exmpirix_Admin),VW_TC.TC0002_login_With_Exmpirix_Admin,null,null
+
+
+# Created at 2019-10-30T19:50:19.933
+Unexpected IOException with stream: 0
+
+# Created at 2019-10-30T19:50:19.934
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-30T19:50:19.937
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:19,936 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+
+
+# Created at 2019-10-30T19:50:19.938
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:19,937 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+
+
+# Created at 2019-10-30T19:50:25.354
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:25,353 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+
+
+# Created at 2019-10-30T19:50:25.470
+Unexpected IOException with stream: [DEBUG] 2019-10-30 19:50:25,469 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+
+
+# Created at 2019-10-30T19:50:31.501
+Unexpected IOException: 8,1,VW_TC.TC0002_login_With_Exmpirix_Admin,logInWithExpirixAdmin(VW_TC.TC0002_login_With_Exmpirix_Admin),null,chrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.23'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61942}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 6b39dfbe4517e7ec27f9787530698a3d\000A*** Element info: {Using=name\002C value=callback_2},null,chrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.23'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61942}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 6b39dfbe4517e7ec27f9787530698a3d\000A*** Element info: {Using=name\002C value=callback_2},TC0002_login_With_Exmpirix_Admin.logInWithExpirixAdmin:48 \00BB WebDriver chrome n...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.23'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61942}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 6b39dfbe4517e7ec27f9787530698a3d\000A*** Element info: {Using=name\002C value=callback_2}\000A\0009at VW_TC.TC0002_login_With_Exmpirix_Admin.logInWithExpirixAdmin(TC0002_login_With_Exmpirix_Admin.java:48)\000A
+
+
+# Created at 2019-10-30T19:50:31.502
+Unexpected IOException with stream: 
+Test Case logInWithExpirixAdmin failed
+
+
+
+# Created at 2019-10-30T19:50:31.503
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-30T19:50:31.504
+Unexpected IOException: 5,1,VW_TC.TC0002_login_With_Exmpirix_Admin,headerMandatoryDetails(VW_TC.TC0002_login_With_Exmpirix_Admin),VW_TC.TC0002_login_With_Exmpirix_Admin,null,null
+
+
+# Created at 2019-10-30T19:50:37.527
+Unexpected IOException: 8,1,VW_TC.TC0002_login_With_Exmpirix_Admin,headerMandatoryDetails(VW_TC.TC0002_login_With_Exmpirix_Admin),null,chrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.23'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61942}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 6b39dfbe4517e7ec27f9787530698a3d\000A*** Element info: {Using=xpath\002C value=//*[@id="logo"]/img},null,chrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.23'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61942}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 6b39dfbe4517e7ec27f9787530698a3d\000A*** Element info: {Using=xpath\002C value=//*[@id="logo"]/img},TC0002_login_With_Exmpirix_Admin.headerMandatoryDetails:62 \00BB WebDriver chrome ...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.23'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61942}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 6b39dfbe4517e7ec27f9787530698a3d\000A*** Element info: {Using=xpath\002C value=//*[@id="logo"]/img}\000A\0009at VW_TC.TC0002_login_With_Exmpirix_Admin.headerMandatoryDetails(TC0002_login_With_Exmpirix_Admin.java:62)\000A
+
+
+# Created at 2019-10-30T19:50:37.528
+Unexpected IOException with stream: 
+Test Case headerMandatoryDetails failed
+
+
+
+# Created at 2019-10-30T19:50:37.529
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-10-30T19:50:37.531
+Unexpected IOException: 5,1,VW_TC.TC0002_login_With_Exmpirix_Admin,footerMandatoryDetails(VW_TC.TC0002_login_With_Exmpirix_Admin),VW_TC.TC0002_login_With_Exmpirix_Admin,null,null
+
+
