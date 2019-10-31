@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21549" started-at="2019-10-31T19:45:48Z" finished-at="2019-10-31T19:46:09Z">
+  <suite name="Suite" duration-ms="26724" started-at="2019-10-31T20:50:49Z" finished-at="2019-10-31T20:51:16Z">
     <groups>
     </groups>
-    <test name="Test Case: 001- Login Page Verification " duration-ms="21549" started-at="2019-10-31T19:45:48Z" finished-at="2019-10-31T19:46:09Z">
+    <test name="Test Case: 001- Login Page Verification " duration-ms="26724" started-at="2019-10-31T20:50:49Z" finished-at="2019-10-31T20:51:16Z">
       <class name="VW_TC.TC0001_login_Page_Verification">
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0001_login_Page_Verification@7ce026d3]" name="applicationLaunch" is-config="true" duration-ms="15473" started-at="2019-10-31T19:45:48Z" finished-at="2019-10-31T19:46:03Z">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0001_login_Page_Verification@76b1e9b8]" name="applicationLaunch" is-config="true" duration-ms="19475" started-at="2019-10-31T20:50:50Z" finished-at="2019-10-31T20:51:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="logInScreenVerification()[pri:1, instance:VW_TC.TC0001_login_Page_Verification@7ce026d3]" name="logInScreenVerification" duration-ms="5822" started-at="2019-10-31T19:46:03Z" description="verifying login page title test" finished-at="2019-10-31T19:46:09Z">
+        <test-method status="PASS" signature="logInScreenVerification()[pri:1, instance:VW_TC.TC0001_login_Page_Verification@76b1e9b8]" name="logInScreenVerification" duration-ms="6960" started-at="2019-10-31T20:51:09Z" description="verifying login page title test" finished-at="2019-10-31T20:51:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInScreenVerification -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0001_login_Page_Verification@7ce026d3]" name="applicationClose" is-config="true" duration-ms="120" started-at="2019-10-31T19:46:09Z" finished-at="2019-10-31T19:46:09Z">
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0001_login_Page_Verification@76b1e9b8]" name="applicationClose" is-config="true" duration-ms="120" started-at="2019-10-31T20:51:16Z" finished-at="2019-10-31T20:51:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
