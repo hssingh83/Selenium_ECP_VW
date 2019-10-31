@@ -1,51 +1,21 @@
-2019-11-01 02:18:10,076 DEBUG [main] Preferences:118 - Preference chrome=77 (valid until 2019-11-01 20:01:14)
-2019-11-01 02:18:10,080 DEBUG [main] Preferences:118 - Preference chrome77=77.0.3865.40 (valid until 2019-11-01 20:01:14)
-2019-11-01 02:18:10,084  INFO [main] WebDriverManager:600 - Using chromedriver 77.0.3865.40 (since Google Chrome 77 is installed in your machine)
-2019-11-01 02:18:10,100 DEBUG [main] WebDriverManager:545 - Driver chromedriver 77.0.3865.40 found in cache
-2019-11-01 02:18:10,100  INFO [main] WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\hsingh\.m2\repository\webdriver\chromedriver\win32\77.0.3865.40\chromedriver.exe
-[DEBUG] 2019-11-01 02:18:12,642 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
-[DEBUG] 2019-11-01 02:18:12,642 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
-[DEBUG] 2019-11-01 02:18:12,650 basePropertiesSeln.intializeDriver() - implicit Wait Applied
-[DEBUG] 2019-11-01 02:18:25,500 basePropertiesSeln.intializeDriver() - URL provided
-[INFO ] 2019-11-01 02:18:26,637 basePropertiesSeln.intializeDriver() - Screen maximized successfully
-[INFO ] 2019-11-01 02:18:26,637 basePropertiesSeln.intializeDriver() - Waiting to access above URL
-[DEBUG] 2019-11-01 02:18:26,701 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - LogIn Page Label verification Started
-[DEBUG] 2019-11-01 02:18:33,695 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Present on login Page
-[DEBUG] 2019-11-01 02:18:33,720 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Enabled on login Page
-[DEBUG] 2019-11-01 02:18:33,753 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Sign in to continue label' appeared on Login page
-[DEBUG] 2019-11-01 02:18:33,790 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'User Name' label' appeared on Login page
-[DEBUG] 2019-11-01 02:18:33,822 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Password: label' appeared on Login page
-[DEBUG] 2019-11-01 02:18:33,867 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' appeared on Login page
-[DEBUG] 2019-11-01 02:18:33,890 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is clickable on Login page
-[DEBUG] 2019-11-01 02:18:33,914 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is not selected on Login page
-[DEBUG] 2019-11-01 02:18:33,954 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Sign In button is displayed
-[DEBUG] 2019-11-01 02:18:33,975 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Save button is enabled
-[DEBUG] 2019-11-01 02:18:34,011 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Remember my User Name' appeared on login page
-[DEBUG] 2019-11-01 02:18:34,111 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - LogIn Page Label verification Started
-[DEBUG] 2019-11-01 02:18:34,143 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Present on login Page
-[DEBUG] 2019-11-01 02:18:34,167 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Enabled on login Page
-[DEBUG] 2019-11-01 02:18:34,191 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Sign in to continue label' appeared on Login page
-[DEBUG] 2019-11-01 02:18:34,215 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'User Name' label' appeared on Login page
-[DEBUG] 2019-11-01 02:18:34,239 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Password: label' appeared on Login page
-[DEBUG] 2019-11-01 02:18:34,279 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' appeared on Login page
-[DEBUG] 2019-11-01 02:18:34,303 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is clickable on Login page
-[DEBUG] 2019-11-01 02:18:34,319 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is not selected on Login page
-[DEBUG] 2019-11-01 02:18:34,347 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Sign In button is displayed
-[DEBUG] 2019-11-01 02:18:34,371 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Save button is enabled
-[DEBUG] 2019-11-01 02:18:34,391 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Remember my User Name' appeared on login page
-[DEBUG] 2019-11-01 02:18:34,415 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Copyright' label is appearing on the page
-[DEBUG] 2019-11-01 02:18:34,451 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Additional CopyRight Info present on the page
-[DEBUG] 2019-11-01 02:18:34,451 pom001_VoiceWatch_logIn_Page.getCopyRightLink() - Verified that additional copy right link clickable
-2019-11-01 02:18:34,507  INFO [main] TC0001_login_Page_Verification:44 - Verified that 'Additional Copy Right' Link clickable
-2019-11-01 02:18:34,539  INFO [main] TC0001_login_Page_Verification:48 - Verified that additinal infomation'Copyright © 2010-14 ForgeRock AS, all rights reserved.' appered after click link
-2019-11-01 02:18:34,669  INFO [main] TC0001_login_Page_Verification:57 - Application closed successfully
-2019-11-01 02:18:34,872 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2019-11-01 02:18:34,872 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2019-11-01 02:18:34,876 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2019-11-01 02:18:34,876 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2019-11-01 02:18:34,876 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/hsingh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2019-11-01 02:18:35,128 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2019-11-01 02:18:35,128 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2019-11-01 02:18:35,128 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2019-11-01 02:18:35,132 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2019-11-01 02:18:35,132 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/hsingh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+[DEBUG] 2019-11-01 02:20:53,327 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-11-01 02:20:53,331 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-11-01 02:20:53,339 basePropertiesSeln.intializeDriver() - implicit Wait Applied
+[DEBUG] 2019-11-01 02:21:08,293 basePropertiesSeln.intializeDriver() - URL provided
+[INFO ] 2019-11-01 02:21:09,475 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+[INFO ] 2019-11-01 02:21:09,475 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-11-01 02:21:09,676 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - LogIn Page Label verification Started
+[DEBUG] 2019-11-01 02:21:15,923 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Present on login Page
+[DEBUG] 2019-11-01 02:21:15,951 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Empirix Logo Enabled on login Page
+[DEBUG] 2019-11-01 02:21:15,990 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Sign in to continue label' appeared on Login page
+[DEBUG] 2019-11-01 02:21:16,026 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'User Name' label' appeared on Login page
+[DEBUG] 2019-11-01 02:21:16,067 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Password: label' appeared on Login page
+[DEBUG] 2019-11-01 02:21:16,135 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' appeared on Login page
+[DEBUG] 2019-11-01 02:21:16,163 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is clickable on Login page
+[DEBUG] 2019-11-01 02:21:16,195 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'remUserNameCheckbox' is not selected on Login page
+[DEBUG] 2019-11-01 02:21:16,239 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Sign In button is displayed
+[DEBUG] 2019-11-01 02:21:16,267 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Save button is enabled
+[DEBUG] 2019-11-01 02:21:16,307 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Remember my User Name' appeared on login page
+[DEBUG] 2019-11-01 02:21:16,335 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that 'Copyright' label is appearing on the page
+[DEBUG] 2019-11-01 02:21:16,385 pom001_VoiceWatch_logIn_Page.logPageLabelVerification() - Verified that Additional CopyRight Info present on the page
+[DEBUG] 2019-11-01 02:21:16,385 pom001_VoiceWatch_logIn_Page.getCopyRightLink() - Verified that additional copy right link clickable
