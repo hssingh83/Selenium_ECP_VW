@@ -51,7 +51,7 @@ public class pom002_VoiceWatch_Home_Page extends basePropertiesSeln{
 	
 	// Method for Verified Lables under Client Tab
 	
-	public void home_screen() {	
+	public void Tab_Validation() {	
 		
 	log.debug("VoiceWatch Dashboard Page verification Started");
 	
@@ -521,7 +521,9 @@ public void usersTab() {
 			}
 			
 		}
-		
+
+
+	
 }
 	
 	

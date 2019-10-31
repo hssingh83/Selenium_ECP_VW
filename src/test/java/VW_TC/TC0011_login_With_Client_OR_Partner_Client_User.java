@@ -72,7 +72,7 @@ public class TC0011_login_With_Client_OR_Partner_Client_User extends basePropert
 	public void TabValidation () throws IOException, InterruptedException {
 		
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-		 d.home_screen();
+		   d.Tab_Validation();
 	}
 	@Test(priority=5)
 	public void dashBoardTabValidation () throws IOException, InterruptedException {

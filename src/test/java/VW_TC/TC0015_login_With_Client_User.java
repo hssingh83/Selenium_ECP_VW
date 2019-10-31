@@ -37,7 +37,7 @@ public class TC0015_login_With_Client_User extends basePropertiesSeln{
 		pom001_VoiceWatch_logIn_Page l=new pom001_VoiceWatch_logIn_Page(driver);
 		
 		dataDriven d=new dataDriven();
-		  ArrayList<String> data=d.getData("login","Ciient/Client_User");
+		  ArrayList<String> data=d.getData("login","Clinet/Partner_user");
 			
 		l.getUsername().sendKeys(data.get(1));
 	    l.getPassword().sendKeys(data.get(2));
@@ -72,7 +72,7 @@ public class TC0015_login_With_Client_User extends basePropertiesSeln{
 	public void TabValidation () throws IOException, InterruptedException {
 		
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-		 d.home_screen();
+		   d.Tab_Validation();
 	}
 	@Test(priority=5)
 	public void dashBoardTabValidation () throws IOException, InterruptedException {
