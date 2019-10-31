@@ -3,7 +3,7 @@
 <suite name="Suite">
  <listeners>
 <listener class-name="resources.listeners"></listener>
-<listener class-name="resources.MyTransformer"/>
+<listener class-name="Analyzer.MyTransformer"/>
 <listener class-name="resources.ExtentReporterNG"/>
 </listeners>
 
