@@ -30,7 +30,7 @@ public class TC0000_Debug_Testing extends basePropertiesSeln{
 	
 	private static Logger log =LogManager.getLogger(TC0000_Debug_Testing.class.getName());
 	
-
+	
 	@Test(priority=1)
 	public void logInWithExpirixAdmin () throws IOException, InterruptedException {		
 		dataDriven d=new dataDriven();
@@ -50,8 +50,8 @@ public class TC0000_Debug_Testing extends basePropertiesSeln{
 	}   
       
 	
-	
-	/*@Test(priority=2)
+	/*
+	@Test(priority=2)
 	public void headerMandatoryDetails () throws IOException, InterruptedException {
 		
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
@@ -158,7 +158,7 @@ public class TC0000_Debug_Testing extends basePropertiesSeln{
 		sc.csvTabValidation();
 	}
 
-	/*@Test(priority=10)
+	@Test(priority=10)
 	public void variableTabValidation () throws Exception {
 		
 		
@@ -189,7 +189,7 @@ public class TC0000_Debug_Testing extends basePropertiesSeln{
 	    hm.createHammerByButton();
 	   hm.createHammerByLink();
 
-	}*/
+	}
 	
 	
     @AfterTest

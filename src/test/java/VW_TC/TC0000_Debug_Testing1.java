@@ -18,6 +18,7 @@ import PageActions.pom005_VoiceWatch_Tests_Tab;
 import PageActions.pom006_VoiceWatch_Tags_Tab;
 import PageActions.pom007_VoiceWatch_Script_Tabs;
 import PageActions.pom008_VoiceWatch_Variable_Tab;
+import PageActions.pom009_VoiceWatch_Hammers_Tab;
 import resources.basePropertiesSeln;
 import resources.dataDriven;
 
@@ -41,8 +42,8 @@ public class TC0000_Debug_Testing1 extends basePropertiesSeln{
 
 	@Test(priority=1)
 	public void logInWithExpirixAdmin () throws IOException, InterruptedException {		
-		dataDriven d1=new dataDriven();
-		  ArrayList<String> data=d1.getData("login","Empirix/Empirix Admin");
+		dataDriven d=new dataDriven();
+		 ArrayList<String> data=d.getData("login","Empirix/Admin");
 		
 		
 		pom001_VoiceWatch_logIn_Page l=new pom001_VoiceWatch_logIn_Page(driver);
@@ -59,7 +60,7 @@ public class TC0000_Debug_Testing1 extends basePropertiesSeln{
       
 	
 	
-	/*@Test(priority=2)
+	@Test(priority=2)
 	public void headerMandatoryDetails () throws IOException, InterruptedException {
 		
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
@@ -73,18 +74,18 @@ public class TC0000_Debug_Testing1 extends basePropertiesSeln{
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
 	    d.footer();	
 	}
-*/
+
 		
-	/*@Test(priority=4)
+	@Test(priority=4)
 	public void TabAvailabilityValidation () throws IOException, InterruptedException {
 		
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
 	    d.home_screen();
 
 	
-	}*/
+	}
 
-	/*
+	
 	@Test(priority=5)
 	public void dashBoardTabValidation () throws IOException, InterruptedException {
 		
@@ -106,9 +107,9 @@ public class TC0000_Debug_Testing1 extends basePropertiesSeln{
 		d.header();
 		d.footer();
 		
-	}*/
+	}
 	
-	/*@Test(priority=7)
+	@Test(priority=7)
 	public void testTabValidation () throws IOException, InterruptedException {
 		
 		pom005_VoiceWatch_Tests_Tab ts=new pom005_VoiceWatch_Tests_Tab(driver);
@@ -123,10 +124,10 @@ public class TC0000_Debug_Testing1 extends basePropertiesSeln{
 		d.header();
 		d.footer();
 		
-	}*/
+	}
 	
 	
-	/*@Test(priority=8)
+	@Test(priority=8)
 	public void tagTabValidation () throws IOException, InterruptedException {
 		
 		pom006_VoiceWatch_Tags_Tab tg=new pom006_VoiceWatch_Tags_Tab(driver);
@@ -142,7 +143,7 @@ public class TC0000_Debug_Testing1 extends basePropertiesSeln{
 		tg.createNewTag();		
 		d.header();
 		d.footer();	
-	}*/
+	}
 	
 	@Test(priority=9)
 	public void scriptTabValidation () throws Exception {
@@ -153,20 +154,20 @@ public class TC0000_Debug_Testing1 extends basePropertiesSeln{
 	
 		
 		
-	sc.goScriptBuilderTabValidation();
-	sc.createGSBbybutton();
+	  sc.goScriptBuilderTabValidation();
+	   sc.createGSBbybutton();
 		sc.createGSBbyLink();
-//		d.header();
-//		d.footer();
-//		sc.scriptUploadTabValidation();
-//		d.header();
-//		d.footer();
+		d.header();
+		d.footer();
+		sc.scriptUploadTabValidation();
+		d.header();
+		d.footer();
 		sc.createSUbybutton();
-	sc.createSUbyLink();
+		sc.createSUbyLink();
 		sc.csvTabValidation();
 	}
 
-/*	@Test(priority=10)
+	@Test(priority=10)
 	public void variableTabValidation () throws Exception {
 		
 		
@@ -174,27 +175,30 @@ public class TC0000_Debug_Testing1 extends basePropertiesSeln{
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);
 		
 		vr.variableTabValidation();
-        log.info("variableTabValidation TestCase Done");		
+		d.header();
+		d.footer();
 		vr.createVariableByButton();
-		log.info("createVariableByButton TestCase Done");
+		d.header();
+		d.footer();
 		vr.createVariableByLink();
-		log.info("createVariableByLink TestCase Done");
-	
+		d.header();
+		d.footer();	
 
 	}
-*/
-/*	@Test(priority=11)
+
+	@Test(priority=11)
 	public void hammerTabValidation () throws Exception {
 		
 		pom009_VoiceWatch_Hammers_Tab hm=new pom009_VoiceWatch_Hammers_Tab(driver);
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);
 		
 	    hm.hammerTabValidation();
+		d.header();
+		d.footer();	
 	    hm.createHammerByButton();
 	   hm.createHammerByLink();
 
-	}*/
-	
+	}
 	
 	
     @AfterTest
@@ -202,8 +206,5 @@ public class TC0000_Debug_Testing1 extends basePropertiesSeln{
 	
 		driver.close();
 		log.debug("Application closed successfully");
-		
 	
-	
-	}
-}
+    }}

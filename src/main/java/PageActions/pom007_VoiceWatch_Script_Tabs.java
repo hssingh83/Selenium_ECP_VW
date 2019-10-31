@@ -194,8 +194,9 @@ public class pom007_VoiceWatch_Script_Tabs {
 	
 	public void createGSBbybutton() throws InterruptedException {
 		
+		driver.findElement(tagTab).click();
+		Thread.sleep(1000);
 		driver.findElement(scriptsTab).click();
-		
 		
 		
 		
@@ -226,9 +227,9 @@ public class pom007_VoiceWatch_Script_Tabs {
 		{
 			log.debug("Verified that create a new script plus (+) icon appeared on top left side under Script tab");	
 		
-			Thread.sleep(10000);
-			
+			Thread.sleep(10000);	
 			driver.findElement(createNewScriptByButton).click();
+			
 		log.debug("Validated the element while click Script Creation using button (+)");
 		
 				
@@ -341,6 +342,17 @@ public void createGSBbyLink() throws InterruptedException {
 			
 			Thread.sleep(10000);
 			driver.findElement(createNewScriptBylink).click();
+			
+	/*		if (driver.getCurrentUrl() != "https://os-2k16-vm332.empirix.com/401"); {
+				
+				driver.findElement(scriptsTab).click();
+				Thread.sleep(10000);
+				driver.findElement(createNewScriptBylink).click();*/
+				
+			
+				
+			
+			
 	
 	
  		log.debug("Validated the element while click create a new script by link");
@@ -410,9 +422,9 @@ public void createGSBbyLink() throws InterruptedException {
 		Assert.assertEquals(driver.findElement(associatedTestslabel).getText(), "Associated Tests");		
 		log.debug("Verified that 'Associted Test' Text validated on under Go Script Builder");	
 		
-
+			}
 		}
-	}	
+		
 
 //==============================================================================
 
