@@ -6,97 +6,15 @@
     <listener class-name="Analyzer.MyTransformer"/>
     <listener class-name="resources.listeners"/>
   </listeners>
-  <test thread-count="5" name="Test Case: 011 &#039;Login with &#039;Client or Partner Client User&#039;and verify TabAvailablity(failed)">
+  <test thread-count="5" name="Test Case: 001- Login Page Verification (failed)">
     <classes>
-      <class name="VW_TC.TC0011_login_With_Client_OR_Partner_Client_User">
+      <class name="VW_TC.TC0001_login_Page_Verification">
         <methods>
-          <include name="TabValidation"/>
-          <include name="dashBoardTabValidation"/>
           <include name="applicationClose"/>
-          <include name="testTabValidation"/>
-          <include name="alertTabValidation"/>
+          <include name="logInScreenVerification"/>
           <include name="applicationLaunch"/>
-          <include name="variableTabValidation"/>
         </methods>
-      </class> <!-- VW_TC.TC0011_login_With_Client_OR_Partner_Client_User -->
+      </class> <!-- VW_TC.TC0001_login_Page_Verification -->
     </classes>
-  </test> <!-- Test Case: 011 'Login with 'Client or Partner Client User'and verify TabAvailablity(failed) -->
-  <test thread-count="5" name="Test Case: 012 - &#039;Login with &#039;Client Customer Admin&#039;and verify TabAvailablity(failed)">
-    <classes>
-      <class name="VW_TC.TC0012_login_With_Client_Custmer_Admin">
-        <methods>
-          <include name="tagTabValidation"/>
-          <include name="TabValidation"/>
-          <include name="logInWithPartnerClient_CustomerAdmin"/>
-          <include name="scriptTabValidation"/>
-          <include name="dashBoardTabValidation"/>
-          <include name="footerMandatoryDetails"/>
-          <include name="applicationLaunch"/>
-          <include name="alertTabValidation"/>
-          <include name="headerMandatoryDetails"/>
-          <include name="applicationClose"/>
-          <include name="testTabValidation"/>
-          <include name="variableTabValidation"/>
-        </methods>
-      </class> <!-- VW_TC.TC0012_login_With_Client_Custmer_Admin -->
-    </classes>
-  </test> <!-- Test Case: 012 - 'Login with 'Client Customer Admin'and verify TabAvailablity(failed) -->
-  <test thread-count="5" name="Test Case: 013 &#039;Login with &#039;Client Developer&#039;and verify TabAvailablity(failed)">
-    <classes>
-      <class name="VW_TC.TC0013_login_With_Client_Developer">
-        <methods>
-          <include name="dashBoardTabValidation"/>
-          <include name="footerMandatoryDetails"/>
-          <include name="logInWithPartnerClient_Development"/>
-          <include name="tagTabValidation"/>
-          <include name="TabValidation"/>
-          <include name="scriptTabValidation"/>
-          <include name="variableTabValidation"/>
-          <include name="applicationLaunch"/>
-          <include name="alertTabValidation"/>
-          <include name="headerMandatoryDetails"/>
-          <include name="testTabValidation"/>
-          <include name="applicationClose"/>
-        </methods>
-      </class> <!-- VW_TC.TC0013_login_With_Client_Developer -->
-    </classes>
-  </test> <!-- Test Case: 013 'Login with 'Client Developer'and verify TabAvailablity(failed) -->
-  <test thread-count="5" name="Test Case: 014 &#039;Login with &#039;Client Enhanced User&#039;and verify TabAvailablity(failed)">
-    <classes>
-      <class name="VW_TC.TC0014_login_With_Client_Enhanced_User">
-        <methods>
-          <include name="alertTabValidation"/>
-          <include name="headerMandatoryDetails"/>
-          <include name="variableTabValidation"/>
-          <include name="testTabValidation"/>
-          <include name="footerMandatoryDetails"/>
-          <include name="scriptTabValidation"/>
-          <include name="TabValidation"/>
-          <include name="applicationLaunch"/>
-          <include name="dashBoardTabValidation"/>
-          <include name="tagTabValidation"/>
-          <include name="logInWithPartnerClient_EnhancedUser"/>
-          <include name="applicationClose"/>
-        </methods>
-      </class> <!-- VW_TC.TC0014_login_With_Client_Enhanced_User -->
-    </classes>
-  </test> <!-- Test Case: 014 'Login with 'Client Enhanced User'and verify TabAvailablity(failed) -->
-  <test thread-count="5" name="Test Case: 015 &#039;Login with &#039;Client User&#039;and verify TabAvailablity(failed)">
-    <classes>
-      <class name="VW_TC.TC0015_login_With_Client_User">
-        <methods>
-          <include name="logInWithPartnerClient_User"/>
-          <include name="TabValidation"/>
-          <include name="applicationLaunch"/>
-          <include name="footerMandatoryDetails"/>
-          <include name="applicationClose"/>
-          <include name="dashBoardTabValidation"/>
-          <include name="alertTabValidation"/>
-          <include name="headerMandatoryDetails"/>
-          <include name="testTabValidation"/>
-          <include name="variableTabValidation"/>
-        </methods>
-      </class> <!-- VW_TC.TC0015_login_With_Client_User -->
-    </classes>
-  </test> <!-- Test Case: 015 'Login with 'Client User'and verify TabAvailablity(failed) -->
+  </test> <!-- Test Case: 001- Login Page Verification (failed) -->
 </suite> <!-- Failed suite [Suite] -->

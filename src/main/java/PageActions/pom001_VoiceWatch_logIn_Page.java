@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
+import io.qameta.allure.Step;
+
 /**
  * @author hsingh
  *
@@ -43,6 +45,7 @@ public class pom001_VoiceWatch_logIn_Page {
 	
 	// Method for Verified Lables under Client Tab
 	
+	@Step("Verification of Login Page")
 	public void logPageLabelVerification() {	
 		
 	log.debug("LogIn Page Label verification Started");
@@ -113,7 +116,7 @@ public class pom001_VoiceWatch_logIn_Page {
 	
 	
 	
-	
+	@Step("getting UserName....")
 	public WebElement getUsername()
 	{
 		log.debug("Start inserting User Credetials");
@@ -121,18 +124,21 @@ public class pom001_VoiceWatch_logIn_Page {
 		return driver.findElement(userName);
 	}
 	
+	@Step("getting Password....")
 	public WebElement getPassword()
 	{
 		log.debug("Password inserted Successfully");
 		return driver.findElement(passWord);
 	}
 	
+	@Step("Click SignIn button....")
 	public WebElement getSignButton()
 	{
 		log.debug("Sigin button Clicked Successfully");
 		return driver.findElement(sigButton);
 	}
 	
+	@Step("getting CopyRight Infomation....")
 	public WebElement getCopyRightLink()
 	{   
 		log.debug("Verified that additional copy right link clickable");
@@ -140,6 +146,7 @@ public class pom001_VoiceWatch_logIn_Page {
 		
 	}
 	
+	@Step("getting ForgetLink....")
 	public WebElement getForgetLink()
 	{
 		return driver.findElement(forgetLink);

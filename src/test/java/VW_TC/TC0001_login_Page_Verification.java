@@ -1,20 +1,28 @@
 package VW_TC;
 
 import java.io.IOException;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+
 import PageActions.pom001_VoiceWatch_logIn_Page;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import resources.basePropertiesSeln;
 
 public class TC0001_login_Page_Verification extends basePropertiesSeln{
 	
-	private static Logger log =LogManager.getLogger(TC0001_login_Page_Verification.class.getName());
+	
+		
+		private static Logger log =LogManager.getLogger(TC0001_login_Page_Verification.class.getName());
 	
 	@BeforeTest
 	
@@ -23,7 +31,11 @@ public class TC0001_login_Page_Verification extends basePropertiesSeln{
 		driver=intializeDriver();
 	}
 	
-	@Test(priority=1)
+	@Test(priority = 1, description = "verifying login page title test")
+	@Severity(SeverityLevel.NORMAL)
+	@Description("Test Case Description: Verify login page title test on Login Page")
+	@Story("Story Name: To check login page title")
+	
 	public void logInScreenVerification () {
 		
 		pom001_VoiceWatch_logIn_Page l=new pom001_VoiceWatch_logIn_Page(driver);
