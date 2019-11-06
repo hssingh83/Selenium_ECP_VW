@@ -175,9 +175,16 @@ public class basePropertiesSeln {
 			
 			{
 				
-			File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	/*		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(src, new File("C:\\Users\\hsingh\\git_project\\ECP_VW\\src\\main\\java\\resources\\screenshot"+result+"screenshot.png"));
 //			FileUtils.copyFile(src, new File("C:\\Users\\hsingh\\git_project\\ECP_VW\\src\\main\\java\\resources\\screenshot\\screenshot.png"));
+			*/
+			
+			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			// Now you can do whatever you need to do with it, for example copy somewhere
+			FileUtils.copyFile(scrFile, new File("C:\\Users\\hsingh\\Frameworks\\Selenium_ECP_VW\\screenshot\\testFail.jpg"));
+			
+			
 			
 			}
 
