@@ -51,8 +51,8 @@ public class basePropertiesSeln {
 
 		prop.load(fis);
 
-	String browserName=System.getProperty("browser");
-//		String browserName=prop.getProperty("browser");
+//	String browserName=System.getProperty("browser");
+		String browserName=prop.getProperty("browser");
 
 			
 		if(browserName.contains("chrome"))	
@@ -129,12 +129,12 @@ public class basePropertiesSeln {
 		driver.manage().timeouts().implicitlyWait(10000,TimeUnit.SECONDS);
 		log.debug("implicit Wait Applied");
 	//	log.debug("Clean Cookies");
-	//	driver.get(prop.getProperty("url3"));
+		driver.get(prop.getProperty("url3"));
 		
 	//	driver.get(prop.getProperty("url4"));
 
 		//Comment for eclipse runner
-		String URL=System.getProperty("url");
+	/*	String URL=System.getProperty("url");
 
 		if (URL.contains("VoiceWatch-26.0")) {	
 			driver.get(prop.getProperty("url1"));
@@ -155,7 +155,7 @@ public class basePropertiesSeln {
 		} else {
 			log.debug("Verson Not Matched");
 
-			}	
+			}	*/
 
 
 

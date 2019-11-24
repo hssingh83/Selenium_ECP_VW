@@ -1229,7 +1229,7 @@ public void CreateTest() throws InterruptedException {
 	log.info("Passing HearVoice to Call");
 	driver.findElement(deletePhraseHearValue2).click();
 	log.info("Deleting Number to Call");
-	Thread.sleep(10000);
+//	Thread.sleep(10000);
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
@@ -1239,14 +1239,14 @@ public void CreateTest() throws InterruptedException {
 	
 	Thread.sleep(10000);
 	driver.findElement(tagTab).click();
-	Thread.sleep(10000);
+	Thread.sleep(9000);
 	log.info("Navigate to Tag button");
 	driver.findElement(scriptsTab).click();
 	Thread.sleep(1000);
 	log.info("Navigate to Script button");
 	driver.findElement(filterByNameGSB).sendKeys(ScriptName);
 	log.info("Search above created Script using filter");
-	Thread.sleep(10100);
+	Thread.sleep(9000);
 	
 
 	driver.findElement(firstsearchscript).click();
@@ -1284,7 +1284,7 @@ public void CreateTest() throws InterruptedException {
 	log.info("Verified that Run button contain Run Test text");
 	
 	
-	Thread.sleep(10000);
+	Thread.sleep(5000);
 	driver.findElement(testTab).click();
 	Thread.sleep(1000);
 	log.info("Navigate to Test Tab");
@@ -1427,7 +1427,7 @@ public void DeleteTest() throws InterruptedException {
 	log.info("Passing HearVoice to Call");
 	driver.findElement(deletePhraseHearValue2).click();
 	log.info("Deleting Number to Call");
-	Thread.sleep(10000);
+//	Thread.sleep(10000);
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
@@ -1437,14 +1437,14 @@ public void DeleteTest() throws InterruptedException {
 	
 	Thread.sleep(10000);
 	driver.findElement(tagTab).click();
-	Thread.sleep(10000);
+	Thread.sleep(5000);
 	log.info("Navigate to Tag button");
 	driver.findElement(scriptsTab).click();
 	Thread.sleep(1000);
 	log.info("Navigate to Script button");
 	driver.findElement(filterByNameGSB).sendKeys(ScriptName);
 	log.info("Search above created Script using filter");
-	Thread.sleep(10100);
+	Thread.sleep(5000);
 	
 
 	driver.findElement(firstsearchscript).click();
@@ -1642,19 +1642,29 @@ public void CreateScriptByScriptUpload () throws InterruptedException, IOExcepti
 	log.info("clicked tagTab");
 	driver.findElement(scriptsTab).click();
 	log.info("clicked ScriptTab");
-	Thread.sleep(10000);
+	Thread.sleep(9000);
 	driver.findElement(scriptUploadTab).click();
-	Thread.sleep(10000);
+	Thread.sleep(1000);
 	log.info("clicked ScriptUploadTab");
 	driver.findElement(createNewScriptByButtonSU).click();
 	Thread.sleep(1000);
 	driver.findElement(uploadScriptFile).click();
 	Thread.sleep(1000);	
 	Runtime.getRuntime().exec("C:\\Users\\hsingh\\Documents\\FileUpload1.exe");
-	Thread.sleep(10000);
+	Thread.sleep(5000);
 	driver.findElement(uploadScriptSaveButton).click();
 	log.info("ScriptUploaded Successfully");
+	Thread.sleep(9000);
+	driver.findElement(tagTab).click();
+	log.info("clicked tagTab");
 	Thread.sleep(1000);
+	driver.findElement(scriptsTab).click();
+	log.info("clicked ScriptTab");
+	Thread.sleep(10000);
+	driver.findElement(scriptUploadTab).click();
+	Thread.sleep(1000);
+	driver.findElement(firstsearchscript).click();
+	
 	
 }
 
@@ -1662,22 +1672,47 @@ public void CreateScriptByScriptUpload () throws InterruptedException, IOExcepti
 
 public void deleteScriptUpload() throws InterruptedException {
 	
-	Thread.sleep(10000);
-//	driver.findElement(tagTab).click();
-//	log.info("clicked tagTab");
+	Thread.sleep(2000);
+	driver.findElement(tagTab).click();
+	log.info("clicked tagTab");
 	driver.findElement(scriptsTab).click();
 	log.info("clicked ScriptTab");
 	Thread.sleep(10000);
 	driver.findElement(scriptUploadTab).click();
-	Thread.sleep(10000);
+	Thread.sleep(5000);
 	log.info("clicked ScriptUploadTab");
 //	driver.findElement(createNewScriptByButtonSU).click();
-	Thread.sleep(1000);
+//	Thread.sleep(1000);
+	
+	
+	
 	int iCount = 0;
 	iCount=driver.findElements(By.xpath("//*[@class='nav nav-sidebar tests left-side-nav-list-item ng-binding ng-scope']")).size();
 	log.info("Counted " +iCount);
 	
-	for(int i=0;i<iCount;i++)
+	
+	driver.findElement(By.xpath("//*[@id=\"LAB-R\"]/div[1]/div[1]/div/div[3]/div/div[2]/ul/li[1]")).click();
+	Thread.sleep(100);
+	
+	log.info("clicked first");
+	driver.findElement(By.xpath("//form[@name='cms_form']//i[@class='glyphicon glyphicon-option-vertical']")).click();
+	Thread.sleep(100);
+	log.info("clicked dropdown");
+	driver.findElement(By.xpath("//*[@id=\"LAB-R\"]/div[1]/div[2]/div/div[2]/div/div/div[5]/form[1]/div[2]/span/div/ul/li[2]/a/i")).click();
+	Thread.sleep(100);
+	log.info("deleted");
+	driver.findElement(deleteAllData).click();
+	Thread.sleep(9000);
+	driver.findElement(tagTab).click();
+	log.info("clicked tagTab");
+	driver.findElement(scriptsTab).click();
+	log.info("clicked ScriptTab");
+	Thread.sleep(10000);
+	driver.findElement(scriptUploadTab).click();
+	Thread.sleep(5000);
+	log.info("clicked ScriptUploadTab");	
+	
+	/*for(int i=0;i<iCount;i++)
 	{
 		
 		System.out.println("Ramukaka");
@@ -1697,7 +1732,7 @@ public void deleteScriptUpload() throws InterruptedException {
 		Thread.sleep(1000);
 		
 		
-	}
+	}*/
 	
 	
 	
@@ -1718,15 +1753,23 @@ public void CreateCSVTransformer () throws InterruptedException, IOException {
 	log.info("clicked ScriptTab");
 	Thread.sleep(10000);
 	driver.findElement(csvTranformerTab).click();
-	Thread.sleep(10000);
+	Thread.sleep(5000);
 	log.info("clicked csvTranformer");
 	driver.findElement(csvSelect).click();
 	Thread.sleep(1000);
 	Runtime.getRuntime().exec("C:\\Users\\hsingh\\Documents\\FileUpload3.exe");
-	Thread.sleep(10000);
+	Thread.sleep(5000);
 	driver.findElement(TransformButton).click();
 	log.info("CSV Transform upload Successfully");
-	Thread.sleep(1000);
+	Thread.sleep(9000);
+	driver.findElement(tagTab).click();
+	log.info("clicked tagTab");
+	driver.findElement(scriptsTab).click();
+	log.info("clicked ScriptTab");
+	Thread.sleep(10000);
+	driver.findElement(scriptUploadTab).click();
+	Thread.sleep(5000);
+	log.info("clicked ScriptUploadTab");	
 	
 }
 
