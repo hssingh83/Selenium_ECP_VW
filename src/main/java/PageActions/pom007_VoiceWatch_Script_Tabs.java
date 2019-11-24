@@ -877,7 +877,7 @@ public void CreateScript() throws InterruptedException {
 	Thread.sleep(10000);
 	log.info("Taking few second to access Script Tab");
 
-	Thread.sleep(10000);
+//	Thread.sleep(10000);
 //	WebElement createNewScriptByButton = (new WebDriverWait(driver, 10))
 //	  .until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButtonSU));
 	
@@ -906,7 +906,7 @@ public void CreateScript() throws InterruptedException {
 //	String scriptName=reteriveScriptName();
 //	System.out.println("String Name is "+scriptName);
 	
-	Thread.sleep(20000);
+	Thread.sleep(100000);
 	driver.findElement(tagTab).click();
 	Thread.sleep(1000);
 	log.info("Navigate to Tag button");
