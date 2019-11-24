@@ -1,10 +1,10 @@
-package PageActions;
+package VW_TC;
 
 import java.util.Random;
 
 import org.openqa.selenium.By;
 
-public class Reuseable_Script2 {
+public class Reuseable_Script_for_Test {
 	
 	
 	// Generate Random String
