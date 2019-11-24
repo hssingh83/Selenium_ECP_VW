@@ -5,15 +5,15 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
+import org.openqa.selenium.By;	
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
 import VW_TC.Reuseable_Script;
+
+
 
 public class pom007_VoiceWatch_Script_Tabs {
 	private static Logger log =LogManager.getLogger(pom007_VoiceWatch_Script_Tabs.class.getName());
