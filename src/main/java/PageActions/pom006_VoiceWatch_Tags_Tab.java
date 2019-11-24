@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
+import VW_TC.Reuseable_Script;
+
 public class pom006_VoiceWatch_Tags_Tab {
 	private static Logger log =LogManager.getLogger(pom006_VoiceWatch_Tags_Tab.class.getName());
 
@@ -158,5 +160,40 @@ public class pom006_VoiceWatch_Tags_Tab {
 	Assert.assertEquals(driver.findElement(deleteButton).getText(), "Delete");		
 	
 	}
+	
+	public void CreateTag() throws InterruptedException {
+		
+		driver.findElement(tagTab).click();		
+		Thread.sleep(100);
+		driver.findElement(tagCreateplusbutton).click();
+		String TagName=Reuseable_Script.getSaltString();
+		log.info("Generate Radom TagName");
+		driver.findElement(tagNamefield).sendKeys(TagName);
+		log.info("Passing Tag name");
+		driver.findElement(saveButton).click();
+	}
+public void DleteTag() throws InterruptedException {
+		
+		driver.findElement(tagTab).click();		
+		Thread.sleep(100);
+		driver.findElement(tagCreateplusbutton).click();
+		String TagName=Reuseable_Script.getSaltString();
+		log.info("Generate Radom TagName");
+		driver.findElement(tagNamefield).sendKeys(TagName);
+		log.info("Passing Tag name");
+		driver.findElement(saveButton).click();
+		driver.findElement(alertsTab).click();
+		Thread.sleep(100);
+		driver.findElement(tagTab).click();		
+		driver.findElement(tagfilterBox).sendKeys(TagName);
+		
+		
+		
+		
+		
+		
+		
+	}
+	
 		}
 	

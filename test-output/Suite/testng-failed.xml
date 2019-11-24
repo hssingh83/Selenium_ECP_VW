@@ -6,7 +6,12 @@
     <listener class-name="Analyzer.MyTransformer"/>
     <listener class-name="resources.listeners"/>
   </listeners>
-  <test thread-count="5" name="Test Case: 001- Login Page Verification (failed)">
+  <test name="Test Case: 001- Login Page Verification ">
+    <classes>
+      <class name="VW_TC.TC0001_login_Page_Verification"/>
+    </classes>
+  </test> <!-- Test Case: 001- Login Page Verification  -->
+  <test name="Test Case: 001- Login Page Verification (failed)">
     <classes>
       <class name="VW_TC.TC0001_login_Page_Verification">
         <methods>

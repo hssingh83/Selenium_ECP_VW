@@ -9,15 +9,14 @@
 
   
      
-       <test  name="Test Case: 001- Login Page Verification ">
+       <test  name="Test Case: 0017- Validate Sanity Workflow">
     <classes>
      
-      <class name="VW_TC.TC0001_login_Page_Verification"/>
+      <class name="VW_TC.TC0017_login_With_Empirix_Admin_Sanity"/>
          
      </classes> 
      </test>
+        
      
-     
-   
      
 </suite> <!-- Suite -->

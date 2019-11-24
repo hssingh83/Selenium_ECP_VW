@@ -1,0 +1,23 @@
+[DEBUG] 2019-11-23 23:55:21,789 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-11-23 23:55:21,793 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-11-23 23:55:21,800 basePropertiesSeln.intializeDriver() - implicit Wait Applied
+[DEBUG] 2019-11-23 23:55:44,858 basePropertiesSeln.intializeDriver() - URL provided
+[INFO ] 2019-11-23 23:55:49,961 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+[INFO ] 2019-11-23 23:55:49,962 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-11-23 23:55:50,567 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+[DEBUG] 2019-11-23 23:55:50,570 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+[DEBUG] 2019-11-23 23:55:59,887 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+[DEBUG] 2019-11-23 23:55:59,979 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+[DEBUG] 2019-11-23 23:56:00,157 TC0017_login_With_Exmpirix_Admin_Sanity.logInWithExpirixAdmin() - Waiting for launch VoiceWatch application using above creadetails
+[DEBUG] 2019-11-23 23:56:32,787 TC0017_login_With_Exmpirix_Admin_Sanity.logInWithExpirixAdmin() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
+[DEBUG] 2019-11-23 23:56:32,788 TC0017_login_With_Exmpirix_Admin_Sanity.logInWithExpirixAdmin() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
+[INFO ] 2019-11-23 23:56:34,113 pom007_VoiceWatch_Script_Tabs.CreateScript() - Navigate to script Tab
+[INFO ] 2019-11-23 23:56:44,115 pom007_VoiceWatch_Script_Tabs.CreateScript() - Taking few second to access Script Tab
+[INFO ] 2019-11-23 23:56:54,501 pom007_VoiceWatch_Script_Tabs.CreateScript() - Start Creating Script using + button
+[INFO ] 2019-11-23 23:56:54,502 pom007_VoiceWatch_Script_Tabs.CreateScript() - Generate Radom scriptname
+[INFO ] 2019-11-23 23:56:54,658 pom007_VoiceWatch_Script_Tabs.CreateScript() - Passing script name
+[INFO ] 2019-11-23 23:56:54,800 pom007_VoiceWatch_Script_Tabs.CreateScript() - Generate Radom script description
+[INFO ] 2019-11-23 23:56:55,052 pom007_VoiceWatch_Script_Tabs.CreateScript() - Passing Number to Call
+[INFO ] 2019-11-23 23:56:55,184 pom007_VoiceWatch_Script_Tabs.CreateScript() - Passing HearVoice to Call
+[INFO ] 2019-11-23 23:56:55,298 pom007_VoiceWatch_Script_Tabs.CreateScript() - Deleting Number to Call
+[INFO ] 2019-11-23 23:57:05,396 pom007_VoiceWatch_Script_Tabs.CreateScript() - Clicked Save button

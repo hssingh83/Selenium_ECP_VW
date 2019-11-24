@@ -1,0 +1,93 @@
+[DEBUG] 2019-11-24 03:08:43,562 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-11-24 03:08:43,565 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-11-24 03:08:43,572 basePropertiesSeln.intializeDriver() - implicit Wait Applied
+[DEBUG] 2019-11-24 03:09:07,404 basePropertiesSeln.intializeDriver() - URL provided
+[INFO ] 2019-11-24 03:09:08,986 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+[INFO ] 2019-11-24 03:09:08,986 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-11-24 03:09:09,559 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+[DEBUG] 2019-11-24 03:09:09,561 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+[DEBUG] 2019-11-24 03:09:19,101 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+[DEBUG] 2019-11-24 03:09:19,183 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+[DEBUG] 2019-11-24 03:09:19,313 TC0017_login_With_Exmpirix_Admin_Sanity.logInWithExpirixAdmin() - Waiting for launch VoiceWatch application using above creadetails
+[DEBUG] 2019-11-24 03:09:51,129 TC0017_login_With_Exmpirix_Admin_Sanity.logInWithExpirixAdmin() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
+[DEBUG] 2019-11-24 03:09:51,129 TC0017_login_With_Exmpirix_Admin_Sanity.logInWithExpirixAdmin() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
+[INFO ] 2019-11-24 03:09:52,410 pom007_VoiceWatch_Script_Tabs.CreateScript() - Navigate to script Tab
+[INFO ] 2019-11-24 03:10:02,410 pom007_VoiceWatch_Script_Tabs.CreateScript() - Taking few second to access Script Tab
+[INFO ] 2019-11-24 03:10:12,746 pom007_VoiceWatch_Script_Tabs.CreateScript() - Start Creating Script using + button
+[INFO ] 2019-11-24 03:10:12,746 pom007_VoiceWatch_Script_Tabs.CreateScript() - Generate Radom scriptname
+[INFO ] 2019-11-24 03:10:12,897 pom007_VoiceWatch_Script_Tabs.CreateScript() - Passing script name
+[INFO ] 2019-11-24 03:10:13,034 pom007_VoiceWatch_Script_Tabs.CreateScript() - Generate Radom script description
+[INFO ] 2019-11-24 03:10:13,267 pom007_VoiceWatch_Script_Tabs.CreateScript() - Passing Number to Call
+[INFO ] 2019-11-24 03:10:13,394 pom007_VoiceWatch_Script_Tabs.CreateScript() - Passing HearVoice to Call
+[INFO ] 2019-11-24 03:10:13,509 pom007_VoiceWatch_Script_Tabs.CreateScript() - Deleting Number to Call
+[INFO ] 2019-11-24 03:10:13,615 pom007_VoiceWatch_Script_Tabs.CreateScript() - Clicked Save button
+[INFO ] 2019-11-24 03:10:34,701 pom007_VoiceWatch_Script_Tabs.CreateScript() - Navigate to Tag button
+[INFO ] 2019-11-24 03:10:35,926 pom007_VoiceWatch_Script_Tabs.CreateScript() - Navigate to Script button
+[INFO ] 2019-11-24 03:10:36,033 pom007_VoiceWatch_Script_Tabs.CreateScript() - Search above created Script using filter
+[INFO ] 2019-11-24 03:10:47,242 pom007_VoiceWatch_Script_Tabs.CreateScript() - clicked above search script
+[INFO ] 2019-11-24 03:10:47,284 pom007_VoiceWatch_Script_Tabs.CreateScript() - Verified that Run button enabled
+[INFO ] 2019-11-24 03:10:47,322 pom007_VoiceWatch_Script_Tabs.CreateScript() - Verified that Run button contain Run Test text
+[INFO ] 2019-11-24 03:10:57,401 pom007_VoiceWatch_Script_Tabs.CreateScript() - Running created script
+[INFO ] 2019-11-24 03:10:57,440 pom007_VoiceWatch_Script_Tabs.CreateScript() - Verified that result diaplayed enabled
+[INFO ] 2019-11-24 03:10:57,522 pom007_VoiceWatch_Script_Tabs.CreateScript() - Navigate to Call logs Tab
+[INFO ] 2019-11-24 03:10:57,523 pom007_VoiceWatch_Script_Tabs.CreateScript() - Verified that Call logs diaplayed
+[INFO ] 2019-11-24 03:10:57,523 pom007_VoiceWatch_Script_Tabs.CreateScript() - Verified that result enabled
+[INFO ] 2019-11-24 03:10:58,732 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Navigate to script Tab
+[INFO ] 2019-11-24 03:11:08,734 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Taking few second to access Script Tab
+[INFO ] 2019-11-24 03:11:19,063 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Start Creating Script using + button
+[INFO ] 2019-11-24 03:11:19,063 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Generate Radom scriptname
+[INFO ] 2019-11-24 03:11:19,218 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Passing script name
+[INFO ] 2019-11-24 03:11:19,340 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Generate Radom script description
+[INFO ] 2019-11-24 03:11:19,574 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Passing Number to Call
+[INFO ] 2019-11-24 03:11:19,695 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Passing HearVoice to Call
+[INFO ] 2019-11-24 03:11:19,811 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Deleting Number to Call
+[INFO ] 2019-11-24 03:11:19,907 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Clicked Save button
+[INFO ] 2019-11-24 03:11:48,972 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Navigate to Tag button
+[INFO ] 2019-11-24 03:11:50,026 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Navigate to Script button
+[INFO ] 2019-11-24 03:11:51,853 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Search above created Script using filter
+[INFO ] 2019-11-24 03:12:07,025 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - clicked above search script
+[INFO ] 2019-11-24 03:12:07,063 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Verified that Run button enabled
+[INFO ] 2019-11-24 03:12:07,145 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Verified that select dropdown
+[INFO ] 2019-11-24 03:12:07,316 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Verified that Clicked delete button
+[INFO ] 2019-11-24 03:12:07,399 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - Verified that select delete all data
+[INFO ] 2019-11-24 03:12:17,408 pom007_VoiceWatch_Script_Tabs.DeleteScriptAllData() - delete successfully
+[INFO ] 2019-11-24 03:12:18,584 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Navigate to script Tab
+[INFO ] 2019-11-24 03:12:28,585 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Taking few second to access Script Tab
+[INFO ] 2019-11-24 03:12:38,931 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Start Creating Script using + button
+[INFO ] 2019-11-24 03:12:38,932 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Generate Radom scriptname
+[INFO ] 2019-11-24 03:12:39,102 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Passing script name
+[INFO ] 2019-11-24 03:12:39,223 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Generate Radom script description
+[INFO ] 2019-11-24 03:12:39,461 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Passing Number to Call
+[INFO ] 2019-11-24 03:12:39,575 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Passing HearVoice to Call
+[INFO ] 2019-11-24 03:12:39,704 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Deleting Number to Call
+[INFO ] 2019-11-24 03:12:39,801 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Clicked Save button
+[INFO ] 2019-11-24 03:13:15,072 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Navigate to Tag button
+[INFO ] 2019-11-24 03:13:16,135 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Navigate to Script button
+[INFO ] 2019-11-24 03:13:17,465 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Search above created Script using filter
+[INFO ] 2019-11-24 03:13:32,672 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - clicked above search script
+[INFO ] 2019-11-24 03:13:32,739 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Verified that Run button enabled
+[INFO ] 2019-11-24 03:13:32,821 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Verified that select dropdown
+[INFO ] 2019-11-24 03:13:32,991 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Verified that Clicked delete button
+[INFO ] 2019-11-24 03:13:33,079 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Verified that select delete all data
+[INFO ] 2019-11-24 03:13:43,085 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - delete successfully
+[INFO ] 2019-11-24 03:13:44,270 pom007_VoiceWatch_Script_Tabs.CopyScript() - Navigate to script Tab
+[INFO ] 2019-11-24 03:13:54,270 pom007_VoiceWatch_Script_Tabs.CopyScript() - Taking few second to access Script Tab
+[INFO ] 2019-11-24 03:14:04,592 pom007_VoiceWatch_Script_Tabs.CopyScript() - Start Creating Script using + button
+[INFO ] 2019-11-24 03:14:04,592 pom007_VoiceWatch_Script_Tabs.CopyScript() - Generate Radom scriptname
+[INFO ] 2019-11-24 03:14:04,753 pom007_VoiceWatch_Script_Tabs.CopyScript() - Passing script name
+[INFO ] 2019-11-24 03:14:04,871 pom007_VoiceWatch_Script_Tabs.CopyScript() - Generate Radom script description
+[INFO ] 2019-11-24 03:14:05,113 pom007_VoiceWatch_Script_Tabs.CopyScript() - Passing Number to Call
+[INFO ] 2019-11-24 03:14:05,223 pom007_VoiceWatch_Script_Tabs.CopyScript() - Passing HearVoice to Call
+[INFO ] 2019-11-24 03:14:05,330 pom007_VoiceWatch_Script_Tabs.CopyScript() - Deleting Number to Call
+[INFO ] 2019-11-24 03:14:05,436 pom007_VoiceWatch_Script_Tabs.CopyScript() - Clicked Save button
+[INFO ] 2019-11-24 03:14:39,504 pom007_VoiceWatch_Script_Tabs.CopyScript() - Navigate to Tag button
+[INFO ] 2019-11-24 03:14:40,561 pom007_VoiceWatch_Script_Tabs.CopyScript() - Navigate to Script button
+[INFO ] 2019-11-24 03:14:41,877 pom007_VoiceWatch_Script_Tabs.CopyScript() - Search above created Script using filter
+[INFO ] 2019-11-24 03:14:57,072 pom007_VoiceWatch_Script_Tabs.CopyScript() - clicked above search script
+[INFO ] 2019-11-24 03:14:57,120 pom007_VoiceWatch_Script_Tabs.CopyScript() - Verified that Run button enabled
+[INFO ] 2019-11-24 03:14:57,186 pom007_VoiceWatch_Script_Tabs.CopyScript() - Verified that select dropdown
+[INFO ] 2019-11-24 03:14:57,646 pom007_VoiceWatch_Script_Tabs.CopyScript() - Verified that select copy data
+[INFO ] 2019-11-24 03:14:57,646 pom007_VoiceWatch_Script_Tabs.CopyScript() - copied successfully
+[INFO ] 2019-11-24 03:15:22,732 pom007_VoiceWatch_Script_Tabs.CopyScript() - Navigate to Tag button
+[INFO ] 2019-11-24 03:15:23,733 pom007_VoiceWatch_Script_Tabs.CopyScript() - Navigate to Tag button
+[INFO ] 2019-11-24 03:15:25,104 pom007_VoiceWatch_Script_Tabs.CopyScript() - copied added in search
