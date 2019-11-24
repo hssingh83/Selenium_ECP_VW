@@ -3,9 +3,10 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="resources.ExtentReporterNG"/>
+    <listener class-name="Analyzer.MyTransformer"/>
     <listener class-name="resources.listeners"/>
   </listeners>
-  <test thread-count="5" name="Test Case: 001 - Login Verification(failed)">
+  <test thread-count="5" name="Test Case: 001- Login Page Verification (failed)">
     <classes>
       <class name="VW_TC.TC0001_login_Page_Verification">
         <methods>
@@ -15,5 +16,5 @@
         </methods>
       </class> <!-- VW_TC.TC0001_login_Page_Verification -->
     </classes>
-  </test> <!-- Test Case: 001 - Login Verification(failed) -->
+  </test> <!-- Test Case: 001- Login Page Verification (failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -131,9 +131,9 @@ public class basePropertiesSeln {
 		driver.get(prop.getProperty("url3"));
 
 		//Comment for eclipse runner
-	//	String URL=System.getProperty("url");
+/*		String URL=System.getProperty("url");
 
-	/*	if (URL.contains("VoiceWatch-26.0")) {	
+		if (URL.contains("VoiceWatch-26.0")) {	
 			driver.get(prop.getProperty("url1"));
 			log.debug("Current version is 26.0");
 
@@ -152,9 +152,9 @@ public class basePropertiesSeln {
 		} else {
 			log.debug("Verson Not Matched");
 
-			}	
+			}	*/
 
-*/
+
 
 		log.debug("URL provided");
 		driver.manage().window().maximize();
@@ -175,9 +175,16 @@ public class basePropertiesSeln {
 			
 			{
 				
-			File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	/*		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(src, new File("C:\\Users\\hsingh\\git_project\\ECP_VW\\src\\main\\java\\resources\\screenshot"+result+"screenshot.png"));
 //			FileUtils.copyFile(src, new File("C:\\Users\\hsingh\\git_project\\ECP_VW\\src\\main\\java\\resources\\screenshot\\screenshot.png"));
+			*/
+			
+			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			// Now you can do whatever you need to do with it, for example copy somewhere
+			FileUtils.copyFile(scrFile, new File("C:\\Users\\hsingh\\Frameworks\\Selenium_ECP_VW\\screenshot\\testFail.jpg"));
+			
+			
 			
 			}
 

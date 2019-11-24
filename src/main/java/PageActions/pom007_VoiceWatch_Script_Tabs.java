@@ -29,7 +29,13 @@ public class pom007_VoiceWatch_Script_Tabs {
 	
 	By filterByNameGSB=By.xpath("//input[@placeholder='Filter by name']");
 	
-	By createNewScriptByButton=By.xpath("//div[@class='panel-body']//span[@class='glyphicon glyphicon-plus-sign pull-right']");
+//	By createNewScriptByButton=By.xpath("//div[@class='panel-body']//span[@class='glyphicon glyphicon-plus-sign pull-right']");
+	
+	
+	By createNewScriptByButton=By.xpath("//*[@title='Upload a CallMaster script' and @class='glyphicon glyphicon-plus-sign pull-right']");
+	
+	
+	
 	
 	By pleaseSelectlabelGSB=By.xpath("//span[contains(text(),'Please select a script or')]");
 	By createNewScriptBylink=By.linkText("create a new script"); 
@@ -38,6 +44,8 @@ public class pom007_VoiceWatch_Script_Tabs {
 	By callMasterScriptscount=By.xpath("//span[@class='badge pull-right ng-binding']");
 	By filterByNameSU=By.xpath("//input[@placeholder='Filter by name']");
 	By pleaseSelectlabelSU=By.xpath("//span[contains(text(),'Please select a script or')]");
+	
+	By createNewScriptByButtonSU=By.xpath("//*[@title='Upload a CallMaster script' and @class='glyphicon glyphicon-plus-sign pull-right']");
 	By createNewScriptlinkSU=By.xpath("//u[contains(text(),'create a new script')]");
 		
 //	By csvTranformerTab=By.xpath("//span[contains(text(),'CSV Transformer')]");
@@ -186,8 +194,9 @@ public class pom007_VoiceWatch_Script_Tabs {
 	
 	public void createGSBbybutton() throws InterruptedException {
 		
+		driver.findElement(tagTab).click();
+		Thread.sleep(1000);
 		driver.findElement(scriptsTab).click();
-		
 		
 		
 		
@@ -218,9 +227,9 @@ public class pom007_VoiceWatch_Script_Tabs {
 		{
 			log.debug("Verified that create a new script plus (+) icon appeared on top left side under Script tab");	
 		
-			Thread.sleep(10000);
-			
+			Thread.sleep(10000);	
 			driver.findElement(createNewScriptByButton).click();
+			
 		log.debug("Validated the element while click Script Creation using button (+)");
 		
 				
@@ -333,6 +342,17 @@ public void createGSBbyLink() throws InterruptedException {
 			
 			Thread.sleep(10000);
 			driver.findElement(createNewScriptBylink).click();
+			
+	/*		if (driver.getCurrentUrl() != "https://os-2k16-vm332.empirix.com/401"); {
+				
+				driver.findElement(scriptsTab).click();
+				Thread.sleep(10000);
+				driver.findElement(createNewScriptBylink).click();*/
+				
+			
+				
+			
+			
 	
 	
  		log.debug("Validated the element while click create a new script by link");
@@ -402,9 +422,9 @@ public void createGSBbyLink() throws InterruptedException {
 		Assert.assertEquals(driver.findElement(associatedTestslabel).getText(), "Associated Tests");		
 		log.debug("Verified that 'Associted Test' Text validated on under Go Script Builder");	
 		
-
+			}
 		}
-	}	
+		
 
 //==============================================================================
 
@@ -501,7 +521,7 @@ public void createSUbybutton() throws InterruptedException {
 	Thread.sleep(10000);
 	driver.findElement(scriptUploadTab).click();
 		
-      if (driver.findElements(createNewScriptBylink).isEmpty()) {
+      if (driver.findElements(createNewScriptByButtonSU).isEmpty()) {
 		
     	  log.debug("Verified that create a new script by link is not appeared under Script Upload tab");	
     	  Assert.assertTrue(driver.findElement(callMasterScriptslabel).isDisplayed());
@@ -528,8 +548,8 @@ public void createSUbybutton() throws InterruptedException {
 		log.debug("Verified that create a new script by link is appeared under Script Upload tab");	
 		
 		Thread.sleep(10000);
-		driver.findElement(createNewScriptBylink).click();
-	log.debug("Validated the element while click Script Creation using Link");
+		driver.findElement(createNewScriptByButtonSU).click();
+	log.debug("Validated the element while click Script Creation using button");
 	
 			
 	Assert.assertTrue(driver.findElement(callMasterScriptslabel).isDisplayed());

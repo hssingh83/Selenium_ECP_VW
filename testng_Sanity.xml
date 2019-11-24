@@ -3,11 +3,11 @@
 <suite name="Suite">
  <listeners>
 <listener class-name="resources.ExtentReporterNG"/>
+<listener class-name="Analyzer.MyTransformer"/>
 <listener class-name="resources.listeners"></listener>
 </listeners>
 
   
-    
      
        <test  name="Test Case: 001- Login Page Verification ">
     <classes>
@@ -16,16 +16,6 @@
          
      </classes> 
      </test>
-     
-     <test  name="Test Case: 002 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity">
-    <classes>
-     
-      <class name="VW_TC.TC0002_login_With_Exmpirix_Admin"/>
-      
-     </classes> 
-     </test>
-     
-
      
      
    

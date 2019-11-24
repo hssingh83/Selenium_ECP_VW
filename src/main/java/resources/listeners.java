@@ -43,13 +43,7 @@ public void onTestFailure(ITestResult result) {
 	System.out.print("=========================================\n");
 	
 
-	
-}
-	
-	
-	
-	
- /* try {
+	try {
 	   
 	bs.getScreenshot(result.getName());
 } catch (IOException e) {
@@ -57,8 +51,8 @@ public void onTestFailure(ITestResult result) {
 	e.printStackTrace();
 }
 	
-	
-}*/
+}	
+
 
 public void onTestSkipped(ITestResult result) {
 	// TODO Auto-generated method stub

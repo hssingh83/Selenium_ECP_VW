@@ -1,10 +1,12 @@
 PageActions\unused_Home_Page_location.class
+Analyzer\RetryAnalyzer.class
 resources\dataDriven.class
 PageActions\pom007_VoiceWatch_Script_Tabs.class
 resources\ExtentReporterNG.class
 PageActions\pom005_VoiceWatch_Tests_Tab.class
 resources\basePropertiesSeln.class
 resources\listeners.class
+Analyzer\MyTransformer.class
 PageActions\pom003_VoiceWatch_Dashboard_Tab.class
 PageActions\unused_Hidden.class
 TestingECP\App.class
