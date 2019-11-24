@@ -898,7 +898,7 @@ public void CreateScript() throws InterruptedException {
 	log.info("Passing HearVoice to Call");
 	driver.findElement(deletePhraseHearValue2).click();
 	log.info("Deleting Number to Call");
-//	Thread.sleep(10000);
+	Thread.sleep(100000);
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
