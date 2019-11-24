@@ -4,7 +4,7 @@ import java.util.Random;
 
 import org.openqa.selenium.By;
 
-public class Reuseable_Script {
+public class Reuseable_Script1 {
 	
 	
 	// Generate Random String

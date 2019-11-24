@@ -219,7 +219,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		sc.CreateCSVTransformer();
 		
 		sc.scriptdeletion();
-		tg.CreateTag();
+//		tg.CreateTag();
 		
 	 
 	}

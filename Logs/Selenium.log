@@ -1,5 +1,3 @@
-[DEBUG] 2019-11-24 13:05:08,726 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
-[DEBUG] 2019-11-24 13:05:08,731 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
-[DEBUG] 2019-11-24 13:05:08,742 basePropertiesSeln.intializeDriver() - implicit Wait Applied
-[DEBUG] 2019-11-24 13:05:20,206 basePropertiesSeln.intializeDriver() - Current version is 26.2
-[DEBUG] 2019-11-24 13:05:20,206 basePropertiesSeln.intializeDriver() - URL provided
+[DEBUG] 2019-11-24 14:16:53,808 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-11-24 14:16:53,808 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-11-24 14:16:53,820 basePropertiesSeln.intializeDriver() - implicit Wait Applied

@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import VW_TC.Reuseable_Script;
+
 
 
 
@@ -827,7 +827,7 @@ public WebElement getHearVoice2() {
 public String reteriveScriptName() {
 	
 	
-	return Reuseable_Script.getSaltString();
+	return Reuseable_Script2.getSaltString();
 }
 
 
@@ -885,12 +885,12 @@ public void CreateScript() throws InterruptedException {
 //	Assert.assertTrue(driver.findElement(createNewScriptByButton).isDisplayed());
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
-	String ScriptName=Reuseable_Script.getSaltString();
+	String ScriptName=Reuseable_Script2.getSaltString();
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
 //	getScriptName().sendKeys("Script_" +Reuseable_Script.getSaltString());
-	getScriptDesc().sendKeys(Reuseable_Script.getSaltString());
+	getScriptDesc().sendKeys(Reuseable_Script2.getSaltString());
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
@@ -977,12 +977,12 @@ public void DeleteScriptAllData() throws InterruptedException {
 	
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
-	String ScriptName=Reuseable_Script.getSaltString();
+	String ScriptName=Reuseable_Script2.getSaltString();
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
 //	getScriptName().sendKeys("Script_" +Reuseable_Script.getSaltString());
-	getScriptDesc().sendKeys(Reuseable_Script.getSaltString());
+	getScriptDesc().sendKeys(Reuseable_Script2.getSaltString());
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
@@ -1058,12 +1058,12 @@ public void DeleteScriptOnly() throws InterruptedException {
 	
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
-	String ScriptName=Reuseable_Script.getSaltString();
+	String ScriptName=Reuseable_Script2.getSaltString();
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
 //	getScriptName().sendKeys("Script_" +Reuseable_Script.getSaltString());
-	getScriptDesc().sendKeys(Reuseable_Script.getSaltString());
+	getScriptDesc().sendKeys(Reuseable_Script2.getSaltString());
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
@@ -1131,12 +1131,12 @@ public void CopyScript() throws InterruptedException {
 	
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
-	String ScriptName=Reuseable_Script.getSaltString();
+	String ScriptName=Reuseable_Script2.getSaltString();
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
 //	getScriptName().sendKeys("Script_" +Reuseable_Script.getSaltString());
-	getScriptDesc().sendKeys(Reuseable_Script.getSaltString());
+	getScriptDesc().sendKeys(Reuseable_Script2.getSaltString());
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
@@ -1216,12 +1216,12 @@ public void CreateTest() throws InterruptedException {
 	
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
-	String ScriptName=Reuseable_Script.getSaltString();
+	String ScriptName=Reuseable_Script2.getSaltString();
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
 //	getScriptName().sendKeys("Script_" +Reuseable_Script.getSaltString());
-	getScriptDesc().sendKeys(Reuseable_Script.getSaltString());
+	getScriptDesc().sendKeys(Reuseable_Script2.getSaltString());
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
@@ -1333,12 +1333,12 @@ public void UpdateScript() throws InterruptedException {
 	
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
-	String ScriptName=Reuseable_Script.getSaltString();
+	String ScriptName=Reuseable_Script2.getSaltString();
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
 //	getScriptName().sendKeys("Script_" +Reuseable_Script.getSaltString());
-	getScriptDesc().sendKeys(Reuseable_Script.getSaltString());
+	getScriptDesc().sendKeys(Reuseable_Script2.getSaltString());
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
@@ -1414,12 +1414,12 @@ public void DeleteTest() throws InterruptedException {
 	
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
-	String ScriptName=Reuseable_Script.getSaltString();
+	String ScriptName=Reuseable_Script2.getSaltString();
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
 //	getScriptName().sendKeys("Script_" +Reuseable_Script.getSaltString());
-	getScriptDesc().sendKeys(Reuseable_Script.getSaltString());
+	getScriptDesc().sendKeys(Reuseable_Script2.getSaltString());
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
@@ -1531,12 +1531,12 @@ public void UpdateTest() throws InterruptedException {
 	
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
-	String ScriptName=Reuseable_Script.getSaltString();
+	String ScriptName=Reuseable_Script2.getSaltString();
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
 //	getScriptName().sendKeys("Script_" +Reuseable_Script.getSaltString());
-	getScriptDesc().sendKeys(Reuseable_Script.getSaltString());
+	getScriptDesc().sendKeys(Reuseable_Script2.getSaltString());
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
