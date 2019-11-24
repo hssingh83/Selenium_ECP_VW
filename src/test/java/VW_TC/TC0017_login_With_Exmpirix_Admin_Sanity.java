@@ -56,7 +56,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
       
 	
 	
-/*	@Test(priority=2)
+	@Test(priority=2)
 	public void headerMandatoryDetails () throws IOException, InterruptedException {
 		
 		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
@@ -195,7 +195,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	   hm.createHammerByLink();
 
 	}
-	*/
+	
 	@Test(priority=12)
 	public void ValidateScriptFunctinality () throws Exception {
 		
@@ -225,11 +225,11 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	}
 	
 	
-  /*  @AfterTest
+    @AfterTest
 	public void applicationClose() {
 	
 		driver.close();
 		log.debug("Application closed successfully");
 	
-    }*/
+    }
     }
