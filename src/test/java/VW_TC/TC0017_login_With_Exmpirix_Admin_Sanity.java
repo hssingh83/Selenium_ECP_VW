@@ -209,17 +209,17 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		        sc.CopyScript();
 	       sc.UpdateScript();
 		
-	//	sc.CreateTest();
-//	        
-//		sc.DeleteTest();
-//		sc.UpdateTest();
-//		sc.CreateScriptByScriptUpload();
-//		sc.deleteScriptUpload();
+		sc.CreateTest();
+	        
+		sc.DeleteTest();
+		sc.UpdateTest();
+		sc.CreateScriptByScriptUpload();
+	sc.deleteScriptUpload();
 		
-//		sc.CreateCSVTransformer();
+		sc.CreateCSVTransformer();
 		
-//		sc.scriptdeletion();
-//		tg.CreateTag();
+		sc.scriptdeletion();
+		tg.CreateTag();
 		
 	 
 	}
