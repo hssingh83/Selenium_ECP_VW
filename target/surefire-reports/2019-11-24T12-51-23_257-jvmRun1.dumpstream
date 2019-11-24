@@ -1,0 +1,123 @@
+# Created at 2019-11-24T12:51:44.300
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-11-24T12:51:50.194
+Unexpected IOException with stream: [INFO ] 2019-11-24 12:51:50,192 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+
+
+# Created at 2019-11-24T12:51:50.197
+Unexpected IOException with stream: [INFO ] 2019-11-24 12:51:50,196 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+
+
+# Created at 2019-11-24T12:51:50.215
+Unexpected IOException: 5,1,VW_TC.TC0000_Debug_Testing1,logInWithExpirixAdmin(VW_TC.TC0000_Debug_Testing1),VW_TC.TC0000_Debug_Testing1,null,null
+
+
+# Created at 2019-11-24T12:51:50.713
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-24T12:51:50.716
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-24T12:51:50.725
+Unexpected IOException with stream: [DEBUG] 2019-11-24 12:51:50,724 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+
+
+# Created at 2019-11-24T12:51:50.730
+Unexpected IOException with stream: [DEBUG] 2019-11-24 12:51:50,729 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+
+
+# Created at 2019-11-24T12:51:56.775
+Unexpected IOException with stream: Retrying Test method : logInWithExpirixAdmin for 1 times. 
+
+
+# Created at 2019-11-24T12:51:56.780
+Unexpected IOException: 9,1,VW_TC.TC0000_Debug_Testing1,logInWithExpirixAdmin(VW_TC.TC0000_Debug_Testing1),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '192.168.118.21'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61163}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 05fd1b444eb7ad10973bd3dde964cb99\000A*** Element info: {Using=name\002C value=callback_0},null
+
+
+# Created at 2019-11-24T12:51:56.878
+Unexpected IOException: 5,1,VW_TC.TC0000_Debug_Testing1,logInWithExpirixAdmin(VW_TC.TC0000_Debug_Testing1),VW_TC.TC0000_Debug_Testing1,null,null
+
+
+# Created at 2019-11-24T12:51:56.928
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-24T12:51:56.931
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-24T12:51:56.936
+Unexpected IOException with stream: [DEBUG] 2019-11-24 12:51:56,935 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+
+
+# Created at 2019-11-24T12:51:56.940
+Unexpected IOException with stream: [DEBUG] 2019-11-24 12:51:56,939 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+
+
+# Created at 2019-11-24T12:52:02.963
+Unexpected IOException with stream: Retrying Test method : logInWithExpirixAdmin for 2 times. 
+
+
+# Created at 2019-11-24T12:52:02.967
+Unexpected IOException: 9,1,VW_TC.TC0000_Debug_Testing1,logInWithExpirixAdmin(VW_TC.TC0000_Debug_Testing1),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '192.168.118.21'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61163}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 05fd1b444eb7ad10973bd3dde964cb99\000A*** Element info: {Using=name\002C value=callback_0},null
+
+
+# Created at 2019-11-24T12:52:02.977
+Unexpected IOException: 5,1,VW_TC.TC0000_Debug_Testing1,logInWithExpirixAdmin(VW_TC.TC0000_Debug_Testing1),VW_TC.TC0000_Debug_Testing1,null,null
+
+
+# Created at 2019-11-24T12:52:03.022
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-24T12:52:03.026
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-24T12:52:03.031
+Unexpected IOException with stream: [DEBUG] 2019-11-24 12:52:03,030 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+
+
+# Created at 2019-11-24T12:52:03.034
+Unexpected IOException with stream: [DEBUG] 2019-11-24 12:52:03,034 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+
+
+# Created at 2019-11-24T12:52:09.047
+Unexpected IOException with stream: 
+Test Case logInWithExpirixAdmin failed
+
+
+
+# Created at 2019-11-24T12:52:09.051
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-11-24T12:52:09.055
+Unexpected IOException with stream: 
+Test Case logInWithExpirixAdmin failed
+
+
+
+# Created at 2019-11-24T12:52:09.058
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-11-24T12:52:09.307
+Unexpected IOException: 8,1,VW_TC.TC0000_Debug_Testing1,applicationClose(VW_TC.TC0000_Debug_Testing1),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '192.168.118.21'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61163}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 05fd1b444eb7ad10973bd3dde964cb99,null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '192.168.118.21'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61163}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 05fd1b444eb7ad10973bd3dde964cb99,TC0000_Debug_Testing1.applicationClose:207 \00BB WebDriver chrome not reachable\000A  ...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '192.168.118.21'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:61163}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 05fd1b444eb7ad10973bd3dde964cb99\000A\0009at VW_TC.TC0000_Debug_Testing1.applicationClose(TC0000_Debug_Testing1.java:207)\000A
+
+
+# Created at 2019-11-24T12:52:09.354
+Unexpected IOException with stream: 
+ Test Case: 002 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity Completed
+
+
+# Created at 2019-11-24T12:52:09.357
+Unexpected IOException with stream: =========================================
+
+
