@@ -887,7 +887,7 @@ public void CreateScript() throws InterruptedException {
 	log.info("Start Creating Script using + button");
 //	String ScriptName=pom000_Reuseable_Script_for_Page.getSaltString();
 	String ScriptName="Ramukaka";
-	log.info("Generate Radom scriptname");
+	log.info("Generate Radom scriptname1");
 	getScriptName().sendKeys(ScriptName);
 //	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
