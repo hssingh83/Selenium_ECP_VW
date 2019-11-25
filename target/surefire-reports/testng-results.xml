@@ -2,32 +2,46 @@
 <testng-results skipped="11" failed="0" ignored="0" total="11" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31968" started-at="2019-11-24T21:12:52 IST" finished-at="2019-11-24T21:13:24 IST">
+  <suite name="Suite" duration-ms="8907" started-at="2019-11-24T21:37:20 IST" finished-at="2019-11-24T21:37:29 IST">
     <groups>
     </groups>
-    <test name="Test Case: 0017- Validate Sanity Workflow" duration-ms="31968" started-at="2019-11-24T21:12:52 IST" finished-at="2019-11-24T21:13:24 IST">
+    <test name="Test Case: 0017- Validate Sanity Workflow" duration-ms="8907" started-at="2019-11-24T21:37:20 IST" finished-at="2019-11-24T21:37:29 IST">
       <class name="VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2">
-        <test-method status="FAIL" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="31593" started-at="2019-11-24T21:12:52 IST" finished-at="2019-11-24T21:13:23 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="8596" started-at="2019-11-24T21:37:21 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -66,31 +80,45 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="SKIP" signature="createScript()[pri:1, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createScript" duration-ms="0" started-at="2019-11-24T21:13:24 IST" finished-at="2019-11-24T21:13:24 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="createScript()[pri:1, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createScript" duration-ms="0" started-at="2019-11-24T21:37:29 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -129,39 +157,53 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createScript -->
-        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574610204028" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574611649756" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
-        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574610204032" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574611649764" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="SKIP" signature="deleteScript_AllData()[pri:2, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteScript_AllData" duration-ms="0" started-at="2019-11-24T21:13:24 IST" finished-at="2019-11-24T21:13:24 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="deleteScript_AllData()[pri:2, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteScript_AllData" duration-ms="0" started-at="2019-11-24T21:37:29 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -200,39 +242,53 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteScript_AllData -->
-        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574610204040" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574611649776" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
-        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574610204044" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574611649780" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="SKIP" signature="deleteScript_only()[pri:3, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteScript_only" duration-ms="0" started-at="2019-11-24T21:13:24 IST" finished-at="2019-11-24T21:13:24 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="deleteScript_only()[pri:3, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteScript_only" duration-ms="0" started-at="2019-11-24T21:37:29 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -271,39 +327,53 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteScript_only -->
-        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574610204052" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574611649788" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
-        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574610204056" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574611649788" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="SKIP" signature="copyScript()[pri:4, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="copyScript" duration-ms="0" started-at="2019-11-24T21:13:24 IST" finished-at="2019-11-24T21:13:24 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="copyScript()[pri:4, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="copyScript" duration-ms="0" started-at="2019-11-24T21:37:29 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -342,39 +412,53 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copyScript -->
-        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574610204064" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574610204068" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574611649800" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="SKIP" signature="updateScript()[pri:5, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="updateScript" duration-ms="0" started-at="2019-11-24T21:13:24 IST" finished-at="2019-11-24T21:13:24 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574611649800" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="SKIP" signature="updateScript()[pri:5, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="updateScript" duration-ms="0" started-at="2019-11-24T21:37:29 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -413,39 +497,53 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateScript -->
-        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574610204076" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574611649808" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
-        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574610204084" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574611649812" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="SKIP" signature="createScript_by_ScriptUpload()[pri:6, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createScript_by_ScriptUpload" duration-ms="0" started-at="2019-11-24T21:13:24 IST" finished-at="2019-11-24T21:13:24 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="createScript_by_ScriptUpload()[pri:6, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createScript_by_ScriptUpload" duration-ms="0" started-at="2019-11-24T21:37:29 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -484,39 +582,49 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createScript_by_ScriptUpload -->
-        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574610204092" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574611649820" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
-        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574610204096" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationLaunch -->
-        <test-method status="SKIP" signature="deleteScript_by_ScriptUpload()[pri:7, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteScript_by_ScriptUpload" duration-ms="0" started-at="2019-11-24T21:13:24 IST" finished-at="2019-11-24T21:13:24 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="deleteScript_by_ScriptUpload()[pri:7, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteScript_by_ScriptUpload" duration-ms="0" started-at="2019-11-24T21:37:29 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -555,39 +663,57 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteScript_by_ScriptUpload -->
-        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574610204104" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574610204108" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574611649824" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="SKIP" signature="createScript_by_CSV()[pri:8, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createScript_by_CSV" duration-ms="0" started-at="2019-11-24T21:13:24 IST" finished-at="2019-11-24T21:13:24 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574611649832" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574611649832" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="SKIP" signature="createScript_by_CSV()[pri:8, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createScript_by_CSV" duration-ms="0" started-at="2019-11-24T21:37:29 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -626,39 +752,53 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createScript_by_CSV -->
-        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574610204116" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574611649840" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
-        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574610204120" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574611649844" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="SKIP" signature="createTest()[pri:9, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createTest" duration-ms="0" started-at="2019-11-24T21:13:24 IST" finished-at="2019-11-24T21:13:24 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="createTest()[pri:9, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createTest" duration-ms="0" started-at="2019-11-24T21:37:29 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -697,39 +837,53 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTest -->
-        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574610204132" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574611649852" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
-        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574610204136" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574611649856" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="SKIP" signature="deleteTest()[pri:10, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteTest" duration-ms="0" started-at="2019-11-24T21:13:24 IST" finished-at="2019-11-24T21:13:24 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="deleteTest()[pri:10, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteTest" duration-ms="0" started-at="2019-11-24T21:37:29 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -768,39 +922,53 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTest -->
-        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574610204144" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574611649864" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->
-        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574610204148" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="-1574611649868" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="SKIP" signature="updateTest()[pri:11, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="updateTest" duration-ms="0" started-at="2019-11-24T21:13:24 IST" finished-at="2019-11-24T21:13:24 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="updateTest()[pri:11, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="updateTest" duration-ms="0" started-at="2019-11-24T21:37:29 IST" finished-at="2019-11-24T21:37:29 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=callback_0
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'REM-L-SINGHH', ip: '10.12.60.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at PageActions.pom001_VoiceWatch_logIn_Page.getUsername(pom001_VoiceWatch_logIn_Page.java:124)
-at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:44)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 148f4d4accbaf3d103eaed57a62bcdc1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at resources.basePropertiesSeln.intializeDriver(basePropertiesSeln.java:163)
+at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch(TC0018_login_With_Exmpirix_Admin_Sanity2.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -839,11 +1007,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateTest -->
-        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574610204156" started-at="2019-11-24T21:13:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="-1574611649876" started-at="2019-11-24T21:37:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->

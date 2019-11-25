@@ -51,8 +51,8 @@ public class basePropertiesSeln {
 
 		prop.load(fis);
 
-//	String browserName=System.getProperty("browser");
-		String browserName=prop.getProperty("browser");
+	String browserName=System.getProperty("browser");
+//		String browserName=prop.getProperty("browser");
 
 			
 		if(browserName.contains("chrome"))	
@@ -134,7 +134,7 @@ public class basePropertiesSeln {
 	//	driver.get(prop.getProperty("url4"));
 
 		//Comment for eclipse runner
-	/*	String URL=System.getProperty("url");
+		String URL=System.getProperty("url");
 
 		if (URL.contains("VoiceWatch-26.0")) {	
 			driver.get(prop.getProperty("url1"));
@@ -155,7 +155,7 @@ public class basePropertiesSeln {
 		} else {
 			log.debug("Verson Not Matched");
 
-			}	*/
+			}	
 
 
 

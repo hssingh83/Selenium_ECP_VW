@@ -885,9 +885,11 @@ public void CreateScript() throws InterruptedException {
 //	Assert.assertTrue(driver.findElement(createNewScriptByButton).isDisplayed());
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
-	String ScriptName=pom000_Reuseable_Script_for_Page.getSaltString();
+//	String ScriptName=pom000_Reuseable_Script_for_Page.getSaltString();
+	String ScriptName="Ramukaka";
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
+//	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
 //	getScriptName().sendKeys("Script_" +Reuseable_Script.getSaltString());
 	getScriptDesc().sendKeys(pom000_Reuseable_Script_for_Page.getSaltString());
@@ -898,7 +900,7 @@ public void CreateScript() throws InterruptedException {
 	log.info("Passing HearVoice to Call");
 	driver.findElement(deletePhraseHearValue2).click();
 	log.info("Deleting Number to Call");
-	Thread.sleep(100000);
+	Thread.sleep(10000);
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
