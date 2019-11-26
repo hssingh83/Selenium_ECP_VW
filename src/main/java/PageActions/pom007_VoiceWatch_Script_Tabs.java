@@ -916,7 +916,7 @@ public void CreateScript() throws InterruptedException {
 	log.info("Deleting Number to Call");
 //	Thread.sleep(10000);
 	
-	WebDriverWait wait2 = new WebDriverWait(driver, 20);
+	WebDriverWait wait2 = new WebDriverWait(driver, 100000);
 	wait2.until(ExpectedConditions.elementToBeClickable(saveButton));
 	
 	
