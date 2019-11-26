@@ -5,7 +5,8 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;	
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -901,9 +902,21 @@ public void CreateScript() throws InterruptedException {
 	log.info("Passing HearVoice to Call");
 	 
 
-	    driver.findElement(By.id("navigationPageButton")).click();
 	    
+	
+	
+	
+	
+	WebElement myelement = driver.findElement(deletePhraseHearValue2);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); 
+	
 	driver.findElement(deletePhraseHearValue2).click();
+	
+	
+	
+	
+	
 	log.info("Deleting Number to Call");
 	Thread.sleep(1000000);
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
