@@ -43,13 +43,13 @@ public void onTestFailure(ITestResult result) {
 	System.out.print("=========================================\n");
 	
 
-	try {
+/*	try {
 	   
 	bs.getScreenshot(result.getName());
 } catch (IOException e) {
 	// TODO Auto-generated catch block
 	e.printStackTrace();
-}
+}*/
 	
 }	
 
