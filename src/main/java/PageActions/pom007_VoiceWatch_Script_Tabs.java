@@ -9,7 +9,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 
@@ -897,9 +899,13 @@ public void CreateScript() throws InterruptedException {
 	log.info("Passing Number to Call");
 	getHearVoice1().sendKeys("Welcome");
 	log.info("Passing HearVoice to Call");
-//	driver.findElement(deletePhraseHearValue2).click();
+	 
+
+	    driver.findElement(By.id("navigationPageButton")).click();
+	    
+	driver.findElement(deletePhraseHearValue2).click();
 	log.info("Deleting Number to Call");
-	Thread.sleep(10000);
+	Thread.sleep(1000000);
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
