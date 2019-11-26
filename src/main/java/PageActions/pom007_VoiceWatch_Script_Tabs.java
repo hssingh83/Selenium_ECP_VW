@@ -918,7 +918,7 @@ public void CreateScript() throws InterruptedException {
 	
 	
 	log.info("Deleting Number to Call");
-	Thread.sleep(1000000);
+	Thread.sleep(10000);
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
