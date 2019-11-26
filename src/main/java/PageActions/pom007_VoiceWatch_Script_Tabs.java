@@ -912,13 +912,14 @@ public void CreateScript() throws InterruptedException {
 	jse2.executeScript("arguments[0].scrollIntoView()", myelement); 
 	
 	driver.findElement(deletePhraseHearValue2).click();
-	
-	
-	
-	
-	
+		
 	log.info("Deleting Number to Call");
-	Thread.sleep(10000);
+//	Thread.sleep(10000);
+	
+	WebDriverWait wait2 = new WebDriverWait(driver, 20);
+	wait2.until(ExpectedConditions.elementToBeClickable(saveButton));
+	
+	
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
