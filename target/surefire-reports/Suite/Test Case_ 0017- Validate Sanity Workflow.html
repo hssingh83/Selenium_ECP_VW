@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test Case: 0017- Validate Sanity Workflow</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 24 21:41:39 IST 2019</td>
+<td>Started on:</td><td>Tue Nov 26 13:39:05 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>63 seconds (63499 ms)</td>
+<tr><td>Total time:</td><td>1256 seconds (1256557 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,132 +67,68 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.createScript()'><b>createScript</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; ng-show=&quot;script_id == -1&quot; ng-disabled=&quot;disableSave || labelLengthError || readonly&quot; class=&quot;btn btn-info btn-sm btn-float-right&quot; ng-click=&quot;saveScript()&quot; style=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (703, 15). Other element would receive the click: &lt;a ng-click=&quot;contact()&quot; data-i18n=&quot;_contactUs_&quot;&gt;...&lt;/a&gt;
-  (Session info: headless chrome=78.0.3904.108)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;10.12.60.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 296391c35db35d5dee2ffcf287d3e152
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at PageActions.pom007_VoiceWatch_Script_Tabs.CreateScript(pom007_VoiceWatch_Script_Tabs.java:903)
-	at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.createScript(TC0018_login_With_Exmpirix_Admin_Sanity2.java:62)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace726107869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace726107869'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; ng-show=&quot;script_id == -1&quot; ng-disabled=&quot;disableSave || labelLengthError || readonly&quot; class=&quot;btn btn-info btn-sm btn-float-right&quot; ng-click=&quot;saveScript()&quot; style=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (703, 15). Other element would receive the click: &lt;a ng-click=&quot;contact()&quot; data-i18n=&quot;_contactUs_&quot;&gt;...&lt;/a&gt;
-  (Session info: headless chrome=78.0.3904.108)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;REM-L-SINGHH&apos;, ip: &apos;10.12.60.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\hsingh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 296391c35db35d5dee2ffcf287d3e152
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at PageActions.pom007_VoiceWatch_Script_Tabs.CreateScript(pom007_VoiceWatch_Script_Tabs.java:903)
-	at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.createScript(TC0018_login_With_Exmpirix_Admin_Sanity2.java:62)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-</pre></div></td>
-<td>22</td>
-<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@533bda92</td></tr>
+<td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.copyScript()'><b>copyScript</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
+<td></td>
+<td>118</td>
+<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef</td></tr>
 <tr>
 <td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.createScript()'><b>createScript</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
-<td><div><pre>java.lang.NullPointerException
-	at resources.basePropertiesSeln.getScreenshot(basePropertiesSeln.java:186)
-	at resources.listeners.onTestFailure(listeners.java:48)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1953175805", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1953175805'><pre>java.lang.NullPointerException
-	at resources.basePropertiesSeln.getScreenshot(basePropertiesSeln.java:186)
-	at resources.listeners.onTestFailure(listeners.java:48)
-	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
-	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:638)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-</pre></div></td>
-<td>63</td>
-<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@533bda92</td></tr>
+<td></td>
+<td>147</td>
+<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef</td></tr>
+<tr>
+<td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.createScript_by_CSV()'><b>createScript_by_CSV</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
+<td></td>
+<td>46</td>
+<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef</td></tr>
+<tr>
+<td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.createScript_by_ScriptUpload()'><b>createScript_by_ScriptUpload</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
+<td></td>
+<td>39</td>
+<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef</td></tr>
+<tr>
+<td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.createTest()'><b>createTest</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
+<td></td>
+<td>75</td>
+<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef</td></tr>
+<tr>
+<td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.deleteScript_AllData()'><b>deleteScript_AllData</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
+<td></td>
+<td>80</td>
+<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef</td></tr>
+<tr>
+<td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.deleteScript_by_ScriptUpload()'><b>deleteScript_by_ScriptUpload</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
+<td></td>
+<td>42</td>
+<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef</td></tr>
+<tr>
+<td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.deleteScript_only()'><b>deleteScript_only</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
+<td></td>
+<td>86</td>
+<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef</td></tr>
+<tr>
+<td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.deleteTest()'><b>deleteTest</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
+<td></td>
+<td>91</td>
+<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef</td></tr>
+<tr>
+<td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.updateScript()'><b>updateScript</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
+<td></td>
+<td>85</td>
+<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef</td></tr>
+<tr>
+<td title='VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.updateTest()'><b>updateTest</b><br>Test class: VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2</td>
+<td></td>
+<td>84</td>
+<td>VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef</td></tr>
 </table><p>
 </body>
 </html>
