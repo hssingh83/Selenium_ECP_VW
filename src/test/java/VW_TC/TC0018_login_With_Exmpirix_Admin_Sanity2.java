@@ -72,7 +72,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	}
 	
-	@Test(priority=3)
+	/*@Test(priority=3)
 	public void deleteScript_only () throws IOException, InterruptedException {
 		
 		pom007_VoiceWatch_Script_Tabs san=new pom007_VoiceWatch_Script_Tabs(driver);
@@ -152,7 +152,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	    san.UpdateTest();
 	
-	}
+	}*/
 	
 		
 	@AfterMethod
