@@ -916,6 +916,11 @@ public void CreateScript() throws InterruptedException {
 	
 	Thread.sleep(10000);
 	
+	WebElement myelement = driver.findElement(deletePhraseHearValue1);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); 
+	
+	
 	driver.findElement(deletePhraseHearValue1).click();
 	log.info("deletePhraseHearValue1");
 	driver.findElement(deletePress1).click();
