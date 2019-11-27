@@ -914,11 +914,15 @@ public void CreateScript() throws InterruptedException {
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
 	
-	Thread.sleep(10000);
+//	Thread.sleep(10000);
 	
-	WebElement myelement = driver.findElement(deletePhraseHearValue1);
+/*	WebElement myelement = driver.findElement(deletePhraseHearValue1);
 	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
-	jse2.executeScript("arguments[0].scrollIntoView()", myelement); 
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+	WebDriverWait wait2 = new WebDriverWait(driver, 100);
+	wait2.until(ExpectedConditions.elementToBeClickable(By.id("deletePhraseHearValue1")));
 	
 	
 	driver.findElement(deletePhraseHearValue1).click();
