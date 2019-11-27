@@ -914,6 +914,7 @@ public void CreateScript() throws InterruptedException {
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
 	
+	Thread.sleep(10000);
 	
 	driver.findElement(deletePhraseHearValue1).click();
 	log.info("deletePhraseHearValue1");
