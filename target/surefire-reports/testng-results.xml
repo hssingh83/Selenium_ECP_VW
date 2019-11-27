@@ -1,145 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1256557" started-at="2019-11-26T13:39:05 IST" finished-at="2019-11-26T14:00:02 IST">
+  <suite name="Suite" duration-ms="91203" started-at="2019-11-27T20:23:40 IST" finished-at="2019-11-27T20:25:11 IST">
     <groups>
     </groups>
-    <test name="Test Case: 0017- Validate Sanity Workflow" duration-ms="1256557" started-at="2019-11-26T13:39:05 IST" finished-at="2019-11-26T14:00:02 IST">
+    <test name="Test Case: 0018- Validate Sanity Workflow" duration-ms="91203" started-at="2019-11-27T20:23:40 IST" finished-at="2019-11-27T20:25:11 IST">
       <class name="VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2">
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="30876" started-at="2019-11-26T13:39:05 IST" finished-at="2019-11-26T13:39:36 IST">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@2a693f59]" name="applicationLaunch" is-config="true" duration-ms="43811" started-at="2019-11-27T20:23:40 IST" finished-at="2019-11-27T20:24:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="createScript()[pri:1, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createScript" duration-ms="147995" started-at="2019-11-26T13:39:36 IST" finished-at="2019-11-26T13:42:04 IST">
+        <test-method status="PASS" signature="createScript()[pri:1, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@2a693f59]" name="createScript" duration-ms="47243" started-at="2019-11-27T20:24:24 IST" finished-at="2019-11-27T20:25:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createScript -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="104" started-at="2019-11-26T13:42:04 IST" finished-at="2019-11-26T13:42:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="34176" started-at="2019-11-26T13:42:04 IST" finished-at="2019-11-26T13:42:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="deleteScript_AllData()[pri:2, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteScript_AllData" duration-ms="80370" started-at="2019-11-26T13:42:38 IST" finished-at="2019-11-26T13:43:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteScript_AllData -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="264" started-at="2019-11-26T13:43:59 IST" finished-at="2019-11-26T13:43:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="38844" started-at="2019-11-26T13:43:59 IST" finished-at="2019-11-26T13:44:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="deleteScript_only()[pri:3, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteScript_only" duration-ms="86196" started-at="2019-11-26T13:44:38 IST" finished-at="2019-11-26T13:46:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteScript_only -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="2197" started-at="2019-11-26T13:46:04 IST" finished-at="2019-11-26T13:46:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="32088" started-at="2019-11-26T13:46:06 IST" finished-at="2019-11-26T13:46:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="copyScript()[pri:4, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="copyScript" duration-ms="118473" started-at="2019-11-26T13:46:38 IST" finished-at="2019-11-26T13:48:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- copyScript -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="144" started-at="2019-11-26T13:48:37 IST" finished-at="2019-11-26T13:48:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="31214" started-at="2019-11-26T13:48:37 IST" finished-at="2019-11-26T13:49:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="updateScript()[pri:5, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="updateScript" duration-ms="85150" started-at="2019-11-26T13:49:08 IST" finished-at="2019-11-26T13:50:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateScript -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="155" started-at="2019-11-26T13:50:33 IST" finished-at="2019-11-26T13:50:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="31967" started-at="2019-11-26T13:50:33 IST" finished-at="2019-11-26T13:51:05 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="createScript_by_ScriptUpload()[pri:6, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createScript_by_ScriptUpload" duration-ms="39404" started-at="2019-11-26T13:51:05 IST" finished-at="2019-11-26T13:51:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createScript_by_ScriptUpload -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="2146" started-at="2019-11-26T13:51:45 IST" finished-at="2019-11-26T13:51:47 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="30431" started-at="2019-11-26T13:51:47 IST" finished-at="2019-11-26T13:52:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="deleteScript_by_ScriptUpload()[pri:7, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteScript_by_ScriptUpload" duration-ms="42536" started-at="2019-11-26T13:52:17 IST" finished-at="2019-11-26T13:53:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteScript_by_ScriptUpload -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="150" started-at="2019-11-26T13:53:00 IST" finished-at="2019-11-26T13:53:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="32781" started-at="2019-11-26T13:53:00 IST" finished-at="2019-11-26T13:53:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="createScript_by_CSV()[pri:8, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createScript_by_CSV" duration-ms="46638" started-at="2019-11-26T13:53:33 IST" finished-at="2019-11-26T13:54:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createScript_by_CSV -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="204" started-at="2019-11-26T13:54:20 IST" finished-at="2019-11-26T13:54:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="30029" started-at="2019-11-26T13:54:20 IST" finished-at="2019-11-26T13:54:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="createTest()[pri:9, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="createTest" duration-ms="75989" started-at="2019-11-26T13:54:50 IST" finished-at="2019-11-26T13:56:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createTest -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="91" started-at="2019-11-26T13:56:06 IST" finished-at="2019-11-26T13:56:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="30711" started-at="2019-11-26T13:56:06 IST" finished-at="2019-11-26T13:56:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="deleteTest()[pri:10, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="deleteTest" duration-ms="91740" started-at="2019-11-26T13:56:37 IST" finished-at="2019-11-26T13:58:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteTest -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="179" started-at="2019-11-26T13:58:08 IST" finished-at="2019-11-26T13:58:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationLaunch" is-config="true" duration-ms="28094" started-at="2019-11-26T13:58:08 IST" finished-at="2019-11-26T13:58:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="updateTest()[pri:11, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="updateTest" duration-ms="84904" started-at="2019-11-26T13:58:37 IST" finished-at="2019-11-26T14:00:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateTest -->
-        <test-method status="PASS" signature="applicationClose()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@514646ef]" name="applicationClose" is-config="true" duration-ms="87" started-at="2019-11-26T14:00:01 IST" finished-at="2019-11-26T14:00:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applicationClose -->
       </class> <!-- VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2 -->
-    </test> <!-- Test Case: 0017- Validate Sanity Workflow -->
+    </test> <!-- Test Case: 0018- Validate Sanity Workflow -->
   </suite> <!-- Suite -->
 </testng-results>

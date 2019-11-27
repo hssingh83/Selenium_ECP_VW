@@ -5,25 +5,14 @@
     <listener class-name="resources.ExtentReporterNG"/>
     <listener class-name="resources.listeners"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="Test Case: 0017- Validate Sanity Workflow(failed)">
+  <test thread-count="5" verbose="0" name="Test Case: 0018- Validate Sanity Workflow(failed)">
     <classes>
       <class name="VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2">
         <methods>
-          <include name="updateTest"/>
-          <include name="deleteScript_by_ScriptUpload"/>
-          <include name="deleteScript_AllData"/>
-          <include name="deleteTest"/>
-          <include name="applicationClose"/>
-          <include name="createTest"/>
-          <include name="copyScript"/>
-          <include name="updateScript"/>
           <include name="createScript"/>
           <include name="applicationLaunch"/>
-          <include name="createScript_by_ScriptUpload"/>
-          <include name="createScript_by_CSV"/>
-          <include name="deleteScript_only"/>
         </methods>
       </class> <!-- VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2 -->
     </classes>
-  </test> <!-- Test Case: 0017- Validate Sanity Workflow(failed) -->
+  </test> <!-- Test Case: 0018- Validate Sanity Workflow(failed) -->
 </suite> <!-- Failed suite [Suite] -->

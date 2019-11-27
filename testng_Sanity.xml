@@ -9,7 +9,7 @@
 
   
      
-       <test  name="Test Case: 0017- Validate Sanity Workflow">
+       <test  name="Test Case: 0018- Validate Sanity Workflow">
     <classes>
      
       <class name="VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2"/>

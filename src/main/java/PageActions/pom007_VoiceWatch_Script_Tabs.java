@@ -74,6 +74,18 @@ public class pom007_VoiceWatch_Script_Tabs {
 	By associatedTestslabel=By.xpath("//a[contains(text(),'Associated Tests')]");
 //	By uploadScriptXMLFile=By.className("files_upload ng-pristine ng-untouched ng-valid ng-empty");
 	
+	By deletefirstHearVoice=By.xpath("//*[@id=\"script-area\"]/div/form/div/div[1]/div/em-wbs-icon/div/div/div[1]/i"); 
+	By insertHearVoice=By.xpath("//*[@id=\"script-area\"]/div/form/div/div[2]/div/em-wbs-icon/div/div/div[2]/div[2]/span[2]/span/span[1]/textarea");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	By uploadCSVFile=By.xpath("//div[@class='files_upload ng-pristine ng-untouched ng-valid ng-empty']");
 	
 	By uploadScriptFile=By.xpath("//div[contains(text(),'Click to select a script, or drop file below (.xml')]");
@@ -86,14 +98,17 @@ public class pom007_VoiceWatch_Script_Tabs {
 	
 	By PhraseHearValue1=By.xpath("//*[@id=\"script-area\"]/div/form/div/div[1]/div/em-wbs-icon/div/div/div[2]/div[2]/span[2]/span/span[1]/textarea");
 	
-	By PhraseHearValue2=By.xpath("//*[@id=\"script-area\"]/div/form/div/div[3]/div/em-wbs-icon/div/div/div[2]/div[2]/span[2]/span/span[1]/textarea");
+	By PhraseHearValue2=By.xpath("//*[@id=\"script-area\"]/div/form/div/div[2]/div/em-wbs-icon/div/div/div[2]/div[2]/span[2]/span/span[1]/textarea");
 
 	By confidenceScore=By.xpath("//*[@id=\"script-area\"]/div/form/div/div[3]/div/em-wbs-icon/div/div/div[2]/div[3]/span[2]/span/span[1]/input");
 	
-	By deletePhraseHearValue2=By.xpath("//*[@id=\"script-area\"]/div/form/div/div[3]/div/em-wbs-icon/div/div/div[1]/i");
+//	By deletePhraseHearValue2=By.xpath("//*[@id=\"script-area\"]/div/form/div/div[3]/div/em-wbs-icon/div/div/div[1]/i");
 	
-	By deletePress2=By.xpath("//*[@id=\"script-area\"]/div/form/div/div[2]/div/em-wbs-icon/div/div/div[1]/i");
+	By deletePhraseHearValue1=By.xpath("//*[@id=\"script-area\"]/div/form/div/div[1]/div/em-wbs-icon/div/div/div[1]/i");
+	By deletePress1=By.xpath("//*[@id=\"script-area\"]/div/form/div/div[1]/div/em-wbs-icon/div/div/div[1]/i");
+	By deletePhraseHearValue2=By.xpath("//*[@id=\"script-area\"]/div/form/div/div/div/em-wbs-icon/div/div/div[1]/i");
 	
+
 
 	
 //	By deletePhraseHearValue3=By.xpath("\"//*[@id=\"script-area\"]/div/form/div/div[1]/div/em-wbs-icon/div/div/div[1]/i");
@@ -898,26 +913,47 @@ public void CreateScript() throws InterruptedException {
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
-	getHearVoice1().sendKeys("Welcome");
-	log.info("Passing HearVoice to Call");
+	
+	
+	driver.findElement(deletePhraseHearValue1).click();
+	log.info("deletePhraseHearValue1");
+	driver.findElement(deletePress1).click();
+	log.info("deletePress1");
+	driver.findElement(deletePhraseHearValue2).click();
+	log.info("deletePhraseHearValue2");
+/*	driver.findElement(deletePhraseHearValue2);
+	log.info("deletePhraseHearValue2");*/
+//	driver.findElement(insertHearVoice).sendKeys("Welcome");
+	
+	/*driver.findElement(deletePhraseHearValue1).click();
+	log.info("Deleting Number to Call");
+	
+	getHearVoice2().sendKeys("Welcome");
+	log.info("Passing HearVoice to Call");*/
 	 
 
-	    
+	Actions act = new Actions(driver);
+	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
+	
+	 log.info("double click");
 	
 	
-	
-	
-	WebElement myelement = driver.findElement(deletePhraseHearValue2);
+	/*WebElement myelement = driver.findElement(deletePhraseHearValue2);
 	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
-	jse2.executeScript("arguments[0].scrollIntoView()", myelement); 
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
 	
-	driver.findElement(deletePhraseHearValue2).click();
-		
-	log.info("Deleting Number to Call");
-//	Thread.sleep(10000);
 	
-	WebDriverWait wait2 = new WebDriverWait(driver, 100000);
-	wait2.until(ExpectedConditions.elementToBeClickable(saveButton));
+	
+
+//	WebDriverWait wait2 = new WebDriverWait(driver, 100000);
+//	wait2.until(ExpectedConditions.elementToBeClickable(saveButton));
+	
+	
+
+/*	WebElement myelement1 = driver.findElement(saveButton);
+	JavascriptExecutor jse3 = (JavascriptExecutor)driver;
+	jse3.executeScript("arguments[0].scrollIntoView()", myelement1); */
+	
 	
 	
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
@@ -927,7 +963,7 @@ public void CreateScript() throws InterruptedException {
 //	String scriptName=reteriveScriptName();
 //	System.out.println("String Name is "+scriptName);
 	
-	Thread.sleep(100000);
+	Thread.sleep(10000);
 	driver.findElement(tagTab).click();
 	Thread.sleep(1000);
 	log.info("Navigate to Tag button");
@@ -1007,10 +1043,10 @@ public void DeleteScriptAllData() throws InterruptedException {
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
-	getHearVoice1().sendKeys("Welcome");
+	getHearVoice2().sendKeys("Welcome");
 	log.info("Passing HearVoice to Call");
-	driver.findElement(deletePhraseHearValue2).click();
-	log.info("Deleting Number to Call");
+	driver.findElement(deletePhraseHearValue1).click();
+	log.info("Deleting hear voice options");
 //	Thread.sleep(10000);
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
@@ -1090,8 +1126,8 @@ public void DeleteScriptOnly() throws InterruptedException {
 	log.info("Passing Number to Call");
 	getHearVoice1().sendKeys("Welcome");
 	log.info("Passing HearVoice to Call");
-	driver.findElement(deletePhraseHearValue2).click();
-	log.info("Deleting Number to Call");
+	driver.findElement(deletePhraseHearValue1).click();
+	log.info("Deleting first hear voice");
 //	Thread.sleep(10000);
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
