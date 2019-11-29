@@ -1,0 +1,33 @@
+# Created at 2019-11-28T13:51:47.781
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-11-28T13:51:54.994
+Unexpected IOException with stream: [INFO ] 2019-11-28 13:51:54,994 pom007_VoiceWatch_Script_Tabs.CreateScript() - Taking few second to access Script Tab
+
+
+# Created at 2019-11-28T13:51:55.453
+Unexpected IOException with stream: [INFO ] 2019-11-28 13:51:55,449 pom007_VoiceWatch_Script_Tabs.CreateScript() - Start Creating Script using + button
+
+
+# Created at 2019-11-28T13:51:55.453
+Unexpected IOException with stream: [INFO ] 2019-11-28 13:51:55,453 pom007_VoiceWatch_Script_Tabs.CreateScript() - Generate Radom scriptname
+
+
+# Created at 2019-11-28T13:51:55.649
+Unexpected IOException with stream: [INFO ] 2019-11-28 13:51:55,649 pom007_VoiceWatch_Script_Tabs.CreateScript() - Passing script name
+
+
+# Created at 2019-11-28T13:51:55.908
+Unexpected IOException with stream: [INFO ] 2019-11-28 13:51:55,906 pom007_VoiceWatch_Script_Tabs.CreateScript() - Generate Radom script description
+
+
+# Created at 2019-11-28T13:51:56.213
+Unexpected IOException with stream: [INFO ] 2019-11-28 13:51:56,213 pom007_VoiceWatch_Script_Tabs.CreateScript() - Passing Number to Call
+
+

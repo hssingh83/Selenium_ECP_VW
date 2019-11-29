@@ -921,15 +921,17 @@ public void CreateScript() throws InterruptedException {
 	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
 	
 	
-	WebDriverWait wait2 = new WebDriverWait(driver, 100);
-	wait2.until(ExpectedConditions.elementToBeClickable(By.id("deletePhraseHearValue1")));
+//	WebDriverWait wait2 = new WebDriverWait(driver, 10);
+//	wait2.until(ExpectedConditions.elementToBeClickable(By.id("deletePhraseHearValue1")));
 	
-	
+	Thread.sleep(1000);
 	driver.findElement(deletePhraseHearValue1).click();
 	log.info("deletePhraseHearValue1");
 	driver.findElement(deletePress1).click();
+	Thread.sleep(1000);
 	log.info("deletePress1");
 	driver.findElement(deletePhraseHearValue2).click();
+	Thread.sleep(1000);
 	log.info("deletePhraseHearValue2");
 /*	driver.findElement(deletePhraseHearValue2);
 	log.info("deletePhraseHearValue2");*/

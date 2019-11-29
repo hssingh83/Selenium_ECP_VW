@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="91203" started-at="2019-11-27T20:23:40 IST" finished-at="2019-11-27T20:25:11 IST">
+  <suite name="Suite" duration-ms="89493" started-at="2019-11-29T19:31:01 IST" finished-at="2019-11-29T19:32:31 IST">
     <groups>
     </groups>
-    <test name="Test Case: 0018- Validate Sanity Workflow" duration-ms="91203" started-at="2019-11-27T20:23:40 IST" finished-at="2019-11-27T20:25:11 IST">
+    <test name="Test Case: 0018- Validate Sanity Workflow" duration-ms="89493" started-at="2019-11-29T19:31:01 IST" finished-at="2019-11-29T19:32:31 IST">
       <class name="VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2">
-        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@2a693f59]" name="applicationLaunch" is-config="true" duration-ms="43811" started-at="2019-11-27T20:23:40 IST" finished-at="2019-11-27T20:24:24 IST">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@792b749c]" name="applicationLaunch" is-config="true" duration-ms="39434" started-at="2019-11-29T19:31:01 IST" finished-at="2019-11-29T19:31:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method status="PASS" signature="createScript()[pri:1, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@2a693f59]" name="createScript" duration-ms="47243" started-at="2019-11-27T20:24:24 IST" finished-at="2019-11-27T20:25:11 IST">
+        <test-method status="PASS" signature="createScript()[pri:1, instance:VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2@792b749c]" name="createScript" duration-ms="49925" started-at="2019-11-29T19:31:41 IST" finished-at="2019-11-29T19:32:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createScript -->
