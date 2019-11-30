@@ -1,0 +1,36 @@
+[DEBUG] 2019-11-30 23:06:13,051 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-11-30 23:06:13,055 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-11-30 23:06:13,063 basePropertiesSeln.intializeDriver() - implicit Wait Applied
+[DEBUG] 2019-11-30 23:06:27,736 basePropertiesSeln.intializeDriver() - Current version is 26.2
+[DEBUG] 2019-11-30 23:06:27,736 basePropertiesSeln.intializeDriver() - URL provided
+[INFO ] 2019-11-30 23:06:28,914 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+[INFO ] 2019-11-30 23:06:28,918 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-11-30 23:06:29,434 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+[DEBUG] 2019-11-30 23:06:29,438 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+[DEBUG] 2019-11-30 23:06:37,003 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+[DEBUG] 2019-11-30 23:06:37,083 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+[DEBUG] 2019-11-30 23:06:37,223 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Waiting for launch VoiceWatch application using above creadetails
+[DEBUG] 2019-11-30 23:06:54,277 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
+[DEBUG] 2019-11-30 23:06:54,281 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
+[INFO ] 2019-11-30 23:06:55,631 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Navigate to script Tab
+[INFO ] 2019-11-30 23:07:05,633 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Taking few second to access Script Tab
+[INFO ] 2019-11-30 23:07:06,043 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Start Creating Script using + button
+[INFO ] 2019-11-30 23:07:06,043 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Generate Radom scriptname
+[INFO ] 2019-11-30 23:07:06,267 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Passing script name
+[INFO ] 2019-11-30 23:07:06,407 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Generate Radom script description
+[INFO ] 2019-11-30 23:07:06,680 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Passing Number to Call
+[INFO ] 2019-11-30 23:07:07,788 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - deletePhraseHearValue1
+[INFO ] 2019-11-30 23:07:08,862 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - deletePress1
+[INFO ] 2019-11-30 23:07:10,064 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - deletePhraseHearValue2
+[INFO ] 2019-11-30 23:07:10,369 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - double click
+[INFO ] 2019-11-30 23:07:10,457 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Clicked Save button
+[INFO ] 2019-11-30 23:07:10,457 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Clicked Save button
+[INFO ] 2019-11-30 23:07:45,821 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Navigate to Tag button
+[INFO ] 2019-11-30 23:07:46,961 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Navigate to Script button
+[INFO ] 2019-11-30 23:07:48,790 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Search above created Script using filter
+[INFO ] 2019-11-30 23:08:04,025 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - clicked above search script
+[INFO ] 2019-11-30 23:08:04,073 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Verified that Run button enabled
+[INFO ] 2019-11-30 23:08:04,157 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Verified that select dropdown
+[INFO ] 2019-11-30 23:08:04,410 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Verified that Clicked delete button
+[INFO ] 2019-11-30 23:08:04,494 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - Verified that select delete all data
+[INFO ] 2019-11-30 23:08:14,510 pom007_VoiceWatch_Script_Tabs.DeleteScriptOnly() - delete successfully

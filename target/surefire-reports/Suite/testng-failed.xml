@@ -9,7 +9,7 @@
     <classes>
       <class name="VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2">
         <methods>
-          <include name="createScript"/>
+          <include name="deleteScript_AllData"/>
           <include name="applicationLaunch"/>
         </methods>
       </class> <!-- VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2 -->

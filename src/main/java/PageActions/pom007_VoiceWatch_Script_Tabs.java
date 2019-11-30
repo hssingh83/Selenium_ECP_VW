@@ -1036,17 +1036,17 @@ public void DeleteScriptAllData() throws InterruptedException {
 	
 	Thread.sleep(10000);
 	log.info("Taking few second to access Script Tab");
+
+//	Thread.sleep(10000);
+//	WebElement createNewScriptByButton = (new WebDriverWait(driver, 10))
+//	  .until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButtonSU));
 	
-	
-//	WebDriverWait wait = new WebDriverWait(driver, 10000);
-//	wait3.until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButton));
-	
-//	wait.until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButton));
-	Thread.sleep(10000);	
-	
+//	WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(createNewScriptByButton));
+//	Assert.assertTrue(driver.findElement(createNewScriptByButton).isDisplayed());
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
 	String ScriptName=pom000_Reuseable_Script_for_Page.getSaltString();
+
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
@@ -1055,17 +1055,65 @@ public void DeleteScriptAllData() throws InterruptedException {
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
-	getHearVoice2().sendKeys("Welcome");
-	log.info("Passing HearVoice to Call");
-	driver.findElement(deletePhraseHearValue1).click();
-	log.info("Deleting hear voice options");
+	
 //	Thread.sleep(10000);
+	
+/*	WebElement myelement = driver.findElement(deletePhraseHearValue1);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+//	WebDriverWait wait2 = new WebDriverWait(driver, 10);
+//	wait2.until(ExpectedConditions.elementToBeClickable(By.id("deletePhraseHearValue1")));
+	
+	Thread.sleep(1000);
+	driver.findElement(deletePhraseHearValue1).click();
+	log.info("deletePhraseHearValue1");
+	driver.findElement(deletePress1).click();
+	Thread.sleep(1000);
+	log.info("deletePress1");
+	driver.findElement(deletePhraseHearValue2).click();
+	Thread.sleep(1000);
+	log.info("deletePhraseHearValue2");
+/*	driver.findElement(deletePhraseHearValue2);
+	log.info("deletePhraseHearValue2");*/
+//	driver.findElement(insertHearVoice).sendKeys("Welcome");
+	
+	/*driver.findElement(deletePhraseHearValue1).click();
+	log.info("Deleting Number to Call");
+	
+	getHearVoice2().sendKeys("Welcome");
+	log.info("Passing HearVoice to Call");*/
+	 
+
+	Actions act = new Actions(driver);
+	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
+	
+	 log.info("double click");
+	
+	
+	/*WebElement myelement = driver.findElement(deletePhraseHearValue2);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+	
+
+//	WebDriverWait wait2 = new WebDriverWait(driver, 100000);
+//	wait2.until(ExpectedConditions.elementToBeClickable(saveButton));
+	
+	
+
+/*	WebElement myelement1 = driver.findElement(saveButton);
+	JavascriptExecutor jse3 = (JavascriptExecutor)driver;
+	jse3.executeScript("arguments[0].scrollIntoView()", myelement1); */
+	
+	
+	
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
 	log.info("Clicked Save button");
-//	String scriptName=reteriveScriptName();
-//	System.out.println("String Name is "+scriptName);
 	
 	Thread.sleep(20000);
 	driver.findElement(tagTab).click();
@@ -1100,8 +1148,6 @@ public void DeleteScriptAllData() throws InterruptedException {
 	driver.switchTo().alert().accept();
 	log.info("delete successfully");
 	
-	 
-
 
 }
 //==============================================================================================================
@@ -1117,17 +1163,17 @@ public void DeleteScriptOnly() throws InterruptedException {
 	
 	Thread.sleep(10000);
 	log.info("Taking few second to access Script Tab");
+
+//	Thread.sleep(10000);
+//	WebElement createNewScriptByButton = (new WebDriverWait(driver, 10))
+//	  .until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButtonSU));
 	
-	
-//	WebDriverWait wait = new WebDriverWait(driver, 10000);
-//	wait3.until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButton));
-	
-//	wait.until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButton));
-	Thread.sleep(10000);	
-	
+//	WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(createNewScriptByButton));
+//	Assert.assertTrue(driver.findElement(createNewScriptByButton).isDisplayed());
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
 	String ScriptName=pom000_Reuseable_Script_for_Page.getSaltString();
+
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
@@ -1136,13 +1182,65 @@ public void DeleteScriptOnly() throws InterruptedException {
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
-	getHearVoice1().sendKeys("Welcome");
-	log.info("Passing HearVoice to Call");
-	driver.findElement(deletePhraseHearValue1).click();
-	log.info("Deleting first hear voice");
+	
 //	Thread.sleep(10000);
+	
+/*	WebElement myelement = driver.findElement(deletePhraseHearValue1);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+//	WebDriverWait wait2 = new WebDriverWait(driver, 10);
+//	wait2.until(ExpectedConditions.elementToBeClickable(By.id("deletePhraseHearValue1")));
+	
+	Thread.sleep(1000);
+	driver.findElement(deletePhraseHearValue1).click();
+	log.info("deletePhraseHearValue1");
+	driver.findElement(deletePress1).click();
+	Thread.sleep(1000);
+	log.info("deletePress1");
+	driver.findElement(deletePhraseHearValue2).click();
+	Thread.sleep(1000);
+	log.info("deletePhraseHearValue2");
+/*	driver.findElement(deletePhraseHearValue2);
+	log.info("deletePhraseHearValue2");*/
+//	driver.findElement(insertHearVoice).sendKeys("Welcome");
+	
+	/*driver.findElement(deletePhraseHearValue1).click();
+	log.info("Deleting Number to Call");
+	
+	getHearVoice2().sendKeys("Welcome");
+	log.info("Passing HearVoice to Call");*/
+	 
+
+	Actions act = new Actions(driver);
+	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
+	
+	 log.info("double click");
+	
+	
+	/*WebElement myelement = driver.findElement(deletePhraseHearValue2);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+	
+
+//	WebDriverWait wait2 = new WebDriverWait(driver, 100000);
+//	wait2.until(ExpectedConditions.elementToBeClickable(saveButton));
+	
+	
+
+/*	WebElement myelement1 = driver.findElement(saveButton);
+	JavascriptExecutor jse3 = (JavascriptExecutor)driver;
+	jse3.executeScript("arguments[0].scrollIntoView()", myelement1); */
+	
+	
+	
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
+	
+	log.info("Clicked Save button");
 	
 	log.info("Clicked Save button");
 //	String scriptName=reteriveScriptName();
@@ -1195,12 +1293,17 @@ public void CopyScript() throws InterruptedException {
 	
 	Thread.sleep(10000);
 	log.info("Taking few second to access Script Tab");
+
+//	Thread.sleep(10000);
+//	WebElement createNewScriptByButton = (new WebDriverWait(driver, 10))
+//	  .until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButtonSU));
 	
-	Thread.sleep(10000);	
-	
+//	WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(createNewScriptByButton));
+//	Assert.assertTrue(driver.findElement(createNewScriptByButton).isDisplayed());
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
 	String ScriptName=pom000_Reuseable_Script_for_Page.getSaltString();
+
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
@@ -1209,11 +1312,61 @@ public void CopyScript() throws InterruptedException {
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
-	getHearVoice1().sendKeys("Welcome");
-	log.info("Passing HearVoice to Call");
-	driver.findElement(deletePhraseHearValue2).click();
-	log.info("Deleting Number to Call");
+	
 //	Thread.sleep(10000);
+	
+/*	WebElement myelement = driver.findElement(deletePhraseHearValue1);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+//	WebDriverWait wait2 = new WebDriverWait(driver, 10);
+//	wait2.until(ExpectedConditions.elementToBeClickable(By.id("deletePhraseHearValue1")));
+	
+	Thread.sleep(1000);
+	driver.findElement(deletePhraseHearValue1).click();
+	log.info("deletePhraseHearValue1");
+	driver.findElement(deletePress1).click();
+	Thread.sleep(1000);
+	log.info("deletePress1");
+	driver.findElement(deletePhraseHearValue2).click();
+	Thread.sleep(1000);
+	log.info("deletePhraseHearValue2");
+/*	driver.findElement(deletePhraseHearValue2);
+	log.info("deletePhraseHearValue2");*/
+//	driver.findElement(insertHearVoice).sendKeys("Welcome");
+	
+	/*driver.findElement(deletePhraseHearValue1).click();
+	log.info("Deleting Number to Call");
+	
+	getHearVoice2().sendKeys("Welcome");
+	log.info("Passing HearVoice to Call");*/
+	 
+
+	Actions act = new Actions(driver);
+	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
+	
+	 log.info("double click");
+	
+	
+	/*WebElement myelement = driver.findElement(deletePhraseHearValue2);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+	
+
+//	WebDriverWait wait2 = new WebDriverWait(driver, 100000);
+//	wait2.until(ExpectedConditions.elementToBeClickable(saveButton));
+	
+	
+
+/*	WebElement myelement1 = driver.findElement(saveButton);
+	JavascriptExecutor jse3 = (JavascriptExecutor)driver;
+	jse3.executeScript("arguments[0].scrollIntoView()", myelement1); */
+	
+	
+	
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
@@ -1278,14 +1431,19 @@ public void CreateTest() throws InterruptedException {
 	driver.findElement(scriptsTab).click();	
 	log.info("Navigate to script Tab");
 	
-//	Thread.sleep(10000);
+	Thread.sleep(10000);
 	log.info("Taking few second to access Script Tab");
 
-	Thread.sleep(10000);	
+//	Thread.sleep(10000);
+//	WebElement createNewScriptByButton = (new WebDriverWait(driver, 10))
+//	  .until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButtonSU));
 	
+//	WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(createNewScriptByButton));
+//	Assert.assertTrue(driver.findElement(createNewScriptByButton).isDisplayed());
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
 	String ScriptName=pom000_Reuseable_Script_for_Page.getSaltString();
+
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
@@ -1294,62 +1452,73 @@ public void CreateTest() throws InterruptedException {
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
-	getHearVoice1().sendKeys("Welcome");
-	log.info("Passing HearVoice to Call");
-	driver.findElement(deletePhraseHearValue2).click();
-	log.info("Deleting Number to Call");
+	
 //	Thread.sleep(10000);
+	
+/*	WebElement myelement = driver.findElement(deletePhraseHearValue1);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+//	WebDriverWait wait2 = new WebDriverWait(driver, 10);
+//	wait2.until(ExpectedConditions.elementToBeClickable(By.id("deletePhraseHearValue1")));
+	
+	Thread.sleep(1000);
+	driver.findElement(deletePhraseHearValue1).click();
+	log.info("deletePhraseHearValue1");
+	driver.findElement(deletePress1).click();
+	Thread.sleep(1000);
+	log.info("deletePress1");
+	driver.findElement(deletePhraseHearValue2).click();
+	Thread.sleep(1000);
+	log.info("deletePhraseHearValue2");
+/*	driver.findElement(deletePhraseHearValue2);
+	log.info("deletePhraseHearValue2");*/
+//	driver.findElement(insertHearVoice).sendKeys("Welcome");
+	
+	/*driver.findElement(deletePhraseHearValue1).click();
+	log.info("Deleting Number to Call");
+	
+	getHearVoice2().sendKeys("Welcome");
+	log.info("Passing HearVoice to Call");*/
+	 
+
+	Actions act = new Actions(driver);
+	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
+	
+	 log.info("double click");
+	
+	
+	/*WebElement myelement = driver.findElement(deletePhraseHearValue2);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+	
+
+//	WebDriverWait wait2 = new WebDriverWait(driver, 100000);
+//	wait2.until(ExpectedConditions.elementToBeClickable(saveButton));
+	
+	
+
+/*	WebElement myelement1 = driver.findElement(saveButton);
+	JavascriptExecutor jse3 = (JavascriptExecutor)driver;
+	jse3.executeScript("arguments[0].scrollIntoView()", myelement1); */
+	
+	
+	
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
 	log.info("Clicked Save button");
-//	String scriptName=reteriveScriptName();
-//	System.out.println("String Name is "+scriptName);
-	
-	Thread.sleep(10000);
-	driver.findElement(tagTab).click();
-	Thread.sleep(9000);
-	log.info("Navigate to Tag button");
-	driver.findElement(scriptsTab).click();
-	Thread.sleep(1000);
-	log.info("Navigate to Script button");
-	driver.findElement(filterByNameGSB).sendKeys(ScriptName);
-	log.info("Search above created Script using filter");
-	Thread.sleep(9000);
 	
 
-	driver.findElement(firstsearchscript).click();
-	log.info("clicked above search script");
- 
-		
+	Thread.sleep(10000);
+			
 	Assert.assertTrue(driver.findElement(RunButton).isEnabled());
 	log.info("Verified that Run button enabled");
 	
 	Assert.assertEquals(driver.findElement(RunButton).getText().contains("Run Test"), true);
-	log.info("Verified that Run button contain Run Test text");
-	
-	 driver.findElement(By.xpath("//*[@id=\"script-area\"]/div/form/div/div[1]/div/em-wbs-icon/div/div/div[1]/i")).click();
-	 log.info("deleted first");
-	 driver.findElement(By.xpath("//*[@id=\"script-area\"]/div/form/div/div/div/em-wbs-icon/div/div/div[1]/i")).click();
-	 log.info("deleted second");
-	
-	Actions act = new Actions(driver);
-	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
-	
-//	Thread.sleep(1000);
-	log.info("double clicked perfomed");
-//	Thread.sleep(1000);
-	Assert.assertTrue(driver.findElement(updateScriptButton).isEnabled());
-	log.info("Update button enabled");
-//	Thread.sleep(10100);
-	driver.findElement(updateScriptButton).click();
-	log.info("Update button clicked");
-	
-	
-	Assert.assertTrue(driver.findElement(RunButton).isEnabled());
-	log.info("Verified that Run button enabled");
-	
-//	Assert.assertEquals(driver.findElement(RunButton).getText().contains("Run Test"), true);
 	log.info("Verified that Run button contain Run Test text");
 	
 	
@@ -1395,14 +1564,19 @@ public void UpdateScript() throws InterruptedException {
 	driver.findElement(scriptsTab).click();	
 	log.info("Navigate to script Tab");
 	
-//	Thread.sleep(10000);
+	Thread.sleep(10000);
 	log.info("Taking few second to access Script Tab");
 
-	Thread.sleep(20000);	
+//	Thread.sleep(10000);
+//	WebElement createNewScriptByButton = (new WebDriverWait(driver, 10))
+//	  .until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButtonSU));
 	
+//	WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(createNewScriptByButton));
+//	Assert.assertTrue(driver.findElement(createNewScriptByButton).isDisplayed());
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
 	String ScriptName=pom000_Reuseable_Script_for_Page.getSaltString();
+
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
@@ -1411,12 +1585,64 @@ public void UpdateScript() throws InterruptedException {
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
-	getHearVoice1().sendKeys("Welcome");
-	log.info("Passing HearVoice to Call");
-	driver.findElement(deletePhraseHearValue2).click();
-	log.info("Deleting Number to Call");
+	
 //	Thread.sleep(10000);
+	
+/*	WebElement myelement = driver.findElement(deletePhraseHearValue1);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+//	WebDriverWait wait2 = new WebDriverWait(driver, 10);
+//	wait2.until(ExpectedConditions.elementToBeClickable(By.id("deletePhraseHearValue1")));
+	
+	Thread.sleep(1000);
+	driver.findElement(deletePhraseHearValue1).click();
+	log.info("deletePhraseHearValue1");
+	driver.findElement(deletePress1).click();
+	Thread.sleep(1000);
+	log.info("deletePress1");
+	driver.findElement(deletePhraseHearValue2).click();
+	Thread.sleep(1000);
+	log.info("deletePhraseHearValue2");
+/*	driver.findElement(deletePhraseHearValue2);
+	log.info("deletePhraseHearValue2");*/
+//	driver.findElement(insertHearVoice).sendKeys("Welcome");
+	
+	/*driver.findElement(deletePhraseHearValue1).click();
+	log.info("Deleting Number to Call");
+	
+	getHearVoice2().sendKeys("Welcome");
+	log.info("Passing HearVoice to Call");*/
+	 
+
+	Actions act = new Actions(driver);
+	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
+	
+	 log.info("double click");
+	
+	
+	/*WebElement myelement = driver.findElement(deletePhraseHearValue2);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+	
+
+//	WebDriverWait wait2 = new WebDriverWait(driver, 100000);
+//	wait2.until(ExpectedConditions.elementToBeClickable(saveButton));
+	
+	
+
+/*	WebElement myelement1 = driver.findElement(saveButton);
+	JavascriptExecutor jse3 = (JavascriptExecutor)driver;
+	jse3.executeScript("arguments[0].scrollIntoView()", myelement1); */
+	
+	
+	
+//	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
+	
 	log.info("Clicked Save button");
 
 	Thread.sleep(25000);
@@ -1440,50 +1666,32 @@ public void UpdateScript() throws InterruptedException {
 	
 	Assert.assertEquals(driver.findElement(RunButton).getText().contains("Run Test"), true);
 	log.info("Verified that Run button contain Run Test text");
-	
-	 driver.findElement(By.xpath("//*[@id=\"script-area\"]/div/form/div/div[1]/div/em-wbs-icon/div/div/div[1]/i")).click();
-	 log.info("deleted first");
-	 driver.findElement(By.xpath("//*[@id=\"script-area\"]/div/form/div/div/div/em-wbs-icon/div/div/div[1]/i")).click();
-	 log.info("deleted second");
-	
-	Actions act = new Actions(driver);
-	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
-	
-//	Thread.sleep(1000);
-	log.info("double clicked perfomed");
-//	Thread.sleep(1000);
-	Assert.assertTrue(driver.findElement(updateScriptButton).isEnabled());
-	log.info("Update button enabled");
-//	Thread.sleep(10100);
-	driver.findElement(updateScriptButton).click();
-	log.info("Update button clicked");
-	
-	
-	Assert.assertTrue(driver.findElement(RunButton).isEnabled());
-	log.info("Verified that Run button enabled");
-	Thread.sleep(9000);
-	Assert.assertTrue(driver.findElement(RunButton).isDisplayed());
-	log.info("Verified that Run button displayed");
-//	Assert.assertEquals(driver.findElement(RunButton).getText().contains("Run Test"), true);
-	log.info("Verified that Run button dispayed");
-	
+		
+
 }
 //================================================================================================================
 //Delete Test
 
 public void DeleteTest() throws InterruptedException {
 	
+	Thread.sleep(1000);
+	driver.findElement(tagTab).click();	
 	driver.findElement(scriptsTab).click();	
 	log.info("Navigate to script Tab");
 	
-//	Thread.sleep(10000);
+	Thread.sleep(10000);
 	log.info("Taking few second to access Script Tab");
 
-	Thread.sleep(10000);	
+//	Thread.sleep(10000);
+//	WebElement createNewScriptByButton = (new WebDriverWait(driver, 10))
+//	  .until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButtonSU));
 	
+//	WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(createNewScriptByButton));
+//	Assert.assertTrue(driver.findElement(createNewScriptByButton).isDisplayed());
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
 	String ScriptName=pom000_Reuseable_Script_for_Page.getSaltString();
+
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
@@ -1492,63 +1700,66 @@ public void DeleteTest() throws InterruptedException {
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
-	getHearVoice1().sendKeys("Welcome");
-	log.info("Passing HearVoice to Call");
-	driver.findElement(deletePhraseHearValue2).click();
-	log.info("Deleting Number to Call");
+	
 //	Thread.sleep(10000);
+	
+/*	WebElement myelement = driver.findElement(deletePhraseHearValue1);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+//	WebDriverWait wait2 = new WebDriverWait(driver, 10);
+//	wait2.until(ExpectedConditions.elementToBeClickable(By.id("deletePhraseHearValue1")));
+	
+	Thread.sleep(1000);
+	driver.findElement(deletePhraseHearValue1).click();
+	log.info("deletePhraseHearValue1");
+	driver.findElement(deletePress1).click();
+	Thread.sleep(1000);
+	log.info("deletePress1");
+	driver.findElement(deletePhraseHearValue2).click();
+	Thread.sleep(1000);
+	log.info("deletePhraseHearValue2");
+/*	driver.findElement(deletePhraseHearValue2);
+	log.info("deletePhraseHearValue2");*/
+//	driver.findElement(insertHearVoice).sendKeys("Welcome");
+	
+	/*driver.findElement(deletePhraseHearValue1).click();
+	log.info("Deleting Number to Call");
+	
+	getHearVoice2().sendKeys("Welcome");
+	log.info("Passing HearVoice to Call");*/
+	 
+
+	Actions act = new Actions(driver);
+	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
+	
+	 log.info("double click");
+	
+	
+	/*WebElement myelement = driver.findElement(deletePhraseHearValue2);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+	
+
+//	WebDriverWait wait2 = new WebDriverWait(driver, 100000);
+//	wait2.until(ExpectedConditions.elementToBeClickable(saveButton));
+	
+	
+
+/*	WebElement myelement1 = driver.findElement(saveButton);
+	JavascriptExecutor jse3 = (JavascriptExecutor)driver;
+	jse3.executeScript("arguments[0].scrollIntoView()", myelement1); */
+	
+	
+	
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
 	log.info("Clicked Save button");
-//	String scriptName=reteriveScriptName();
-//	System.out.println("String Name is "+scriptName);
-	
-	Thread.sleep(10000);
-	driver.findElement(tagTab).click();
-	Thread.sleep(5000);
-	log.info("Navigate to Tag button");
-	driver.findElement(scriptsTab).click();
-	Thread.sleep(1000);
-	log.info("Navigate to Script button");
-	driver.findElement(filterByNameGSB).sendKeys(ScriptName);
-	log.info("Search above created Script using filter");
-	Thread.sleep(5000);
-	
 
-	driver.findElement(firstsearchscript).click();
-	log.info("clicked above search script");
-
-		
-	Assert.assertTrue(driver.findElement(RunButton).isEnabled());
-	log.info("Verified that Run button enabled");
-	
-	Assert.assertEquals(driver.findElement(RunButton).getText().contains("Run Test"), true);
-	log.info("Verified that Run button contain Run Test text");
-	
-	 driver.findElement(By.xpath("//*[@id=\"script-area\"]/div/form/div/div[1]/div/em-wbs-icon/div/div/div[1]/i")).click();
-	 log.info("deleted first");
-	 driver.findElement(By.xpath("//*[@id=\"script-area\"]/div/form/div/div/div/em-wbs-icon/div/div/div[1]/i")).click();
-	 log.info("deleted second");
-	
-	Actions act = new Actions(driver);
-	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
-	
-//	Thread.sleep(1000);
-	log.info("double clicked perfomed");
-//	Thread.sleep(1000);
-	Assert.assertTrue(driver.findElement(updateScriptButton).isEnabled());
-	log.info("Update button enabled");
-//	Thread.sleep(10100);
-	driver.findElement(updateScriptButton).click();
-	log.info("Update button clicked");
-	
-	
-	Assert.assertTrue(driver.findElement(RunButton).isEnabled());
-	log.info("Verified that Run button enabled");
-	
-//	Assert.assertEquals(driver.findElement(RunButton).getText().contains("Run Test"), true);
-	log.info("Verified that Run button contain Run Test text");
 	
 	
 	Thread.sleep(10000);
@@ -1590,17 +1801,24 @@ public void DeleteTest() throws InterruptedException {
 
 public void UpdateTest() throws InterruptedException {
 	
+	Thread.sleep(1000);
+	driver.findElement(tagTab).click();	
 	driver.findElement(scriptsTab).click();	
 	log.info("Navigate to script Tab");
 	
-//	Thread.sleep(10000);
+	Thread.sleep(10000);
 	log.info("Taking few second to access Script Tab");
 
-	Thread.sleep(10000);	
+//	Thread.sleep(10000);
+//	WebElement createNewScriptByButton = (new WebDriverWait(driver, 10))
+//	  .until(ExpectedConditions.presenceOfElementLocated(createNewScriptByButtonSU));
 	
+//	WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(createNewScriptByButton));
+//	Assert.assertTrue(driver.findElement(createNewScriptByButton).isDisplayed());
 	driver.findElement(createNewScriptByButton).click();
 	log.info("Start Creating Script using + button");
 	String ScriptName=pom000_Reuseable_Script_for_Page.getSaltString();
+
 	log.info("Generate Radom scriptname");
 	getScriptName().sendKeys(ScriptName);
 	log.info("Passing script name");
@@ -1609,56 +1827,67 @@ public void UpdateTest() throws InterruptedException {
 	log.info("Generate Radom script description");
 	getNumberToCall().sendKeys("1800111111");
 	log.info("Passing Number to Call");
-	getHearVoice1().sendKeys("Welcome");
-	log.info("Passing HearVoice to Call");
+	
+//	Thread.sleep(10000);
+	
+/*	WebElement myelement = driver.findElement(deletePhraseHearValue1);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+//	WebDriverWait wait2 = new WebDriverWait(driver, 10);
+//	wait2.until(ExpectedConditions.elementToBeClickable(By.id("deletePhraseHearValue1")));
+	
+	Thread.sleep(1000);
+	driver.findElement(deletePhraseHearValue1).click();
+	log.info("deletePhraseHearValue1");
+	driver.findElement(deletePress1).click();
+	Thread.sleep(1000);
+	log.info("deletePress1");
 	driver.findElement(deletePhraseHearValue2).click();
+	Thread.sleep(1000);
+	log.info("deletePhraseHearValue2");
+/*	driver.findElement(deletePhraseHearValue2);
+	log.info("deletePhraseHearValue2");*/
+//	driver.findElement(insertHearVoice).sendKeys("Welcome");
+	
+	/*driver.findElement(deletePhraseHearValue1).click();
 	log.info("Deleting Number to Call");
-	Thread.sleep(10000);
+	
+	getHearVoice2().sendKeys("Welcome");
+	log.info("Passing HearVoice to Call");*/
+	 
+
+	Actions act = new Actions(driver);
+	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
+	
+	 log.info("double click");
+	
+	
+	/*WebElement myelement = driver.findElement(deletePhraseHearValue2);
+	JavascriptExecutor jse2 = (JavascriptExecutor)driver;
+	jse2.executeScript("arguments[0].scrollIntoView()", myelement); */
+	
+	
+	
+
+//	WebDriverWait wait2 = new WebDriverWait(driver, 100000);
+//	wait2.until(ExpectedConditions.elementToBeClickable(saveButton));
+	
+	
+
+/*	WebElement myelement1 = driver.findElement(saveButton);
+	JavascriptExecutor jse3 = (JavascriptExecutor)driver;
+	jse3.executeScript("arguments[0].scrollIntoView()", myelement1); */
+	
+	
+	
 //	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(saveButton));
 	driver.findElement(saveButton).click();
 	
 	log.info("Clicked Save button");
-//	String scriptName=reteriveScriptName();
-//	System.out.println("String Name is "+scriptName);
-	
-	Thread.sleep(10000);
-	driver.findElement(tagTab).click();
-	Thread.sleep(10000);
-	log.info("Navigate to Tag button");
-	driver.findElement(scriptsTab).click();
-	Thread.sleep(1000);
-	log.info("Navigate to Script button");
-	driver.findElement(filterByNameGSB).sendKeys(ScriptName);
-	log.info("Search above created Script using filter");
-	Thread.sleep(10100);
-	
 
-	driver.findElement(firstsearchscript).click();
-	log.info("clicked above search script");
-
-		
-	Assert.assertTrue(driver.findElement(RunButton).isEnabled());
-	log.info("Verified that Run button enabled");
-	
-	Assert.assertEquals(driver.findElement(RunButton).getText().contains("Run Test"), true);
-	log.info("Verified that Run button contain Run Test text");
-	
-	 driver.findElement(By.xpath("//*[@id=\"script-area\"]/div/form/div/div[1]/div/em-wbs-icon/div/div/div[1]/i")).click();
-	 log.info("deleted first");
-	 driver.findElement(By.xpath("//*[@id=\"script-area\"]/div/form/div/div/div/em-wbs-icon/div/div/div[1]/i")).click();
-	 log.info("deleted second");
-	
-	Actions act = new Actions(driver);
-	 act.moveToElement(driver.findElement(By.xpath("//div[@class='col-md-3 col-xs-3 column']//div[@class='sortable-row ng-pristine ng-untouched ng-valid ng-scope ng-not-empty']//div[1]//div[1]//em-wbs-icon[1]//div[1]//div[1] "))).doubleClick().build().perform();
-	
-//	Thread.sleep(1000);
-	log.info("double clicked perfomed");
-//	Thread.sleep(1000);
-	Assert.assertTrue(driver.findElement(updateScriptButton).isEnabled());
-	log.info("Update button enabled");
-//	Thread.sleep(10100);
-	driver.findElement(updateScriptButton).click();
-	log.info("Update button clicked");
+	Thread.sleep(10000);
 	
 	
 	Assert.assertTrue(driver.findElement(RunButton).isEnabled());
