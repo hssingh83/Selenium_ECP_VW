@@ -50,3 +50,7 @@ Unexpected IOException with stream:
 Unexpected IOException with stream: =========================================
 
 
+# Created at 2019-12-01T22:37:12.394
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
