@@ -55,147 +55,147 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	}   
       
 	
-	
-	@Test(priority=2)
-	public void headerMandatoryDetails () throws IOException, InterruptedException {
-		
-		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-	    d.header();
-	
-	}
-	
-	@Test(priority=3)
-	public void footerMandatoryDetails () throws IOException, InterruptedException {
-		
-		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-	    d.footer();	
-	}
-
-		
-	@Test(priority=4)
-	public void TabAvailabilityValidation () throws IOException, InterruptedException {
-		
-		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-	    d.Tab_Validation();
-
-	
-	}
-
-	
-	@Test(priority=5)
-	public void dashBoardTabValidation () throws IOException, InterruptedException {
-		
-		pom003_VoiceWatch_Dashboard_Tab db=new pom003_VoiceWatch_Dashboard_Tab(driver);
-		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-				
-		db.OverallPerfomance_section_dashboard();
-		db.activetest_section_dashboard();
-		d.header();
-		d.footer();	
-	}
-	
-	@Test(priority=6)
-	public void alertTabValidation () throws IOException, InterruptedException {
-		
-		pom004_VoiceWatch_Alerts_Tab at=new pom004_VoiceWatch_Alerts_Tab (driver);
-		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-		at.alertsValidations();		
-		d.header();
-		d.footer();
-		
-	}
-	
-	@Test(priority=7)
-	public void testTabValidation () throws IOException, InterruptedException {
-		
-		pom005_VoiceWatch_Tests_Tab ts=new pom005_VoiceWatch_Tests_Tab(driver);
-		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-		ts.testsValidations();
-		d.header();
-		d.footer();
-		ts.createTestbybutton();
-		d.header();
-		d.footer();
-		ts.createTestbyLink();
-		d.header();
-		d.footer();
-		
-	}
-	
-	
-	@Test(priority=8)
-	public void tagTabValidation () throws IOException, InterruptedException {
-		
-		pom006_VoiceWatch_Tags_Tab tg=new pom006_VoiceWatch_Tags_Tab(driver);
-		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-	
-	
-		tg.tagsValidations();
-		d.header();
-		d.footer();
-		tg.createTagbybutton();
-		d.header();
-		d.footer();
-		tg.createNewTag();		
-		d.header();
-		d.footer();	
-	}
-	
-	@Test(priority=9)
-	public void scriptTabValidation () throws Exception {
-		
-		
-		pom007_VoiceWatch_Script_Tabs sc=new pom007_VoiceWatch_Script_Tabs(driver);
-		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
-	
-		
-		
-	  sc.goScriptBuilderTabValidation();
-	   sc.createGSBbybutton();
-		sc.createGSBbyLink();
-		d.header();
-		d.footer();
-		sc.scriptUploadTabValidation();
-		d.header();
-		d.footer();
-		sc.createSUbybutton();
-		sc.createSUbyLink();
-		sc.csvTabValidation();
-	}
-
-	@Test(priority=10)
-	public void variableTabValidation () throws Exception {
-		
-		
-		pom008_VoiceWatch_Variable_Tab vr=new pom008_VoiceWatch_Variable_Tab(driver);
-		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);
-		
-		vr.variableTabValidation();
-		d.header();
-		d.footer();
-		vr.createVariableByButton();
-		d.header();
-		d.footer();
-		vr.createVariableByLink();
-		d.header();
-		d.footer();	
-
-	}
-
-	@Test(priority=11)
-	public void hammerTabValidation () throws Exception {
-		
-		pom009_VoiceWatch_Hammers_Tab hm=new pom009_VoiceWatch_Hammers_Tab(driver);
-		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);
-		
-	    hm.hammerTabValidation();
-		d.header();
-		d.footer();	
-	    hm.createHammerByButton();
-	   hm.createHammerByLink();
-
-	}
-	
+//	
+//	@Test(priority=2)
+//	public void headerMandatoryDetails () throws IOException, InterruptedException {
+//		
+//		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
+//	    d.header();
+//	
+//	}
+//	
+//	@Test(priority=3)
+//	public void footerMandatoryDetails () throws IOException, InterruptedException {
+//		
+//		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
+//	    d.footer();	
+//	}
+//
+//		
+//	@Test(priority=4)
+//	public void TabAvailabilityValidation () throws IOException, InterruptedException {
+//		
+//		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
+//	    d.Tab_Validation();
+//
+//	
+//	}
+//
+//	
+//	@Test(priority=5)
+//	public void dashBoardTabValidation () throws IOException, InterruptedException {
+//		
+//		pom003_VoiceWatch_Dashboard_Tab db=new pom003_VoiceWatch_Dashboard_Tab(driver);
+//		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
+//				
+//		db.OverallPerfomance_section_dashboard();
+//		db.activetest_section_dashboard();
+//		d.header();
+//		d.footer();	
+//	}
+//	
+//	@Test(priority=6)
+//	public void alertTabValidation () throws IOException, InterruptedException {
+//		
+//		pom004_VoiceWatch_Alerts_Tab at=new pom004_VoiceWatch_Alerts_Tab (driver);
+//		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
+//		at.alertsValidations();		
+//		d.header();
+//		d.footer();
+//		
+//	}
+//	
+//	@Test(priority=7)
+//	public void testTabValidation () throws IOException, InterruptedException {
+//		
+//		pom005_VoiceWatch_Tests_Tab ts=new pom005_VoiceWatch_Tests_Tab(driver);
+//		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
+//		ts.testsValidations();
+//		d.header();
+//		d.footer();
+//		ts.createTestbybutton();
+//		d.header();
+//		d.footer();
+//		ts.createTestbyLink();
+//		d.header();
+//		d.footer();
+//		
+//	}
+//	
+//	
+//	@Test(priority=8)
+//	public void tagTabValidation () throws IOException, InterruptedException {
+//		
+//		pom006_VoiceWatch_Tags_Tab tg=new pom006_VoiceWatch_Tags_Tab(driver);
+//		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
+//	
+//	
+//		tg.tagsValidations();
+//		d.header();
+//		d.footer();
+//		tg.createTagbybutton();
+//		d.header();
+//		d.footer();
+//		tg.createNewTag();		
+//		d.header();
+//		d.footer();	
+//	}
+//	
+//	@Test(priority=9)
+//	public void scriptTabValidation () throws Exception {
+//		
+//		
+//		pom007_VoiceWatch_Script_Tabs sc=new pom007_VoiceWatch_Script_Tabs(driver);
+//		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);	
+//	
+//		
+//		
+//	  sc.goScriptBuilderTabValidation();
+//	   sc.createGSBbybutton();
+//		sc.createGSBbyLink();
+//		d.header();
+//		d.footer();
+//		sc.scriptUploadTabValidation();
+//		d.header();
+//		d.footer();
+//		sc.createSUbybutton();
+//		sc.createSUbyLink();
+//		sc.csvTabValidation();
+//	}
+//
+//	@Test(priority=10)
+//	public void variableTabValidation () throws Exception {
+//		
+//		
+//		pom008_VoiceWatch_Variable_Tab vr=new pom008_VoiceWatch_Variable_Tab(driver);
+//		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);
+//		
+//		vr.variableTabValidation();
+//		d.header();
+//		d.footer();
+//		vr.createVariableByButton();
+//		d.header();
+//		d.footer();
+//		vr.createVariableByLink();
+//		d.header();
+//		d.footer();	
+//
+//	}
+//
+//	@Test(priority=11)
+//	public void hammerTabValidation () throws Exception {
+//		
+//		pom009_VoiceWatch_Hammers_Tab hm=new pom009_VoiceWatch_Hammers_Tab(driver);
+//		pom002_VoiceWatch_Home_Page d=new pom002_VoiceWatch_Home_Page(driver);
+//		
+//	    hm.hammerTabValidation();
+//		d.header();
+//		d.footer();	
+//	    hm.createHammerByButton();
+//	   hm.createHammerByLink();
+//
+//	}
+//	
 	@Test(priority=12)
 	public void ValidateScriptFunctinality () throws Exception {
 		
@@ -203,20 +203,20 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		pom007_VoiceWatch_Script_Tabs sc=new pom007_VoiceWatch_Script_Tabs(driver);
 		pom006_VoiceWatch_Tags_Tab tg=new pom006_VoiceWatch_Tags_Tab(driver);
 	
-	        sc.CreateScript();
-	      sc.DeleteScriptAllData();
-	        sc.DeleteScriptOnly();
-		        sc.CopyScript();
-	       sc.UpdateScript();
+	//        sc.CreateScript();
+	//      sc.DeleteScriptAllData();
+	//        sc.DeleteScriptOnly();
+	//	        sc.CopyScript();
+	//       sc.UpdateScript();
 		
-		sc.CreateTest();
+//		sc.CreateTest();
 	        
-		sc.DeleteTest();
-		sc.UpdateTest();
-		sc.CreateScriptByScriptUpload();
-	sc.deleteScriptUpload();
+//		sc.DeleteTest();
+//		sc.UpdateTest();
+//		sc.CreateScriptByScriptUpload();
+//	sc.deleteScriptUpload();
 		
-		sc.CreateCSVTransformer();
+//		sc.CreateCSVTransformer();
 		
 		sc.scriptdeletion();
 //		tg.CreateTag();

@@ -1,0 +1,157 @@
+# Created at 2019-12-01T18:25:18.527
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-01T18:25:19.732
+Unexpected IOException with stream: Ramu2
+
+
+# Created at 2019-12-01T18:25:19.856
+Unexpected IOException with stream: Ramu3
+
+
+# Created at 2019-12-01T18:25:20.982
+Unexpected IOException with stream: Ramu1
+
+
+# Created at 2019-12-01T18:25:21.996
+Unexpected IOException with stream: Ramu2
+
+
+# Created at 2019-12-01T18:25:22.058
+Unexpected IOException with stream: Ramu3
+
+
+# Created at 2019-12-01T18:25:23.197
+Unexpected IOException with stream: Ramu1
+
+
+# Created at 2019-12-01T18:25:24.198
+Unexpected IOException with stream: Ramu2
+
+
+# Created at 2019-12-01T18:25:24.360
+Unexpected IOException with stream: Ramu3
+
+
+# Created at 2019-12-01T18:25:25.462
+Unexpected IOException with stream: Ramu1
+
+
+# Created at 2019-12-01T18:25:26.478
+Unexpected IOException with stream: Ramu2
+
+
+# Created at 2019-12-01T18:25:26.625
+Unexpected IOException with stream: Ramu3
+
+
+# Created at 2019-12-01T18:25:27.789
+Unexpected IOException with stream: Ramu1
+
+
+# Created at 2019-12-01T18:25:28.803
+Unexpected IOException with stream: Ramu2
+
+
+# Created at 2019-12-01T18:25:28.952
+Unexpected IOException with stream: Ramu3
+
+
+# Created at 2019-12-01T18:25:30.102
+Unexpected IOException with stream: Ramu1
+
+
+# Created at 2019-12-01T18:25:31.107
+Unexpected IOException with stream: Ramu2
+
+
+# Created at 2019-12-01T18:25:31.256
+Unexpected IOException with stream: Ramu3
+
+
+# Created at 2019-12-01T18:25:32.397
+Unexpected IOException with stream: Ramu1
+
+
+# Created at 2019-12-01T18:25:33.406
+Unexpected IOException with stream: Ramu2
+
+
+# Created at 2019-12-01T18:25:33.552
+Unexpected IOException with stream: Ramu3
+
+
+# Created at 2019-12-01T18:25:34.676
+Unexpected IOException with stream: Ramu1
+
+
+# Created at 2019-12-01T18:25:35.677
+Unexpected IOException with stream: Ramu2
+
+
+# Created at 2019-12-01T18:25:35.818
+Unexpected IOException with stream: Ramu3
+
+
+# Created at 2019-12-01T18:25:37.031
+Unexpected IOException with stream: [INFO ] 2019-12-01 18:25:37,027 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+
+
+# Created at 2019-12-01T18:25:37.385
+Unexpected IOException with stream: [INFO ] 2019-12-01 18:25:37,385 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+
+
+# Created at 2019-12-01T18:25:37.489
+Unexpected IOException with stream: [INFO ] 2019-12-01 18:25:37,485 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+
+
+# Created at 2019-12-01T18:25:47.500
+Unexpected IOException with stream: Retrying Test method : ValidateScriptFunctinality for 1 times. 
+
+
+# Created at 2019-12-01T18:25:47.516
+Unexpected IOException: 9,1,VW_TC.TC0017_login_With_Exmpirix_Admin_Sanity,ValidateScriptFunctinality(VW_TC.TC0017_login_With_Exmpirix_Admin_Sanity),null,no such alert\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:49248}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e14433d2eee4a910e8d460c44af39825,null
+
+
+# Created at 2019-12-01T18:25:47.516
+Unexpected IOException: 5,1,VW_TC.TC0017_login_With_Exmpirix_Admin_Sanity,ValidateScriptFunctinality(VW_TC.TC0017_login_With_Exmpirix_Admin_Sanity),VW_TC.TC0017_login_With_Exmpirix_Admin_Sanity,null,null
+
+
+# Created at 2019-12-01T18:25:47.727
+Unexpected IOException with stream: [INFO ] 2019-12-01 18:25:47,727 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Navigate to script Tab
+
+
+# Created at 2019-12-01T18:25:49.912
+Unexpected IOException with stream: Count: 146
+
+
+# Created at 2019-12-01T18:25:49.912
+Unexpected IOException with stream: Ramu1
+
+
+# Created at 2019-12-01T18:25:50.916
+Unexpected IOException with stream: Ramu2
+
+
+# Created at 2019-12-01T18:25:51.380
+Unexpected IOException with stream: Ramu3
+
+
+# Created at 2019-12-01T18:25:52.453
+Unexpected IOException with stream: Ramu1
+
+
+# Created at 2019-12-01T18:25:53.454
+Unexpected IOException with stream: Ramu2
+
+
+# Created at 2019-12-01T18:25:53.609
+Unexpected IOException with stream: Ramu3
+
+

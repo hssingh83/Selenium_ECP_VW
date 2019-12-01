@@ -1948,8 +1948,8 @@ public void CreateScriptByScriptUpload () throws InterruptedException, IOExcepti
 	Thread.sleep(1000);
 	driver.findElement(uploadScriptFile).click();
 	Thread.sleep(1000);	
-	Runtime.getRuntime().exec("C:\\Users\\hsingh\\Documents\\FileUpload1.exe");
-	Thread.sleep(5000);
+	Runtime.getRuntime().exec(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\testData\\FileUpload1.exe");
+	Thread.sleep(9000);
 	driver.findElement(uploadScriptSaveButton).click();
 	log.info("ScriptUploaded Successfully");
 	Thread.sleep(9000);
@@ -2055,7 +2055,7 @@ public void CreateCSVTransformer () throws InterruptedException, IOException {
 	log.info("clicked csvTranformer");
 	driver.findElement(csvSelect).click();
 	Thread.sleep(1000);
-	Runtime.getRuntime().exec("C:\\Users\\hsingh\\Documents\\FileUpload3.exe");
+	Runtime.getRuntime().exec(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\testData\\FileUpload3.exe");
 	Thread.sleep(5000);
 	driver.findElement(TransformButton).click();
 	log.info("CSV Transform upload Successfully");
@@ -2066,7 +2066,7 @@ public void CreateCSVTransformer () throws InterruptedException, IOException {
 	log.info("clicked ScriptTab");
 	Thread.sleep(10000);
 	driver.findElement(scriptUploadTab).click();
-	Thread.sleep(5000);
+	Thread.sleep(9000);
 	log.info("clicked ScriptUploadTab");	
 	
 }
@@ -2147,7 +2147,7 @@ public void scriptdeletion() throws InterruptedException {
 		
 		String Description=driver.findElement(scriptDescGSBfield).getAttribute("value");
 	
-		if (Description.length()>4) {
+		if (Description.length()>=4) {
 			
 			driver.findElement(selectdropdownn).click();
 			log.info("Verified that select dropdown");
@@ -2162,7 +2162,7 @@ public void scriptdeletion() throws InterruptedException {
 			driver.findElement(deleteAllData).click();
 			
 			log.info("Verified that select delete all data");
-			Thread.sleep(10000);
+			Thread.sleep(5000);
 			driver.switchTo().alert().accept();
 			log.info("delete successfully");
 			
