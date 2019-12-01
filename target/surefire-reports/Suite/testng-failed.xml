@@ -12,7 +12,6 @@
           <include name="applicationClose"/>
           <include name="deleteScript_by_ScriptUpload"/>
           <include name="applicationLaunch"/>
-          <include name="createScript_by_ScriptUpload"/>
           <include name="createScript_by_CSV"/>
         </methods>
       </class> <!-- VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2 -->

@@ -2147,7 +2147,7 @@ public void scriptdeletion() throws InterruptedException {
 		
 		String Description=driver.findElement(scriptDescGSBfield).getAttribute("value");
 	
-		if (Description.length()>=4) {
+		if (Description.length()>=4 || Description.length()==0 ) {
 			
 			driver.findElement(selectdropdownn).click();
 			log.info("Verified that select dropdown");

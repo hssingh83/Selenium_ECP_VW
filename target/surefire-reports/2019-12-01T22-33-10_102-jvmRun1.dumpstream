@@ -1,0 +1,52 @@
+# Created at 2019-12-01T22:36:57.900
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-01T22:37:11.492
+Unexpected IOException with stream: 
+Test Case deleteScript_by_ScriptUpload failed
+
+
+
+# Created at 2019-12-01T22:37:11.502
+Unexpected IOException with stream: =========================================
+
+
+# Created at 2019-12-01T22:37:11.542
+Unexpected IOException: 8,1,VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2,deleteScript_by_ScriptUpload(VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64736}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5328de67b99cd71dfa7e7733dfb20591\000A*** Element info: {Using=xpath\002C value=//span[contains(text()\002C'Script Upload')]},null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64736}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5328de67b99cd71dfa7e7733dfb20591\000A*** Element info: {Using=xpath\002C value=//span[contains(text()\002C'Script Upload')]},TC0018_login_With_Exmpirix_Admin_Sanity2.deleteScript_by_ScriptUpload:117 \00BB WebDriver,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64736}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5328de67b99cd71dfa7e7733dfb20591\000A*** Element info: {Using=xpath\002C value=//span[contains(text()\002C'Script Upload')]}\000A\0009at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.deleteScript_by_ScriptUpload(TC0018_login_With_Exmpirix_Admin_Sanity2.java:117)\000A
+
+
+# Created at 2019-12-01T22:37:11.733
+Unexpected IOException: 8,1,VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2,applicationClose(VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64736}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5328de67b99cd71dfa7e7733dfb20591,null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64736}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5328de67b99cd71dfa7e7733dfb20591,TC0018_login_With_Exmpirix_Admin_Sanity2.applicationClose:161 \00BB WebDriver chro...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64736}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5328de67b99cd71dfa7e7733dfb20591\000A\0009at VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2.applicationClose(TC0018_login_With_Exmpirix_Admin_Sanity2.java:161)\000A
+
+
+# Created at 2019-12-01T22:37:11.753
+Unexpected IOException: 9,1,VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2,applicationLaunch(VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2),null,null,null
+
+
+# Created at 2019-12-01T22:37:11.753
+Unexpected IOException: 5,1,VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2,createScript_by_CSV(VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2),VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2,null,null
+
+
+# Created at 2019-12-01T22:37:11.763
+Unexpected IOException: 9,1,VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2,createScript_by_CSV(VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'REM-L-SINGHH'\002C ip: '10.12.60.30'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Chsingh\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:64736}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5328de67b99cd71dfa7e7733dfb20591,null
+
+
+# Created at 2019-12-01T22:37:11.773
+Unexpected IOException: 9,1,VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2,applicationClose(VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2),null,null,null
+
+
+# Created at 2019-12-01T22:37:11.833
+Unexpected IOException with stream: 
+ Test Case: 0018- Validate Sanity Workflow Completed
+
+
+# Created at 2019-12-01T22:37:11.833
+Unexpected IOException with stream: =========================================
+
+
