@@ -3,19 +3,18 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="resources.ExtentReporterNG"/>
+    <listener class-name="Analyzer.MyTransformer"/>
     <listener class-name="resources.listeners"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="Test Case: 0018- Validate Sanity Workflow(failed)">
+  <test thread-count="5" verbose="0" name="Test Case: 002 - Login with &#039;Empirix Admin&#039; Credetials&#039;and verify TabAvailablity(failed)">
     <classes>
-      <class name="VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2">
+      <class name="VW_TC.TC0017_login_With_Exmpirix_Admin_Sanity">
         <methods>
-          <include name="applicationClose"/>
-          <include name="deleteScript_by_ScriptUpload"/>
           <include name="applicationLaunch"/>
-          <include name="createScript_by_ScriptUpload"/>
-          <include name="createScript_by_CSV"/>
+          <include name="applicationClose"/>
+          <include name="ValidateScriptFunctinality"/>
         </methods>
-      </class> <!-- VW_TC.TC0018_login_With_Exmpirix_Admin_Sanity2 -->
+      </class> <!-- VW_TC.TC0017_login_With_Exmpirix_Admin_Sanity -->
     </classes>
-  </test> <!-- Test Case: 0018- Validate Sanity Workflow(failed) -->
+  </test> <!-- Test Case: 002 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity(failed) -->
 </suite> <!-- Failed suite [Suite] -->

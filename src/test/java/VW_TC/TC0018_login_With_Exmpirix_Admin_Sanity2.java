@@ -52,7 +52,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	}
 		
 	
-	
+// Script Creation functinality Validation	
 	
 	@Test(priority=1)
 	public void createScript () throws IOException, InterruptedException {
