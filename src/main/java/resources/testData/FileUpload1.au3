@@ -1,3 +1,3 @@
 ControlFocus("Open","","Edit1")
-ControlSetText("Open","","Edit1","/Selenium_ECP_VW/src/main/java/resources/testData/Haari.xml/Haari.xml")
+ControlSetText("Open","","Edit1","C:\data\Haari.xml")
 ControlClick("Open","","Button1")

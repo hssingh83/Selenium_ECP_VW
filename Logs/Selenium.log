@@ -1,44 +1,68 @@
-[DEBUG] 2019-12-01 22:33:15,754 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
-[DEBUG] 2019-12-01 22:33:15,754 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
-[DEBUG] 2019-12-01 22:33:15,774 basePropertiesSeln.intializeDriver() - implicit Wait Applied
-[DEBUG] 2019-12-01 22:33:35,180 basePropertiesSeln.intializeDriver() - Current version is 26.2
-[DEBUG] 2019-12-01 22:33:35,180 basePropertiesSeln.intializeDriver() - URL provided
-[INFO ] 2019-12-01 22:33:36,333 basePropertiesSeln.intializeDriver() - Screen maximized successfully
-[INFO ] 2019-12-01 22:33:36,333 basePropertiesSeln.intializeDriver() - Waiting to access above URL
-[DEBUG] 2019-12-01 22:33:36,863 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
-[DEBUG] 2019-12-01 22:33:36,863 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
-[DEBUG] 2019-12-01 22:33:41,806 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
-[DEBUG] 2019-12-01 22:33:41,896 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
-[DEBUG] 2019-12-01 22:33:42,034 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Waiting for launch VoiceWatch application using above creadetails
-[DEBUG] 2019-12-01 22:34:08,238 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
-[DEBUG] 2019-12-01 22:34:08,238 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
-[INFO ] 2019-12-01 22:34:10,459 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - clicked tagTab
-[INFO ] 2019-12-01 22:34:10,547 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - clicked ScriptTab
-[INFO ] 2019-12-01 22:34:20,627 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - clicked ScriptUploadTab
-[INFO ] 2019-12-01 22:34:31,900 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - ScriptUploaded Successfully
-[INFO ] 2019-12-01 22:34:41,002 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - clicked tagTab
-[INFO ] 2019-12-01 22:34:42,178 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - clicked ScriptTab
-[DEBUG] 2019-12-01 22:34:53,479 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationClose() - Application closed successfully
-[DEBUG] 2019-12-01 22:34:55,643 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
-[DEBUG] 2019-12-01 22:34:55,643 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
-[DEBUG] 2019-12-01 22:34:55,653 basePropertiesSeln.intializeDriver() - implicit Wait Applied
-[DEBUG] 2019-12-01 22:35:09,015 basePropertiesSeln.intializeDriver() - Current version is 26.2
-[DEBUG] 2019-12-01 22:35:09,015 basePropertiesSeln.intializeDriver() - URL provided
-[INFO ] 2019-12-01 22:35:10,292 basePropertiesSeln.intializeDriver() - Screen maximized successfully
-[INFO ] 2019-12-01 22:35:10,292 basePropertiesSeln.intializeDriver() - Waiting to access above URL
-[DEBUG] 2019-12-01 22:35:10,345 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
-[DEBUG] 2019-12-01 22:35:10,345 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
-[DEBUG] 2019-12-01 22:36:07,398 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
-[DEBUG] 2019-12-01 22:36:07,494 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
-[DEBUG] 2019-12-01 22:36:07,643 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Waiting for launch VoiceWatch application using above creadetails
-[DEBUG] 2019-12-01 22:36:27,817 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
-[DEBUG] 2019-12-01 22:36:27,817 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
-[INFO ] 2019-12-01 22:36:30,002 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked tagTab
-[INFO ] 2019-12-01 22:36:30,086 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked ScriptTab
-[INFO ] 2019-12-01 22:36:45,189 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked ScriptUploadTab
-[INFO ] 2019-12-01 22:36:45,205 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - Counted 1
-[INFO ] 2019-12-01 22:36:45,409 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked first
-[INFO ] 2019-12-01 22:36:45,586 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked dropdown
-[INFO ] 2019-12-01 22:36:45,838 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - deleted
-[INFO ] 2019-12-01 22:36:55,183 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked tagTab
-[INFO ] 2019-12-01 22:36:55,371 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked ScriptTab
+[DEBUG] 2019-12-02 11:31:48,736 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-12-02 11:31:48,742 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-12-02 11:31:48,751 basePropertiesSeln.intializeDriver() - implicit Wait Applied
+[DEBUG] 2019-12-02 11:31:59,326 basePropertiesSeln.intializeDriver() - Current version is 26.2
+[DEBUG] 2019-12-02 11:31:59,327 basePropertiesSeln.intializeDriver() - URL provided
+[INFO ] 2019-12-02 11:32:00,463 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+[INFO ] 2019-12-02 11:32:00,463 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-12-02 11:32:01,029 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+[DEBUG] 2019-12-02 11:32:01,032 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+[DEBUG] 2019-12-02 11:32:04,070 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+[DEBUG] 2019-12-02 11:32:04,154 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+[DEBUG] 2019-12-02 11:32:04,315 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Waiting for launch VoiceWatch application using above creadetails
+[DEBUG] 2019-12-02 11:32:17,352 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
+[DEBUG] 2019-12-02 11:32:17,352 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
+[INFO ] 2019-12-02 11:32:17,591 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - clicked tagTab
+[INFO ] 2019-12-02 11:32:17,682 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - clicked ScriptTab
+[INFO ] 2019-12-02 11:32:27,757 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - clicked ScriptUploadTab
+[INFO ] 2019-12-02 11:32:38,975 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - ScriptUploaded Successfully
+[INFO ] 2019-12-02 11:32:48,056 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - clicked tagTab
+[INFO ] 2019-12-02 11:32:49,212 pom007_VoiceWatch_Script_Tabs.CreateScriptByScriptUpload() - clicked ScriptTab
+[DEBUG] 2019-12-02 11:33:00,491 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationClose() - Application closed successfully
+[DEBUG] 2019-12-02 11:33:02,672 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-12-02 11:33:02,673 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-12-02 11:33:02,676 basePropertiesSeln.intializeDriver() - implicit Wait Applied
+[DEBUG] 2019-12-02 11:33:12,960 basePropertiesSeln.intializeDriver() - Current version is 26.2
+[DEBUG] 2019-12-02 11:33:12,960 basePropertiesSeln.intializeDriver() - URL provided
+[INFO ] 2019-12-02 11:33:14,108 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+[INFO ] 2019-12-02 11:33:14,108 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-12-02 11:33:14,163 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+[DEBUG] 2019-12-02 11:33:14,163 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+[DEBUG] 2019-12-02 11:33:18,527 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+[DEBUG] 2019-12-02 11:33:18,619 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+[DEBUG] 2019-12-02 11:33:18,778 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Waiting for launch VoiceWatch application using above creadetails
+[DEBUG] 2019-12-02 11:33:30,142 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
+[DEBUG] 2019-12-02 11:33:30,142 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
+[INFO ] 2019-12-02 11:33:32,242 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked tagTab
+[INFO ] 2019-12-02 11:33:32,337 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked ScriptTab
+[INFO ] 2019-12-02 11:33:47,527 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked ScriptUploadTab
+[INFO ] 2019-12-02 11:33:47,581 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - Counted 1
+[INFO ] 2019-12-02 11:33:47,918 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked first
+[INFO ] 2019-12-02 11:33:48,135 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked dropdown
+[INFO ] 2019-12-02 11:33:48,356 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - deleted
+[INFO ] 2019-12-02 11:33:57,681 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked tagTab
+[INFO ] 2019-12-02 11:33:57,872 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked ScriptTab
+[INFO ] 2019-12-02 11:34:12,925 pom007_VoiceWatch_Script_Tabs.deleteScriptUpload() - clicked ScriptUploadTab
+[DEBUG] 2019-12-02 11:34:13,059 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationClose() - Application closed successfully
+[DEBUG] 2019-12-02 11:34:15,422 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-12-02 11:34:15,423 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-12-02 11:34:15,429 basePropertiesSeln.intializeDriver() - implicit Wait Applied
+[DEBUG] 2019-12-02 11:34:25,355 basePropertiesSeln.intializeDriver() - Current version is 26.2
+[DEBUG] 2019-12-02 11:34:25,356 basePropertiesSeln.intializeDriver() - URL provided
+[INFO ] 2019-12-02 11:34:26,528 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+[INFO ] 2019-12-02 11:34:26,528 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-12-02 11:34:26,581 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+[DEBUG] 2019-12-02 11:34:26,582 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+[DEBUG] 2019-12-02 11:34:30,281 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+[DEBUG] 2019-12-02 11:34:30,385 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+[DEBUG] 2019-12-02 11:34:30,559 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Waiting for launch VoiceWatch application using above creadetails
+[DEBUG] 2019-12-02 11:34:43,872 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
+[DEBUG] 2019-12-02 11:34:43,873 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
+[INFO ] 2019-12-02 11:34:43,984 pom007_VoiceWatch_Script_Tabs.CreateCSVTransformer() - clicked tagTab
+[INFO ] 2019-12-02 11:34:44,090 pom007_VoiceWatch_Script_Tabs.CreateCSVTransformer() - clicked ScriptTab
+[INFO ] 2019-12-02 11:34:59,215 pom007_VoiceWatch_Script_Tabs.CreateCSVTransformer() - clicked csvTranformer
+[INFO ] 2019-12-02 11:35:05,376 pom007_VoiceWatch_Script_Tabs.CreateCSVTransformer() - CSV Transform upload Successfully
+[INFO ] 2019-12-02 11:35:14,571 pom007_VoiceWatch_Script_Tabs.CreateCSVTransformer() - clicked tagTab
+[INFO ] 2019-12-02 11:35:15,092 pom007_VoiceWatch_Script_Tabs.CreateCSVTransformer() - clicked ScriptTab
+[INFO ] 2019-12-02 11:35:34,191 pom007_VoiceWatch_Script_Tabs.CreateCSVTransformer() - clicked ScriptUploadTab
+[DEBUG] 2019-12-02 11:35:34,393 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationClose() - Application closed successfully
