@@ -53,7 +53,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		
 	
 	
-/*	
+	
 	@Test(priority=1)
 	public void createScript () throws IOException, InterruptedException {
 		
@@ -88,16 +88,16 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	    san.CopyScript();
 	    
-	    }*/
+	    }
 	
-/*	@Test(priority=5)
+	@Test(priority=5)
 	public void updateScript () throws IOException, InterruptedException {
 		
 		pom007_VoiceWatch_Script_Tabs san=new pom007_VoiceWatch_Script_Tabs(driver);
 	
 	    san.UpdateScript();
 	
-	}*/
+	}
 	
 	
 	@Test(priority=6)
@@ -127,7 +127,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	}
 	
-	/*@Test(priority=9)
+	@Test(priority=9)
 	public void createTest () throws IOException, InterruptedException {
 		
 		pom007_VoiceWatch_Script_Tabs san=new pom007_VoiceWatch_Script_Tabs(driver);
@@ -152,7 +152,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	    san.UpdateTest();
 	
-	}*/
+	}
 	
 		
 	@AfterMethod
