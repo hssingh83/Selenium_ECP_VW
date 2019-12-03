@@ -51,7 +51,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	    log.debug("Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin");
 	}
 		
-/*	
+	
 // Script Creation functinality Validation	
 	
 	@Test(priority=1)
@@ -61,8 +61,8 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	    san.CreateScript();
 	
-	}*/
-	/*
+	}
+	
 	@Test(priority=2)
 	public void deleteScript_AllData () throws IOException, InterruptedException {
 		
@@ -70,8 +70,8 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	    san.DeleteScriptAllData();
 	
-	}*/
-/*	
+	}
+	
 	@Test(priority=3)
 	public void deleteScript_only () throws IOException, InterruptedException {
 		
@@ -79,8 +79,8 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	    san.DeleteScriptOnly();
 	
-	}*/
-	/*
+	}
+	
 	@Test(priority=4)
 	public void copyScript () throws IOException, InterruptedException {
 		
@@ -88,7 +88,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	    san.CopyScript();
 	    
-	    }*/
+	    }
 	
 	@Test(priority=5)
 	public void updateScript () throws IOException, InterruptedException {
@@ -99,7 +99,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	}
 	
-	/*
+	
 	@Test(priority=6)
 	public void createScript_by_ScriptUpload () throws IOException, InterruptedException {
 		
@@ -107,59 +107,59 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	
 	    san.CreateScriptByScriptUpload();
 	
-	}*/
+	}
 	
-	/*@Test(priority=7)
+	@Test(priority=7)
 	public void deleteScript_by_ScriptUpload () throws IOException, InterruptedException {
 		
 		pom007_VoiceWatch_Script_Tabs san=new pom007_VoiceWatch_Script_Tabs(driver);
 	
 	    san.deleteScriptUpload();
 	
-	}*/
+	}
 	
-	/*@Test(priority=8)
+	@Test(priority=8)
 	public void createScript_by_CSV () throws IOException, InterruptedException {
 		
 		pom007_VoiceWatch_Script_Tabs san=new pom007_VoiceWatch_Script_Tabs(driver);
 	
 	    san.CreateCSVTransformer();
 	
-	}*/
+	}
 	
-	/*@Test(priority=9)
+	@Test(priority=9)
 	public void createTest () throws IOException, InterruptedException {
 		
 		pom007_VoiceWatch_Script_Tabs san=new pom007_VoiceWatch_Script_Tabs(driver);
 	
 	    san.CreateTest();
 	
-	}*/
+	}
 	
-	/*@Test(priority=10)
+	@Test(priority=10)
 	public void deleteTest () throws IOException, InterruptedException {
 		
 		pom007_VoiceWatch_Script_Tabs san=new pom007_VoiceWatch_Script_Tabs(driver);
 	
 	    san.DeleteTest();
 	
-	}*/
+	}
 	
-/*	@Test(priority=11)
+	@Test(priority=11)
 	public void updateTest () throws IOException, InterruptedException {
 		
 		pom007_VoiceWatch_Script_Tabs san=new pom007_VoiceWatch_Script_Tabs(driver);
 	
 	    san.UpdateTest();
 	
-	}*/
+	}
 	
 		
-	/*@AfterMethod
+	@AfterMethod
 	public void applicationClose() {
 	
 		driver.close();
 		log.debug("Application closed successfully");
 	
-    }*/
+    }
     }
