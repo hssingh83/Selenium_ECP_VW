@@ -37,3 +37,8 @@ Second#
 //driver.get(prop.getProperty("url3"));
 
 =====================================
+
+H * * * * %browser=chrome; BRANCH=origin/develop1; Profile=Sanity; url=VoiceWatch-26.2;
+H H/3 * * * %browser=chrome; BRANCH=origin/develop1; Profile=Debug; url=VoiceWatch-26.2;
+
+
