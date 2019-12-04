@@ -1277,7 +1277,7 @@ public void CopyScript() throws InterruptedException {
 	Thread.sleep(3000);
 	log.info("sync issue");
 	driver.findElement(scriptsTab).click();
-	log.info("navigate to script tab")
+	log.info("navigate to script tab");
 	Thread.sleep(2000);
 	driver.findElement(filterByNameGSB).sendKeys(ScriptName+" - Copy");
 	log.info("copied added in search");	
