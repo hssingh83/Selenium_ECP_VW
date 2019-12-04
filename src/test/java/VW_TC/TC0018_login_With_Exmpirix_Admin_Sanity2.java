@@ -52,7 +52,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	}
 		
 	
-/*// Script Creation functinality Validation	
+// Script Creation functinality Validation	
 	
 	@Test(priority=1)
 	public void createScript () throws IOException, InterruptedException {
@@ -80,7 +80,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	    san.DeleteScriptOnly();
 	
 	}
-	*/
+	
 	@Test(priority=4)
 	public void copyScript () throws IOException, InterruptedException {
 		
@@ -90,7 +90,7 @@ public void applicationLaunch() throws IOException, InterruptedException {
 	    
 	    }
 	
-	/*@Test(priority=5)
+	@Test(priority=5)
 	public void updateScript () throws IOException, InterruptedException {
 		
 		pom007_VoiceWatch_Script_Tabs san=new pom007_VoiceWatch_Script_Tabs(driver);
@@ -161,5 +161,5 @@ public void applicationLaunch() throws IOException, InterruptedException {
 		driver.close();
 		log.debug("Application closed successfully");
 	
-    }*/
+    }
     }
