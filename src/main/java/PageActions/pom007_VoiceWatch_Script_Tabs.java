@@ -1258,7 +1258,7 @@ public void CopyScript() throws InterruptedException {
 	log.info("Navigate to Script button");
 	driver.findElement(filterByNameGSB).sendKeys(ScriptName);
 	log.info("Search above created Script using filter");
-	Thread.sleep(15000);
+	Thread.sleep(9000);
 	driver.findElement(firstsearchscript).click();
 	log.info("clicked above search script");
  
@@ -1287,7 +1287,7 @@ public void CopyScript() throws InterruptedException {
 	log.info("Verified that Run button enabled");
 	driver.findElement(selectdropdownn).click();
 	log.info("Verified that select dropdown");	
-	Thread.sleep(9000);
+	Thread.sleep(15000);
 	driver.findElement(clickdeletedropdown).click();
 	log.info("Verified that Clicked delete button");
 	driver.findElement(deleteAllData).click();
