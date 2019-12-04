@@ -1279,15 +1279,15 @@ public void CopyScript() throws InterruptedException {
 	Thread.sleep(2000);
 	driver.findElement(filterByNameGSB).sendKeys(ScriptName+" - Copy");
 	log.info("copied added in search");	
-	Thread.sleep(15000);
+	Thread.sleep(9000);
 	driver.findElement(firstsearchscript).click();
 	log.info("first copied search successfully");
-	Thread.sleep(5000);
+	Thread.sleep(1000);
 	Assert.assertTrue(driver.findElement(RunButton).isEnabled());
 	log.info("Verified that Run button enabled");
 	driver.findElement(selectdropdownn).click();
 	log.info("Verified that select dropdown");	
-	Thread.sleep(100);
+	Thread.sleep(1000);
 	driver.findElement(clickdeletedropdown).click();
 	log.info("Verified that Clicked delete button");
 	driver.findElement(deleteAllData).click();
