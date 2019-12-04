@@ -1,34 +1,120 @@
-[DEBUG] 2019-12-03 21:05:52,501 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
-[DEBUG] 2019-12-03 21:05:52,509 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
-[DEBUG] 2019-12-03 21:05:52,533 basePropertiesSeln.intializeDriver() - implicit Wait Applied
-[DEBUG] 2019-12-03 21:06:09,917 basePropertiesSeln.intializeDriver() - Current version is 26.2
-[DEBUG] 2019-12-03 21:06:09,917 basePropertiesSeln.intializeDriver() - URL provided
-[INFO ] 2019-12-03 21:06:11,160 basePropertiesSeln.intializeDriver() - Screen maximized successfully
-[INFO ] 2019-12-03 21:06:11,164 basePropertiesSeln.intializeDriver() - Waiting to access above URL
-[DEBUG] 2019-12-03 21:06:11,805 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
-[DEBUG] 2019-12-03 21:06:11,809 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
-[DEBUG] 2019-12-03 21:06:18,609 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
-[DEBUG] 2019-12-03 21:06:18,770 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
-[DEBUG] 2019-12-03 21:06:18,914 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Waiting for launch VoiceWatch application using above creadetails
-[DEBUG] 2019-12-03 21:06:40,746 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
-[DEBUG] 2019-12-03 21:06:40,746 TC0018_login_With_Exmpirix_Admin_Sanity2.applicationLaunch() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
-[INFO ] 2019-12-03 21:06:42,068 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Navigate to script Tab
-[INFO ] 2019-12-03 21:06:52,070 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Taking few second to access Script Tab
-[INFO ] 2019-12-03 21:06:53,313 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Start Creating Script using + button
-[INFO ] 2019-12-03 21:06:53,317 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Generate Radom Scriptname P14E5
-[INFO ] 2019-12-03 21:06:53,509 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Passing script name P14E5
-[INFO ] 2019-12-03 21:06:53,673 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Generate Radom script description
-[INFO ] 2019-12-03 21:06:53,930 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Passing Number to Call is 1800111111
-[INFO ] 2019-12-03 21:06:54,932 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Sync issue so waiting just one second
-[INFO ] 2019-12-03 21:06:55,197 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Deleteing First PhraseHear
-[INFO ] 2019-12-03 21:06:56,204 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Sync issue so waiting just one second
-[INFO ] 2019-12-03 21:06:56,408 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Deleteing first Press Section
-[INFO ] 2019-12-03 21:06:57,409 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Sync issue so waiting just one second
-[INFO ] 2019-12-03 21:06:57,489 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Deleteing second PhraseHear
-[INFO ] 2019-12-03 21:06:58,853 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Using Action class double clicked pause button
-[INFO ] 2019-12-03 21:06:59,002 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Clicked Save button
-[INFO ] 2019-12-03 21:07:14,107 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Navigate to Tag button
-[INFO ] 2019-12-03 21:07:15,220 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Navigate to Script button
-[INFO ] 2019-12-03 21:07:16,835 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Search above created Script using filter
-[INFO ] 2019-12-03 21:07:32,179 pom007_VoiceWatch_Script_Tabs.UpdateScript() - clicked above search script
-[INFO ] 2019-12-03 21:07:41,464 pom007_VoiceWatch_Script_Tabs.UpdateScript() - Verified that Run button contain Run Test text
+[DEBUG] 2019-12-03 22:25:40,985 basePropertiesSeln.intializeDriver() - Chrome Driver intilized successfully
+[DEBUG] 2019-12-03 22:25:40,989 basePropertiesSeln.intializeDriver() - Chrome Browser selected & Launching in few second
+[DEBUG] 2019-12-03 22:25:41,001 basePropertiesSeln.intializeDriver() - implicit Wait Applied
+[DEBUG] 2019-12-03 22:25:53,776 basePropertiesSeln.intializeDriver() - Current version is 26.2
+[DEBUG] 2019-12-03 22:25:53,777 basePropertiesSeln.intializeDriver() - URL provided
+[INFO ] 2019-12-03 22:25:55,011 basePropertiesSeln.intializeDriver() - Screen maximized successfully
+[INFO ] 2019-12-03 22:25:55,012 basePropertiesSeln.intializeDriver() - Waiting to access above URL
+[DEBUG] 2019-12-03 22:25:55,917 pom001_VoiceWatch_logIn_Page.getUsername() - Start inserting User Credetials
+[DEBUG] 2019-12-03 22:25:55,920 pom001_VoiceWatch_logIn_Page.getUsername() - UserName inserted Successfully
+[DEBUG] 2019-12-03 22:25:59,376 pom001_VoiceWatch_logIn_Page.getPassword() - Password inserted Successfully
+[DEBUG] 2019-12-03 22:25:59,481 pom001_VoiceWatch_logIn_Page.getSignButton() - Sigin button Clicked Successfully
+[DEBUG] 2019-12-03 22:25:59,656 TC0017_login_With_Exmpirix_Admin_Sanity.logInWithExpirixAdmin() - Waiting for launch VoiceWatch application using above creadetails
+[DEBUG] 2019-12-03 22:26:18,090 TC0017_login_With_Exmpirix_Admin_Sanity.logInWithExpirixAdmin() - Verified that VoiceWatch Application login successfully with Empirix Admin creadetial
+[DEBUG] 2019-12-03 22:26:18,091 TC0017_login_With_Exmpirix_Admin_Sanity.logInWithExpirixAdmin() - Validate the requiment as Aceess Level= Empirix & Role=Empirix Admin
+[INFO ] 2019-12-03 22:26:18,318 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Navigate to script Tab
+[INFO ] 2019-12-03 22:26:24,587 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:26:24,790 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:26:24,944 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:26:29,966 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:26:32,360 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:26:32,544 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:26:32,615 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:26:37,646 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:26:40,103 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:26:40,410 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:26:40,492 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:26:45,511 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:26:48,043 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:26:48,353 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:26:48,455 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:26:53,478 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:26:55,935 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:26:56,230 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:26:56,381 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:27:01,427 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:27:04,008 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:27:04,308 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:27:04,525 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:27:09,567 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:27:12,029 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:27:12,212 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:27:12,300 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:27:17,322 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:27:19,746 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:27:19,924 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:27:20,012 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:27:25,041 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:27:27,422 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:27:27,591 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:27:27,671 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:27:32,687 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:28:10,082 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:28:10,267 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:28:10,354 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:28:15,370 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:28:17,664 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:28:17,823 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:28:17,914 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:28:22,931 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:28:25,286 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:28:25,442 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:28:25,508 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:28:30,516 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:28:32,933 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:28:33,213 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:28:33,369 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:28:38,387 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:28:40,825 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:28:41,083 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:28:41,160 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:28:46,209 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:28:48,612 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:28:48,774 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:28:48,839 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:28:53,854 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:28:56,212 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:28:56,380 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:28:56,448 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:29:01,465 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:29:03,911 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:29:04,189 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:29:04,397 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:29:09,414 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:29:11,712 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:29:11,867 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:29:11,946 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:29:16,962 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:29:19,367 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:29:19,577 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:29:19,655 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:29:24,670 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:29:27,060 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:29:27,306 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:29:27,371 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:29:32,387 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:29:34,746 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:29:35,015 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:29:35,203 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:29:40,211 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:29:42,672 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:29:42,943 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:29:43,058 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:29:48,074 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:29:56,895 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:29:57,153 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:29:57,268 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:30:02,284 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:30:09,438 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:30:09,788 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:30:09,888 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:30:14,902 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:30:17,277 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:30:17,442 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:30:17,515 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:30:22,530 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[INFO ] 2019-12-03 22:30:24,984 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select dropdown
+[INFO ] 2019-12-03 22:30:25,141 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that Clicked delete button
+[INFO ] 2019-12-03 22:30:25,207 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - Verified that select delete all data
+[INFO ] 2019-12-03 22:30:30,225 pom007_VoiceWatch_Script_Tabs.scriptdeletion() - delete successfully
+[DEBUG] 2019-12-03 22:30:32,456 TC0017_login_With_Exmpirix_Admin_Sanity.applicationClose() - Application closed successfully

@@ -19,10 +19,10 @@
      
       -->
      
-    <test  name="Test Case: 002 - Login with 'Empirix Admin' Credetials'and verify TabAvailablity">
+    <test  name="Test Case: 001 - login_Page_Verification">
     <classes>
      
-      <class name="VW_TC.TC0017_login_With_Exmpirix_Admin_Sanity"/>
+      <class name="VW_TC.TC0001_login_Page_Verification"/>
       
      </classes> 
      </test>
