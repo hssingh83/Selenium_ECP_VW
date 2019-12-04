@@ -1282,7 +1282,7 @@ public void CopyScript() throws InterruptedException {
 	Thread.sleep(15000);
 	driver.findElement(firstsearchscript).click();
 	log.info("first copied search successfully");
-	Thread.sleep(100);
+	Thread.sleep(1000);
 	Assert.assertTrue(driver.findElement(RunButton).isEnabled());
 	log.info("Verified that Run button enabled");
 	driver.findElement(selectdropdownn).click();
