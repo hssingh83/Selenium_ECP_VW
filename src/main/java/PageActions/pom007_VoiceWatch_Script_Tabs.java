@@ -998,6 +998,7 @@ public void CreateScript() throws InterruptedException {
 	log.info("Verified that select delete all data");
 	Thread.sleep(10000);
 	driver.switchTo().alert().accept();
+	Thread.sleep(9000);
 	log.info("delete successfully");	
 	
 	
@@ -1083,7 +1084,7 @@ public void DeleteScriptAllData() throws InterruptedException {
 	Thread.sleep(10000);
 	driver.switchTo().alert().accept();
 	log.info("delete successfully");
-
+	Thread.sleep(9000);
 	driver.findElement(tagTab).click();
 	log.info("Navigate to Tag Tab and comeback again to script tab and Validate that newly created script should be there");
 	Thread.sleep(1000);
@@ -1183,7 +1184,7 @@ public void DeleteScriptOnly() throws InterruptedException {
 	Thread.sleep(10000);
 	driver.switchTo().alert().accept();
 	log.info("delete successfully");
-
+	Thread.sleep(9000);
 	driver.findElement(tagTab).click();
 	log.info("Navigate to Tag Tab and comeback again to script tab and Validate that newly created script should be there");
 	Thread.sleep(1000);
