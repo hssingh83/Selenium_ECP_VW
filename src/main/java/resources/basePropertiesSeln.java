@@ -126,7 +126,7 @@ public class basePropertiesSeln {
 
 		//Timeout
 
-		driver.manage().timeouts().implicitlyWait(10000,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
 		log.debug("implicit Wait Applied");
 	//	log.debug("Clean Cookies");
 		driver.get(prop.getProperty("url3"));
